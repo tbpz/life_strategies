@@ -10,6 +10,7 @@ The purpose of this workspace is to build, refine, and track long-term direction
 |---|---|
 | `context.md` | High-level context: identity, values, pillars, goals, constraints, AI guidelines. Start here. |
 | `pillar_2_career.md` | Deep dive: Career & Financial Resilience — professional background, root cause analysis, strategic decisions, action plan. |
+| `dm_os_step1_framework.md` | DM-OS Step 1: Framework research — universal standards, failure modes, and context adaptations for all 10 core DM functions. Input scaffold for Step 2 self-assessment. |
 
 *This index must be updated whenever a new file is added to the workspace.*
 
