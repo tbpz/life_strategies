@@ -11,6 +11,8 @@ The purpose of this workspace is to build, refine, and track long-term direction
 | `context.md` | High-level context: identity, values, pillars, goals, constraints, AI guidelines. Start here. |
 | `pillar_2_career.md` | Deep dive: Career & Financial Resilience — professional background, root cause analysis, strategic decisions, action plan. |
 | `dm_os_step1_framework.md` | DM-OS Step 1: Framework research — universal standards, failure modes, and context adaptations for all 10 core DM functions. Input scaffold for Step 2 self-assessment. |
+| `dm_os_step2_reflection.md` | DM-OS Step 2: Self-assessment — honest reflection on current practice across all 10 DM functions measured against Step 1 standards. |
+| `DM_Operating_System/` | DM-OS Final Output: Personal delivery management playbook split into 11 files. Start with `00_overview.md`, then open individual function files as needed. |
 
 *This index must be updated whenever a new file is added to the workspace.*
 
@@ -89,12 +91,12 @@ The three pillars are not tackled simultaneously with equal weight. They operate
 
 | Phase | Pillar | Mode | Outcome |
 |---|---|---|---|
-| **Now → 4 weeks** | 💰 Career/Financial | Focused sprint | Pick a *tentative* growth direction. Not to solve forever—just enough to stop the anxiety. |
-| **After sprint → Ongoing** | 🎨 Creative Mastery | Primary exploration | With career anxiety reduced, redirect 30% free energy here. Break the dream into learnable skills with regular small wins. |
-| **Always** | 👦 Fatherhood | Always-on, daily habits | Not a project to schedule—a set of clear principles and daily presence. |
+| **Now (final phase)** | 💰 Career/Financial | Practice sprint | Apply 3 new DM habits at OL for 2–4 weeks. Then close the loop — regardless of residual anxiety. |
+| **After sprint closes** | 🎨 Creative Mastery | Primary exploration | Redirect 30% free energy here. Break the dream into learnable skills with regular small wins. |
+| **Always** | 👦 Fatherhood | Always-on, daily habits | Not a project to schedule — a set of clear principles and daily presence. |
 
 ### Short-term (Now → 3 months)
-- [ ] **[Pillar 2]** Run a focused career direction sprint: identify a tech growth path that keeps skills marketable without consuming creative energy. Pick a tentative direction—apply Rational Adaptability, pivot later if needed.
+- [/] **[Pillar 2]** Career sprint — in final phase. Market data collected ✅. DM Operating System built ✅. Practice phase: apply RAID log, change record, acceptance criteria habits at OL for 2–4 weeks, then close the sprint.
 - [ ] **[Pillar 3]** Define 3-5 core parenting principles. Establish at least one consistent daily or weekly ritual with son.
 - [ ] **[Pillar 1]** After career sprint: map the skill gap between current self and creative goal. Identify the *first* learnable skill to develop (likely: storytelling/writing OR visual fundamentals).
 

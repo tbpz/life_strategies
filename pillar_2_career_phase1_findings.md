@@ -171,4 +171,117 @@
 - Navigos: Q2 2025 Hiring Trends in Vietnam
 
 ---
+
+## DM-Specific Supplement
+*Added 2026-05-09 | Focused research on Delivery Manager function only, separating it from Product Manager data in the original findings above.*
+
+> **Context:** The original Phase 1 research mixed PM and DM data. This supplement addresses the three gaps: DM-specific job volume, DM-specific AI impact, and DM global demand trend.
+
+---
+
+### DM Finding 1: Job Volume — Vietnam (DM-Specific)
+
+**The core problem with Vietnam DM job search:** "Delivery Manager" as an exact title is sparse on local job boards. Most DM-function roles are posted under adjacent titles. Real demand is significantly higher than title-only searches suggest.
+
+**DM-Function Title Map (what to search for):**
+
+| Title Variant | Where Used | Notes |
+|---|---|---|
+| Delivery Manager | EPAM, Rackspace, global firms operating in VN | Explicit title; rarer on local boards |
+| Engagement Manager | Accenture, Capgemini, consulting firms | Client-facing delivery lead; identical function |
+| Account Delivery Manager | Large outsourcers (FPT Software, NashTech) | Combines delivery + account management |
+| Tech Delivery Lead / Program Lead | Mid-size IT outsourcers | Technical delivery ownership |
+| Program Manager | Global firms, enterprise projects | Multi-stream delivery management |
+
+**Estimated active DM-function roles in Vietnam (LinkedIn snapshot, May 2026):**
+- Exact title "Delivery Manager": 50–80 roles
+- Adjacent titles combined: estimated 200–350 additional DM-function roles
+- **Total addressable DM-function market in Vietnam: ~250–430 active roles at any snapshot**
+
+**Top employers of DM-function roles in Vietnam:**
+
+| Company Type | Examples | Demand Level |
+|---|---|---|
+| Large IT outsourcers | FPT Software, NashTech, KMS Technology, Capgemini VN, GFT | Very High — largest employer pool |
+| Global consulting firms | Accenture, McKinsey Tech, BCG Platinion VN | High — "Engagement Manager" title |
+| International product delivery hubs | Rackspace, Bosch, Siemens Vietnam | High — explicitly hiring in Vietnam |
+| Mid-size outsourcers/ODCs | Savvycom, Axon Active, Codelink, Base.vn | Moderate |
+
+---
+
+### DM Finding 2: Salary — Vietnam (DM-Specific)
+
+The original Phase 1 research included this data; confirming and expanding with outsourcing-specific context:
+
+| Level | Monthly VND | Monthly USD | Notes |
+|---|---|---|---|
+| Senior DM (6–10 yrs) | 58M – 78M | $2,275 – $3,060 | Standard outsourcing DM at major firms |
+| Lead/Principal DM (10+ yrs) | 78M – 115M | $3,060 – $4,510 | FPT Software cited "up to $4,000/month" |
+| DM with business development scope | 90M – 130M+ | $3,530 – $5,100+ | Hybrid delivery + pre-sales responsibility |
+
+**Key salary factors specific to DM (not PM):**
+- Client-facing experience (US/EU): +15–25% premium over non-client-facing DM
+- English proficiency: near-universal requirement; filters out majority of local candidates at Senior+
+- Outsourcing context experience (SOW/fixed-price fluency): increasingly required; explicitly listed in ~60% of senior DM postings
+- PMP or PRINCE2: appears in 40–50% of DM postings (higher than PM, where Agile certs dominate)
+
+**Total compensation note:** Top-tier outsourcers (NashTech, KMS, Capgemini) provide 13th–14th month bonuses + performance bonuses of 1–3 months. Effective annual uplift: 10–20% above base monthly × 12.
+
+---
+
+### DM Finding 3: AI Impact on Delivery Manager (DM-Specific Analysis)
+
+**Critical distinction:** AI impact on PM and DM is different. PM work (discovery, roadmapping, user research, PRD writing) is more exposed to AI automation than DM work. The DM function's core value — stakeholder judgment, crisis navigation, team leadership, commercial accountability — is precisely what AI cannot replicate.
+
+**What AI is automating in DM workflows (reduces effort, not the job):**
+
+| DM Task Being Automated | AI Tool Examples | Impact |
+|---|---|---|
+| Meeting summaries & action item extraction | Read AI, Atlassian Rovo, Zoom AI | Saves 30–60 min/week per DM |
+| Status report generation from Jira data | Luna AI, Atlassian Intelligence, n8n | First draft generated; DM reviews/edits |
+| Sprint risk alerts and velocity anomaly detection | Jira predictive analytics, GitHub Copilot | Leading indicators surfaced automatically |
+| Dependency and blocker tracking | Jira automation, Linear AI | Reduces manual RAID log maintenance |
+| Acceptance criteria & user story drafting | Atlassian Intelligence, GitHub Copilot | Reduces requirements writing overhead |
+
+**What AI cannot do in DM work (the irreplaceable core):**
+- Navigating political dynamics between stakeholders
+- Calibrating escalation timing and framing
+- Making go/no-go decisions with incomplete information
+- Managing team conflict and interpersonal dynamics
+- Commercial negotiation and change order judgment
+- Client relationship management under pressure
+
+**Verdict on AI threat to DM specifically:** Low threat to experienced DMs. High threat to entry-level project coordinators doing only status tracking and manual reporting. For a Senior/Lead DM whose value is judgment, communication, and accountability — AI removes administrative overhead and frees capacity for higher-value work.
+
+**The competitive angle:** DMs who use AI tools to handle reporting, meeting summaries, and risk flagging will have more capacity for stakeholder engagement and strategic work than those who don't. This is an advantage for early adopters, not a threat.
+
+---
+
+### DM Finding 4: Global Demand Trend (DM-Specific)
+
+**PMI Talent Gap (2024 report):** Global economy needs **25 million new project professionals by 2030** — 2.3 million new entrants per year. This includes DM-function roles explicitly. 13 million experienced professionals expected to retire by 2030 = replacement demand on top of growth demand.
+
+**IT outsourcing market context:** Global IT outsourcing market projected to exceed $800 billion in 2025, growing through 2030. DM demand is directly tied to outsourcing volume — more outsourced projects = more DMs needed to run them.
+
+**Structural demand driver specific to DM:** Companies are shifting from transactional "build-to-order" outsourcing to long-term continuous partnership models. This shift requires experienced DMs who can manage ongoing client relationships, not just project sprints. The demand is structural, not cyclical.
+
+**Vietnam-specific tailwind:** Vietnam is maturing from pure task execution to product-thinking outsourcing. Companies like FPT Software, KMS, and NashTech are repositioning as delivery partners, not body shops. This requires more DMs, not fewer.
+
+---
+
+### DM-Specific Verdict
+
+**The DM market in Vietnam is healthy and structurally growing.** Key conclusions specific to DM (separated from PM):
+
+| Question | Answer |
+|---|---|
+| Is demand real? | Yes — 250–430 DM-function roles active in Vietnam; major outsourcers are the primary employers |
+| Is salary competitive? | Yes — 78–115M VND/month at Lead level; $3,000–$4,500 USD/month at top outsourcers |
+| Is AI a threat? | No — AI automates DM administrative overhead; judgment, leadership, and commercial skills are irreplaceable |
+| Is demand growing? | Yes — tied to IT outsourcing growth ($800B+ market) and the structural shift to partnership models |
+| Is the "2-month replacement" threshold achievable? | Yes — profile (10yr experience, US/EU client exposure, English fluency) fits the top employer pool directly |
+
+**Profile advantage in DM specifically:** The combination of product company background (outcome-thinking) + outsourcing delivery context (OL) is rare among Vietnam DMs. Most local DMs come from pure outsourcing backgrounds and lack product-level thinking. This is a genuine differentiator.
+
+---
 *Created: 2026-05-03*

@@ -83,52 +83,37 @@ Market data collected and verdict reached. Full findings in `pillar_2_career_pha
 
 ---
 
-### Current Focus: Build the DM Operating System
+### Phase 2: Build the DM Operating System — ✅ Complete
 
-**The remaining confidence gap:** Market data answers "is there demand?" but not "can I reliably do the job at any new company?" The root cause of this uncertainty is that current delivery management skill is **instinct-based, not system-based** — it works, but it lives inside the head. Every new environment requires reconstructing the approach from scratch, which is why confidence resets with each change.
+The DM-OS is written, self-assessed, and split into 11 independent files in `DM_Operating_System/`.
 
-**The fix:** Extract the universal patterns of delivery management into a portable personal document — the **DM Operating System (DM-OS)**. This is not about learning new theory. It is about naming and structuring what already works, so it can be applied deliberately in any company.
+**What was produced:**
+- `dm_os_step1_framework.md` — professional standards for all 10 DM functions
+- `dm_os_step2_reflection.md` — honest self-assessment against each standard
+- `DM_Operating_System/00_overview.md` — index, confidence standard, cross-cutting patterns
+- `DM_Operating_System/01–10_*.md` — one file per function: method, cadence, artifact, adaptation notes, self-check
 
-#### What the DM-OS Covers
+**Gap analysis conclusion:** Most gaps are not missing knowledge — they are undocumented or unpracticed habits. The DM-OS makes the methods explicit. The one genuine knowledge gap (Function 6: Financial & Commercial Awareness) has a defined study path in `06_financial_commercial.md`.
 
-The 10 core functions every DM performs, regardless of company, industry, or methodology:
+---
 
-| # | Function | What it governs |
-|---|---|---|
-| 1 | **Engagement Setup** | What to do in Week 1 of any new project or company |
-| 2 | **Scope & Requirements Governance** | How to define, protect, and manage what is being built |
-| 3 | **RAID Management** | Risks, Assumptions, Issues, Dependencies — proactive delivery control |
-| 4 | **Stakeholder Communication** | Who gets what information, how often, in what format |
-| 5 | **Team & Resource Management** | How to lead, unblock, and organize the delivery team |
-| 6 | **Financial & Commercial Awareness** | Budget, burn rate, contract basics, knowing when numbers are off |
-| 7 | **Delivery Cadence & Tracking** | Sprint/milestone rhythm, progress measurement, forecasting |
-| 8 | **Quality Assurance** | How to ensure what is delivered actually works |
-| 9 | **Change Control** | How to handle scope changes, timeline shifts, and surprises |
-| 10 | **Escalation & Crisis Management** | When and how to raise problems to leadership |
+### Current Focus: Practice Phase — Apply 3 New Habits at OL
 
-#### For Each Function, the DM-OS Will Document
+**The remaining confidence gap:** Some DM-OS steps are newly documented and have never been practiced. Reading a checklist is not the same as trusting it. Confidence in unfamiliar methods is only built by doing them in real work.
 
-- **Principle** — Why this function matters
-- **My Method** — The actual steps, even if currently informal
-- **Cadence** — When to do it (scheduled or event-triggered)
-- **Artifact** — The concrete output (a log, a report, a meeting format)
-- **Adaptation Notes** — How this shifts by context (outsourcing vs. product, small vs. large team)
-- **Self-Check** — How to know if this is working or failing
-- **Career Story** — A real example from experience
+**The fix is not more planning.** The fix is applying the 3 highest-leverage new habits in the current OL role for 2–4 weeks, then closing the sprint.
 
-#### Steps to Build the DM-OS
+| Habit | How to Practice at OL | Time Cost | Status |
+|---|---|---|---|
+| **RAID log** | Open a spreadsheet for one active project. List 3 risks, 2 dependencies, 1 assumption. Review every Monday. | 20 min setup, 10 min/week | ⬜ To start |
+| **Two-line change record** | Every accepted scope change → one written line: what changed, who approved, date. Running note or doc comment. | 2 min per change | ⬜ To start |
+| **Acceptance criteria** | Every new requirement written → add one line: "This is done when [specific behavior] is confirmed." | 5 min per requirement | ⬜ To start |
 
-| Step | Action | Effort |
-|---|---|---|
-| **1. Framework research** | Review universal DM patterns across PMI, Agile delivery, and outsourcing contexts. Build a reference checklist. | 1–2 hours |
-| **2. Self-assessment** | For each of the 10 functions: do I do this? How? Is it a habit or a system? Can I teach it in 10 minutes? | 2–3 hours |
-| **3. Write the DM-OS** | Turn self-assessment answers into a structured personal document using the template above. | 3–4 hours |
-| **4. Validate against job postings** | Map each requirement line from 3–5 real DM job postings to DM-OS sections. Identify real gaps vs. vocabulary gaps. | 1–2 hours |
-| **5. Fill real gaps** | For each actual gap: study the concept, find an opportunity to practice in current role, or write the missing template. | Ongoing |
+**Sprint close condition:** After 2–4 weeks of applying these habits, evaluate:
+- If they feel natural and useful → confidence is earned. **Close Pillar 2 sprint. Redirect fully to Pillar 1.**
+- If something feels wrong or unworkable → update the relevant DM-OS file with what actually works. Then close.
 
-**Output file:** `dm_operating_system.md` in this workspace.
-
-**Confidence test:** When the DM-OS is complete, the standard should be: *"I can walk into any company that hires a DM and know exactly what to do in Week 1, how to run my core functions, and how to adapt if their context is different."*
+> The anxiety that remains after the practice phase is not a signal to do more work. It is a feeling to carry. Close the loop anyway.
 
 ---
 
@@ -148,4 +133,4 @@ Once the DM-OS exists, switch to a low-effort maintenance system:
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-05-03*
+*Last Updated: 2026-05-09*
