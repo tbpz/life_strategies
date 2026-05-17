@@ -21,7 +21,7 @@
 
 **Do NOT:** rescue from natural consequences, lecture on morality, drill academic content.
 
-→ [`01_parenting_principles.md`](../../reference/01_parenting_principles.md) | [`04_social_emotional.md`](../../reference/04_social_emotional.md)
+→ [`01_parenting_principles.md`](reference/01_parenting_principles.md) | [`04_social_emotional.md`](reference/04_social_emotional.md)
 
 ---
 

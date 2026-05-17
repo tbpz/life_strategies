@@ -21,7 +21,7 @@
 
 **Do NOT:** rescue from academic failure, treat grades as the primary success metric, sacrifice sleep/play for extra study.
 
-→ [`05_education_strategy.md`](../../reference/05_education_strategy.md) | [`01_parenting_principles.md`](../../reference/01_parenting_principles.md)
+→ [`05_education_strategy.md`](reference/05_education_strategy.md) | [`01_parenting_principles.md`](reference/01_parenting_principles.md)
 
 ---
 

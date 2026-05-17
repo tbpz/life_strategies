@@ -14,14 +14,14 @@
 | 🗣️ Language | Talk constantly. Sing. Read aloud. Vocabulary absorption starts before speech. |
 | ❤️ Social-Emotional | Respond to every signal warmly and consistently. Physical play (bouncing, tickling) on weekends. |
 | 🏃 Physical | Tummy time daily (≥30 min). Floor time — let the child crawl and explore freely. |
-| 🏥 Health | Zero screens (WHO: under 18mo). 12–16h sleep. Food diversity before 12mo → [checklist](food_introduction_checklist.md). |
+| 🏥 Health | Zero screens (WHO: under 18mo). 12–16h sleep. Food diversity before 12mo → [checklist](stages/stage_1_infant/food_introduction_checklist.md). |
 | ⚖️ Moral | Consistent, warm responses teach: "the world is predictable and safe." |
 
 **Parenting focus:** Establish a bedtime/bath-time ritual (15–20 min, same sequence every night, phones away).
 
 **Do NOT:** flashcards, teaching sessions, screen time, milestone comparison.
 
-→ [`03_health_guidelines.md`](../../reference/03_health_guidelines.md) | [`04_social_emotional.md`](../../reference/04_social_emotional.md) | [`food_introduction_checklist.md`](food_introduction_checklist.md)
+→ [`03_health_guidelines.md`](reference/03_health_guidelines.md) | [`04_social_emotional.md`](reference/04_social_emotional.md) | [`food_introduction_checklist.md`](stages/stage_1_infant/food_introduction_checklist.md)
 
 ---
 

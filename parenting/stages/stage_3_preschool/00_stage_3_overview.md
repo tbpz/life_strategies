@@ -21,13 +21,13 @@
 
 **Do NOT:** enter the elite school race, schedule every hour with classes, praise grades over effort.
 
-→ [`05_education_strategy.md`](../../reference/05_education_strategy.md) | [`02_fomo_and_evidence.md`](../../reference/02_fomo_and_evidence.md)
+→ [`05_education_strategy.md`](reference/05_education_strategy.md) | [`02_fomo_and_evidence.md`](reference/02_fomo_and_evidence.md)
 
 ---
 
 ## School Decision (Pre-confirmed)
 
-**Track:** Public school. Rationale already documented → [`05_education_strategy.md`](../../reference/05_education_strategy.md)
+**Track:** Public school. Rationale already documented → [`05_education_strategy.md`](reference/05_education_strategy.md)
 
 Reassess only if the specific school available is significantly dysfunctional. The school is the container — the home environment is the real education.
 
