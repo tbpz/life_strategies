@@ -14,7 +14,7 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
 | `financial/financial_checklist.md` | Financial resilience checklist. All layers closed 2026-05-15. Annual review only. |
 | `creative/` | Pillar 1 — Creative Mastery. Placeholder. Work begins after career sprint closes. |
-| `fatherhood/` | Pillar 3 — Fatherhood. 5 principles defined, stage-gated rituals active. See `fatherhood/fatherhood_strategy.md`. |
+| `parenting/` | Pillar 3 — Parenting. 5 principles defined, stage-gated rituals active. See `parenting/parenting_strategy.md`. |
 | `archive/` | Completed research inputs. Read-only reference. |
 
 *Update this index whenever a new file is added.*
@@ -68,9 +68,9 @@ The creative work must always serve the artistic vision — never be driven by f
 - **Career:** Sprint in final practice phase. See `career/career_strategy.md`.
 - **Security threshold:** Able to find a comparable role within 2 months. Achieved through marketability maintenance, not title advancement.
 
-### Pillar 3: 👦 Fatherhood (The Responsibility)
+### Pillar 3: 👦 Parenting (The Responsibility)
 *Raise a young son to become a good person.*
-- **Status:** Always-on. 5 core principles defined. Stage 1 (infant) rituals active. See `fatherhood/fatherhood_strategy.md`.
+- **Status:** Always-on. 5 core principles defined. Stage 1 (infant) rituals active. See `parenting/parenting_strategy.md`.
 
 ---
 

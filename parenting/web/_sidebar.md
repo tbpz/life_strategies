@@ -1,0 +1,13 @@
+- [Parenting Strategy](parenting_strategy.md)
+- **Stages**
+  - [✅ Stage 1: Infant](stages/stage_1_infant/00_stage_1_overview.md)
+  - [Stage 2: Toddler](stages/stage_2_toddler/00_stage_2_overview.md)
+  - [Stage 3: Pre-school](stages/stage_3_preschool/00_stage_3_overview.md)
+  - [Stage 4: School Age](stages/stage_4_school/00_stage_4_overview.md)
+- [Food Introduction Checklist](stages/stage_1_infant/food_introduction_checklist.md)
+- **Reference**
+  - [Parenting Principles](reference/01_parenting_principles.md)
+  - [FOMO & Evidence](reference/02_fomo_and_evidence.md)
+  - [Health Guidelines](reference/03_health_guidelines.md)
+  - [Social-Emotional](reference/04_social_emotional.md)
+  - [Education Strategy](reference/05_education_strategy.md)
