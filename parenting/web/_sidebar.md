@@ -1,6 +1,6 @@
-- [Parenting Strategy](parenting_strategy.md)
+- **[Overview](parenting_strategy.md)**
 - **Stages**
-  - [✅ Stage 1: Infant](stages/stage_1_infant/00_stage_1_overview.md)
+  - **[Stage 1: Infant](stages/stage_1_infant/00_stage_1_overview.md)**
   - [Stage 2: Toddler](stages/stage_2_toddler/00_stage_2_overview.md)
   - [Stage 3: Pre-school](stages/stage_3_preschool/00_stage_3_overview.md)
   - [Stage 4: School Age](stages/stage_4_school/00_stage_4_overview.md)
