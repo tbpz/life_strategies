@@ -2,59 +2,42 @@
 
 **Status:** ⏳ Future — develop fully ~2 months before this stage arrives (~2.5 years old)
 
-**Core insight:** The child is now a full conversational partner. This is when values, growth mindset, and empathy become actively teachable — not through lectures, but through daily interactions, choices, and stories.
+**Develop:** Growth mindset · empathy · language mastery · school readiness
+**How:** Through questions and daily choices — values are taught in moments, not lessons
 
 ---
 
-## Actions by Domain
+### 🧠 Cognitive
+*Build growth mindset and problem-solving — by thinking out loud and using "not yet" language.*
 
-| Domain | Focus Area |
-|---|---|
-| 🧠 Cognitive | Growth mindset language ("yet"). Think out loud about problems. |
-| 🗣️ Language | Full conversations, storytelling, reading exposure (not drilling) |
-| ❤️ Social-Emotional | "How do you think they felt?" Empathy practice. Self-control through turn-taking. |
-| 🏃 Physical | Swimming, bike, running, playground. Sport if interest emerges. |
-| 🏥 Health | ≥180 min activity (≥60 vigorous). 10–13h sleep. ≤1h screen. Model healthy eating. |
-| ⚖️ Moral | Stories about choices. "Was that kind or unkind?" |
+- [ ] School enrollment — register ~1 year before entry, confirm catchment zone (window: ~2 years before entry)
 
-**Parenting focus:** Genuine autonomy in safe domains. Enroll in public school (track confirmed).
+### 🗣️ Language
+*Build conversational depth and storytelling — through full conversations and reading exposure, not drilling.*
 
-**Do NOT:** enter the elite school race, schedule every hour with classes, praise grades over effort.
+### ❤️ Social-Emotional
+*Build empathy and self-control — through perspective-taking questions and turn-taking, not instruction.*
 
-→ [`05_education_strategy.md`](reference/05_education_strategy.md) | [`02_fomo_and_evidence.md`](reference/02_fomo_and_evidence.md)
+### 🏃 Physical
+*Build physical confidence and habits — through swimming, bike, running, sport if interest emerges naturally.*
 
----
+### 🏥 Health
+*Build sustainable health routines — ≥180 min activity, 10–13h sleep, ≤1h screen, model eating.*
 
-## School Decision (Pre-confirmed)
+- [ ] Nap-to-rest transition — shift from nap to quiet rest time (trigger: readiness at 3–4 years)
 
-**Track:** Public school. Rationale already documented → [`05_education_strategy.md`](reference/05_education_strategy.md)
-
-Reassess only if the specific school available is significantly dysfunctional. The school is the container — the home environment is the real education.
+### ⚖️ Moral
+*Build ethical reasoning — through stories about choices and open questions, not rules.*
 
 ---
 
-## Current Action Items
-*To be defined when this stage is being prepared.*
+**Avoid:** Elite school race, over-scheduled classes, praising grades over effort.
 
----
+**School posture:** Public school confirmed — the school is the container, home is the real education. Reassess only if the available school is significantly dysfunctional.
 
-## Weekly Execution Check
-*To be defined when this stage is active.*
+→ **Deep dive:** [Education strategy](../reference/05_education_strategy.md) · [FOMO and evidence](../reference/02_fomo_and_evidence.md)
 
----
-
-## Developmental Health Check
-*To be filled in when preparing for this stage. Key areas: 3-word sentences, imaginative play, recognizing and naming emotions, sharing with prompting, following multi-step instructions.*
-
----
-
-## When to Escalate
-*To be defined when preparing for this stage.*
-
----
-
-## Stage Transition
-When the child approaches ~6 years (school entry), develop `stage_4_school.md`.
+*Develop Stage 4 when approaching 6 years (school entry).*
 
 ---
 *Last Updated: 2026-05-17*

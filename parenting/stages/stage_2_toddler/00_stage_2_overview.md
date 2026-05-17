@@ -2,51 +2,40 @@
 
 **Status:** ⏳ Upcoming — develop fully ~2 months before this stage arrives (~16 months old)
 
-**Core insight:** Language and autonomy explode simultaneously. The child is learning that they are a separate person with their own will — which means more conflict, but also the first real conversations and emotional connection.
+**Develop:** Autonomy · language explosion · emotional self-regulation · peer readiness
+**How:** Let natural consequences teach — conflict is the learning environment, not the problem
 
 ---
 
-## Actions by Domain
+### 🧠 Cognitive
+*Build cause-effect reasoning — by letting consequences play out, not rescuing.*
 
-| Domain | Focus Area |
-|---|---|
-| 🧠 Cognitive | Cause-and-effect exploration, object permanence games |
-| 🗣️ Language | Language explosion — conversations, naming everything, books daily |
-| ❤️ Social-Emotional | Label emotions in real-time. Validate frustration before redirecting. |
-| 🏃 Physical | Walking, climbing, playground, fine motor (stacking, drawing) |
-| 🏥 Health | ≥180 min activity/day. ≤1h screen. 11–14h sleep. Family mealtimes. No food as reward. |
-| ⚖️ Moral | Simple rules with brief reasons. Redirect, don't shame. |
+### 🗣️ Language
+*Build vocabulary and conversational fluency — through naming, daily conversation, books.*
 
-**Parenting focus:** Let the child attempt and fail at age-appropriate tasks. Offer real choices with real stakes.
+### ❤️ Social-Emotional
+*Build emotional self-regulation — by labeling emotions in real-time before redirecting frustration.*
 
-**Do NOT:** rescue from natural consequences, lecture on morality, drill academic content.
+- [ ] Daycare / playgroup — arrange structured peer interaction (window: before 2 years)
 
-→ [`01_parenting_principles.md`](reference/01_parenting_principles.md) | [`04_social_emotional.md`](reference/04_social_emotional.md)
+### 🏃 Physical
+*Build coordination and fine motor skills — through walking, climbing, playground, not structured exercise.*
 
----
+### 🏥 Health
+*Build healthy routines — ≥180 min activity, ≤1h screen, 11–14h sleep, family mealtimes, no food as reward.*
 
-## Current Action Items
-*To be defined when this stage is being prepared.*
+- [ ] Toilet training readiness — watch for signs, don't force or ignore (trigger: readiness signs at 18–24mo)
 
----
-
-## Weekly Execution Check
-*To be defined when this stage is active.*
+### ⚖️ Moral
+*Build understanding of rules — through simple rules with brief reasons, redirect without shame.*
 
 ---
 
-## Developmental Health Check
-*To be filled in when preparing for this stage. Key areas to assess: vocabulary size, two-word phrases, following two-step instructions, parallel play with other children, tantrum frequency and recovery.*
+**Avoid:** Rescuing from natural consequences, moral lectures, drilling academic content.
 
----
+→ **Deep dive:** [Parenting principles](../reference/01_parenting_principles.md) · [Social-emotional](../reference/04_social_emotional.md)
 
-## When to Escalate
-*To be defined when preparing for this stage.*
-
----
-
-## Stage Transition
-When the child approaches ~3 years, develop `stage_3_preschool.md`.
+*Develop Stage 3 when approaching 3 years.*
 
 ---
 *Last Updated: 2026-05-17*

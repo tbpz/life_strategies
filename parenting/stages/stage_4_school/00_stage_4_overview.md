@@ -2,57 +2,40 @@
 
 **Status:** ⏳ Future — develop fully ~2 months before school entry (~5.5 years old)
 
-**Core insight:** Academic content now exists, but the goal is still meta-learning — teaching the child *how* to learn, not doing the learning for them. Independence and responsibility expand every year. The parent's role shifts from caregiver to coach.
+**Develop:** Meta-learning · independence · ethical reasoning · bilingual development
+**How:** Parent shifts from caregiver to coach — expand responsibility scope each year
 
 ---
 
-## Actions by Domain
+### 🧠 Cognitive
+*Build meta-learning skills — homework and study are the child's responsibility, not the parent's.*
 
-| Domain | Focus Area |
-|---|---|
-| 🧠 Cognitive | Study *methods* not content. Homework is the child's responsibility, not the parents'. |
-| 🗣️ Language | Independent reading, articulating arguments, bilingual development |
-| ❤️ Social-Emotional | Coach through friendship problems. Respect evolving identity. |
-| 🏃 Physical | ≥60 min vigorous daily. Regular sport or physical activity. |
-| 🏥 Health | 9–12h sleep. Screen-free bedroom. Balanced nutrition. No skipping meals for study. |
-| ⚖️ Moral | Real ethical discussions. Gray areas. Fairness, responsibility for choices. |
+- [ ] Extracurricular policy — how many activities, who decides, opt-out rule (window: before school starts)
 
-**Parenting focus:** Financial literacy basics. Expand decision-making scope each year. Monitor for school pressure overload.
+### 🗣️ Language
+*Build independent reading and bilingual articulation — through reading and real argument practice.*
 
-**Do NOT:** rescue from academic failure, treat grades as the primary success metric, sacrifice sleep/play for extra study.
+### ❤️ Social-Emotional
+*Build resilience and identity — by coaching through friendship problems, not solving them.*
 
-→ [`05_education_strategy.md`](reference/05_education_strategy.md) | [`01_parenting_principles.md`](reference/01_parenting_principles.md)
+### 🏃 Physical
+*Build physical habit — ≥60 min vigorous daily, regular sport or activity.*
 
----
+### 🏥 Health
+*Build health discipline — 9–12h sleep, screen-free bedroom, no skipping meals for study.*
 
-## Note on Future Splitting
+- [ ] Screen / device policy — ownership, time limits, bedroom rules set before peer pressure (window: before school starts)
 
-This stage covers a wide range (6 to adolescence and beyond). When the child reaches ~10 years, consider splitting into:
-- `stage_4_early_school.md` (6–10 years)
-- `stage_5_preteen.md` (10–13 years)
-- `stage_6_teen.md` (13+ years)
-
-Each will have its own principles, focus, and tracking.
+### ⚖️ Moral
+*Build ethical reasoning — through real gray-area discussions and responsibility for choices.*
 
 ---
 
-## Current Action Items
-*To be defined when this stage is being prepared.*
+**Avoid:** Rescuing from academic failure, grades as primary metric, sacrificing sleep or play for extra study.
 
----
+→ **Deep dive:** [Education strategy](../reference/05_education_strategy.md) · [Parenting principles](../reference/01_parenting_principles.md)
 
-## Weekly Execution Check
-*To be defined when this stage is active.*
-
----
-
-## Developmental Health Check
-*To be filled in when preparing for this stage. Key areas: reading independently, managing homework without reminders, maintaining friendships, handling frustration without adult intervention.*
-
----
-
-## When to Escalate
-*To be defined when preparing for this stage.*
+*At ~10 years, consider splitting into preteen and teen stages based on what's observed.*
 
 ---
 *Last Updated: 2026-05-17*

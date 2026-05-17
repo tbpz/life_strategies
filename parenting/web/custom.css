@@ -1,0 +1,30 @@
+/* ── Overview: always bold
+     Dual selector: by href and by DOM position as first sidebar item ── */
+.sidebar-nav a[href*="parenting_strategy"],
+.sidebar-nav > ul > li:first-child > a {
+  font-weight: 700 !important;
+}
+
+/* ── Selected page = Green + bold ── */
+.sidebar-nav li.active > a {
+  color: #27ae60 !important;
+  font-weight: 700 !important;
+  border-right: 3px solid #27ae60;
+  padding-right: 6px;
+}
+
+/* ── Current life stage (Stage 1): only the "(current)" tag is orange,
+     the link text itself keeps the default sidebar color ── */
+.sidebar-nav a[href*="00_stage_1_overview"]::after {
+  content: " (current)";
+  color: #D4730A;
+  font-size: 0.72em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* ── Hover on any link: no underline, color shifts to green ── */
+a:hover {
+  text-decoration: none !important;
+  color: #27ae60 !important;
+}
