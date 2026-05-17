@@ -16,7 +16,7 @@ The real goal — the reason this workspace exists — is to become an **Origina
 |---|---|
 | 🎨 **Pillar 1 — Creative Mastery** | Primary goal. See `creative/creative_strategy.md`. Next to receive full focus. |
 | 💰 **Pillar 2 — Career & Financial Resilience** | Engine only. Financial ✅ closed. Career sprint in final practice phase. See `career/career_strategy.md`. |
-| 👦 **Pillar 3 — Parenting** | Always-on. 5 principles defined, Stage 1 rituals active. See `parenting/parenting_strategy.md`. |
+| 👦 **Pillar 3 — Parenting** | Always-on. 5 principles defined, Stage 1 rituals active. See `parenting/parenting_strategy.md`. Stage structure guide: `parenting/stages/_STAGE_GUIDE.md`. |
 
 **Governing Principle: Art-First, Commerce-Second.** The creative work must never be driven by financial incentive.
 
