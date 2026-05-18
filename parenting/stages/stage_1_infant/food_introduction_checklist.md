@@ -19,9 +19,11 @@ Introduce these first. All should be tried before 12 months.
 | ✓ | Allergen | How to Introduce | Status |
 |---|---|---|---|
 | ✅ | **Egg** | Already eating (mixed in cháo) | Done |
-| ✅ | **Shrimp (shellfish)** | Already eating (mixed in cháo) | Done |
+| ✅ | **Shrimp (crustacean shellfish)** | Already eating (mixed in cháo) | Done |
+| | **Crab (crustacean shellfish)** | Soft crab meat mashed into cháo. High cross-reactivity with shrimp — likely safe, worth one introduction to confirm before 12mo. | |
+| | **Mollusks** (clam, mussel, squid) | Separate allergen from crustaceans — not covered by shrimp. Soft cooked, mashed into cháo. | |
 | | **Peanut** | Thin peanut butter mixed into cháo. Pea-sized amount first time. | |
-| | **Fish** (cá basa, cá thu) | Soft steamed white fish, mashed into cháo. | |
+| ✅ | **Fish** (salmon) | Tried salmon, no reaction. | Done |
 | | **Wheat** | Soft noodle (phở/mì sợi nhỏ) or bread soaked in broth. | |
 | | **Soy / Tofu** | Soft silken tofu, mashed or small cubes. | |
 | | **Dairy** (yogurt) | Plain unsweetened yogurt, full-fat. 2–3 spoons. Can mix with fruit. | |
@@ -36,9 +38,11 @@ Introduce these first. All should be tried before 12 months.
 | ✅ | Beef | Done |
 | ✅ | Chicken breast | Done |
 | ✅ | Shrimp | Done |
+| | Crab | |
+| | Squid / Clam (mollusk) | |
 | ✅ | Egg | Done |
-| | Fish (white — basa, cá thu) | |
-| | Pork | |
+| ✅ | Fish (salmon) | Done |
+| ✅ | Pork | Done |
 | | Tofu | |
 
 ---
@@ -50,11 +54,14 @@ Goal: 8+ types before 12 months.
 | ✓ | Vegetable | Status |
 |---|---|---|
 | ✅ | Spinach | Done |
+| ✅ | Malabar spinach (rau mồng tơi) | Done |
+| ✅ | Katuk (rau ngót) | Done |
 | ✅ | Sweet potato | Done |
 | ✅ | Pumpkin | Done |
-| | Carrot | |
-| | Broccoli (bông cải xanh) | |
+| ✅ | Carrot | Done |
+| ✅ | Broccoli (bông cải xanh) | Done |
 | | Cauliflower (bông cải trắng) | |
+| ✅ | Winter melon (bí đao) | Done |
 | | Zucchini (bí ngòi) | |
 | | Green beans (đậu que) | |
 | | Chayote (su su) | |
@@ -70,11 +77,11 @@ Goal: 5+ types before 12 months.
 |---|---|---|
 | ✅ | Banana | Done |
 | ✅ | Avocado | Done |
-| | Papaya (đu đủ) | |
-| | Dragon fruit (thanh long) | |
+| ✅ | Papaya (đu đủ) | Done |
+| ✅ | Dragon fruit (thanh long) | Done |
 | | Pear | |
-| | Mango (ripe, soft) | |
-| | Watermelon | |
+| ✅ | Mango (ripe, soft) | Done |
+| ✅ | Watermelon | Done |
 
 ---
 

@@ -46,6 +46,8 @@
 
 **Avoid:** Flashcards, teaching sessions, screens, milestone comparison. Separation anxiety is not a problem to fix.
 
+→ **Why this approach:** [Rationale — focuses, actions, and the reasoning behind them](stages/stage_1_infant/rationale.md)
+
 → **Deep dive:** [Health guidelines](../reference/03_health_guidelines.md) · [Social-emotional](../reference/04_social_emotional.md) · [Dev health check](dev_health_check.md)
 
 *Develop Stage 2 at ~16 months based on observed temperament.*

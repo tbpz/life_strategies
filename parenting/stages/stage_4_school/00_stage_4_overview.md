@@ -33,6 +33,8 @@
 
 **Avoid:** Rescuing from academic failure, grades as primary metric, sacrificing sleep or play for extra study.
 
+→ **Why this approach:** [Rationale — focuses, actions, and the reasoning behind them](stages/stage_4_school/rationale.md)
+
 → **Deep dive:** [Education strategy](../reference/05_education_strategy.md) · [Parenting principles](../reference/01_parenting_principles.md)
 
 *At ~10 years, consider splitting into preteen and teen stages based on what's observed.*

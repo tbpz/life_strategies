@@ -28,6 +28,8 @@ Read this before creating or editing any `00_stage_N_overview.md` file.
 
 **Avoid:** [single line]
 
+→ **Why this approach:** [Rationale — focuses, actions, and the reasoning behind them](stages/stageN_name/rationale.md)
+
 → **Deep dive:** [link1] · [link2]
 
 *Develop Stage N+1 at ~[age] based on observed [what to watch].*
@@ -43,6 +45,14 @@ Read this before creating or editing any `00_stage_N_overview.md` file.
 ### Stage header
 - `Develop:` = developmental outcomes the stage builds — not activities, not strategies
 - `How:` = the single overarching mechanism for this stage
+
+### Required artifacts per stage
+
+Each stage folder must contain:
+- `00_stage_N_overview.md` — operational checklist (what to do)
+- `rationale.md` — reasoning layer (why these focuses, why these actions)
+
+The `rationale.md` stub is created when the stage folder is created. It is filled in when the stage becomes active — based on observed temperament at that time, not speculatively in advance.
 
 ### Domain strategy line
 - Format: `*Build [what] — [how].*`

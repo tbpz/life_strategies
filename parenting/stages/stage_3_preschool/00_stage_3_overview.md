@@ -35,6 +35,8 @@
 
 **School posture:** Public school confirmed — the school is the container, home is the real education. Reassess only if the available school is significantly dysfunctional.
 
+→ **Why this approach:** [Rationale — focuses, actions, and the reasoning behind them](stages/stage_3_preschool/rationale.md)
+
 → **Deep dive:** [Education strategy](../reference/05_education_strategy.md) · [FOMO and evidence](../reference/02_fomo_and_evidence.md)
 
 *Develop Stage 4 when approaching 6 years (school entry).*

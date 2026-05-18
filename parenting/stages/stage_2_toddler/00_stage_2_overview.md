@@ -33,6 +33,8 @@
 
 **Avoid:** Rescuing from natural consequences, moral lectures, drilling academic content.
 
+→ **Why this approach:** [Rationale — focuses, actions, and the reasoning behind them](stages/stage_2_toddler/rationale.md)
+
 → **Deep dive:** [Parenting principles](../reference/01_parenting_principles.md) · [Social-emotional](../reference/04_social_emotional.md)
 
 *Develop Stage 3 when approaching 3 years.*
