@@ -42,6 +42,16 @@
 
 - [x] Consistent warm response posture established
 
+**🏠 Childcare Sprint** — *active now, not a development pillar*
+
+- [ ] **Week 1:** Write care protocol · contact 3 agencies ([sources](nanny_hiring_sources_hcmc.md)) · schedule interviews
+- [ ] **Weeks 2-4:** Interview 3+ candidates ([criteria](nanny_acceptance_criteria.md)) · supervised trial · semi-supervised trial
+- [ ] **Month 2:** Nanny solo care trusted · bà nội to light role · remote days reserved for sick days only
+- [ ] **Month 2-3:** Daycare research active — visit facilities, join waitlists
+- [ ] **Month 4-6:** Decide nanny-only vs hybrid at 12-18mo
+
+→ [Full phase plan](childcare_crisis_plan.md)
+
 ---
 
 **Avoid:** Flashcards, teaching sessions, screens, milestone comparison. Separation anxiety is not a problem to fix.
@@ -53,4 +63,4 @@
 *Develop Stage 2 at ~16 months based on observed temperament.*
 
 ---
-*Last Updated: 2026-05-17*
+*Last Updated: 2026-05-25*
