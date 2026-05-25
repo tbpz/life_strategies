@@ -8,14 +8,20 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 
 | File / Directory | Purpose |
 |---|---|
-| `CLAUDE.md` | Auto-read by Claude. Brief context + mandatory AI interaction rules. |
+| `CLAUDE.md` | Auto-read by Claude. Identity, pillar status, session routing. |
 | `context.md` | This file. Orientation, pillars, goals, constraints. |
 | `career/career_strategy.md` | Pillar 2 deep-dive: Zalo background, locked decisions, practice phase status. |
+| `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
 | `financial/financial_checklist.md` | Financial resilience checklist. All layers closed 2026-05-15. Annual review only. |
-| `creative/` | Pillar 1 — Creative Mastery. Placeholder. Work begins after career sprint closes. |
-| `parenting/` | Pillar 3 — Parenting. 5 principles defined, stage-gated rituals active. See `parenting/parenting_strategy.md`. |
+| `creative/creative_strategy.md` | Pillar 1 deep-dive: self-diagnosis, creation process, paralysis pattern, current phase. |
+| `creative/_AI_RULES.md` | AI role, guardrails, and conventions for Creative sessions. Loaded by router. |
+| `creative/_TREATMENT_FORMAT.md` | Writing format spec for all creative artifacts. Evolves with experience. |
+| `creative/mva/00_plan.md` | MVA build plan: 4-step sequence, session instructions, success signals. |
+| `parenting/parenting_strategy.md` | Pillar 3 deep-dive: 5 principles, stage-gated rituals. |
+| `parenting/_AI_RULES.md` | AI role, guardrails, and conventions for Parenting sessions. Loaded by router. |
 | `archive/` | Completed research inputs. Read-only reference. |
+| `workspace_health.md` | Split signals monitor. **Not loaded in normal sessions.** Manual review only. |
 
 *Update this index whenever a new file is added.*
 
@@ -46,9 +52,10 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 - **Financial Status:** Comfortable middle class. Owns a house. **Financial resilience checklist closed 2026-05-15 — all three layers verified complete.**
 
 ### The Real Goal
-- **Aspired Identity:** **Original Story Creator (原作者)** — the person from whose mind the story, world, and characters emerge. Ownership is intellectual and emotional, not necessarily technical.
+- **Aspired Identity:** **Story Architect (原作者)** — owns the vision, world, and emotional standard. AI and collaborators handle execution. Architect *on the boat*, not outside it.
 - **Target medium:** Animation = Anime = Manga > Game > Movie > Novel.
-- **Current state:** Early exploration. Vague direction. Minimal visible progress. Awaiting career sprint closure to redirect full attention here.
+- **Creation model:** Minimum Viable Architecture → AI-augmented iterative creation → owner as quality gate. Same model that drives this workspace.
+- **Current state:** Self-diagnosis complete (2026-05-23). Creation process locked. Phase 0 experiment (build MVA) is the next concrete step.
 
 ---
 
@@ -58,9 +65,10 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 The creative work must always serve the artistic vision — never be driven by financial incentive. Tech/career remains the financial backbone. If creative work *naturally* generates income, that's welcome — but it must never dictate creative direction.
 
 ### Pillar 1: 🎨 Creative Mastery (The Dream)
-*Become an Original Story Creator of emotionally powerful stories through animation/anime/manga.*
-- **Core skill:** Storytelling — narrative structure, character development, emotional arc, world-building. Not animation or drawing.
-- **Status:** Early exploration. Full attention redirects here after career sprint closes.
+*Become a Story Architect: the person from whose mind the story, world, and characters emerge — delivered through animation/anime/manga.*
+- **Core role:** Vision keeper + quality gate. Not drawing, not writing prose from scratch. Owns the blueprint; AI and collaborators execute.
+- **Creation process:** Minimum Viable Architecture → iterative AI-augmented generation → curate against taste → update architecture → repeat.
+- **Status:** Self-diagnosis complete. Creation process locked. Awaiting career sprint closure to redirect 30% free energy here.
 
 ### Pillar 2: 💰 Career & Financial Resilience (The Engine)
 *Maintain and grow financial stability to sustain family, lifestyle, and the creative pursuit.*
@@ -90,7 +98,7 @@ The creative work must always serve the artistic vision — never be driven by f
 - [/] **[Pillar 2 — Career]** Practice sprint — apply RAID log, change record, acceptance criteria at OL for 2–4 weeks, then close.
 - [x] **[Pillar 3]** Define 3-5 core parenting principles. ✅ 5 principles defined 2026-05-15.
 - [/] **[Pillar 3]** Establish bedtime/bath-time micro-ritual. Practice consistent narration. Phone-away habit.
-- [ ] **[Pillar 1]** After career sprint: identify the *first* learnable skill (likely: storytelling/narrative structure).
+- [/] **[Pillar 1]** Build MVA — 4 steps: ending → protagonist → theme → system anchor. Plan at `creative/mva/00_plan.md`.
 
 ### Medium-term (3 months → 2 years)
 - [ ] **[Pillar 1]** Establish a consistent creative practice with visible, measurable small wins.
@@ -107,9 +115,10 @@ The creative work must always serve the artistic vision — never be driven by f
 ## Key Constraints
 
 - **Vagueness as the primary enemy:** Without concrete next steps, progress stalls — especially for someone whose engine runs on visible small wins.
+- **The paralysis pattern (creative-specific):** Needs architectural confidence before execution starts → full blueprint feels too big → paralyzed → abandons. Resolution: Minimum Viable Architecture (just enough compass heading) + AI reasoning partner to reach "good enough" confidence. Do not attempt full Waterfall design upfront. See `creative/creative_strategy.md`.
 - **Career confidence wound:** Anxiety is disproportionate to actual risk. The real work is psychological: defining "good enough" and giving permission to stop. See `career/career_strategy.md` for full context.
 - **Limited free energy:** Only ~30% of mental capacity available for exploration. Must be protected and spent wisely — not scattered across all three pillars at once.
 - **Fatherhood is non-negotiable daily:** Son's early years cannot be deferred. Parenting time and presence are fixed costs the strategy must work around.
 
 ---
-*Last Updated: 2026-05-15*
+*Last Updated: 2026-05-23*

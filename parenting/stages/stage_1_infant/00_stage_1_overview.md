@@ -35,7 +35,7 @@
 - [ ] Food diversity checklist — complete all allergens before 12 months → [checklist](stages/stage_1_infant/food_introduction_checklist.md)
 - [ ] Independent sleep — separate surface in same room (window: before 12mo)
 - [ ] Feeding shift — solids become primary (window: 12mo)
-- [ ] Dental — first tooth → same-day brushing + book first dental visit (trigger: first tooth)
+- [x] Dental — first tooth → same-day brushing + book first dental visit (trigger: first tooth)
 
 ### ⚖️ Moral
 *Build behavioral boundaries — through warm consistency and rare, physically redirected "No".*
