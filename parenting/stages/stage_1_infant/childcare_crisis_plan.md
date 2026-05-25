@@ -35,6 +35,8 @@ Daycare becomes the stronger option at **18-24 months**. Until then: nanny is th
 - [ ] Research 3+ reputable nanny agencies in HCMC (Day 2)
 - [ ] Write baby care protocol: feeding, nap schedule, fever plan, emergency contacts (Day 3)
 - [ ] Contact 2-3 agencies, request candidate profiles (Day 3-4)
+- [ ] Refine [acceptance criteria](nanny_acceptance_criteria.md) with real context *(draft — revisit after first agency calls)*
+- [ ] Draft interview plan *(pending — finalize once candidates are shortlisted)*
 - [ ] Schedule interviews for end of Week 1 or early Week 2 (Day 4-5)
 
 **Daycare this week:** 1-2 hours max — browse, make a shortlist. Nothing more.

@@ -42,17 +42,7 @@
 
 - [x] Consistent warm response posture established
 
-**🏠 Childcare Sprint** — *active now, not a development pillar*
-
-- [ ] **Week 1:** Write care protocol · contact 3 agencies ([sources](stages/stage_1_infant/nanny_hiring_sources_hcmc.md)) · schedule interviews
-- [ ] **Week 1:** Refine [acceptance criteria](stages/stage_1_infant/nanny_acceptance_criteria.md) with real context *(draft — revisit after first agency calls)*
-- [ ] **Week 1:** Draft interview plan *(pending — finalize once candidates are shortlisted)*
-- [ ] **Weeks 2-4:** Interview 3+ candidates ([criteria](stages/stage_1_infant/nanny_acceptance_criteria.md)) · supervised trial · semi-supervised trial
-- [ ] **Month 2:** Nanny solo care trusted · bà nội to light role · remote days reserved for sick days only
-- [ ] **Month 2-3:** Daycare research active — visit facilities, join waitlists
-- [ ] **Month 4-6:** Decide nanny-only vs hybrid at 12-18mo
-
-→ [Full phase plan](stages/stage_1_infant/childcare_crisis_plan.md)
+**🏠 Childcare Sprint** — *active now · [→ full plan & checklist](stages/stage_1_infant/childcare_crisis_plan.md)*
 
 ---
 
