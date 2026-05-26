@@ -6,6 +6,26 @@
 
 ---
 
+## The Image
+
+The right nanny is someone who is:
+
+- **Skilled** at infant care at this stage — feeding solids, managing naps, spotting health warning signs
+- **Safe** — instinctively baby-proofs, knows what to do in an emergency without calling first
+- **Warm** — genuinely attached to the child, not just going through the motions
+- **Calm** — patient during fussy episodes and long days, doesn't crack under pressure
+- **Honest** — proactively communicates with parents, doesn't hide problems
+- **Easy with the family** — respectful and cooperative with grandparents, no territorial friction
+- **Reliable** — punctual, consistent, lives close enough to be there by 7am every day
+- **Willing** to do light housework as part of the role
+- **Flexible** for occasional extended hours without making it a crisis
+- **Trustworthy** — clean background, comfortable with cameras, nothing to hide
+- **Coachable** — follows the care protocol, accepts feedback, willing to get first aid certified
+
+All the criteria below exist to verify she is actually this person.
+
+---
+
 ## Must-Pass Gate (All required — any fail = reject)
 
 These are non-negotiable. A candidate who fails **any one** of these does not proceed, regardless of other strengths.
