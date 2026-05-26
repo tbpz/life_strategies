@@ -21,6 +21,11 @@
         function(hook) {
           hook.doneEach(function() {
             window.scrollTo(0, 0);
+            // Open all external links in a new tab
+            document.querySelectorAll('.content a[href^="http"]').forEach(function(a) {
+              a.setAttribute('target', '_blank');
+              a.setAttribute('rel', 'noopener noreferrer');
+            });
           });
           hook.ready(function() {
             document.querySelector('.sidebar').addEventListener('click', function(e) {

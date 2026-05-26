@@ -21,7 +21,7 @@
 
 These agencies specifically focus on infant and newborn care. Staff tend to be more trained for under-12-month babies.
 
-### 🥇 Thành Tâm Care — `thanhtamcare.vn`
+### 🥇 Thành Tâm Care — [thanhtamcare.vn](https://thanhtamcare.vn)
 **Why it fits your situation:**
 - Specializes in *vú nuôi* (wet nurse/infant nanny) and newborn/infant care
 - Offers live-out (sáng đi chiều về) arrangements
@@ -35,11 +35,11 @@ These agencies specifically focus on infant and newborn care. Staff tend to be m
 - "Chi phí giới thiệu và mức lương trung bình cho gói sáng đi chiều về?"
 
 **Estimated cost:** 12-18M/month total (salary + agency fee)
-**Contact:** Website + hotline on thanhtamcare.vn
+**Contact:** Website + hotline on [thanhtamcare.vn](https://thanhtamcare.vn)
 
 ---
 
-### 🥇 Family Maid — `familymaid.vn`
+### 🥇 Family Maid — [familymaid.vn](https://familymaid.vn)
 **Why it fits your situation:**
 - Staff trained with nursing/midwifery backgrounds (điều dưỡng, hộ sinh)
 - Specializes in mother-and-baby care → strong on infant safety protocols
@@ -52,7 +52,7 @@ These agencies specifically focus on infant and newborn care. Staff tend to be m
 - "Chính sách thay người nếu không phù hợp?"
 
 **Estimated cost:** 10-18M/month (contact for precise quote)
-**Contact:** familymaid.vn → "Nhận tư vấn miễn phí"
+**Contact:** [familymaid.vn](https://familymaid.vn) → "Nhận tư vấn miễn phí"
 
 ---
 
@@ -60,23 +60,23 @@ These agencies specifically focus on infant and newborn care. Staff tend to be m
 
 These are larger agencies with more candidates in the pipeline. Lower specialization but faster turnaround and more options to choose from.
 
-### Sài Gòn Ba Miền — `giupviecnhabamien.com`
+### Sài Gòn Ba Miền — [giupviecnhabamien.com](https://giupviecnhabamien.com)
 - Large candidate pool, citywide dispatch
 - Offers live-out infant care (chăm trẻ sơ sinh theo giờ / sáng đi chiều về)
 - Standard agency verification (CCCD, lý lịch)
 - Good for getting 2-3 candidates quickly to interview in parallel
 - **Tip:** Request candidates specifically experienced with ăn dặm (solids), not just newborn
 
-### Giúp Việc Gia Phú — `giupviecgiaphu.com`
+### Giúp Việc Gia Phú — [giupviecgiaphu.com](https://giupviecgiaphu.com)
 - Noted as having presence specifically in **KDC Trung Sơn, Bình Hưng** area
 - This is geographically close to Mizuki Park → higher chance of candidates with short commute
 - Offers bảo mẫu live-in and live-out
 
-### Giúp Việc Hưng Thịnh — `giupviechungthinh.vn`
+### Giúp Việc Hưng Thịnh — [giupviechungthinh.vn](https://giupviechungthinh.vn)
 - Has coverage in outer districts including Bình Chánh area
 - Good for sourcing candidates who already live nearby
 
-### Giúp Việc Đức Tâm — `giupviecductam.vn`
+### Giúp Việc Đức Tâm — [giupviecductam.vn](https://giupviecductam.vn)
 - Covers multiple districts, standard vetting, solid reputation in HCMC
 - Call and specifically ask about coverage for Bình Hưng / Bình Chánh
 
@@ -84,7 +84,7 @@ These are larger agencies with more candidates in the pipeline. Lower specializa
 
 ## Tier 3 — Apps (Flexible, Not Primary)
 
-### Calibee — `calibee.com`
+### Calibee — [calibee.com](https://calibee.com)
 **Good for:**
 - Testing/backup: book a few hourly sessions to find a candidate you like, then negotiate fixed arrangement
 - Transparent in-app profiles with ratings from other families
@@ -98,12 +98,12 @@ These are larger agencies with more candidates in the pipeline. Lower specializa
 
 **Action:** Download app, check coverage for your address before committing any time to it.
 
-### bTaskee — `btaskee.com`
+### bTaskee — [btaskee.com](https://btaskee.com)
 - Broader service platform (cleaning + childcare)
 - Good reputation for on-demand booking
 - Same suburban coverage caveat — check your address on the app
 
-### Nounou — `nounou.vn`
+### Nounou — [nounou.vn](https://nounou.vn)
 - Specialized in infant/newborn and postpartum care
 - Staff with nursing background
 - Worth a call even though it's app-based, as it's infant-focused
@@ -180,11 +180,11 @@ Watch out for any agency that:
 ---
 
 ## Sources
-- thanhtamcare.vn
-- familymaid.vn
-- giupviecnhabamien.com
-- giaphatcare.com (Bình Hưng specific)
-- calibee.com
-- btaskee.com
-- nounou.vn
+- [thanhtamcare.vn](https://thanhtamcare.vn)
+- [familymaid.vn](https://familymaid.vn)
+- [giupviecnhabamien.com](https://giupviecnhabamien.com)
+- [giaphatcare.com](https://giaphatcare.com) (Bình Hưng specific)
+- [calibee.com](https://calibee.com)
+- [btaskee.com](https://btaskee.com)
+- [nounou.vn](https://nounou.vn)
 - Community: Mizuki Park Facebook groups
