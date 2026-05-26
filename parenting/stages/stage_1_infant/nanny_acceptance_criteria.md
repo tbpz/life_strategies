@@ -2,6 +2,7 @@
 
 **Context:** Baby 9-10 months, starting solids + milk | Apartment in gated complex (HCMC)  
 **Arrangement:** Live-out, extended hours (7am-7pm, Mon-Fri) | Medium-term (6-12 months)  
+**Supervision:** A family member (bà nội/bà ngoại) is always present — the nanny is never solo with the baby  
 **Budget:** 8-12M VND preferred, up to 18M for exceptional candidates
 
 ---
@@ -11,16 +12,16 @@
 The right nanny is someone who is:
 
 - **Skilled** at infant care at this stage — feeding solids, managing naps, spotting health warning signs
-- **Safe** — instinctively baby-proofs, knows what to do in an emergency without calling first
+- **Safe** — instinctively baby-proofs, aware of emergency basics
 - **Warm** — genuinely attached to the child, not just going through the motions
 - **Calm** — patient during fussy episodes and long days, doesn't crack under pressure
-- **Honest** — proactively communicates with parents, doesn't hide problems
+- **Honest** — transparent with the supervising family member, doesn't hide problems
 - **Easy with the family** — respectful and cooperative with grandparents, no territorial friction
 - **Reliable** — punctual, consistent, lives close enough to be there by 7am every day
 - **Willing** to do light housework as part of the role
 - **Flexible** for occasional extended hours without making it a crisis
-- **Trustworthy** — clean background, comfortable with cameras, nothing to hide
-- **Coachable** — follows the care protocol, accepts feedback, willing to get first aid certified
+- **Trustworthy** — clean background, nothing to hide
+- **Coachable** — follows the care protocol, accepts feedback
 
 All the criteria below exist to verify she is actually this person.
 
@@ -34,11 +35,13 @@ These are non-negotiable. A candidate who fails **any one** of these does not pr
 |---|-----------|---------------|
 | G1 | **Experience with infants under 12 months** — at least 1 year cumulative | Ask directly + confirm with references |
 | G2 | **Verifiable references** from previous families (minimum 2) | Call references yourself — do not rely on agency |
-| G3 | **Comfortable with cameras in all care areas** — cameras already installed; no hesitation when informed | State upfront during interview, gauge reaction |
-| G4 | **Engages seriously with your written care protocol** — reads it, asks questions, doesn't dismiss it | Give protocol during interview, observe response |
-| G5 | **No history of violence, neglect, or theft** | Reference checks + agency background check |
-| G6 | **Physically able to handle extended hours** (7am-7pm) without fatigue-related safety risk | Discuss schedule, assess energy during interview |
-| G7 | **Agrees to the dealbreaker list** (see below) in writing before starting | Written acknowledgment as part of contract |
+| G3 | **Engages seriously with your written care protocol** — reads it, asks questions, doesn't dismiss it | Give protocol during interview, observe response |
+| G4 | **No history of violence, neglect, or theft** | Reference checks + agency background check |
+| G5 | **Physically able to handle extended hours** (7am-7pm) without fatigue-related safety risk | Discuss schedule, assess energy during interview |
+| G6 | **Agrees to the dealbreaker list** (see below) in writing before starting | Written acknowledgment as part of contract |
+
+**Nice-to-have (not a gate):**
+- Comfortable with cameras — disclose during interview, but not a dealbreaker if she hesitates given family is always present
 
 ---
 
@@ -75,7 +78,7 @@ These behaviors result in same-day termination, no second chances:
 |---|-----------|---------------------|---------------------|
 | B1 | **Warmth and attachment** — genuinely enjoys being with the baby, not just task-completing | Talks to the baby, makes eye contact, responds to cries with comfort | Holds baby at arm's length, treats it as a job to endure |
 | B2 | **Patience under stress** — how she handles crying, refusal to eat, fussy episodes | Stays calm, tries different approaches, doesn't show frustration | Gets visibly irritated, gives up quickly |
-| B3 | **Communication with parents** — proactive updates, honest about problems, not defensive | Sends updates during the day, tells you if something went wrong, asks questions | Goes silent, hides issues, gets defensive when asked |
+| B3 | **Communication with supervising family** — honest about problems, not defensive when corrected | Tells the family member if something went wrong, asks questions openly | Hides issues, gets defensive when asked |
 | B4 | **Relationship with supervising family** — respectful with bà nội/bà ngoại, not territorial | Cooperates smoothly, accepts guidance gracefully | Sees family as interference, creates tension |
 
 ### C. Practical Fit (Weight: 20%)
@@ -91,7 +94,7 @@ These behaviors result in same-day termination, no second chances:
 
 | # | Criterion | What "5" Looks Like | What "1" Looks Like |
 |---|-----------|---------------------|---------------------|
-| D1 | **First aid / CPR** — trained or willing to get certified | Already certified, or enthusiastically agrees to training | Refuses or dismisses it as unnecessary |
+| D1 | **First aid / CPR awareness** — knows basics or willing to learn | Has some awareness of infant choking, fever response | No awareness and no interest in learning |
 | D2 | **Protocol adherence + intelligent input** — follows your protocol but suggests improvements from experience | Follows the protocol and occasionally says "in my experience, this works better because..." | Either ignores the protocol or follows it robotically with no judgment |
 | D3 | **Learning attitude** — open to feedback, adapts | Takes feedback well, adjusts behavior | Gets defensive, repeats same mistakes |
 
@@ -113,23 +116,22 @@ These behaviors result in same-day termination, no second chances:
    - "What was she weakest at?"
    - "Did she ever do anything that concerned you?"
 
-### Trial Stage (With Supervision)
+### Trial Stage (Family Always Present)
 
 | Week | Setup | What You're Evaluating |
 |------|-------|----------------------|
-| Week 1 | Bà nội/bà ngoại present and actively observing | All A & B criteria in real conditions |
-| Week 2 | Family member home but disengaged (in another room) | Independence, C1-C3, camera behavior |
-| Week 3 | Solo care (camera-monitored, family checks in remotely) | Full autonomy — does she maintain standards alone? |
+| Week 1 | Bà nội/bà ngoại actively observing and guiding | All A & B criteria in real conditions |
+| Week 2 | Family member present but stepping back — lets nanny lead | Independence, initiative, C1-C3 |
 
-> **Critical rule:** If you see any dealbreaker behavior on camera during solo care, act immediately. Don't wait for a "pattern."
+> **Critical rule:** If you see any dealbreaker behavior during the trial, act immediately. Don't wait for a "pattern."
 
 ### Decision Framework
 
 | Score Range | Decision |
 |-------------|----------|
-| All gates passed + avg ≥ 4.0 | ✅ Hire — proceed to contract |
-| All gates passed + avg 3.0-3.9 | 🟡 Conditional — extend trial 1 week, re-evaluate |
-| All gates passed + avg < 3.0 | 🔴 Reject — activate backup candidate |
+| All gates passed + avg ≥ 3.5 | ✅ Hire — proceed to contract |
+| All gates passed + avg 2.5-3.4 | 🟡 Conditional — extend trial 1 week, re-evaluate |
+| All gates passed + avg < 2.5 | 🔴 Reject — activate backup candidate |
 | Any gate failed | ❌ Immediate reject |
 
 ---
@@ -139,11 +141,11 @@ These behaviors result in same-day termination, no second chances:
 | Category | Minimum Average | Rationale |
 |----------|----------------|-----------|
 | A. Core Competence | 3.5 | Safety and skills are foundational |
-| B. Emotional Quality | 4.0 | This is the hardest to train — hire for character |
+| B. Emotional Quality | 3.5 | Important, but family supervision provides a safety net |
 | C. Practical Fit | 3.0 | Logistics can often be worked around |
-| D. Professionalism | 3.0 | Trainable if attitude is right |
+| D. Professionalism | 2.5 | Trainable if attitude is right, especially under guidance |
 
-> **Key insight:** Score B (emotional quality) the hardest. You can teach someone to prepare solids or follow a schedule. You **cannot** teach someone to genuinely care about your child.
+> **Key insight:** With family always present, you can afford to hire for skill and reliability first, then coach on the softer aspects. A "good enough" nanny supervised by grandma is better than waiting months for a perfect one.
 
 ---
 
@@ -154,7 +156,7 @@ Once a candidate passes, formalize with:
 - [ ] Written contract with clear hours (7am-7pm), salary, overtime rate
 - [ ] Probation period: 1 month (can terminate with 3 days notice)
 - [ ] Dealbreaker list signed and acknowledged
-- [x] Camera disclosure signed (cameras already installed — disclose and confirm in writing at contract stage)
+- [ ] Camera disclosure signed (if cameras are used — disclose and confirm in writing)
 - [ ] Emergency contact sheet provided
 - [ ] Care protocol acknowledged with signature
 - [ ] Payment schedule agreed (monthly, specific date)
