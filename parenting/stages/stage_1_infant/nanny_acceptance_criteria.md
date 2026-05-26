@@ -2,8 +2,9 @@
 
 **Context:** Baby 9-10 months, starting solids + milk | Apartment in gated complex (HCMC)  
 **Arrangement:** Live-out, extended hours (7am-7pm, Mon-Fri) | Medium-term (6-12 months)  
-**Supervision:** A family member (bà nội/bà ngoại) is always present — the nanny is never solo with the baby  
-**Budget:** 8-12M VND preferred, up to 18M for exceptional candidates
+**Role:** Dual — full infant care + full housework (cooking, cleaning, laundry, grocery)  
+**Supervision:** Bà nội/bà ngoại always present — gives instruction, supervises, and steps in with baby as her health allows  
+**Budget:** 10-15M VND preferred, up to 18M for exceptional candidates
 
 ---
 
@@ -18,12 +19,25 @@ The right nanny is someone who is:
 - **Honest** — transparent with the supervising family member, doesn't hide problems
 - **Easy with the family** — respectful and cooperative with grandparents, no territorial friction
 - **Reliable** — punctual, consistent, lives close enough to be there by 7am every day
-- **Willing** to do light housework as part of the role
+- **Capable** of running a full household — cooking meals, cleaning, laundry, grocery — not just baby tasks
+- **Organized** — can switch between baby care and housework without letting either collapse
 - **Flexible** for occasional extended hours without making it a crisis
 - **Trustworthy** — clean background, nothing to hide
 - **Coachable** — follows the care protocol, accepts feedback
 
 All the criteria below exist to verify she is actually this person.
+
+---
+
+## Workload Reality
+
+This is a dual role: **full infant care + full housework**. That's a real load over 12 hours. Be clear-eyed about how it works in practice:
+
+- **Baby always takes priority** — housework waits when the baby needs attention
+- **Nap windows are the housework window** — baby naps 2-3 hours/day; this is when cooking and cleaning happen
+- **MIL is a flexible buffer** — she steps in with the baby based on her health that day, not on a fixed schedule
+- **Grocery** — MIL holds baby during market runs, or use GrabMart/delivery on days she's unavailable
+- **The real failure mode** — she becomes a housekeeper who also watches a baby. Assess whether she leads with baby care or leads with chores.
 
 ---
 
@@ -34,14 +48,15 @@ These are non-negotiable. A candidate who fails **any one** of these does not pr
 | # | Criterion | How to Verify |
 |---|-----------|---------------|
 | G1 | **Experience with infants under 12 months** — at least 1 year cumulative | Ask directly + confirm with references |
-| G2 | **Verifiable references** from previous families (minimum 2) | Call references yourself — do not rely on agency |
-| G3 | **Engages seriously with your written care protocol** — reads it, asks questions, doesn't dismiss it | Give protocol during interview, observe response |
-| G4 | **No history of violence, neglect, or theft** | Reference checks + agency background check |
-| G5 | **Physically able to handle extended hours** (7am-7pm) without fatigue-related safety risk | Discuss schedule, assess energy during interview |
-| G6 | **Agrees to the dealbreaker list** (see below) in writing before starting | Written acknowledgment as part of contract |
+| G2 | **Has done combined childcare + housework** in a previous role — not childcare-only | Ask specifically: "Ở nhà trước bạn có vừa chăm bé vừa làm việc nhà không?" + confirm with references |
+| G3 | **Verifiable references** from previous families (minimum 2) | Call references yourself — do not rely on agency |
+| G4 | **Engages seriously with your written care protocol** — reads it, asks questions, doesn't dismiss it | Give protocol during interview, observe response |
+| G5 | **No history of violence, neglect, or theft** | Reference checks + agency background check |
+| G6 | **Physically able to handle extended hours** (7am-7pm) of dual-role work without fatigue risk | Discuss schedule honestly — she should not underestimate the load |
+| G7 | **Agrees to the dealbreaker list** (see below) in writing before starting | Written acknowledgment as part of contract |
 
 **Nice-to-have (not a gate):**
-- Comfortable with cameras — disclose during interview, but not a dealbreaker if she hesitates given family is always present
+- Comfortable with cameras — disclose during interview, but not a dealbreaker given family is always present
 
 ---
 
@@ -62,17 +77,17 @@ These behaviors result in same-day termination, no second chances:
 
 ## Scoring Criteria (Rate each 1-5 during interview + trial)
 
-### A. Core Competence (Weight: 40%)
+### A. Infant Care Competence (Weight: 35%)
 
 | # | Criterion | What "5" Looks Like | What "1" Looks Like |
 |---|-----------|---------------------|---------------------|
 | A1 | **Infant feeding skills** — can prepare solids, manage mixed feeding, understands food introduction safely | Confidently describes preparing age-appropriate meals, knows choking risks, understands allergy introduction | Has only done bottle-feeding, no solids experience |
 | A2 | **Sleep & nap management** — can follow a nap schedule, settle baby without unsafe methods | Follows your nap protocol, can soothe without feeding-to-sleep every time | Ignores schedule, lets baby sleep whenever/wherever |
-| A3 | **Safety awareness** — instinctively baby-proofs, knows what to do in an emergency | Notices hazards unprompted, knows infant Heimlich, keeps baby in safe zones | Leaves small objects around, doesn't think about hazards |
+| A3 | **Safety awareness** — instinctively baby-proofs, aware of emergency basics | Notices hazards unprompted, keeps baby in safe zones | Leaves small objects around, doesn't think about hazards |
 | A4 | **Hygiene practices** — handwashing, sterilizing, food safety as second nature | Washes hands before every feed/diaper change without being asked | Needs reminding, inconsistent |
-| A5 | **Health monitoring** — recognizes fever, rash, unusual behavior, knows when to call parents | Can describe warning signs, knows your fever plan, won't panic or ignore | Can't articulate any warning signs |
+| A5 | **Health monitoring** — recognizes fever, rash, unusual behavior, knows when to escalate | Can describe warning signs, knows your fever plan, won't panic or ignore | Can't articulate any warning signs |
 
-### B. Emotional & Relational Quality (Weight: 30%)
+### B. Emotional & Relational Quality (Weight: 25%)
 
 | # | Criterion | What "5" Looks Like | What "1" Looks Like |
 |---|-----------|---------------------|---------------------|
@@ -81,14 +96,13 @@ These behaviors result in same-day termination, no second chances:
 | B3 | **Communication with supervising family** — honest about problems, not defensive when corrected | Tells the family member if something went wrong, asks questions openly | Hides issues, gets defensive when asked |
 | B4 | **Relationship with supervising family** — respectful with bà nội/bà ngoại, not territorial | Cooperates smoothly, accepts guidance gracefully | Sees family as interference, creates tension |
 
-### C. Practical Fit (Weight: 20%)
+### C. Practical Fit (Weight: 10%)
 
 | # | Criterion | What "5" Looks Like | What "1" Looks Like |
 |---|-----------|---------------------|---------------------|
 | C1 | **Punctuality and reliability** — arrives on time, communicates if late | Consistently on time, gives advance notice for absences | Late frequently, no-shows without warning |
-| C2 | **Light housework willingness** — laundry, sterilizing, cleaning baby items | Does it proactively as part of the routine | Refuses or does it poorly |
-| C3 | **Flexibility for occasional overtime** — can stay late on short notice sometimes | Willing and communicates her limits clearly | Rigid about exact clock-out, won't discuss |
-| C4 | **Lives within reasonable commute** — can arrive by 7am reliably | Lives within 30-45 min, has reliable transport | Long commute that creates attendance risk |
+| C2 | **Flexibility for occasional overtime** — can stay late on short notice sometimes | Willing and communicates her limits clearly | Rigid about exact clock-out, won't discuss |
+| C3 | **Lives within reasonable commute** — can arrive by 7am reliably | Lives within 30-45 min, has reliable transport | Long commute that creates attendance risk |
 
 ### D. Growth & Professionalism (Weight: 10%)
 
@@ -98,16 +112,28 @@ These behaviors result in same-day termination, no second chances:
 | D2 | **Protocol adherence + intelligent input** — follows your protocol but suggests improvements from experience | Follows the protocol and occasionally says "in my experience, this works better because..." | Either ignores the protocol or follows it robotically with no judgment |
 | D3 | **Learning attitude** — open to feedback, adapts | Takes feedback well, adjusts behavior | Gets defensive, repeats same mistakes |
 
+### E. Housework Competence (Weight: 20%)
+
+| # | Criterion | What "5" Looks Like | What "1" Looks Like |
+|---|-----------|---------------------|---------------------|
+| E1 | **Cooking** — can prepare family meals, follows dietary requirements for baby and household | Cooks varied meals, knows what baby can/can't eat, manages timing around naps | Can only do simple instant food, unfamiliar with baby dietary needs |
+| E2 | **Cleaning standards** — floors, bathroom, kitchen maintained to a consistent standard | Cleans proactively without being told, maintains hygiene especially in kitchen and baby areas | Needs constant reminding, leaves obvious areas dirty |
+| E3 | **Laundry management** — washes, dries, folds household laundry including baby clothes and sterilized items | Handles laundry as part of daily routine, separates baby items correctly | Forgets, leaves wet laundry, mixes baby and adult items carelessly |
+| E4 | **Grocery / market runs** — can shop to a list, manage budget, coordinate timing with MIL holding baby | Shops efficiently, communicates when items are missing, returns promptly | Slow, goes over budget, doesn't communicate |
+| E5 | **Baby-first prioritization** — drops housework immediately when baby needs attention, without resentment | Naturally shifts to baby when needed, picks up housework at the next available window | Resents the interruption, lets baby wait to finish the task |
+
 ---
 
 ## Evaluation Process
 
 ### Interview Stage
 
-1. **Initial screening call** (15 min) — verify G1-G6, basic fit
-2. **In-person interview** at your apartment (30-45 min):
+1. **Initial screening call** (15 min) — verify G1-G7, basic fit; ask directly about previous dual-role experience
+2. **In-person interview** at your apartment (45 min):
    - Give her the care protocol to read on the spot → observe how she engages (G4)
    - Present 2-3 scenarios: "Baby is choking," "Baby has 38.5°C fever," "Baby refuses to eat solids" → assess A3, A5, B2
+   - Ask housework scenarios: "Baby falls asleep, what do you do first?" → assess E5 priority instinct
+   - Ask about cooking: what meals can she prepare, experience with baby food → assess E1
    - Let her interact with the baby if possible → observe B1
    - Discuss dealbreaker list explicitly → gauge reaction (G7)
 3. **Reference calls** (2 minimum) — ask previous families:
@@ -120,8 +146,8 @@ These behaviors result in same-day termination, no second chances:
 
 | Week | Setup | What You're Evaluating |
 |------|-------|----------------------|
-| Week 1 | Bà nội/bà ngoại actively observing and guiding | All A & B criteria in real conditions |
-| Week 2 | Family member present but stepping back — lets nanny lead | Independence, initiative, C1-C3 |
+| Week 1 | Bà nội/bà ngoại actively observing and guiding | All A & B criteria in real conditions; establish baby-first habit |
+| Week 2 | Family member present but stepping back — lets nanny lead | Full dual-role in practice: does baby care and housework coexist? E1-E5, C1-C3 |
 
 > **Critical rule:** If you see any dealbreaker behavior during the trial, act immediately. Don't wait for a "pattern."
 
@@ -138,14 +164,15 @@ These behaviors result in same-day termination, no second chances:
 
 ## Minimum Passing Score by Category
 
-| Category | Minimum Average | Rationale |
-|----------|----------------|-----------|
-| A. Core Competence | 3.5 | Safety and skills are foundational |
-| B. Emotional Quality | 3.5 | Important, but family supervision provides a safety net |
-| C. Practical Fit | 3.0 | Logistics can often be worked around |
-| D. Professionalism | 2.5 | Trainable if attitude is right, especially under guidance |
+| Category | Weight | Minimum Average | Rationale |
+|----------|--------|-----------------|-----------|
+| A. Infant Care Competence | 35% | 3.5 | Core of the role — non-negotiable quality floor |
+| B. Emotional Quality | 25% | 3.5 | MIL provides backup, but warmth still matters |
+| C. Practical Fit | 10% | 3.0 | Logistics can be worked around |
+| D. Professionalism | 10% | 2.5 | Trainable under supervision |
+| E. Housework Competence | 20% | 3.0 | Real weight — this is half the job |
 
-> **Key insight:** With family always present, you can afford to hire for skill and reliability first, then coach on the softer aspects. A "good enough" nanny supervised by grandma is better than waiting months for a perfect one.
+> **Key insight:** Don't let a great baby-care score mask weak housework, or vice versa. Both have minimum floors. The failure mode is hiring a great nanny who resents doing housework, or a great housekeeper who neglects the baby.
 
 ---
 

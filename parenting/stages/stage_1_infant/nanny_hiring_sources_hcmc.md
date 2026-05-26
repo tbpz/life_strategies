@@ -1,6 +1,6 @@
 # Nanny Hiring Sources — HCMC Research
 
-**Your situation:** Mizuki Park, Bình Hưng, Bình Chánh | Live-out, 7am-7pm Mon-Fri | Budget 8-18M VND/month
+**Your situation:** Mizuki Park, Bình Hưng, Bình Chánh | Live-out, 7am-7pm Mon-Fri | **Dual role: full infant care + full housework** | Budget 10-15M VND/month
 
 ---
 
@@ -8,10 +8,10 @@
 
 | Channel | Fit for Mizuki Park | Speed | Vetting Quality | Cost | Verdict |
 |---------|-------------------|-------|-----------------|------|---------|
-| Traditional agency | ✅ Good (they dispatch city-wide) | Medium (3-7 days) | Medium (agency-screened but verify yourself) | 8-15M salary + 1M agency fee | **Primary channel** |
-| Specialized infant care agency | ✅ Good | Medium | High (infant-focused staff) | 12-20M | **Best for quality ceiling** |
-| App (Calibee, bTaskee) | ⚠️ Depends on commuter pool in Bình Chánh | Fast (same day) | Medium | Per-hour (flexible) | **Backup only — not primary** |
-| Community/Facebook groups | ✅ Strong (Mizuki has active cư dân groups) | Variable | Low (DIY verification) | 8-12M (no agency fee) | **Worth a post, not main bet** |
+| Traditional agency | ✅ Good (they dispatch city-wide) | Medium (3-7 days) | Medium (agency-screened but verify yourself) | 10-15M salary + 1M agency fee | **Primary channel — ask specifically for dual-role candidates** |
+| Specialized infant care agency | ⚠️ Partial fit | Medium | High (infant-focused but may not screen for housework) | 12-20M | **Good for baby care quality, verify housework willingness separately** |
+| App (Calibee, bTaskee) | ⚠️ Depends on commuter pool in Bình Chánh | Fast (same day) | Medium | Per-hour (flexible) | **Not suitable — apps split childcare and cleaning into separate bookings** |
+| Community/Facebook groups | ✅ Strong (Mizuki has active cư dân groups) | Variable | Low (DIY verification) | 9-13M (no agency fee) | **Worth a post — neighbors may know someone already doing this role** |
 
 > **Key risk for Bình Chánh:** It's suburban. App-based nannies often have limited coverage there. Agencies with citywide dispatch are more reliable. Factor in the nanny's commute — if she lives far, reliability suffers.
 
@@ -30,9 +30,9 @@ These agencies specifically focus on infant and newborn care. Staff tend to be m
 - Has policy for replacement if candidate doesn't work out
 
 **What to ask them:**
-- "Bảo mẫu có kinh nghiệm chăm bé 9-10 tháng ăn dặm không?"
-- "Có nhân sự ở khu Bình Chánh / Bình Hưng không, hoặc sẵn sàng đi lại?" 
-- "Chi phí giới thiệu và mức lương trung bình cho gói sáng đi chiều về?"
+- "Ở nhà trước bảo mẫu có vừa chăm bé vừa làm việc nhà không? Nấu ăn, dọn dẹp, giặt đồ?"
+- "Có nhân sự ở khu Bình Chánh / Bình Hưng không, hoặc sẵn sàng đi lại?"
+- "Chi phí giới thiệu và mức lương trung bình cho gói sáng đi chiều về kiêm việc nhà?"
 
 **Estimated cost:** 12-18M/month total (salary + agency fee)
 **Contact:** Website + hotline on [thanhtamcare.vn](https://thanhtamcare.vn)
@@ -48,7 +48,7 @@ These agencies specifically focus on infant and newborn care. Staff tend to be m
 
 **What to ask them:**
 - "Có bảo mẫu sáng đi chiều về, khung giờ 7am-7pm, khu Bình Chánh không?"
-- "Nhân sự có được đào tạo sơ cứu, hô hấp nhân tạo không?"
+- "Nhân sự có kinh nghiệm vừa chăm bé vừa làm việc nhà đầy đủ không — nấu ăn, dọn dẹp, giặt đồ?"
 - "Chính sách thay người nếu không phù hợp?"
 
 **Estimated cost:** 10-18M/month (contact for precise quote)
@@ -65,12 +65,13 @@ These are larger agencies with more candidates in the pipeline. Lower specializa
 - Offers live-out infant care (chăm trẻ sơ sinh theo giờ / sáng đi chiều về)
 - Standard agency verification (CCCD, lý lịch)
 - Good for getting 2-3 candidates quickly to interview in parallel
-- **Tip:** Request candidates specifically experienced with ăn dặm (solids), not just newborn
+- **Tip:** Ask specifically for candidates with combined bảo mẫu + giúp việc experience, not childcare-only
 
 ### Giúp Việc Gia Phú — [giupviecgiaphu.com](https://giupviecgiaphu.com)
 - Noted as having presence specifically in **KDC Trung Sơn, Bình Hưng** area
 - This is geographically close to Mizuki Park → higher chance of candidates with short commute
 - Offers bảo mẫu live-in and live-out
+- **Tip:** General domestic agency — well-suited for combined care + housework role
 
 ### Giúp Việc Hưng Thịnh — [giupviechungthinh.vn](https://giupviechungthinh.vn)
 - Has coverage in outer districts including Bình Chánh area
@@ -79,6 +80,7 @@ These are larger agencies with more candidates in the pipeline. Lower specializa
 ### Giúp Việc Đức Tâm — [giupviecductam.vn](https://giupviecductam.vn)
 - Covers multiple districts, standard vetting, solid reputation in HCMC
 - Call and specifically ask about coverage for Bình Hưng / Bình Chánh
+- Ask for candidates experienced in **combined infant care + full housework** — not a nanny-only placement
 
 ---
 
@@ -92,21 +94,22 @@ These are larger agencies with more candidates in the pipeline. Lower specializa
 
 **Limitations for your situation:**
 - Coverage in Bình Chánh may be thin — check app first before counting on it
-- Does NOT include housework (laundry, sterilizing) in standard childcare package → conflicts with your needs
-- Standard package requires min 6 months experience (your baby's age means you want more)
-- Better suited for backup/emergency days than as your primary arrangement
+- App platform **separates childcare and housework into different booking types** — you cannot book a single person for the combined role through the app
+- Not suitable as primary for a dual-role arrangement
+- Better suited for emergency childcare days only
 
-**Action:** Download app, check coverage for your address before committing any time to it.
+**Action:** Download app, check coverage for your address. Use for childcare emergency backup only — not your primary channel.
 
 ### bTaskee — [btaskee.com](https://btaskee.com)
 - Broader service platform (cleaning + childcare)
 - Good reputation for on-demand booking
 - Same suburban coverage caveat — check your address on the app
+- **Note:** Can book cleaning separately on days you need extra help — useful as a supplement, not a replacement for a full-time hire
 
 ### Nounou — [nounou.vn](https://nounou.vn)
 - Specialized in infant/newborn and postpartum care
 - Staff with nursing background
-- Worth a call even though it's app-based, as it's infant-focused
+- Likely childcare-focused only — confirm whether candidates are willing to take on full housework before pursuing
 
 ---
 
@@ -118,7 +121,7 @@ Search and join:
 - **"Hội cư dân Mizuki Park Bình Chánh"**
 
 **What to post (sample):**
-> "Gia đình mình đang tìm bảo mẫu chăm bé 9-10 tháng tại Mizuki Park. Cần người giàu kinh nghiệm chăm bé ăn dặm, làm giờ hành chính mở rộng 7am-7pm, thứ 2-6. Ai có quen hoặc biết bảo mẫu uy tín khu vực mình xin giới thiệu giúp ạ!"
+> "Gia đình mình đang tìm người giúp việc kiêm bảo mẫu tại Mizuki Park. Cần người có kinh nghiệm chăm bé 9-10 tháng tuổi (ăn dặm) đồng thời đảm nhiệm việc nhà: nấu ăn, dọn dẹp, giặt đồ. Giờ làm 7am-7pm, thứ 2-6. Ai có quen hoặc biết người uy tín khu vực mình xin giới thiệu giúp ạ!"
 
 **Why this works:**
 - Nannies already working in the complex = zero commute risk
@@ -129,16 +132,16 @@ Search and join:
 
 ---
 
-## Cost Benchmark (Live-out, 7am-7pm, HCMC 2024-2026)
+## Cost Benchmark (Live-out, 7am-7pm, dual role, HCMC 2024-2026)
 
 | Quality Level | Monthly Salary Range | Notes |
 |---------------|---------------------|-------|
-| Entry-level (limited infant exp) | 7-9M | Higher risk — avoid for <12mo baby |
-| Mid-level (1-3 yrs infant exp) | 9-13M | Your target sweet spot |
-| Experienced / trained (3+ yrs, sơ cứu certified) | 13-18M | Worth it if she's exceptional |
+| Entry-level (limited infant exp, basic housework) | 8-10M | Higher risk — avoid for dual role with <12mo baby |
+| Mid-level (1-3 yrs combined exp) | 10-13M | Your target sweet spot |
+| Experienced (3+ yrs, comfortable with full household + infant) | 13-18M | Worth it — dual role is hard to find at high quality |
 | Via specialized agency | +1-2M one-time placement fee | On top of salary |
 
-> **Reality check:** For 12-hour days (7am-7pm), 22 working days/month = 264 hours. At 40k/hour that's ~10.5M/month — fair for mid-level. Don't lowball for infant care; you get what you pay for.
+> **Reality check:** Full infant care + full housework over 12-hour days is a demanding role. Budget 10-13M as your realistic floor for someone competent at both. Paying 8-9M risks getting someone who does one well and neglects the other.
 
 ---
 
@@ -147,24 +150,24 @@ Search and join:
 ### This week (parallel, not sequential):
 
 **Day 1-2:**
-- [ ] Call **Thành Tâm Care** (hotline on website) — explain situation, request 2-3 profiles for sáng đi chiều về candidate with ăn dặm experience
-- [ ] Call **Family Maid** — same request
-- [ ] Call **Giúp Việc Gia Phú** — specifically mention Bình Hưng area, ask if they have candidates who live nearby
-- [ ] Post in **Mizuki Park Facebook group** — takes 5 minutes, seeds a parallel channel
+- [ ] Call **Thành Tâm Care** (hotline on website) — explain dual role (chăm bé + việc nhà đầy đủ), request profiles with combined experience
+- [ ] Call **Family Maid** — same request; ask if they have candidates experienced in both roles
+- [ ] Call **Giúp Việc Gia Phú** — specifically mention Bình Hưng area and dual-role requirement
+- [ ] Post in **Mizuki Park Facebook group** — update the post to mention both baby care and housework
 
 **Day 2-3:**
-- [ ] Download **Calibee** app, enter your address, see if coverage exists → if yes, book 1 trial session as a low-stakes way to meet candidates
+- [ ] Download **Calibee** app, check coverage — use for emergency childcare backup only, not primary
 
 **Day 3-5:**
 - [ ] Review profiles sent by agencies
 - [ ] Shortlist 3+ candidates for in-person interviews (use the scoring rubric in nanny_acceptance_criteria.md)
 - [ ] Schedule interviews for end of Week 1
 
-### Key negotiation points with any agency:
-1. **Replacement guarantee** — if candidate doesn't work out within 1 month, free replacement
-2. **No binding contract before trial** — refuse any agency that asks you to commit salary before a 1-2 week supervised trial
-3. **Request profiles that include lý lịch tư pháp** (background check) — not just CCCD
-4. **Ask for references upfront** — agencies that can't provide them for specific candidates are a red flag
+### Key questions to ask any agency:
+1. **"Có ứng viên nào có kinh nghiệm vừa chăm bé vừa làm việc nhà đầy đủ không?"** — not just childcare
+2. **"Mức lương trung bình cho vai trò kiêm bảo mẫu kiêm giúp việc, giờ 7am-7pm?"** — get a real number
+3. **"Có bảo lãnh thay người trong 1 tháng nếu không phù hợp không?"** — replacement guarantee
+4. **"Yêu cầu lý lịch tư pháp cho ứng viên?"** — push for background check, not just CCCD
 
 ---
 
@@ -174,6 +177,7 @@ Watch out for any agency that:
 - ❌ Can't provide candidate's lý lịch tư pháp (criminal background)
 - ❌ Pressures you to pay upfront fees before meeting any candidate
 - ❌ Won't confirm whether candidates have actually worked with infants under 12 months
+- ❌ Can't confirm the candidate has done **combined childcare + housework** in a previous role
 - ❌ Can't tell you if any of their candidates are in your geographic area
 - ❌ Offers no replacement policy or only offers replacement after 3+ months
 
