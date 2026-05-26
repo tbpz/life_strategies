@@ -1,7 +1,7 @@
 # Nanny Acceptance Criteria
 
-**Context:** Baby 9-10 months, starting solids + milk | Apartment in gated complex (HCMC)
-**Arrangement:** Live-out, extended hours (7am-7pm, Mon-Fri) | Medium-term (6-12 months)
+**Context:** Baby 9-10 months, starting solids + milk | Apartment in gated complex (HCMC)  
+**Arrangement:** Live-out, extended hours (7am-7pm, Mon-Fri) | Medium-term (6-12 months)  
 **Budget:** 8-12M VND preferred, up to 18M for exceptional candidates
 
 ---
