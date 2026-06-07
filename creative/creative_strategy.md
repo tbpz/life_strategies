@@ -61,22 +61,17 @@ MVA (just enough architecture)
 
 ---
 
-## Current Phase: Build the MVA
+## Current Phase: Paused — Part of Broader Exploration
 
-**Status:** Active. Plan defined. Ready to execute.
+**Status:** Experiment #0 in `exploration/exploration_strategy.md`. Paused after Step 1 of MVA. Not eliminated.
 
-**The 4-step sequence** (ending → protagonist → theme → system anchor):
-See full plan: `mva/00_plan.md`
+**Why paused:** A 2026-06-07 session revealed that the story creation process does not yet produce flow (the Dota/football feeling). The destination remains real. The vehicle is unconfirmed. Broader experimentation is underway before committing further time here.
+
+**MVA progress:** Step 1 complete (`mva/01_the_emotion_anchor.md`). Steps 2–4 ready when resumed.
+
+**To resume:** Return to `mva/00_plan.md`. Start Step 2. Update Experiment #0 log in `exploration/exploration_strategy.md`.
 
 **Artifact format for all creative output:** `_TREATMENT_FORMAT.md`
-
-| Signal | Meaning |
-|---|---|
-| All 4 MVA files trigger a movie when read back-to-back | ✅ MVA done. Proceed to iterative scene development. |
-| MVA keeps expanding, architect brain won't declare done | Waterfall reflex active. Scope down. Ask AI to help constrain. |
-| Can't produce Step 1 (ending) after genuine effort | 🔴 Honest data. Reassess the creative direction. |
-
-**Phase after MVA:** Iterative scene generation. Curate against `_TREATMENT_FORMAT.md`. Update architecture. Each session = one checked item.
 
 ---
 

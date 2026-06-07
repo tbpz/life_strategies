@@ -14,10 +14,11 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 | `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
 | `financial/financial_checklist.md` | Financial resilience checklist. All layers closed 2026-05-15. Annual review only. |
-| `creative/creative_strategy.md` | Pillar 1 deep-dive: self-diagnosis, creation process, paralysis pattern, current phase. |
+| `creative/creative_strategy.md` | Pillar 1 (The Dream) deep-dive: self-diagnosis, creation process, paralysis pattern, current phase. |
 | `creative/_AI_RULES.md` | AI role, guardrails, and conventions for Creative sessions. Loaded by router. |
 | `creative/_TREATMENT_FORMAT.md` | Writing format spec for all creative artifacts. Evolves with experience. |
-| `creative/mva/00_plan.md` | MVA build plan: 4-step sequence, session instructions, success signals. |
+| `creative/mva/00_plan.md` | MVA build plan: 4-step sequence, session instructions, success signals. Paused at Step 1. |
+| `exploration/exploration_strategy.md` | Exploration strategy: engine profile, experiment framework, experiment log. Active. |
 | `parenting/parenting_strategy.md` | Pillar 3 deep-dive: 5 principles, stage-gated rituals. |
 | `parenting/_AI_RULES.md` | AI role, guardrails, and conventions for Parenting sessions. Loaded by router. |
 | `archive/` | Completed research inputs. Read-only reference. |
@@ -64,11 +65,11 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 ### Governing Principle: Art-First, Commerce-Second
 The creative work must always serve the artistic vision — never be driven by financial incentive. Tech/career remains the financial backbone. If creative work *naturally* generates income, that's welcome — but it must never dictate creative direction.
 
-### Pillar 1: 🎨 Creative Mastery (The Dream)
-*Become a Story Architect: the person from whose mind the story, world, and characters emerge — delivered through animation/anime/manga.*
-- **Core role:** Vision keeper + quality gate. Not drawing, not writing prose from scratch. Owns the blueprint; AI and collaborators execute.
-- **Creation process:** Minimum Viable Architecture → iterative AI-augmented generation → curate against taste → update architecture → repeat.
-- **Status:** Self-diagnosis complete. Creation process locked. Awaiting career sprint closure to redirect 30% free energy here.
+### Pillar 1: 🎯 The Dream
+*Find an activity that produces flow — done for the pure joy of doing it, not the outcome. Waking up every day to do it feels like a privilege.*
+- **Engine profile:** Strategic depth, fast feedback, reactive mode, clear constraints, visible output. Confirmed via Dota/football as reference points.
+- **Exploration status:** Active. Three experiments queued. Story creation (Experiment #0) paused after Step 1 of MVA — destination real, vehicle unconfirmed.
+- **Current focus:** See `exploration/exploration_strategy.md`.
 
 ### Pillar 2: 💰 Career & Financial Resilience (The Engine)
 *Maintain and grow financial stability to sustain family, lifestyle, and the creative pursuit.*
@@ -98,7 +99,7 @@ The creative work must always serve the artistic vision — never be driven by f
 - [/] **[Pillar 2 — Career]** Practice sprint — apply RAID log, change record, acceptance criteria at OL for 2–4 weeks, then close.
 - [x] **[Pillar 3]** Define 3-5 core parenting principles. ✅ 5 principles defined 2026-05-15.
 - [/] **[Pillar 3]** Establish bedtime/bath-time micro-ritual. Practice consistent narration. Phone-away habit.
-- [/] **[Pillar 1]** Build MVA — 4 steps: ending → protagonist → theme → system anchor. Plan at `creative/mva/00_plan.md`.
+- [/] **[Pillar 1 — Exploration]** Run experiment framework. 3 experiments queued. See `exploration/exploration_strategy.md`.
 
 ### Medium-term (3 months → 2 years)
 - [ ] **[Pillar 1]** Establish a consistent creative practice with visible, measurable small wins.
