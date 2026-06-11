@@ -9,7 +9,7 @@
 
 Mid-30s tech professional (Delivery Manager, Orange Logic). Has a young son and a family to provide for. Financially stable but not large-scale wealthy.
 
-The real goal — the reason this workspace exists — is to become a **Story Architect (原作者)**: someone who crafts emotionally powerful stories through anime, animation, or manga. The job is an engine that funds and protects the time for this.
+The real goal is to rebuild self-trust in handling life's essentials so that free time feels genuinely free — not stolen. Fun (Dota, football, consuming stories, and other interests) runs in parallel with career competence work.
 
 ---
 
@@ -17,13 +17,13 @@ The real goal — the reason this workspace exists — is to become a **Story Ar
 
 | Pillar | Status |
 |---|---|
-| 🎨 **Pillar 1 — Creative Mastery** | Self-diagnosis complete (2026-05-23). Profile: Story Architect + Quality Gate. Creation process locked: MVA → AI-augmented iterative creation → curate → update architecture → repeat. Phase 0: build MVA. See `creative/creative_strategy.md`. |
-| 💰 **Pillar 2 — Career & Financial Resilience** | Engine only. Financial ✅ closed. Career sprint in final practice phase. See `career/career_strategy.md`. |
-| 👦 **Pillar 3 — Parenting** | Always-on. 5 principles defined, Stage 1 rituals active. See `parenting/parenting_strategy.md`. |
+| 🔑 **Pillar 1 — Self-Trust & Career Competence** | Practice sprint active. Rebuilding daily execution and competence. See [career_strategy.md](file:///d:/Tu/Life_strategies/career/career_strategy.md). |
+| 🎮 **Pillar 2 — Enjoyment** | Guilt-free play and curiosity. Run in parallel, no structured frameworks. |
+| 👦 **Pillar 3 — Parenting** | Always-on. 5 principles defined, Stage 1 rituals active. See [parenting_strategy.md](file:///d:/Tu/Life_strategies/parenting/parenting_strategy.md). |
 
-**Governing Principle: Art-First, Commerce-Second.** Creative work must never be driven by financial incentive.
+**Governing Principle:** Parallel, Not Sequential. Career execution and enjoyment run in parallel.
 
-**Current Sequencing:** Career sprint closes → full 30% free energy redirects to Pillar 1.
+**Current Sequencing:** Both pillars run in parallel. The practice sprint rebuilds trust. Enjoyment runs alongside.
 
 ---
 
@@ -34,10 +34,9 @@ The real goal — the reason this workspace exists — is to become a **Story Ar
 
 | Active pillar | Rules file to read |
 |---|---|
-| 🎨 Creative | `creative/_AI_RULES.md` |
-| 💰 Career or Financial | `career/_AI_RULES.md` |
+| 🔑 Self-Trust or Career | `career/_AI_RULES.md` |
 | 👦 Parenting | `parenting/_AI_RULES.md` |
-| Cross-pillar / unclear | Apply cross-pillar guardrails below. Ask to clarify if needed. |
+| Cross-pillar / Life direction | Refer to `self_discovery_log.md` and `context.md` for framing. |
 
 ---
 
@@ -54,4 +53,4 @@ These apply regardless of active pillar:
 
 ---
 
-*Last Updated: 2026-05-24*
+*Last Updated: 2026-06-11*

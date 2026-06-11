@@ -1,6 +1,6 @@
 # Career & Financial Resilience — Strategy
 
-> **Pillar 2 deep-dive.** Read `context.md` first for the full picture. This file covers career only — financial is at `financial/financial_checklist.md`.
+> **Pillar 1 deep-dive.** Read `context.md` first for the full picture. This file covers career only — financial is at `financial/financial_checklist.md`.
 
 ---
 
@@ -48,7 +48,7 @@ Corporate work will always feel like "someone else's race." This is structural a
 
 ### 2. Income and Dream Are Separate Tracks
 - **Chosen:** Keep income work and creative dream as entirely separate tracks
-- **Rejected:** Find a job that merges income with creative dream — no viable option exists without polluting the Art-First principle or recreating the "someone else's race" problem
+- **Rejected:** Find a job that merges income with creative dream — no viable option exists without polluting enjoyment with commercial pressure or recreating the "someone else's race" problem
 
 ### 3. Lateral Growth, Not Vertical Climbing
 - **Rejected:** PM → Senior PM → Director → VP (triggers Zalo trauma; requires organizational accountability)
@@ -64,7 +64,7 @@ Corporate work will always feel like "someone else's race." This is structural a
 ## Key Patterns to Watch
 
 - **The anxiety loop:** Will find new things to attach to. The sprint defines the threshold and closes the loop — it does not eliminate the anxiety permanently.
-- **Ownership hunger:** Needs ownership to feel alive, but organizational ownership at scale is crushing. Pillar 1 (creative) is where this need belongs — not career.
+- **Ownership hunger:** Needs ownership to feel alive, but organizational ownership at scale is crushing. Pillar 2 (enjoyment) and personal play are where this need belongs — not career.
 - **The Zalo double-bind:** Any future role that offers exciting strategic ownership risks recreating the trap. Be cautious. The guardrail is: if it looks like growth but requires managing a team's KPIs and careers → pause and assess carefully.
 
 ---
@@ -87,7 +87,7 @@ The remaining confidence gap: some DM-OS steps are newly documented but never pr
 | **Two-line change record** | Every accepted scope change → one written line: what changed, who approved, date. | ⬜ To start |
 | **Acceptance criteria** | Every new requirement → add one line: "This is done when [specific behavior] is confirmed." | ⬜ To start |
 
-**Sprint close condition:** After 2–4 weeks, if habits feel natural → **close Pillar 2 sprint and redirect fully to Pillar 1.** If something feels wrong → update the DM-OS file, then close anyway.
+**Sprint close condition:** After 2–4 weeks, if habits feel natural → **close the sprint, establish stable maintenance, and continue parallel execution of Pillar 2.** If something feels wrong → update the DM-OS file, then close anyway.
 
 > The anxiety that remains after the practice phase is not a signal to do more work. It is a feeling to carry. Close the loop anyway.
 
@@ -103,8 +103,8 @@ The remaining confidence gap: some DM-OS steps are newly documented but never pr
 | Update DM-OS with new patterns or lessons | 30–60 min | After major project events |
 | Calculate financial runway | 1 hour | Yearly |
 
-**Hard rule:** After each periodic check, close the career worry loop and redirect fully to Pillar 1. Between checks, permission to not think about career safety.
+**Hard rule:** After each periodic check, close the career worry loop and maintain the parallel execution of Pillar 1 and Pillar 2. Between checks, permission to not think about career safety.
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-05-15*
+*Last Updated: 2026-06-11*

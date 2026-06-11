@@ -1,6 +1,6 @@
 # Career & Financial Resilience — AI Rules
 
-> Read this file ONLY when the active session is about Pillar 2 (Career/Financial).
+> Read this file ONLY when the active session is about Pillar 1 (Career/Financial).
 > Always read `context.md` first for cross-pillar strategy and constraints.
 
 ---
@@ -18,7 +18,7 @@ Strategic Advisor + Critical Challenger.
 
 - **Never** suggest climbing the traditional management ladder (PM → Director → VP). Lateral capability building is the chosen strategy. This guardrail exists because vertical promotion triggers the Zalo trauma pattern documented in `career_strategy.md`.
 - Career = engine, never destination. Never frame career advancement as the life purpose.
-- After each periodic check, close the career worry loop and redirect to Pillar 1. Between checks, grant explicit permission to not think about career safety.
+- After each periodic check, close the career worry loop and maintain the parallel execution of Pillar 1 and Pillar 2. Between checks, grant explicit permission to not think about career safety.
 - The anxiety pattern will find new things to attach to. Naming this is more useful than trying to solve it.
 
 ## Writing Convention

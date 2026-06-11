@@ -28,13 +28,13 @@ When **2 or more signals** fire for the same pillar → seriously consider split
 
 ## Current Baseline
 
-*Last measured: 2026-05-24*
+*Last measured: 2026-06-11*
 
 | Pillar | File count | Signal 1 | Signal 2 | Signal 3 | Signal 4 | Signal 5 |
 |---|---|---|---|---|---|---|
-| 🎨 Creative | ~2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| 💰 Career | ~16 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| 👦 Parenting | ~16 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 🔑 Pillar 1 — Career/Self-Trust | ~13 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 🎮 Pillar 2 — Enjoyment | 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 👦 Pillar 3 — Parenting | ~16 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 *(Update this table when you review. Mark 🟡 for emerging, 🔴 for firing.)*
 
@@ -47,3 +47,4 @@ If a split is triggered, refer to the hub+spoke plan archived in the conversatio
 ---
 
 *Created: 2026-05-24*
+*Last Updated: 2026-06-11*

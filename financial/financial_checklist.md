@@ -1,4 +1,4 @@
-# Pillar 2 — Financial Resilience Checklist
+# Pillar 1 — Financial Resilience Checklist
 
 > **Purpose:** A one-time setup checklist to ensure financial resilience against income disruption, health incidents, and inflation erosion. Once complete, reviewed once per year maximum. Not an ongoing activity.
 
@@ -78,7 +78,7 @@ Scheduled alongside the career scan. Do not review more frequently.
 - [ ] Is the emergency buffer still at 12 months? (Expenses may have changed)
 - [ ] Is the surplus term deposit rolled over? (Should be automatic — just confirm once)
 - [ ] Any major life change that affects insurance needs? (new child, significant salary change, etc.)
-- [ ] Reconfirm: nothing else needs attention. Close the loop and return to Pillar 1.
+- [ ] Reconfirm: nothing else needs attention. Close the loop and continue parallel execution of Pillar 1 and Pillar 2.
 
 ---
 
@@ -93,4 +93,4 @@ Scheduled alongside the career scan. Do not review more frequently.
 ---
 
 *Created: 2026-05-03*
-*Last Updated: 2026-05-15*
+*Last Updated: 2026-06-11*
