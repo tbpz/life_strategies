@@ -69,3 +69,65 @@ During middle school, life was characterized by a high degree of competence rela
 * Genuine, unforced enjoyment of daily activities.
 
 The strategic target is to recreate this psychological state in adulthood. Since adult ignorance of threats is neither possible nor responsible, the target state must be achieved by building high competence in life's essentials (career, finance, parenting) until they are handled "well enough" to restore self-trust, allowing the adult to give themselves permission to enjoy life.
+
+---
+
+## Session: Enjoyment Exploration Diagnostic (2026-06-13)
+
+### Context
+Career strategy was accepted and locked. The new problem: free time feels vague, nothing feels exciting, new activities get filtered out before trying. Dota feels stale. Football feels good but infrequent. Starcraft looked interesting but was dismissed before starting.
+
+### Key Findings
+
+1. **The "Meaningful Enough" Filter is the Justification Loop in disguise.** The filter doesn't redirect to better activities — it blocks everything and leaves nothing. A genuine preference filter would *sort*. This one only *stops*.
+
+2. **Depth is not a starting condition — it's a byproduct.** TFT was tried and quit early, returned casually through a brother, played 5 seasons, then the mastery obsession emerged from inside. The deep engagement was never visible from the outside. The filter demands depth at the entrance, which is structurally impossible.
+
+3. **The permanence expectation is a residual from the old career-escape goal.** When fun was supposed to eventually replace the career, it had to be permanent, scalable, and clearly directed. That job no longer exists — career is handled in Pillar 1. But the hiring criteria for hobbies was never updated. Hobbies are still being evaluated as career candidates for a position that's been filled.
+
+4. **Cycling through interests is not a character flaw.** TFT was real. Dota was real. Both ended. Neither was a waste. The belief that "a good person goes deep and stays" was uncovered and challenged by the person's own history.
+
+5. **The architect instinct has a domain problem.** Top-down thinking (define goal → build plan → execute) is correct for career, finances, and parenting — known territory with visible structure. It is the wrong tool for enjoyment and exploration — unknown territory where structure only reveals itself from inside. Applying top-down logic to fun produces paralysis, not clarity.
+
+6. **Physical activities have a natural advantage.** Football produces physical exhaustion + satisfaction + relaxation. Gaming can produce mental exhaustion + heavy-headedness. The body is already giving direct feedback about what feels restorative vs. draining. This is a signal worth tracking.
+
+### Updated Operating Rule for Pillar 2
+- **Top-down for:** career, finances, parenting.
+- **Bottom-up for:** enjoyment, exploration, new interests.
+- Starting an activity is not a commitment. It is reconnaissance. Direction emerges from inside, not before entry.
+- Cycling is normal. The fun was real even if it ended.
+
+---
+
+## Session: Enjoyment Profile Mapping (2026-06-13, continued)
+
+### The Dual-Mode Profile
+
+Two distinct enjoyment modes identified — both valid, neither replaces the other:
+
+| Mode | What it gives | Trigger for "the voice" |
+|---|---|---|
+| **Active** (games, sports) | System-decoding, competence growth, real-time agency | High — open-ended, delayed payoff |
+| **Receptive** (movies, anime, manga) | Immersion, emotional depth, experiencing great craft | None — finite, immediate payoff |
+
+The "meaningful enough" voice is not triggered by leisure itself — it is triggered by **open-endedness**. Story consumption is naturally bounded and emotionally immediate, so it gets a free pass. Active activities are open-ended, so the voice attacks at the entry point — not because they are less valid, but because the payoff is invisible until inside.
+
+### Active Mode Attributes (what makes it work)
+1. **Learnable depth** — layers that reveal themselves over time, not upfront.
+2. **Visible competence growth** — concrete evidence of getting better, week to week.
+3. **Real-time problem-solving under pressure** — adaptive, not scripted.
+4. **Autonomy in approach** — personal style and analysis, not just following guides.
+5. **Variability** — each session is genuinely different. Repetition without novelty kills engagement.
+6. **Physical engagement** — bonus multiplier. Bodily exhaustion + satisfaction produces cleaner recovery than pure screen fatigue.
+
+### Untried Activities Worth Exploring (matched to profile)
+
+**Strongest matches:**
+- **BJJ or Muay Thai** — top recommendation. Infinite depth, real-time problem-solving, physical satisfaction identical to football, accessible multiple times per week in HCMC.
+- **Rock climbing / Bouldering** — each route is a discrete physical puzzle. Clear grade progression. Naturally bounded sessions.
+- **Chess (rated, serious)** — pure system-decoding with clear progression. Best in-person at a club to avoid screen/open-ended friction.
+- **Cooking (technique-focused)** — each dish is a bounded project. Skill is visible in the result. High variability across cuisines.
+
+**Worth noting:**
+- **Musical instrument** — long learning curve, heavy early friction for the voice. High long-term payoff if it sticks.
+- **Go** — deeper than chess, slower to learn, same system-decoding profile.

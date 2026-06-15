@@ -1,6 +1,6 @@
-# Career & Financial Resilience — Strategy
+# Career Strategy — The Engine for Guilt-Free Living
 
-> **Pillar 1 deep-dive.** Read `context.md` first for the full picture. This file covers career only — financial is at `financial/financial_checklist.md`.
+> **Pillar 1 deep-dive.** Career exists to build enough competence and security that free time feels genuinely free — not stolen. Read `context.md` first for the full picture. Financial resilience is at `financial/financial_checklist.md`.
 
 ---
 
@@ -34,10 +34,10 @@ The career anxiety is disproportionate to actual risk (10yr experience, internat
 
 1. **Zalo confidence wound** — failed at high-stakes strategic level; can't fully trust own capability at that tier
 2. **Single-ladder mental model** — only sees growth as PM → Director → VP, which is the traumatizing path
-3. **Anxiety as a pattern** — the goalpost always moves; no level of safety ever feels sufficient
+3. **The Anxiety Engine** — a mental mechanism that treats stability or enjoyment as dangerous, assuming threats are building while attention is elsewhere. The goalpost always moves; no level of safety ever feels sufficient. (See `self_discovery_log.md`, pattern #4.)
 4. **Market ignorance** — *resolved* by Phase 1 investigation (see `archive/career_phase1_findings.md`)
 
-**Core insight:** The anxiety is partly rational (real world changes) and partly a psychological pattern that will attach to new worries regardless of objective improvements. The sprint defines a concrete "good enough" threshold and gives permission to stop — not chase perfect safety.
+**Core insight:** The anxiety is partly rational (real world changes) and partly The Anxiety Engine — a psychological pattern that will attach to new worries regardless of objective improvements. The sprint defines a concrete "good enough" threshold and gives permission to stop — not chase perfect safety. Any worry that tries to move the goalposts beyond this threshold is the Anxiety Engine, not a signal to do more work.
 
 ---
 
@@ -46,9 +46,9 @@ The career anxiety is disproportionate to actual risk (10yr experience, internat
 ### 1. Career = Engine, Never Destination
 Corporate work will always feel like "someone else's race." This is structural and permanent — true at Zalo, true at Orange Logic, would be true anywhere. Accepted. Not worth trying to fix.
 
-### 2. Income and Dream Are Separate Tracks
-- **Chosen:** Keep income work and creative dream as entirely separate tracks
-- **Rejected:** Find a job that merges income with creative dream — no viable option exists without polluting enjoyment with commercial pressure or recreating the "someone else's race" problem
+### 2. Income and Enjoyment Are Separate Tracks
+- **Chosen:** Keep income work and enjoyment (Pillar 2) as entirely separate tracks
+- **Rejected:** Find a job that merges income with personal enjoyment — no viable option exists without polluting enjoyment with commercial pressure or recreating the "someone else's race" problem
 
 ### 3. Lateral Growth, Not Vertical Climbing
 - **Rejected:** PM → Senior PM → Director → VP (triggers Zalo trauma; requires organizational accountability)
@@ -64,7 +64,7 @@ Corporate work will always feel like "someone else's race." This is structural a
 ## Key Patterns to Watch
 
 - **The anxiety loop:** Will find new things to attach to. The sprint defines the threshold and closes the loop — it does not eliminate the anxiety permanently.
-- **Ownership hunger:** Needs ownership to feel alive, but organizational ownership at scale is crushing. Pillar 2 (enjoyment) and personal play are where this need belongs — not career.
+- **Ownership hunger:** Needs ownership to feel alive, but organizational ownership at scale is crushing. The self-discovery log confirmed that *flow* (deep active engagement) — not ownership or accumulation — is the real driver of enjoyment. Career should not try to satisfy this need; Pillar 2 handles it through flow-producing activities.
 - **The Zalo double-bind:** Any future role that offers exciting strategic ownership risks recreating the trap. Be cautious. The guardrail is: if it looks like growth but requires managing a team's KPIs and careers → pause and assess carefully.
 
 ---
@@ -107,4 +107,4 @@ The remaining confidence gap: some DM-OS steps are newly documented but never pr
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-06-11*
+*Last Updated: 2026-06-12*
