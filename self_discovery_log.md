@@ -1,7 +1,7 @@
 # Self-Discovery Log: Strategic Reframe (June 2026)
 
 ## Overview
-This log documents the insights and findings from a self-discovery process conducted between 2026-06-08 and 2026-06-21. The process began by tracing the workspace strategy from "identifying a dream creative activity" to core psychological and behavioral mechanisms driving motivation, guilt, and anxiety. It then continued deeper: after career confidence improved, free time emptiness persisted, revealing that the original reframe around "self-trust" and "guilt-free enjoyment" was necessary but not sufficient. The June 20–21 session uncovered the actual root need: not entertainment, but a meaningful pursuit that exercises genuine capability on real problems with observable impact — aligned with lifelong dreams of mastery and mattering.
+This log documents the insights and findings from a self-discovery process conducted between 2026-06-08 and 2026-06-22. The process began by tracing the workspace strategy from "identifying a dream creative activity" to core psychological and behavioral mechanisms driving motivation, guilt, and anxiety. It then continued deeper: after career confidence improved, free time emptiness persisted, revealing that the original reframe around "self-trust" and "guilt-free enjoyment" was necessary but not sufficient. The June 20–21 session uncovered the actual root need: not entertainment, but a meaningful pursuit that exercises genuine capability on real problems with observable impact — aligned with lifelong dreams of mastery and mattering. The June 22 session resolved how to actually start: the confrontation as the unit of work, and the rule for when AI may execute versus when capability must be self-built. See [creative_strategy.md](file:///d:/Tu/Life_strategies/creative/creative_strategy.md) for the active operating plan.
 
 ---
 
@@ -198,4 +198,25 @@ Explored what "structure" actually means to the user, leading to a breakthrough 
 - **Resolved:** The dream to pursue is identified: the Masterpiece dream (creative path).
 - **Resolved:** Pillar 2 is reframed from "Enjoyment" to "Meaningful Pursuit," driven by the engagement formula.
 - **New Open Question:** How to find or build the Layer 1 structure (the "DM-OS for storytelling" covering power systems, character psychology, strategic conflict) to bridge the gap between analytical standard and production craft.
+
+---
+
+## Session: The Confrontation Unit & The Exist-vs-Become Rule (2026-06-22)
+
+### Context
+Direct follow-up to the Layer 1 structure question. Diagnosed why two prior creative attempts stalled (system-first, then emotional-scene-first), and resolved how AI should and shouldn't be used in this pursuit.
+
+### Key Findings
+
+1. **Tier 1 vs. Tier 2 structure:** Onboarding craft (zero → competent) is solved and borrowable from existing courses/frameworks. Mastery craft (competent → masterpiece) has never existed for anyone and is built only by walking it. The paralysis came from demanding Tier 2 before starting Tier 1.
+2. **The taste-skill gap explains the level-1 pain:** an elite analytical eye grades beginner output instantly as inadequate. This is universal to serious creators, not evidence of incapability — the pain of caring, not the boredom of being on the wrong road.
+3. **The exist-vs-become rule for AI:** if the goal is a thing existing (e.g., wife's accounting tool), AI execution is fully appropriate. If the goal is becoming capable (this pillar), the core synthesis must be self-generated — AI cannot build the muscle by doing the work, only by critiquing it afterward. Outsourcing the core craft here would reproduce the TFT Master-rank emptiness: a result with no self-authorship.
+4. **Two failed framings diagnosed by asymmetry:** system-in-isolation had a high standard but no anchor/definition-of-done (infinite, equal-weight possibilities — "balanced" is meaningless without a confrontation to test it against). Emotional-scene-first had an anchor but no standard above the median ("lame" with no diagnosable cause).
+5. **The confrontation is the resolved unit of work:** two characters, constrained abilities, an apparent mismatch resolved cleverly and fairly through the constraints' interaction. This supplies anchor (someone wins or doesn't), feedback (clever-and-fair vs. asspull), and sits inside the existing elite-standard zone (strategic/systems judgment) rather than the median zone (raw prose/emotion). Design the fight first; let it force the system, not the reverse.
+6. **"Lame" reframed as diagnostic, not verdict:** a lame result now has a locatable cause (asspull, non-colliding constraints, obvious outcome) instead of functioning as a stop sign.
+
+### Outcome
+- Creative pillar reactivated with its own file: `creative/creative_strategy.md`. `creative/README.md` updated to point to it; June 11 archive preserved as superseded reference.
+- First brick defined and ready to start: design one confrontation where a power system resolves an apparent mismatch fairly.
+- **Resolved:** the Layer 1 structure question from 2026-06-21 — the structure is built by producing confrontations and self-critiquing them, not by sourcing or designing a framework in advance.
 

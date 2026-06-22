@@ -9,7 +9,7 @@
 
 Mid-30s tech professional (Delivery Manager, Orange Logic). Has a young son and a family to provide for. Financially stable but not large-scale wealthy.
 
-The real goal is to rebuild self-trust in handling life's essentials so that free time feels genuinely free — not stolen. Fun (Dota, football, consuming stories, and other interests) runs in parallel with career competence work.
+The real goal is to rebuild self-trust in handling life's essentials so that free time feels genuinely free — not stolen. Beyond self-trust, the deeper need is a meaningful pursuit: exercising genuine capability on a real problem with observable impact. Guilt-free leisure (Dota, football, consuming stories) continues in parallel for flow and rest.
 
 ---
 
@@ -18,12 +18,12 @@ The real goal is to rebuild self-trust in handling life's essentials so that fre
 | Pillar | Status |
 |---|---|
 | 🔑 **Pillar 1 — Self-Trust & Career Competence** | Practice sprint active. Rebuilding daily execution and competence. See [career_strategy.md](file:///d:/Tu/Life_strategies/career/career_strategy.md). |
-| 🎮 **Pillar 2 — Enjoyment** | Guilt-free play and curiosity. Run in parallel, no structured frameworks. |
+| 🎨 **Pillar 2 — Meaningful Pursuit** | Active: the Masterpiece dream (creative path). First brick defined. See [creative_strategy.md](file:///d:/Tu/Life_strategies/creative/creative_strategy.md). Guilt-free leisure continues in parallel for flow/rest. |
 | 👦 **Pillar 3 — Parenting** | Always-on. 5 principles defined, Stage 1 rituals active. See [parenting_strategy.md](file:///d:/Tu/Life_strategies/parenting/parenting_strategy.md). |
 
-**Governing Principle:** Parallel, Not Sequential. Career execution and enjoyment run in parallel.
+**Governing Principle:** Parallel, Not Sequential. Career execution and meaningful pursuit run in parallel.
 
-**Current Sequencing:** Both pillars run in parallel. The practice sprint rebuilds trust. Enjoyment runs alongside.
+**Current Sequencing:** Both pillars run in parallel. The practice sprint rebuilds trust. The Masterpiece dream is pursued brick by brick alongside it.
 
 ---
 
@@ -35,6 +35,7 @@ The real goal is to rebuild self-trust in handling life's essentials so that fre
 | Active pillar | Rules file to read |
 |---|---|
 | 🔑 Self-Trust or Career | `career/_AI_RULES.md` |
+| 🎨 Meaningful Pursuit / Creative | `creative/creative_strategy.md` |
 | 👦 Parenting | `parenting/_AI_RULES.md` |
 | Cross-pillar / Life direction | Refer to `self_discovery_log.md` and `context.md` for framing. |
 
@@ -53,4 +54,4 @@ These apply regardless of active pillar:
 
 ---
 
-*Last Updated: 2026-06-11*
+*Last Updated: 2026-06-22*
