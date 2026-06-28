@@ -19,6 +19,7 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 | `creative/README.md` | Pointer to creative_strategy.md; archive note for prior Story Architect framing. |
 | `parenting/parenting_strategy.md` | Pillar 3 deep-dive: 5 principles, stage-gated rituals. |
 | `parenting/_AI_RULES.md` | AI role, guardrails, and conventions for Parenting sessions. Loaded by router. |
+| `mastery_infrastructure.md` | Cross-pillar reference: 6 pillars of mastery infrastructure. Reusable diagnostic scorecard for assessing any pursuit. |
 | `archive/` | Completed research inputs and archived strategy documents. Read-only reference. |
 | `workspace_health.md` | Split signals monitor. **Not loaded in normal sessions.** Manual review only. |
 
