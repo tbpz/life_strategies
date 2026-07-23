@@ -41,16 +41,21 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 ---
 
 ## Current Context
-*Snapshot as of June 2026.*
+*Snapshot as of July 2026.*
 
 ### Career & Work
 - **Current Role:** Delivery Manager at Orange Logic (enterprise DAM, US/EU clients). Deliberately chosen as a scoped-down role after 9 years at Zalo.
 - **Capacity:** Operating at ~70%. Frees mental bandwidth for personal exploration.
 - **Strategic Intent:** The job is a *platform*, not a destination — funds life while providing 30% mental space for the real goal.
+- **Progress (2026-07-23 check-in):** A month of focused work capability improvement produced genuine gains in confidence and self-understanding. Not yet at "could work anywhere" confidence, but trending there. As predicted by the parallel-execution thesis, this translated into reduced nighttime guilt and freer enjoyment of personal time without deliberate effort. See [self_discovery_log.md](file:///d:/Tu/Life_strategies/self_discovery_log.md).
 
 ### Life Stage & Financial
 - **Age:** Mid-30s. Has a young son. Financial decisions carry responsibility beyond self.
 - **Financial Status:** Comfortable middle class. Owns a house. **Financial resilience checklist closed 2026-05-15 — all three layers verified complete.**
+
+### Meaningful Pursuit — In Practice
+- **Masterpiece dream:** Not touched during the past month. Remains valid; not abandoned, just inactive.
+- **Game project (new, active):** Joined a friend's game-building idea with no productive justification attached — started purely because it seemed interesting. First interest on record to clear all three known kill mechanisms (Exceptional-Achievement Bar, Justification Loop, Desire-Killing Machine). Structurally resembles the Team Cherry model (small team, shared build) previously identified as the ideal-but-unrealized structure. Currently the live example of guilt-free, bottom-up enjoyment working as intended.
 
 ### The Real Goal
 The core objective is to rebuild self-trust in handling life's essentials so that free time feels genuinely free — not stolen. Beyond self-trust, the deeper need is a meaningful pursuit: exercising genuine capability on a real problem with observable impact, aligned with lifelong dreams of mastery and mattering. Guilt-free leisure (Dota, football, consuming stories) continues in parallel for flow and rest. The creative path (Masterpiece dream) is the identified meaningful pursuit — see [creative_strategy.md](file:///d:/Tu/Life_strategies/creative/creative_strategy.md).
@@ -120,4 +125,4 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 - **Fatherhood is non-negotiable daily:** Son's early years cannot be deferred. Parenting time and presence are fixed costs the strategy must work around.
 
 ---
-*Last Updated: 2026-06-22*
+*Last Updated: 2026-07-23*
