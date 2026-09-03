@@ -18,12 +18,12 @@ The real goal is to rebuild self-trust in handling life's essentials so that fre
 | Pillar | Status |
 |---|---|
 | 🔑 **Pillar 1 — Self-Trust & Career Competence** | Practice sprint active. Rebuilding daily execution and competence. See [career_strategy.md](file:///d:/Tu/Life_strategies/career/career_strategy.md). |
-| 🎨 **Pillar 2 — Meaningful Pursuit** | Active: the Masterpiece dream (creative path). First brick defined. See [creative_strategy.md](file:///d:/Tu/Life_strategies/creative/creative_strategy.md). Guilt-free leisure continues in parallel for flow/rest. |
+| 🎨 **Pillar 2 — Meaningful Pursuit** | Active: the Masterpiece dream, pursued via game creation — building and playtesting the `../casual_autobattler/` project with a friend. See [creative_strategy.md](creative/creative_strategy.md). Guilt-free leisure continues in parallel for flow/rest. |
 | 👦 **Pillar 3 — Parenting** | Always-on. 5 principles defined, Stage 1 rituals active. See [parenting_strategy.md](file:///d:/Tu/Life_strategies/parenting/parenting_strategy.md). |
 
 **Governing Principle:** Parallel, Not Sequential. Career execution and meaningful pursuit run in parallel.
 
-**Current Sequencing:** Both pillars run in parallel. The practice sprint rebuilds trust. The Masterpiece dream is pursued brick by brick alongside it.
+**Current Sequencing:** Both pillars run in parallel. The practice sprint rebuilds trust. The Masterpiece dream is pursued through repeated build-play-judge cycles on the autobattler alongside it.
 
 ---
 
@@ -54,4 +54,4 @@ These apply regardless of active pillar:
 
 ---
 
-*Last Updated: 2026-06-22*
+*Last Updated: 2026-09-03*

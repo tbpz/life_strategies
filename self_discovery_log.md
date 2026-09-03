@@ -220,3 +220,25 @@ Direct follow-up to the Layer 1 structure question. Diagnosed why two prior crea
 - First brick defined and ready to start: design one confrontation where a power system resolves an apparent mismatch fairly.
 - **Resolved:** the Layer 1 structure question from 2026-06-21 — the structure is built by producing confrontations and self-critiquing them, not by sourcing or designing a framework in advance.
 
+
+---
+
+## Session: Medium Switch — From Written Confrontations to Game Creation (2026-09-03)
+
+### Context
+The written confrontation brick defined 2026-06-22 was never started. In parallel, a casual roguelike autobattler project with a friend (`../casual_autobattler/`, outside this repo) had been running since before its own 2026-07-18 design pivot, and by 2026-09-03 had a playable prototype, an append-only decision log, and played-verified findings. This session reconciled the two: `creative_strategy.md` was updated to reflect games as the active vehicle for Pillar 2.
+
+### Key Findings
+
+1. **The medium switch has three stated reasons:** more existing resources in the game-creation domain than in prose craft; a much shorter iteration loop, because building and testing a game mirrors the software delivery cycle already mastered professionally; and a two-way payoff — building sharpens the vision of what the masterpiece is, and a sharper vision produces more accurate requirements for the next build.
+2. **The vision-discovery loop is now named explicitly:** build → play/test → judge → the masterpiece's shape gets clearer → sharper requirements → build again. The masterpiece's identity is deliberately left open and is discovered through this loop, not specified up front — declaring it early was tried in spirit (choosing "the manga power-system problem" as the target) and produced no shipped output.
+3. **Principle 7 (watch for a new costume on the old paralysis pattern) was tested directly, not waived.** By count this is a fourth reframe with the first written brick still unfinished — exactly the pattern the principle warns against. It is judged legitimate specifically because it arrived carrying shipped, played-verified work (the autobattler's prototype and decision history), not because the reasoning alone was persuasive. The principle is tightened going forward: any future reframe must show up with output already in hand.
+4. **The exist-vs-become AI rule was restated, not dropped, for a built product.** The self-generated core is design judgment — what a moment should feel like, which lever is worth pulling, what reads as fair, whether a build is actually good. Implementation (code, rendering, tooling, running batch tests) is "exist" work and is AI's fully. The risk the rule guards against is unchanged: if AI comes to own the judgment rather than the implementation, the result is hollow the way TFT Master rank was.
+5. **The confrontation unit generalizes cleanly.** An autobattler fight — two sides, constrained rules, a resolution that reads as fair or doesn't — is a literal instance of the June 2026 confrontation unit, not a metaphorical stretch. Continuity across the pivot is real, not just narrative repair.
+6. **The Zalo wound / "Team Cherry" question (open since 2026-06-21) is not resolved by this collaboration, but is worth re-noting.** A real small-team, shared-dream collaboration is underway and appears to be functioning. Whether it actually defuses the ownership-capture and burnout pattern from the Zalo years is left open rather than declared — too early to call, and `casual_autobattler/STATE.md` already distinguishes the friend's stake from the personal attribution need this pillar is built around.
+
+### Outcome
+- `creative/creative_strategy.md` rewritten: target stays deliberately undecided, games named as the vehicle and why, the vision-discovery loop added as a new section, all eight operating principles revised in place (numbering preserved), the written-brick section replaced with a generic pointer to `casual_autobattler/STATE.md`, and an Open Questions section added for the Zalo-wound/Team Cherry question.
+- `context.md` and `CLAUDE.md` updated for consistency — both had still described Pillar 2 as a storytelling pursuit with an unstarted confrontation brick as the active goal.
+- **Resolved (for this file's purposes):** the medium for pursuing the Masterpiece dream is game creation, via the autobattler project, until/unless the loop itself reveals otherwise.
+- **Left open:** what the masterpiece ultimately is; whether the collaboration resolves the Zalo wound.
