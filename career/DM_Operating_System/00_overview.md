@@ -3,6 +3,8 @@
 > **Purpose:** A portable personal playbook for delivery management. Synthesized from professional standards (Step 1) and honest self-assessment (Step 2). This is not theory — it is the documented method for how delivery management is actually practiced, with gaps filled in with explicit approaches to adopt.
 >
 > **Confidence test:** When fully internalized, it should be possible to walk into any company that hires a DM and know exactly what to do in Week 1, how to run each core function, and how to adapt when the context differs.
+>
+> **Status note (2026-09-03):** The portability confidence test above is a **parked ambition, not disproved** — testing at one employer (Orange Logic) can't validate "works at any company" with only one data point. The active use of this document is now as the **diagnostic reference grid for current-role performance** (see `career/career_strategy.md` Phase 3 and `career/work_diagnostic.md`), not as a portability proof. The 10 function files below remain stable reference and are unchanged.
 
 ---
 

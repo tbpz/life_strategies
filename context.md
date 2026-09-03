@@ -11,9 +11,10 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 | `CLAUDE.md` | Auto-read by Claude. Identity, pillar status, session routing. |
 | `context.md` | This file. Orientation, pillars, goals, constraints. |
 | `self_discovery_log.md` | Chronological record of key diagnostic sessions, self-trust insights, and behavioral patterns. |
-| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, practice phase status. |
+| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, current-role diagnosis status. |
 | `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
+| `career/work_diagnostic.md` | Active Phase 3 instrument: converts the "not doing well" feeling into an evidence-backed Weakness Register (max 3 items) via retrospective evidence, or an honest close-the-loop verdict. |
 | `financial/financial_checklist.md` | Financial resilience checklist. All layers closed 2026-05-15. Annual review only. |
 | `creative/creative_strategy.md` | Pillar 2 deep-dive: Meaningful Pursuit, the Masterpiece dream, operating principles, and the vision-discovery loop. |
 | `creative/README.md` | Pointer to creative_strategy.md; archive note for prior Story Architect framing. |
@@ -65,8 +66,8 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 
 ### Pillar 1: 🔑 Self-Trust & Career Competence
 *Execute on career strategies to build genuine competence. Making the responsible parts of life feel manageable and secure is the foundation that unlocks guilt-free enjoyment.*
-- **Career:** Sprint in practice phase. See [career_strategy.md](file:///d:/Tu/Life_strategies/career/career_strategy.md).
-- **Security threshold:** Able to find a comparable role within 2 months. Achieved through marketability maintenance, not title advancement.
+- **Career:** Phase 3 — Current-Role Diagnosis active. Testing DM-OS at Orange Logic alone can't prove external portability, so that goal is parked; the active goal is measurable confidence in the current role, via an evidence-backed Weakness Register. See [career_strategy.md](career/career_strategy.md) and [work_diagnostic.md](career/work_diagnostic.md).
+- **Security threshold:** Two layers — external marketability (2-month replacement, closed floor, background only) and current-role confidence (three observable conditions, the active standard). See `career_strategy.md`.
 - **Financial:** ✅ Closed 2026-05-15. Annual review only. See [financial_checklist.md](file:///d:/Tu/Life_strategies/financial/financial_checklist.md).
 
 ### Pillar 2: 🎨 Meaningful Pursuit
@@ -87,13 +88,13 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 
 | Pillar | Mode | Focus | Target Outcome |
 |---|---|---|---|
-| **Pillar 1 — Self-Trust & Career** | Practice Sprint | Execute 3 DM habits | Re-establish confidence in daily professional effectiveness. |
+| **Pillar 1 — Self-Trust & Career** | Current-Role Diagnosis | Convert "not doing well" feeling into a named, capped Weakness Register (or an honest close) | Re-establish confidence in daily professional effectiveness at the current role. |
 | **Pillar 2 — Meaningful Pursuit** | Parallel Integration | Run the build-play-judge loop on the autobattler | Sharpen the Masterpiece vision through shipped, played builds; leisure continues for flow. |
 | **Pillar 3 — Parenting** | Always-On | Consistent presence | Daily rituals and value narration. |
 
 ### Short-term (Now → 3 months)
 - [x] **[Pillar 1 — Financial]** Financial resilience checklist closed 2026-05-15.
-- [/] **[Pillar 1 — Career]** Practice sprint — apply RAID log, change record, and acceptance criteria at OL for 2–4 weeks, then close.
+- [/] **[Pillar 1 — Career]** Phase 3 diagnostic — run the Incident Sheet, trace pull, P1/P2 evidence passes in `work_diagnostic.md`; produce the capped Weakness Register and close per the verdict.
 - [x] **[Pillar 3]** Define 3-5 core parenting principles. ✅ 5 principles defined 2026-05-15.
 - [/] **[Pillar 3]** Establish bedtime/bath-time micro-ritual. Practice consistent narration. Phone-away habit.
 - [ ] **[Pillar 2]** Allow guilt-free entertainment weekly (e.g., Dota, football, stories) — no productive justification required.
@@ -121,4 +122,4 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 - **Fatherhood is non-negotiable daily:** Son's early years cannot be deferred. Parenting time and presence are fixed costs the strategy must work around.
 
 ---
-*Last Updated: 2026-09-03*
+*Last Updated: 2026-09-03 (Career: Phase 3 reframe)*

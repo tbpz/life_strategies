@@ -54,10 +54,23 @@ Corporate work will always feel like "someone else's race." This is structural a
 - **Rejected:** PM → Senior PM → Director → VP (triggers Zalo trauma; requires organizational accountability)
 - **Chosen:** Build capabilities that make the current level more resilient and in-demand. Direction: AI-augmented delivery, stronger professional visibility.
 
-### 4. Security Threshold: "Good Enough" Definition
+### 4. Security Threshold — Two Layers
+
+**Layer 1 — External marketability (closed floor, no longer worked on).**
 - **Condition:** Ability to find a comparable role within 2 months if needed
 - **Method:** Marketability maintenance (professional presence, network, current skills) — not title advancement
-- **Verdict (from Phase 1):** Achievable. Vietnam PM/DM market is healthy. Profile (10yr, US/EU exposure, English) fits the top employer pool. Anxiety is closed.
+- **Verdict (from Phase 1, 2026-05):** Achievable. Vietnam PM/DM market is healthy. Profile (10yr, US/EU exposure, English) fits the top employer pool. **Closed. Kept only as background safety — not the active standard. Maintenance cadence unchanged, see Ongoing Maintenance below.**
+
+**Layer 2 — Current-role confidence (the active standard, added 2026-09-03).**
+Testing DM-OS at one employer (Orange Logic) cannot prove "works at any company" — one data point can't validate portability. What was actually wanted all along is measurable confidence *in the current role*, not proof of external portability. Portability is demoted to a parked ambition (see `DM_Operating_System/00_overview.md`), not disproved.
+
+"Feels easy and safe" and "no one wants to replace me" are not usable thresholds — both are unbounded, feeling-based, and require mind-reading. The active standard is three observable conditions instead:
+
+1. Trailing-90-day delivery record is retrievable and shows no unexplained slip whose proximate cause was a DM-controllable gap.
+2. A stakeholder can obtain project status **without contacting the DM** (DM-OS Function 7's own self-check, adopted verbatim as the threshold).
+3. Each of the top-3 named gaps from the current diagnostic (see Phase 3 below) has one running artifact.
+
+Ease is a downstream sensation that may or may not arrive — it is not a gate. Excluded by explicit choice: company restructuring or role elimination is a different problem, deferred, not addressed by this standard.
 
 ---
 
@@ -69,27 +82,44 @@ Corporate work will always feel like "someone else's race." This is structural a
 
 ---
 
+## The Two-Part Job Model (added 2026-09-03)
+
+The role splits into two parts with very different authority shapes. Only part 1 has an existing framework — conflating the two, or measuring part 2 against part-1-shaped expectations, is a documented failure mode in its own right (see Phase 3).
+
+| Part | What it is | Authority | Framework |
+|---|---|---|---|
+| **1. Project management** | Specific projects delivered on time at required quality | Full DM authority over the project | `DM_Operating_System/` — 10 functions, thorough |
+| **2. Process management** | Improve the delivery process; notice recurring failure classes, design and propose interventions | **Advisory only — others decide and roll out** | None until Phase 3 (see `work_diagnostic.md`) |
+
+**Guardrail:** because part 2 is advisory, adoption and rollout outcomes are never scored as this person's failure — that authority isn't held. Being accountable for a process outcome without the power to cause it is the Zalo double-bind in miniature. Diagnosis and proposal quality are the accountable surface; whether the org adopts a proposal is not. (Also recorded in `_AI_RULES.md`.)
+
+---
+
 ## Sprint Plan
 
 ### Phase 1: Market Investigation — ✅ Complete
-Vietnam PM/DM market is healthy for a 10-year experienced professional. The "2-month replacement" security threshold is achievable. Full research in `archive/career_phase1_findings.md`.
+Vietnam PM/DM market is healthy for a 10-year experienced professional. The "2-month replacement" security threshold is achievable and closed (now Layer 1, background only — see Security Threshold above). Full research in `archive/career_phase1_findings.md`.
+
+*Note on Phase numbering: `archive/career_phase1_findings.md` separately defines "Phase 2" as recruiter/peer validation conversations. That definition is superseded by the Phase 2 below (Build the DM-OS) — the two were never reconciled at the time; recorded here so the inconsistency isn't rediscovered as new.*
 
 ### Phase 2: Build the DM Operating System — ✅ Complete
-DM-OS written, self-assessed, and organized into 11 files in `DM_Operating_System/`. Research inputs in `archive/`.
+DM-OS written, self-assessed, and organized into 11 files in `DM_Operating_System/`. Research inputs in `archive/`, including the 10-function self-assessment `archive/dm_os_step2_reflection.md` — now reused as the evidence base for Phase 3 rather than re-done.
 
-### Current Focus: Practice Phase — Apply 3 New Habits at OL
+### Phase 3: Current-Role Diagnosis — Active (started 2026-09-03)
 
-The remaining confidence gap: some DM-OS steps are newly documented but never practiced. Confidence is only built by doing them in real work.
+**Why this phase exists:** the practice-phase habits below sat at "To start" for ~10 weeks with zero execution, and a companion audit (`work_diagnostic.md`, formerly `work_audit_experiment.md`) sat unstarted for a similar span — both were *prospective* asks (log forward for a week; practice a habit for a month), and prospective asks have a demonstrated ~0% completion rate here. Phase 3 replaces open-ended practice with a bounded, retrospective diagnostic: convert the feeling "I'm not doing well" into a short, evidence-backed, hard-capped Weakness Register (max 3 items), or into an honest verdict that performance is already adequate. Full instrument, evidence tests, and the three pre-committed verdicts (A: real gap / B: legibility gap, not capability / C: anxiety pattern, close the loop) live in **`work_diagnostic.md`** — do not duplicate that content here.
 
-| Habit | How to Practice at OL | Status |
-|---|---|---|
-| **RAID log** | Open a spreadsheet for one active project. List 3 risks, 2 dependencies, 1 assumption. Review every Monday. | ⬜ To start |
-| **Two-line change record** | Every accepted scope change → one written line: what changed, who approved, date. | ⬜ To start |
-| **Acceptance criteria** | Every new requirement → add one line: "This is done when [specific behavior] is confirmed." | ⬜ To start |
+**Disposition of the 3 legacy practice habits** (superseded as a standalone sprint; each resolved individually rather than left open):
 
-**Sprint close condition:** After 2–4 weeks, if habits feel natural → **close the sprint, establish stable maintenance, and continue parallel execution of Pillar 2.** If something feels wrong → update the DM-OS file, then close anyway.
+| Habit | Disposition (2026-09-03) |
+|---|---|
+| **RAID log** | Not independently re-adopted. Folded into Phase 3: only re-adopted if the diagnostic's Weakness Register cites a specific incident it would have prevented — otherwise it was a "professional standards require it" habit, which has already failed once on that justification alone. |
+| **Two-line change record** | Same disposition — folded into Phase 3, re-adopted only with a citing incident attached. |
+| **Acceptance criteria** | Same disposition — folded into Phase 3, re-adopted only with a citing incident attached. |
 
-> The anxiety that remains after the practice phase is not a signal to do more work. It is a feeling to carry. Close the loop anyway.
+A habit adopted because a citing incident names the exact cost of not having it is a different object from one adopted because a standard says so — the former has a specific reason to survive contact with real work pressure. Final dispositions get written in at Phase 3 close (see `work_diagnostic.md`, Sitting 4).
+
+> The anxiety that remains after Phase 3 closes is not a signal to do more work. It is a feeling to carry. Close the loop anyway (per the hard rule below).
 
 ---
 
@@ -107,4 +137,4 @@ The remaining confidence gap: some DM-OS steps are newly documented but never pr
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-06-12*
+*Last Updated: 2026-09-03*
