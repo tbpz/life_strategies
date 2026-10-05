@@ -7,6 +7,7 @@
     - [Nanny Acceptance Criteria](stages/stage_1_infant/nanny_acceptance_criteria.md)
     - [Nanny Hiring Sources](stages/stage_1_infant/nanny_hiring_sources_hcmc.md)
   - [Stage 2: Toddler](stages/stage_2_toddler/00_stage_2_overview.md)
+    - [Kindergarten Plan](stages/stage_2_toddler/kindergarten_plan.md)
   - [Stage 3: Pre-school](stages/stage_3_preschool/00_stage_3_overview.md)
   - [Stage 4: School Age](stages/stage_4_school/00_stage_4_overview.md)
 - **Reference**
