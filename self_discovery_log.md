@@ -57,7 +57,7 @@ A mild desire appears (e.g., SC2 looks fun) → an obstacle or friction point ap
 
 ### Disproved
 * **Accumulation/Tracking as a Need:** Creating tracking logs or meta-frameworks for hobbies does not enhance enjoyment.
-* **Recognition as Primary Driver:** External praise or validation is not the primary factor; internal self-belief and demonstrated competence are what matter.
+* **Recognition as Primary Driver:** External praise or validation is not the primary factor; internal self-belief and demonstrated competence are what matter. *Refined 2026-10-18: praise and status are not the driver, but being received by a few readers with the same taste is a real, separate need — see the Sharing Test session.*
 * **Anxiety as Sole Cause:** Anxiety is a symptom of the underlying lack of self-trust, not an independent, unmanageable force.
 * **"Fun/Enjoyment" as the Real Need:** "Fun" was a reactive label generated as the opposite of career hopelessness and burnout. The actual need is meaningful pursuit — using capability to make a visible difference on problems that matter. When career stabilized and the pain subsided, "fun" lost its diagnostic purpose, revealing the deeper need underneath.
 * **Self-Trust as Sole Root:** Self-trust is necessary but not sufficient. Even with career confidence improving, emptiness persists in free time without a meaningful pursuit that exercises capability on real problems.
@@ -66,7 +66,7 @@ A mild desire appears (e.g., SC2 looks fun) → an obstacle or friction point ap
 * **Flow:** Deep, active engagement is necessary for mental rejuvenation.
 * **Direction:** Pursuits that build capability or follow a trajectory provide a healthier engagement profile than static loops.
 * **Self-Trust as Root:** The primary path to peace is confidence in the ability to handle whatever comes next, mirroring the natural state experienced during childhood/middle school.
-* **Meaningful Impact as Core Driver:** Satisfaction comes from observing one's own capability making a real difference — for oneself (DM-OS at work) or others (wife's accounting tool). External praise is not required; self-recognition through observable evidence is sufficient ("I know it's useful"). This is the actual engine underneath "flow" and "fun." Method (AI vs. manual coding) is irrelevant — what matters is that a real person had a real problem and it is now observably better.
+* **Meaningful Impact as Core Driver:** Satisfaction comes from observing one's own capability making a real difference — for oneself (DM-OS at work) or others (wife's accounting tool). External praise is not required; self-recognition through observable evidence is sufficient ("I know it's useful") — true for tools and problems. For creative work, a second need sits alongside: the work being taken in and felt the same way by people who share the taste (see 2026-10-18). This is the actual engine underneath "flow" and "fun." Method (AI vs. manual coding) is irrelevant — what matters is that a real person had a real problem and it is now observably better.
 
 ---
 
@@ -244,3 +244,38 @@ First check-in after roughly a month with no direct work on this workspace. Care
 ### Open Question Left for Next Check-In
 Whether the pace-anxiety dissipates once the coworker's departure stops being fresh (supporting the Anxiety Engine read) or instead concentrates into a specific thing the user wishes they were moving on (which would be genuine signal calling for one concrete next step on that specific thing, not a global push for speed).
 
+
+---
+
+## Session: The Sharing Test — Own Standard vs. Finding One's People (2026-10-18)
+
+### Context
+A Chinese history series on FB, judged near-masterpiece level, was shared with friends. Some read it and agreed it was excellent — this produced real happiness. Others showed interest, said they would read it "someday", and never returned — this produced sadness and disappointment. The question raised: if a future masterpiece is also shared in the hope that others agree, does that mean the dream is really about recognition — contradicting the claim of judging quality by one's own standard?
+
+### Key Findings
+
+1. **The happiness was not about credit.** The series was made by someone else, so no praise reached the sharer — yet the joy was real. The joy came from another person seeing what was seen; the sadness came from the thing staying seen by one person only.
+
+2. **Two separate needs, which a masterpiece feeds at once.**
+   - Need 1 — sharing a deep feeling with close people. Does not require creating anything; sharing others' great work already feeds it.
+   - Need 2 — making something oneself (self-authorship; see the TFT Master-rank emptiness). Sharing others' work can never feed it.
+
+   A masterpiece is where both meet, which explains the dream's pull. It also adds something sharing others' work cannot: friends see one's *taste* when a series is shared, but see *oneself* when one's own work is shared.
+
+3. **Need 2 stands on its own — tested.** Asked whether a masterpiece would still be made if nobody could ever read it: yes. Evidence that the standard is internal: Hunter x Hunter is admired for its elegant design and story; if popularity were the measure, One Piece would be the choice instead.
+
+4. **Sharing is for finding one's people, not for proof.** Not sharing a finished masterpiece would leave something empty, while belief in its quality would stay intact. The emptiness is Need 1 going unfed, not doubt about the work.
+
+5. **The imagined first readers are a small, close circle.** A brother and a few close friends — chosen because their taste is closest. (The brother also appears in the TFT story, Finding 2 of 2026-06-13.) The core audience is small and already exists; "the more people the better" is real but sits on top, not at the core.
+
+6. **How criticism would land — a healthy balance, with one fix.** One "not that great" would not break belief in the work; many people with similar taste all saying so would start real doubt. That is calibration, not weakness. The fix: stop counting yes/no and ask *why*. A reason that points at a flaw the own standard can recognise improves the work; a reason about taste ("not into strategic fights") says nothing about quality. Same rule as "lame is a diagnostic" in `creative/creative_strategy.md`.
+
+7. **"Someday" readers say little about the work.** Most people say "later" to most things; not reading reflects their attention, not the work's worth. The same is to be expected for own work.
+
+### What This Changes
+- "External praise is not required" (Confirmed premises) is only half true for creative work: praise is not needed, but being received by people with the same taste is.
+- Success measure for the Masterpiece dream: not how many people liked it, but whether the right people found it and saw what was seen — an HxH-kind audience (fewer, deeper), not a One Piece-kind one.
+- Need 1 should not wait for the masterpiece. It can be fed now by continuing to share great stories with the brother and close friends. This keeps the masterpiece from carrying a load it should not, and avoids the trap where meaning depends on other people (Finding 5, 2026-06-20/21).
+
+### Open Question
+Did the brother and the closest friends read the Chinese series? If yes, the core circle already works. If some were "someday" readers, the dream needs to survive even the closest people not always showing up.
