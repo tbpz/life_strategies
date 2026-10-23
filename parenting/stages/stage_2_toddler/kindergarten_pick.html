@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kindergarten Pick 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<style>
+/* Layout: one column up to 1040px. Answer first, then four school cards (2x2), one interactive cost chart, a fit grid, visit questions, a short timeline. */
+:root {
+  --bg: #F2F5F4;
+  --surface: #FFFFFF;
+  --ink: #15232B;
+  --ink-2: #44555E;
+  --muted: #5B6B73;
+  --line: #D6DFE1;
+  --accent: #0E6B5E;
+  --on-accent: #FFFFFF;
+  --accent-soft: #DDEFEA;
+  --caution-bg: #FBF1DC;
+  --caution-line: #E3B861;
+  --good: #1B7F4B;
+  --mid: #A86A0C;
+  --bad: #B3402F;
+  --unk: #6F7F87;
+  --c-tuition: #274C77;
+  --c-meals: #6F94BE;
+  --c-oneoff: #BCCFE3;
+  --c-late: #E0A12C;
+  --font-display: 'Bricolage Grotesque', 'Be Vietnam Pro', system-ui, sans-serif;
+  --font-body: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E181D; --surface: #15242B; --ink: #E6EEF0; --ink-2: #B3C3C9; --muted: #93A5AD;
+    --line: #28393F; --accent: #4FC3AE; --on-accent: #0A1A18; --accent-soft: #13352F;
+    --caution-bg: #2B2410; --caution-line: #8C6A1F;
+    --good: #4CC38A; --mid: #E3AE45; --bad: #F08A76; --unk: #93A5AD;
+    --c-tuition: #7BA3D6; --c-meals: #4F76A8; --c-oneoff: #34506F; --c-late: #E3AE45;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E181D; --surface: #15242B; --ink: #E6EEF0; --ink-2: #B3C3C9; --muted: #93A5AD;
+  --line: #28393F; --accent: #4FC3AE; --on-accent: #0A1A18; --accent-soft: #13352F;
+  --caution-bg: #2B2410; --caution-line: #8C6A1F;
+  --good: #4CC38A; --mid: #E3AE45; --bad: #F08A76; --unk: #93A5AD;
+  --c-tuition: #7BA3D6; --c-meals: #4F76A8; --c-oneoff: #34506F; --c-late: #E3AE45;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1040px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 56px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.15; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font-size: clamp(28px, 5vw, 44px); }
+h2 { font-size: clamp(22px, 3.2vw, 28px); }
+h3 { font-size: 18px; }
+p { margin: 0; }
+.eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.sub { color: var(--ink-2); max-width: 68ch; }
+.sec-head { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Answer */
+.answer { display: flex; flex-direction: column; gap: 20px; }
+.lede { font-size: clamp(17px, 2.2vw, 20px); max-width: 62ch; color: var(--ink-2); }
+.lede b { color: var(--ink); }
+.reasons { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.reason { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.reason h3 { font-size: 16px; }
+.reason p { color: var(--ink-2); font-size: 14px; }
+.caution { background: var(--caution-bg); border: 1px solid var(--caution-line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.caution h3 { font-size: 16px; }
+.caution p { font-size: 14px; }
+.scope { font-size: 13px; color: var(--muted); max-width: 72ch; }
+
+/* Cards */
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.card.first { border-color: var(--accent); border-width: 2px; padding: 19px; }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.pill { font-size: 12px; font-weight: 600; letter-spacing: 0.02em; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); white-space: nowrap; }
+.pill.p1 { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.pill.p2 { background: var(--accent-soft); color: var(--ink); border-color: var(--accent); }
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; margin: 0; }
+.facts div { min-width: 0; }
+.facts dt { font-size: 12px; color: var(--muted); }
+.facts dd { margin: 0; font-weight: 600; font-size: 15px; }
+.facts dd small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+.lists { display: grid; gap: 12px; }
+.lists h4 { margin: 0 0 4px; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+.lists h4.g { color: var(--good); }
+.lists h4.c { color: var(--bad); }
+.lists ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; color: var(--ink-2); }
+.know { display: flex; flex-direction: column; gap: 6px; padding-top: 12px; border-top: 1px solid var(--line); }
+.know-label { font-size: 12px; color: var(--muted); }
+.pips { display: flex; gap: 4px; }
+.pip { width: 100%; max-width: 28px; height: 8px; border-radius: 2px; border: 1px solid var(--muted); background: transparent; }
+.pip.full { background: var(--accent); border-color: var(--accent); }
+.pip.half { background: linear-gradient(90deg, var(--accent) 50%, transparent 50%); border-color: var(--accent); }
+.checks { margin-top: 16px; }
+.checks summary, .q summary { cursor: pointer; font-weight: 600; }
+.tablewrap { overflow-x: auto; margin-top: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+tr:last-child th, tr:last-child td { border-bottom: 0; }
+thead th { font-size: 12px; color: var(--muted); font-weight: 600; }
+td.yes { color: var(--good); font-weight: 600; }
+td.part { color: var(--mid); font-weight: 600; }
+td.no { color: var(--bad); font-weight: 600; }
+
+/* Cost chart */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 18px; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px 28px; }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend { font-size: 12px; color: var(--muted); font-weight: 600; padding: 0; margin-bottom: 6px; }
+.seg-ctl { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg-ctl label { position: relative; }
+.seg-ctl input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.seg-ctl span { display: block; padding: 8px 14px; font-size: 14px; font-weight: 500; color: var(--ink-2); border-left: 1px solid var(--line); }
+.seg-ctl label:first-child span { border-left: 0; }
+.seg-ctl input:checked + span { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.seg-ctl input:focus-visible + span { outline: 3px solid var(--accent); outline-offset: -3px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.chart { display: flex; flex-direction: column; gap: 6px; }
+.row { display: grid; grid-template-columns: 150px minmax(0, 1fr) 64px; align-items: center; gap: 12px; width: 100%; text-align: left; font: inherit; color: inherit; background: transparent; border: 1px solid transparent; border-radius: 8px; padding: 8px; cursor: pointer; }
+.row:hover { border-color: var(--line); }
+.row[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
+.rlabel { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.rlabel b { font-size: 14px; }
+.rlabel small { font-size: 12px; color: var(--muted); }
+.rtotal { font-weight: 700; text-align: right; font-size: 15px; }
+.track { height: 30px; display: flex; background-image: linear-gradient(to right, var(--line) 1px, transparent 1px); background-size: 19.2308% 100%; min-width: 0; }
+.seg { display: block; height: 100%; flex: none; margin-right: 2px; }
+.seg:last-child { margin-right: 0; border-radius: 0 4px 4px 0; }
+.stale .track { opacity: 0.5; }
+.axis { display: grid; grid-template-columns: 150px minmax(0, 1fr) 64px; gap: 12px; padding: 0 8px; font-size: 11px; color: var(--muted); }
+.axis div { position: relative; height: 16px; }
+.axis span { position: absolute; transform: translateX(-50%); }
+.axis span:first-child { transform: none; }
+.readout { font-size: 14px; color: var(--ink-2); border-left: 3px solid var(--accent); padding-left: 12px; max-width: 76ch; }
+.readout b { color: var(--ink); }
+.detail { border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+.detail table { min-width: 0; }
+.detail td:last-child, .detail th:last-child { text-align: right; white-space: nowrap; }
+.detail td small { color: var(--muted); display: block; }
+.detail tfoot td { font-weight: 700; }
+.notes { margin: 0; padding-left: 18px; font-size: 13px; color: var(--ink-2); display: flex; flex-direction: column; gap: 3px; }
+
+/* Fit grid */
+.fit { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.fit-head, .fit-row { display: grid; grid-template-columns: minmax(150px, 0.9fr) repeat(4, minmax(0, 1fr)); gap: 0 12px; padding: 12px 16px; }
+.fit-head { font-size: 12px; font-weight: 600; color: var(--muted); border-bottom: 1px solid var(--line); }
+.fit-row { border-bottom: 1px solid var(--line); align-items: start; }
+.fit-row:last-child { border-bottom: 0; }
+.crit { font-weight: 600; font-size: 14px; }
+.crit small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+.cell { display: flex; gap: 8px; font-size: 13px; color: var(--ink-2); min-width: 0; }
+.cell .t { min-width: 0; }
+.cell::before { content: attr(data-s); display: none; }
+.dot { flex: none; width: 12px; height: 12px; margin-top: 4px; border-radius: 50%; border: 2px solid var(--unk); }
+.good .dot { background: var(--good); border-color: var(--good); }
+.mid .dot { border-color: var(--mid); background: linear-gradient(90deg, var(--mid) 50%, transparent 50%); }
+.bad .dot { border-color: var(--bad); background: transparent; }
+.unk .dot { border-style: dashed; border-color: var(--unk); background: transparent; }
+.dots-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); margin-bottom: 12px; }
+.dots-legend span { display: inline-flex; gap: 6px; align-items: center; }
+.dots-legend .dot { margin-top: 0; }
+
+/* Questions */
+.q-list { display: flex; flex-direction: column; gap: 10px; }
+.q { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; }
+.q ol { margin: 12px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; color: var(--ink-2); font-size: 14px; }
+.everywhere { margin-top: 14px; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 10px; padding: 14px 18px; }
+.everywhere h3 { font-size: 16px; margin-bottom: 6px; }
+.everywhere ul { margin: 0; padding-left: 18px; font-size: 14px; display: flex; flex-direction: column; gap: 3px; }
+
+/* Timeline */
+.timeline { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.timeline li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line); }
+.timeline li:last-child { border-bottom: 1px solid var(--line); }
+.when { font-weight: 600; font-family: var(--font-display); }
+.timeline p { color: var(--ink-2); font-size: 14px; max-width: 70ch; }
+.foot details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; font-size: 14px; color: var(--ink-2); }
+.foot ul { padding-left: 18px; display: flex; flex-direction: column; gap: 4px; margin: 10px 0 0; }
+
+@media (max-width: 860px) {
+  .reasons { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) {
+  .fit-head { display: none; }
+  .fit-row { grid-template-columns: 1fr; gap: 10px; }
+  .cell::before { display: block; flex: none; width: 82px; font-weight: 600; color: var(--ink); }
+  .cell .dot { order: 0; }
+  .cell { align-items: flex-start; }
+  .timeline li { grid-template-columns: 1fr; gap: 4px; }
+}
+@media (max-width: 560px) {
+  .wrap { gap: 44px; }
+  .row { grid-template-columns: minmax(0, 1fr) 60px; grid-template-areas: "label total" "track track"; row-gap: 6px; }
+  .rlabel { grid-area: label; }
+  .rtotal { grid-area: total; }
+  .track { grid-area: track; }
+  .axis { grid-template-columns: minmax(0, 1fr); }
+  .axis > :first-child, .axis > :last-child { display: none; }
+  .panel { padding: 16px; }
+  .card { padding: 16px; }
+  .card.first { padding: 15px; }
+  .facts { grid-template-columns: 1fr 1fr; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .seg { transition: width .25s ease; }
+}
+</style>
+<style>
+body { margin: 0; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="answer">
+    <p class="eyebrow">Four brochures, one decision · start around August 2027</p>
+    <h1>Which kindergarten for August 2027?</h1>
+    <p class="lede"><b>Sakura Kids is the first pick on paper, with Hooray Kids as the backup.</b> The brochures cannot show how teachers treat a crying child, so this page ranks which schools to visit first. It does not close the choice.</p>
+
+    <div class="reasons">
+      <div class="reason">
+        <h3>Most is known</h3>
+        <p>The only brochure with class sizes (15 to 20 kids with 3 teachers), a timetable for 2 to 3 year olds, this year's fees and the enrolment steps.</p>
+      </div>
+      <div class="reason">
+        <h3>A play-first day</h3>
+        <p>Sensory play, clay and stirring, outdoor time every morning. Children set the table, tidy their sleeping place and take a daily duty role.</p>
+      </div>
+      <div class="reason">
+        <h3>Kindest sick-day terms</h3>
+        <p>After 10 or more sick days in a row, 20% of next month is covered. Up to 2 months of leave a year. Open until 18:00.</p>
+      </div>
+    </div>
+
+    <div class="caution">
+      <h3>Ask about one rule before paying anything at Sakura Kids</h3>
+      <p>The fee sheet says parents are asked not to share "unverified information in any form", and the school may end its service at once if they do. The biggest worry in the kindergarten plan is a child too young to say what happened. Parents therefore need to be free to raise a concern. If the school cannot explain this rule in plain words, Hooray Kids becomes the first pick.</p>
+    </div>
+
+    <p class="scope">Only these four private schools are compared. Public kindergartens are not in the brochures, and "decide school type" is still an open item in the plan (due Dec 2026).</p>
+  </header>
+
+  <section aria-labelledby="h-schools">
+    <div class="sec-head">
+      <h2 id="h-schools">The four schools</h2>
+      <p class="sub">Monthly cost is tuition plus meals, paying month by month. Money is in VND; M means million.</p>
+    </div>
+    <div class="cards" id="cards">
+
+      <article class="card first" data-i="0">
+        <div class="card-top"><div><h3>Sakura Kids</h3><span class="eyebrow">Valora Mizuki, B-05</span></div><span class="pill p1">First pick</span></div>
+        <dl class="facts">
+          <div><dt>Per month</dt><dd class="num">7.54M<small>6.0M tuition + 1.54M meals</small></dd></div>
+          <div><dt>Day ends</dt><dd>18:00<small>late fee 15,000 per 15 min</small></dd></div>
+          <div><dt>English at age 2</dt><dd>10 periods a week<small>5 with foreign teachers</small></dd></div>
+          <div><dt>Kids per teacher</dt><dd class="num">5 to 6.7<small>if the printed number is the class limit</small></dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g">Good</h4><ul>
+            <li>Class sizes, timetable, fees and enrolment steps are all printed</li>
+            <li>Tuition can rise at most 15% every 2 years</li>
+          </ul></div>
+          <div><h4 class="c">Catches</h4><ul>
+            <li>The rule against sharing "unverified information" (see top of page)</li>
+            <li>The 1,000,000 registration fee is lost if the child does not start, for any reason</li>
+            <li>A full day: 4 specialist lessons and 10 English periods a week</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+      <article class="card" data-i="1">
+        <div class="card-top"><div><h3>Hooray Kids</h3><span class="eyebrow">Valora Mizuki, B12–B13</span></div><span class="pill p2">Backup</span></div>
+        <dl class="facts">
+          <div><dt>Per month</dt><dd class="num">7.84M<small>6.3M tuition (10% off) + 1.54M meals</small></dd></div>
+          <div><dt>Day ends</dt><dd>About 17:30<small>18:00 to 19:00 costs 50,000</small></dd></div>
+          <div><dt>English at age 2</dt><dd>10 sessions a week<small>2 with a foreign teacher</small></dd></div>
+          <div><dt>Kids per teacher</dt><dd>Not printed</dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g">Good</h4><ul>
+            <li>Montessori (child-led, hands-on learning) every day. Children water plants and keep their own bedding</li>
+            <li>The 1,000,000 reservation fee is refunded in full if the child does not start, so it holds a second place cheaply</li>
+          </ul></div>
+          <div><h4 class="c">Catches</h4><ul>
+            <li>No class sizes. The timetable shown is for a class with no stated age</li>
+            <li>When the child is absent only meals are refunded. Tuition is covered (60%) only after 15 or more sick days with a hospital note</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+      <article class="card" data-i="2">
+        <div class="card-top"><div><h3>Little Stars</h3><span class="eyebrow">Valora Mizuki, B01</span></div><span class="pill">Worth a visit</span></div>
+        <dl class="facts">
+          <div><dt>Per month</dt><dd class="num">7.22M<small>5.9M tuition + 1.32M meals</small></dd></div>
+          <div><dt>Day ends</dt><dd>17:00<small>pick-up window 16:00 to 17:00</small></dd></div>
+          <div><dt>English at age 2</dt><dd>None<small>Vietnamese only until 36 months</small></dd></div>
+          <div><dt>Kids per teacher</dt><dd>Not printed</dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g">Good</h4><ul>
+            <li>Vietnamese only until 36 months, in line with English coming from home</li>
+            <li>Lowest monthly cost of the four, and 10% off for a year paid ahead</li>
+          </ul></div>
+          <div><h4 class="c">Catches</h4><ul>
+            <li>Late pick-up climbs fast: 100,000 at 18:30 and 150,000 by 19:00</li>
+            <li>No timetable, class sizes or enrolment steps. One price cell still reads "2024 – 2025"</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+      <article class="card" data-i="3">
+        <div class="card-top"><div><h3>Twinkle Star</h3><span class="eyebrow">Address not in the photos</span></div><span class="pill">Can't judge yet</span></div>
+        <dl class="facts">
+          <div><dt>Per month</dt><dd class="num">7.82M*<small>6.5M tuition + 1.32M meals, 2023–24 prices</small></dd></div>
+          <div><dt>Day ends</dt><dd>17:00<small>50,000 per hour after</small></dd></div>
+          <div><dt>English at age 2</dt><dd>3 lessons a week<small>30 minutes each</small></dd></div>
+          <div><dt>Kids per teacher</dt><dd>Not printed</dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g">Good</h4><ul>
+            <li>The gentlest day on paper: 30-minute lessons, outdoor and cooking days, free play before pick-up</li>
+            <li>Montessori every day and the smallest one-off fees (1,000,000 a year)</li>
+          </ul></div>
+          <div><h4 class="c">Catches</h4><ul>
+            <li>The fee sheet is for school year 2023–24. Today's prices are probably higher</li>
+            <li>No address, phone, class sizes or enrolment steps in the photos</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+    </div>
+    <details class="checks">
+      <summary>What the brochure checks count</summary>
+      <div class="tablewrap"><table id="checks-table"></table></div>
+    </details>
+  </section>
+
+  <section aria-labelledby="h-cost">
+    <div class="sec-head">
+      <h2 id="h-cost">What year one costs</h2>
+      <p class="sub">Twelve months of tuition and meals, the one-off fees, and late pick-up on every school day. Choose a pick-up time and how tuition is paid. Tap a bar for the breakdown.</p>
+    </div>
+    <div class="panel">
+      <div class="controls">
+        <fieldset>
+          <legend>Pick-up time</legend>
+          <div class="seg-ctl" id="ctl-pick">
+            <label><input type="radio" name="pick" id="pick-1700" value="17:00"><span>17:00</span></label>
+            <label><input type="radio" name="pick" id="pick-1730" value="17:30" checked><span>17:30</span></label>
+            <label><input type="radio" name="pick" id="pick-1800" value="18:00"><span>18:00</span></label>
+            <label><input type="radio" name="pick" id="pick-1830" value="18:30"><span>18:30</span></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Tuition paid</legend>
+          <div class="seg-ctl" id="ctl-pay">
+            <label><input type="radio" name="pay" id="pay-month" value="month" checked><span>Month by month</span></label>
+            <label><input type="radio" name="pay" id="pay-year" value="year"><span>A year ahead</span></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="legend" aria-hidden="true">
+        <span><i style="background:var(--c-tuition)"></i>Tuition</span>
+        <span><i style="background:var(--c-meals)"></i>Meals</span>
+        <span><i style="background:var(--c-oneoff)"></i>One-off fees</span>
+        <span><i style="background:var(--c-late)"></i>Late pick-up</span>
+      </div>
+
+      <div class="chart" id="chart" role="group" aria-label="Year-one cost per school"></div>
+      <div class="axis" aria-hidden="true"><span></span><div id="axis"></div><span></span></div>
+
+      <p class="readout" id="readout" aria-live="polite"></p>
+
+      <div class="detail" id="detail"></div>
+    </div>
+    <p class="scope" style="margin-top:12px">For scale, the nanny costs 10M to 15M a month. Paying a year ahead only saves money if the child stays the full year. Ask whether unused months are refunded before paying a yearly pack.</p>
+  </section>
+
+  <section aria-labelledby="h-fit">
+    <div class="sec-head">
+      <h2 id="h-fit">How each school fits the family's rules</h2>
+      <p class="sub">The rules come from the kindergarten plan and the parenting principles: safety first, play instead of drilling, independence, English from home, calm sick-day terms.</p>
+    </div>
+    <div class="dots-legend" aria-hidden="true">
+      <span class="good"><i class="dot"></i>Good</span>
+      <span class="mid"><i class="dot"></i>Mixed</span>
+      <span class="bad"><i class="dot"></i>Weak</span>
+      <span class="unk"><i class="dot"></i>Brochure does not say</span>
+    </div>
+    <div class="fit" id="fit">
+      <div class="fit-head"><span>Rule</span><span>Sakura Kids</span><span>Hooray Kids</span><span>Little Stars</span><span>Twinkle Star</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-ask">
+    <div class="sec-head">
+      <h2 id="h-ask">Ask at each visit</h2>
+      <p class="sub">Questions that come from gaps and oddities in each brochure. A school will say "yes, of course" to a general question, so the ones below ask for numbers and wording.</p>
+    </div>
+    <div class="q-list">
+      <details class="q" open>
+        <summary>Sakura Kids</summary>
+        <ol>
+          <li>What exactly does the rule on "unverified information" cover? Can a parent raise a worry about a teacher, or ask to see the cameras? Ask for the wording in writing.</li>
+          <li>Is "20 kids, 3 teachers" the class limit or today's headcount? Who stays with the 2 to 3 year olds all day?</li>
+          <li>The words "(under 3 years old)" next to the bilingual track look crossed out. Is the bilingual track really for under-3s, and how long is each English period for a 2-year-old?</li>
+          <li>Are the 6,000,000 and 6,600,000 tuition amounts per month? The sheet does not say.</li>
+          <li>Can parents watch the cameras live on a phone?</li>
+        </ol>
+      </details>
+      <details class="q">
+        <summary>Hooray Kids</summary>
+        <ol>
+          <li>Which class takes a 23-month-old, and what does its day look like? The timetable shown is for a class named "MON 1" with no age.</li>
+          <li>How many kids and teachers are in that class?</li>
+          <li>The fee sheet skips section III and has year typos. Ask for a complete 2026–27 sheet. Is the facilities fee paid at registration or in September? The two pages disagree.</li>
+          <li>How is English taught to a 2-year-old? The week shown has daily word lists such as "I see..." and "I'm thirsty".</li>
+          <li>What is refunded after 3 to 10 sick days?</li>
+        </ol>
+      </details>
+      <details class="q">
+        <summary>Little Stars</summary>
+        <ol>
+          <li>What does the day look like for 18 to 36 months, and how many kids and teachers are in the class?</li>
+          <li>Is 5,900,000 the real 2026–27 tuition? One cell on the sheet still says "2024 – 2025".</li>
+          <li>The facilities fee is printed as 4,000,000, and a handwritten note says 3,000,000 a year. Which one applies?</li>
+          <li>What is charged from 17:01 to 17:30? The sheet is silent.</li>
+          <li>What changes at 36 months, when the bilingual track starts? Does the child move to a more English day?</li>
+        </ol>
+      </details>
+      <details class="q">
+        <summary>Twinkle Star</summary>
+        <ol>
+          <li>Where is the school, and what is the phone number? Neither is in the photos.</li>
+          <li>Ask for the 2026–27 fee sheet. The one seen is for 2023–24.</li>
+          <li>Are meals (60,000 a day) inside the 6,500,000 tuition or on top? Monthly cost is 6.5M or 7.8M depending on the answer.</li>
+          <li>Class size, teachers per class, camera access, sick-day rules, sibling discount.</li>
+        </ol>
+      </details>
+    </div>
+    <div class="everywhere">
+      <h3>At every visit, from the kindergarten plan</h3>
+      <ul>
+        <li>Crying kids are picked up and comforted, not ignored or put in front of a TV</li>
+        <li>Slow eaters are helped and get enough food</li>
+        <li>Rooms, toilets and kitchen are clean (ask to see the toilets and the kitchen)</li>
+        <li>Count the kids and teachers in the room and compare with the answer given</li>
+        <li>See the camera view working, not just hear that cameras exist</li>
+      </ul>
+      <p style="margin-top:8px;font-size:13px;color:var(--ink-2)">Best time: around drop-off (7 to 8 am) or mealtime, when crying and eating can be seen. A visit with no warning shows more than a planned tour.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-next">
+    <div class="sec-head">
+      <h2 id="h-next">Next steps</h2>
+      <p class="sub">These follow the dates already in the kindergarten plan.</p>
+    </div>
+    <ol class="timeline">
+      <li><span class="when">By Dec 2026</span><p>Set the monthly budget, school type and maximum distance. Ask Twinkle Star for an address and a 2026–27 fee sheet. Ask Hooray Kids and Little Stars for class sizes and a timetable for 2 to 3 year olds. Drop any school that does not answer.</p></li>
+      <li><span class="when">Feb to Mar 2027</span><p>Visit Sakura Kids, Hooray Kids and Little Stars, 2 to 3 weeks after Tet. Go around 7 to 8 am, unannounced if the school allows it.</p></li>
+      <li><span class="when">Mar to Apr 2027</span><p>Pay a deposit at the top choice only after the visit. Hooray's 1,000,000 reservation fee is fully refundable, so it is the cheapest way to hold a second place. Sakura's registration fee is lost if the child does not start.</p></li>
+      <li><span class="when">May to Aug 2027</span><p>Get ready and ease in over about 2 weeks, as set out in the plan. Pay month by month for the first 3 months. Consider a yearly pack once the child has settled and the refund rules for unused months are clear.</p></li>
+    </ol>
+  </section>
+
+  <section class="foot" aria-label="How the numbers were worked out">
+    <details>
+      <summary><b>How the numbers were worked out</b></summary>
+      <ul>
+        <li>12 months of tuition, 22 meal days a month. Late pick-up is counted on all 22 school days of all 12 months.</li>
+        <li>One-off fees counted: Sakura Kids enrolment, facilities, uniform, learning materials and events (7.02M; the 1,000,000 registration fee is refunded when the child starts). Hooray Kids facilities, enrolment, learning materials, uniform and bedding (5.1M; the reservation fee becomes tuition). Little Stars registration, facilities and uniform (6.18M). Twinkle Star facilities only (1.0M); its sheet lists no uniform.</li>
+        <li>Late pick-up: Sakura Kids 15,000 per 15 minutes after 18:00. Hooray Kids 50,000 for the 18:00 to 19:00 slot, nothing before 18:00 (the timetable ends at 17:30, so this is a guess). Little Stars free to 17:30, then 50,000 / 100,000 / 150,000 in half-hour steps. Twinkle Star 50,000 per started hour after 17:00.</li>
+        <li>Twinkle Star's sheet lists meals inside the tuition box but does not say whether they are extra. Counted as extra; if they are included, subtract 15.8M.</li>
+        <li>Not counted: field trips, Saturday school, extra English licence at Hooray Kids older classes (25 USD a month), price rises.</li>
+        <li>Transcription items marked unclear (the ⚠️ notes in the brochure files) are listed in each school's question list above.</li>
+        <li>Source: photos of the printed brochures taken in October 2026, transcribed in the kindergarten_brochures folder.</li>
+      </ul>
+    </details>
+  </section>
+
+</div>
+
+<script>
+/*DATA*/
+const DAYS = 22, MONTHS = 12;
+const SCHOOLS = [
+  { id: 'sakura', name: 'Sakura Kids', note: 'No discount for paying ahead',
+    tuition: 6.0, tuitionYear: 6.0, mealDay: 70,
+    oneoff: [['Enrolment', 2.0], ['Facilities', 2.0], ['Uniform and personal items', 0.82], ['Learning materials', 1.0], ['Events', 1.2]],
+    late: { '17:00': 0, '17:30': 0, '18:00': 0, '18:30': 30 },
+    notes: ['The 1,000,000 registration fee is refunded when the child starts, so it is not counted.', 'No discount is printed for paying a year ahead.'] },
+  { id: 'hooray', name: 'Hooray Kids', note: 'Year pack: 20% off tuition',
+    tuition: 6.3, tuitionYear: 5.6, mealDay: 70,
+    oneoff: [['Facilities', 2.0], ['Enrolment', 1.0], ['Learning materials', 1.0], ['Uniform combo', 0.6], ['Bedding combo', 0.5]],
+    late: { '17:00': 0, '17:30': 0, '18:00': 0, '18:30': 50 },
+    notes: ['Month by month already includes a 10% discount on 7.0M. A 12-month pack takes 20% off.', 'The 1,000,000 reservation fee becomes tuition, so it is not counted.', 'Free pick-up to 18:00 is a guess. The timetable ends at 17:30.'] },
+  { id: 'little', name: 'Little Stars', note: 'Year pack: 10% off tuition',
+    tuition: 5.9, tuitionYear: 5.31, mealDay: 60,
+    oneoff: [['Registration', 1.0], ['Facilities', 4.0], ['Uniform combo', 1.18]],
+    late: { '17:00': 0, '17:30': 0, '18:00': 50, '18:30': 100 },
+    notes: ['A handwritten note on the brochure says the facilities fee is 3,000,000. The printed fee (4,000,000) is counted.', 'Pick-up is free to 17:30, then 50,000 until 18:00 and 100,000 until 18:30.'] },
+  { id: 'twinkle', name: 'Twinkle Star', note: '2023–24 prices', stale: true,
+    tuition: 6.5, tuitionYear: 5.2, mealDay: 60,
+    oneoff: [['Facilities', 1.0]],
+    late: { '17:00': 0, '17:30': 50, '18:00': 50, '18:30': 100 },
+    notes: ['These are 2023–24 prices. Expect higher numbers today.', 'Meals are counted on top of tuition. If they are included, subtract 15.8M.', 'Overtime is 50,000 per started hour after 17:00.'] }
+];
+const CHECKS = [
+  ['Current-year fees (2026–27)', [1, 1, .5, 0]],
+  ['Address and phone', [1, 1, 1, 0]],
+  ['Class sizes', [1, 0, 0, 0]],
+  ['Timetable for ages 2 to 3', [1, .5, 0, 1]],
+  ['Menu', [1, 1, .5, 1]],
+  ['Enrolment steps', [1, 0, 0, 0]],
+  ['Rules for absence, sick days and leaving', [1, 1, .5, 0]],
+  ['Opening and closing hours', [.5, 1, 1, 1]]
+];
+function cost(s, pick, pay) {
+  const t = (pay === 'year' ? s.tuitionYear : s.tuition) * MONTHS;
+  const meals = s.mealDay * DAYS / 1000 * MONTHS;
+  const oneoff = s.oneoff.reduce((a, b) => a + b[1], 0);
+  const late = s.late[pick] * DAYS * MONTHS / 1000;
+  return { tuition: t, meals, oneoff, late, total: t + meals + oneoff + late };
+}
+/*END*/
+
+const FIT = [
+  ['Kids per teacher', 'Own rule: 5 or fewer is good, over 8 is a warning', [
+    ['mid', '5 to 6.7 each. Unclear if the printed number is the class limit'],
+    ['unk', 'Not printed'], ['unk', 'Not printed'], ['unk', 'Not printed']]],
+  ['A day for a 2-year-old', 'Play first, no drilling', [
+    ['mid', 'Sensory play, clay, outdoor time. Also 2 English slots a day and 4 specialist lessons a week'],
+    ['mid', 'Montessori choices, but daily word lists. Class age not stated'],
+    ['unk', 'No timetable in the photos'],
+    ['good', 'Short 30-minute lessons, outdoor and cooking days, long free play']]],
+  ['Independence', 'Principle 4', [
+    ['good', 'Children set the table, tidy their sleeping place, take a duty role'],
+    ['good', 'Watering plants, an eating shirt, own bedding'],
+    ['unk', 'Not printed'],
+    ['good', 'Montessori daily, life skills 3 times a week']]],
+  ['English at school', 'English comes from home, not drills', [
+    ['mid', '10 periods a week, half with foreign teachers'],
+    ['mid', '10 sessions a week. Older classes pay 25 USD a month extra'],
+    ['good', 'Vietnamese only until 36 months'],
+    ['good', '3 half-hour lessons a week']]],
+  ['Sick days and breaks', 'The first year brings many colds', [
+    ['good', '10+ sick days in a row: 20% off next month. Up to 2 months leave a year'],
+    ['mid', 'Only meals refunded, unless 15+ sick days with a hospital note (60% off)'],
+    ['bad', 'Full fees in breaks. Meals refunded only if told by noon the day before'],
+    ['unk', 'Not printed']]],
+  ['Hours and late pick-up', 'Both parents work', [
+    ['good', 'Open to 18:00. Late fee 15,000 per 15 minutes'],
+    ['good', 'Timetable ends 17:30. 50,000 for 18:00 to 19:00'],
+    ['mid', 'Pick-up 16:00 to 17:00. Late fees climb to 150,000'],
+    ['mid', 'Day ends 17:00. 50,000 per hour after']]],
+  ['Distance from home', 'Plan sets a maximum', [
+    ['good', 'Valora Mizuki shophouses, same estate'],
+    ['good', 'Valora Mizuki shophouses, same estate'],
+    ['good', 'Valora Mizuki shophouses, same estate'],
+    ['unk', 'No address in the photos']]],
+  ['Information is current and complete', 'Needed to compare fairly', [
+    ['good', '2026–27 fees, enrolment steps, timetable, menu'],
+    ['mid', 'Fee sheet misses a section and has year typos'],
+    ['mid', 'Says 2026–27 but one cell says 2024–25. No timetable'],
+    ['bad', 'Fees are for 2023–24. No address']]]
+];
+const LABEL = { good: 'Good: ', mid: 'Mixed: ', bad: 'Weak: ', unk: 'Brochure does not say: ' };
+
+const $ = (id) => document.getElementById(id);
+const fm = (n) => n.toFixed(1) + 'M';
+const trim = (n) => String(+n.toFixed(3));
+const state = { pick: '17:30', pay: 'month', sel: 'sakura' };
+const MAX = 130, STEP = 25;
+
+/* brochure checks: pips on cards and the table */
+(function () {
+  const cards = document.querySelectorAll('#cards .card');
+  cards.forEach((card) => {
+    const i = +card.dataset.i;
+    const score = CHECKS.reduce((a, c) => a + c[1][i], 0);
+    card.querySelector('.know-label').textContent = 'Brochure covers ' + score + ' of ' + CHECKS.length + ' checks';
+    card.querySelector('.pips').innerHTML = CHECKS.map((c) => {
+      const v = c[1][i];
+      return '<span class="pip ' + (v === 1 ? 'full' : v === .5 ? 'half' : '') + '"></span>';
+    }).join('');
+  });
+  const names = SCHOOLS.map((s) => s.name);
+  const word = (v) => v === 1 ? ['yes', 'Yes'] : v === .5 ? ['part', 'Partly'] : ['no', 'No'];
+  $('checks-table').innerHTML =
+    '<thead><tr><th>Check</th>' + names.map((n) => '<th>' + n + '</th>').join('') + '</tr></thead><tbody>' +
+    CHECKS.map((c) => '<tr><th scope="row" style="font-weight:500">' + c[0] + '</th>' +
+      c[1].map((v) => '<td class="' + word(v)[0] + '">' + word(v)[1] + '</td>').join('') + '</tr>').join('') + '</tbody>';
+})();
+
+/* fit grid */
+(function () {
+  const fit = $('fit');
+  const names = SCHOOLS.map((s) => s.name);
+  FIT.forEach((r) => {
+    const row = document.createElement('div');
+    row.className = 'fit-row';
+    row.innerHTML = '<div class="crit">' + r[0] + '<small>' + r[1] + '</small></div>' +
+      r[2].map((c, i) => '<div class="cell ' + c[0] + '" data-s="' + names[i] + '"><i class="dot" aria-hidden="true"></i><span class="t"><span class="sr">' + LABEL[c[0]] + '</span>' + c[1] + '</span></div>').join('');
+    fit.appendChild(row);
+  });
+})();
+
+/* cost chart */
+(function () {
+  const axis = $('axis');
+  for (let v = 0; v <= 125; v += STEP) {
+    const s = document.createElement('span');
+    s.style.left = (v / MAX * 100) + '%';
+    s.textContent = v === 0 ? '0' : v + 'M';
+    axis.appendChild(s);
+  }
+})();
+
+function render() {
+  const chart = $('chart');
+  const data = SCHOOLS.map((s) => ({ s, c: cost(s, state.pick, state.pay) }));
+  chart.innerHTML = '';
+  data.forEach(({ s, c }) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'row' + (s.stale ? ' stale' : '');
+    b.setAttribute('aria-pressed', String(s.id === state.sel));
+    b.dataset.id = s.id;
+    const seg = (v, cls) => v > 0 ? '<span class="seg" style="width:calc(' + (v / MAX * 100) + '% - 2px);background:var(--' + cls + ')"></span>' : '';
+    b.innerHTML =
+      '<span class="rlabel"><b>' + s.name + '</b><small>' + s.note + '</small></span>' +
+      '<span class="track">' + seg(c.tuition, 'c-tuition') + seg(c.meals, 'c-meals') + seg(c.oneoff, 'c-oneoff') + seg(c.late, 'c-late') + '</span>' +
+      '<span class="rtotal num">' + fm(c.total) + '</span>';
+    b.addEventListener('click', () => { state.sel = s.id; render(); });
+    chart.appendChild(b);
+  });
+
+  /* one line that says what the chart shows */
+  const live = data.filter((d) => !d.s.stale).sort((a, b) => a.c.total - b.c.total);
+  const lo = live[0], hi = live[live.length - 1], gap = hi.c.total - lo.c.total;
+  const tw = data.find((d) => d.s.stale);
+  const payTxt = state.pay === 'year' ? 'paying tuition a year ahead' : 'paying month by month';
+  $('readout').innerHTML =
+    'At ' + state.pick + ' pick-up and ' + payTxt + ', <b>' + lo.s.name + ' is cheapest at ' + fm(lo.c.total) + '</b> and <b>' + hi.s.name + ' dearest at ' + fm(hi.c.total) + '</b> among the three schools with current prices. ' +
+    'The gap is ' + fm(gap) + ' a year, about ' + (gap / 12).toFixed(1) + 'M a month. ' +
+    'Twinkle Star (' + fm(tw.c.total) + ') is left out of that comparison because its prices are from 2023–24.';
+
+  /* breakdown of the selected school */
+  const d = data.find((x) => x.s.id === state.sel), s = d.s, c = d.c;
+  const t = state.pay === 'year' ? s.tuitionYear : s.tuition;
+  const lateDay = s.late[state.pick];
+  $('detail').innerHTML =
+    '<h3>' + s.name + ': ' + fm(c.total) + ' in year one</h3>' +
+    '<div class="tablewrap" style="margin-top:0"><table><tbody>' +
+    '<tr><td>Tuition<small>' + MONTHS + ' × ' + trim(t) + 'M' + (state.pay === 'year' && s.tuitionYear !== s.tuition ? ' (year-ahead rate)' : '') + '</small></td><td class="num">' + fm(c.tuition) + '</td></tr>' +
+    '<tr><td>Meals<small>' + MONTHS + ' months × ' + DAYS + ' days × ' + (s.mealDay * 1000).toLocaleString('en-US') + '</small></td><td class="num">' + fm(c.meals) + '</td></tr>' +
+    '<tr><td>One-off fees<small>' + s.oneoff.map((o) => o[0] + ' ' + trim(o[1]) + 'M').join(' · ') + '</small></td><td class="num">' + fm(c.oneoff) + '</td></tr>' +
+    '<tr><td>Late pick-up at ' + state.pick + '<small>' + (lateDay ? MONTHS + ' months × ' + DAYS + ' days × ' + (lateDay * 1000).toLocaleString('en-US') : 'No late fee at this time') + '</small></td><td class="num">' + fm(c.late) + '</td></tr>' +
+    '</tbody><tfoot><tr><td>Total</td><td class="num">' + fm(c.total) + '</td></tr></tfoot></table></div>' +
+    '<ul class="notes">' + s.notes.map((n) => '<li>' + n + '</li>').join('') + '</ul>';
+}
+
+document.querySelectorAll('input[name="pick"]').forEach((el) => el.addEventListener('change', () => { state.pick = el.value; render(); }));
+document.querySelectorAll('input[name="pay"]').forEach((el) => el.addEventListener('change', () => { state.pay = el.value; render(); }));
+render();
+</script>
+</body>
+</html>
