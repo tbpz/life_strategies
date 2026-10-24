@@ -1,0 +1,212 @@
+# Decision Log — Life Strategies
+
+> **What this file is:** an append-only history of decisions and why they were made.
+> **Rules:** never edit or delete an existing entry; only add new ones. Newest at the top.
+> **When to read it:** only to answer a "why was X decided?" question. Grep it, never read it top to bottom. The current state lives in [STATE.md](STATE.md), not here.
+> **Appending:** use the `decision-log` skill. It carries the format, the word budget, and the rules that keep entries easy to grep.
+> **Backfilled entries:** entries dated before 2026-10-24 were written on 2026-10-24 from the files they name under **Source**. Their date is when the decision was made, or when its file was dated, not when it was logged.
+>
+> Entry format: `## [YYYY-MM-DD] Title` → **Decision** / **Why** / **Replaces** (backfilled entries add **Source**).
+
+---
+
+## [2026-10-24] The grandmother keeps the usual feeding style; the one ask is no screens at meals
+
+- **Decision:**
+  - The grandmother keeps feeding in the usual way at the meals the parents miss: spoon-feeding, rotating dishes, distracting with toys.
+  - The one ask of the grandmother is no phone or TV at meals.
+  - The parents let the son feed himself at the meals they are home for.
+- **Why:**
+  - Health is not at risk: growth is on track and iron is covered.
+  - Children adapt to different rules from different adults; tension between the adults would cost more than the mixed styles.
+  - Feeding in front of a screen is the habit easiest to form and hardest to break.
+  - The parents are out most of the day and want to avoid extra stress at home.
+- **Replaces:**
+  - Nothing.
+
+## [2026-10-24] The toddler eating phase is treated as normal and judged by growth, not by bowls
+
+- **Decision:**
+  - The son's food refusal at about 14 months is treated as a normal phase for the age, not a problem to fix.
+  - Whether enough is eaten is judged by the weight trend on the WHO growth chart, checked every 1–2 months, not by finished bowls.
+  - A steady slide down the chart across 2–3 checks means a return to the doctor, with a blood test if needed.
+  - Iron, the main gap when meat, egg and fish are refused, is covered by the supplement already taken.
+  - Meals stay low-pressure: set times, one safe food plus a small try food, no replacement dish after a refusal.
+- **Why:**
+  - Weight was about 11 kg at almost 14 months on 2026-10-24, roughly the top quarter for boys on the WHO chart.
+  - The hospital doctor saw no cause for worry and advised vitamins.
+  - Refusal follows texture: soft foods are accepted, chewy ones (meat, shrimp, egg) are held in the mouth and spat out.
+  - A friend's child was found malnourished at age 4; regular growth checks guard against a slow slide going unnoticed.
+- **Replaces:**
+  - Nothing. The feeding guidance in `parenting/reference/03_health_guidelines.md` stands.
+
+## [2026-10-24] The Masterpiece dream is now pursued through the game project
+
+- **Decision:**
+  - The game project (`casual_autobattler`) is the Masterpiece pursuit now, in game form instead of story form.
+  - The story first brick (design one confrontation) is kept for later as another possible form. It is not dropped.
+  - The game's own current state lives in its `STATE.md`, at `../casual_autobattler/STATE.md`.
+- **Why:**
+  - The user said the game is the Masterpiece pursuit in a different form.
+  - The game began with no productive justification attached, and cleared all three known interest-killers (`self_discovery_log.md`, 2026-07-23 session).
+- **Replaces:**
+  - The line in `creative/creative_strategy.md` that the story first brick is the active next step. That file is not edited; read its first-brick section as paused.
+  - Not settled: whether the exist-vs-become rule (2026-06-22) still holds now that the pursuit is a game built with AI.
+
+## [2026-10-24] The career practice sprint is dropped
+
+- **Decision:**
+  - The 3-habit practice sprint at Orange Logic (RAID log, two-line change record, acceptance criteria) is dropped.
+  - It was not carried out as planned.
+  - Career skill keeps growing through the job itself.
+  - The next career step is not decided yet. It is an open question in `STATE.md`.
+- **Why:**
+  - The user confirmed this on 2026-10-24.
+  - The sprint's own rule was to close it and move on if the habits did not take hold (`career/career_strategy.md`).
+- **Replaces:**
+  - "Current Focus: Practice Phase" in `career/career_strategy.md`. One line was added there pointing here.
+  - The other parts of that file stand.
+
+## [2026-10-18] The Masterpiece is judged by whether the right few people find it
+
+- **Decision:**
+  - Success for the Masterpiece dream is whether the right people found it and saw what was seen. Few and deep, not many.
+  - "External praise is not required" is only half true. Praise is not needed, but being received by people with the same taste is.
+  - The need to share a deep feeling with close people is fed now, by sharing great stories with the brother and close friends. It does not wait for a masterpiece.
+  - When criticism comes, ask why. A reason that points at a flaw the user's own standard can see improves the work. A reason about taste says nothing about quality.
+- **Why:**
+  - The sharing test: joy when friends read a series and agreed, sadness when "someday" readers never came back.
+  - Making something is a separate need from sharing. It held when tested: the masterpiece would still be made if nobody could read it.
+  - This keeps meaning from depending on other people.
+- **Replaces:**
+  - The "External praise is not required" line in the Confirmed premises of `self_discovery_log.md`, narrowed to the half that holds.
+- **Source:** backfilled from `self_discovery_log.md`, session of 2026-10-18.
+
+## [2026-10-06] Kindergarten target is August 2027
+
+- **Decision:**
+  - The target start is August 2027.
+  - Slipping to about 2.5 years old is fine. Starting much later than 3 is not.
+  - Steps and windows are in the Timeline of `parenting/stages/stage_2_toddler/kindergarten_plan.md`.
+- **Why:**
+  - It is before age 2, which fits the Stage 2 goal of regular time with other kids.
+  - It is the start of the school year, so the child joins a class of other new kids.
+  - Separation anxiety has mostly passed by then.
+  - The nanny covers the hardest months, Tet and the hot season.
+- **Replaces:**
+  - Nothing.
+- **Source:** backfilled from `parenting/stages/stage_2_toddler/kindergarten_plan.md` (dated 2026-10-06).
+
+## [2026-07-23] No deadline pressure on the game project
+
+- **Decision:**
+  - The game project gets no deadlines.
+  - The top-down for known ground, bottom-up for exploration split (2026-06-13) already answers "should deadlines be set". The answer is no.
+  - Comparing personal pace with someone else's pace is not a reason to change plans.
+  - Proposed, not confirmed: keep only thin structure, a next visible step and a weekly "moving or stuck?" check.
+- **Why:**
+  - Deadline pressure is the same mechanism that turned past hobbies into work and killed them (the Justification Loop).
+  - The pace worry arrived right after a stable, guilt-free month. That matches the Anxiety Engine.
+  - Checked 2026-10-24: the user says the pace worry faded.
+- **Replaces:**
+  - Nothing.
+- **Source:** backfilled from `self_discovery_log.md`, session of 2026-07-23.
+
+## [2026-06-22] Creative work is built one confrontation at a time; AI critiques but does not make the core
+
+- **Decision:**
+  - The unit of work is one confrontation: two characters, constrained abilities, an apparent mismatch resolved fairly.
+  - Design the fight first. Build only the rule the fight demands.
+  - Exist-vs-become rule: when the goal is a thing existing, use AI fully. When the goal is becoming capable, as in this pillar, the core is self-generated and AI only critiques.
+  - A "lame" draft has a findable cause: a resolution out of nowhere, constraints that never collide, or an outcome that was obvious.
+  - Reaching for a fourth reframe before one confrontation is finished is the sign to stop and produce.
+  - The full list is in `creative/creative_strategy.md`.
+- **Why:**
+  - System-first design had no definition of done.
+  - Emotional-scene-first had no standard above the median, so "lame" had no cause.
+  - Outsourcing the core would repeat the hollow feeling of reaching Master rank in TFT: a result with no self-authorship.
+- **Replaces:**
+  - The June 11 creative framing in `archive/creative_strategy.md`.
+- **Source:** backfilled from `creative/creative_strategy.md` and `self_discovery_log.md`, session of 2026-06-22.
+
+## [2026-06-21] Pillar 2 is Meaningful Pursuit, and the dream pursued is the Masterpiece
+
+- **Decision:**
+  - Pillar 2 is renamed from "Enjoyment" to "Meaningful Pursuit".
+  - The dream pursued is the Masterpiece dream (the creative path).
+  - Guilt-free leisure (Dota, football, stories) continues in parallel for rest.
+- **Why:**
+  - "Fun" was a misdiagnosis, a craving that was the opposite of career hopelessness.
+  - The real need is visible capability on a real problem.
+  - Of the lifelong dreams, the Masterpiece is the one with a visible, solvable problem and an analytical standard already in place.
+- **Replaces:**
+  - "Enjoyment" as the label and goal of Pillar 2.
+- **Source:** backfilled from `self_discovery_log.md`, sessions of 2026-06-20/21 and 2026-06-21.
+
+## [2026-06-13] Plan top-down for known ground, bottom-up for exploration
+
+- **Decision:**
+  - Career, finances and parenting are planned top-down: goal, plan, execute.
+  - Enjoyment and exploration are bottom-up. Starting an activity is a look around, not a commitment.
+  - Cycling through interests is normal.
+- **Why:**
+  - Top-down planning on fun produced paralysis.
+  - The "meaningful enough" filter blocked every activity and sorted none.
+  - The deep engagement with TFT showed up from the inside, after a casual return.
+- **Replaces:**
+  - Nothing.
+- **Source:** backfilled from `self_discovery_log.md`, session of 2026-06-13.
+
+## [2026-06-11] Parallel, not sequential: enjoyment does not wait for career safety
+
+- **Decision:**
+  - Career execution and guilt-free enjoyment run at the same time.
+  - Self-trust is rebuilt through competence on the essentials. Leisure is allowed now.
+- **Why:**
+  - Adult threats never run out, so leisure that waits for them to clear is put off forever (the Permission Trap).
+- **Replaces:**
+  - The earlier idea that enjoyment should be found as a way out of the career.
+- **Source:** backfilled from commit `f64be5f` (2026-06-11) and `self_discovery_log.md`.
+
+## [2026-05-15] Savings stay in bank deposits, and savings stand in for term life insurance
+
+- **Decision:**
+  - All surplus savings stay in bank deposits at a Big 4 bank. No ETFs, stocks, gold or crypto.
+  - Term life insurance is not pursued. The savings cover it.
+  - The financial checklist is closed. Review it once a year at most.
+  - Follow no financial news.
+  - Amounts and layers are in `financial/financial_checklist.md`.
+- **Why:**
+  - The goal is zero financial anxiety, not top returns.
+  - Deposits have beaten inflation every year since 2013, by the checklist's own figures.
+  - More complexity makes steady habits harder to keep.
+- **Replaces:**
+  - Nothing.
+- **Source:** backfilled from `financial/financial_checklist.md` (closed 2026-05-15).
+
+## [2026-05-15] Five parenting principles are the filters for parenting choices
+
+- **Decision:**
+  - The five principles: Authority Through Reasoning; Trust Without Collapse; Teach the Engine, Not the Fuel; Independence as the End Goal; Family as Foundation, Not Cage.
+  - Both parents are aligned on them.
+  - Full detail is in `parenting/reference/01_parenting_principles.md`.
+- **Why:**
+  - A parent who is unsure, or feeling pressure from other parents, needs a short check to run a choice against.
+- **Replaces:**
+  - Nothing.
+- **Source:** backfilled from `parenting/parenting_strategy.md` and commit `6a36c47` (2026-05-15).
+
+## [2026-05-03] Four career decisions, locked
+
+- **Decision:**
+  - Career is the engine, never the destination.
+  - Income and enjoyment stay on separate tracks.
+  - Grow sideways, not up the management ladder.
+  - "Good enough" security means being able to find a comparable role within 2 months, kept up by staying marketable, not by gaining a title.
+- **Why:**
+  - Climbing the ladder means more accountability for a team's results and careers. That is what caused the Zalo wound.
+  - No job was found that joins income and enjoyment without spoiling the enjoyment.
+  - The market investigation showed the 2-month threshold is reachable.
+- **Replaces:**
+  - Nothing.
+- **Source:** backfilled from `career/career_strategy.md`. The date is when that file was created. The exact day the decisions were locked is not recorded.

@@ -79,6 +79,8 @@ DM-OS written, self-assessed, and organized into 11 files in `DM_Operating_Syste
 
 ### Current Focus: Practice Phase — Apply 3 New Habits at OL
 
+> **Dropped 2026-10-24.** The sprint was not carried out as planned. See `DECISIONS.md` (2026-10-24, "The career practice sprint is dropped"). The text below is kept as history.
+
 The remaining confidence gap: some DM-OS steps are newly documented but never practiced. Confidence is only built by doing them in real work.
 
 | Habit | How to Practice at OL | Status |

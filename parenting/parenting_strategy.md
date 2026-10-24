@@ -74,6 +74,7 @@ Revisit this document (and the active stage file):
 | [`03_health_guidelines.md`](reference/03_health_guidelines.md) | When you need specific numbers (sleep hours, screen limits) |
 | [`04_social_emotional.md`](reference/04_social_emotional.md) | When dealing with emotional outbursts, tantrums, social issues |
 | [`05_education_strategy.md`](reference/05_education_strategy.md) | When peers or family push the academic race narrative |
+| [`06_growth_check.md`](reference/06_growth_check.md) | When weighing the son, or when unsure whether eating is still a normal phase |
 | [`stages/stage_1_infant/food_introduction_checklist.md`](stages/stage_1_infant/food_introduction_checklist.md) | Food & allergen tracking — complete before 12 months |
 
 ---

@@ -4,18 +4,20 @@
 This workspace builds, refines, and tracks long-term life directions and strategies. It is the "Source of Truth" for any AI agent working in this repository.
 
 ## Workspace Structure
-*`CLAUDE.md` is auto-read by Claude at session start. Then read this file. Then open the relevant pillar file.*
+*`CLAUDE.md` is auto-read by Claude at session start. Then read `STATE.md`. Then this file. Then open the relevant pillar file.*
 
 | File / Directory | Purpose |
 |---|---|
-| `CLAUDE.md` | Auto-read by Claude. Identity, pillar status, session routing. |
-| `context.md` | This file. Orientation, pillars, goals, constraints. |
+| `CLAUDE.md` | Auto-read by Claude. Identity, pillar list, session routing, how to work with STATE and DECISIONS. |
+| `STATE.md` | Where things stand right now and what to do next. Rewritten whole, only when asked. Read second. |
+| `DECISIONS.md` | Append-only history of decisions and why they were made. Grep it, never read it top to bottom. |
+| `context.md` | This file. Values, pillar descriptions, long-term goals, constraints. Changes rarely. |
 | `self_discovery_log.md` | Chronological record of key diagnostic sessions, self-trust insights, and behavioral patterns. |
-| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, practice phase status. |
+| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, the dropped practice sprint. |
 | `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
 | `financial/financial_checklist.md` | Financial resilience checklist. All layers closed 2026-05-15. Annual review only. |
-| `creative/creative_strategy.md` | Pillar 2 deep-dive: Meaningful Pursuit, the Masterpiece dream, operating principles, and the active first brick. |
+| `creative/creative_strategy.md` | Pillar 2 deep-dive: Meaningful Pursuit, the Masterpiece dream, operating principles, and the story first brick. |
 | `creative/README.md` | Pointer to creative_strategy.md; archive note for prior Story Architect framing. |
 | `parenting/parenting_strategy.md` | Pillar 3 deep-dive: 5 principles, stage-gated rituals. |
 | `parenting/_AI_RULES.md` | AI role, guardrails, and conventions for Parenting sessions. Loaded by router. |
@@ -40,25 +42,20 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 
 ---
 
-## Current Context
-*Snapshot as of July 2026.*
+## Standing Facts
+*Facts that change rarely. What is happening now is in [STATE.md](STATE.md).*
 
 ### Career & Work
-- **Current Role:** Delivery Manager at Orange Logic (enterprise DAM, US/EU clients). Deliberately chosen as a scoped-down role after 9 years at Zalo.
-- **Capacity:** Operating at ~70%. Frees mental bandwidth for personal exploration.
+- **Role:** Delivery Manager at Orange Logic (enterprise DAM, US/EU clients). Deliberately chosen as a scoped-down role after 9 years at Zalo.
+- **Capacity:** Operating at ~70% (as of July 2026). Frees mental bandwidth for personal exploration.
 - **Strategic Intent:** The job is a *platform*, not a destination — funds life while providing 30% mental space for the real goal.
-- **Progress (2026-07-23 check-in):** A month of focused work capability improvement produced genuine gains in confidence and self-understanding. Not yet at "could work anywhere" confidence, but trending there. As predicted by the parallel-execution thesis, this translated into reduced nighttime guilt and freer enjoyment of personal time without deliberate effort. See [self_discovery_log.md](file:///d:/Tu/Life_strategies/self_discovery_log.md).
 
 ### Life Stage & Financial
 - **Age:** Mid-30s. Has a young son. Financial decisions carry responsibility beyond self.
-- **Financial Status:** Comfortable middle class. Owns a house. **Financial resilience checklist closed 2026-05-15 — all three layers verified complete.**
-
-### Meaningful Pursuit — In Practice
-- **Masterpiece dream:** Not touched during the past month. Remains valid; not abandoned, just inactive.
-- **Game project (new, active):** Joined a friend's game-building idea with no productive justification attached — started purely because it seemed interesting. First interest on record to clear all three known kill mechanisms (Exceptional-Achievement Bar, Justification Loop, Desire-Killing Machine). Structurally resembles the Team Cherry model (small team, shared build) previously identified as the ideal-but-unrealized structure. Currently the live example of guilt-free, bottom-up enjoyment working as intended.
+- **Financial Status:** Comfortable middle class. Owns a house.
 
 ### The Real Goal
-The core objective is to rebuild self-trust in handling life's essentials so that free time feels genuinely free — not stolen. Beyond self-trust, the deeper need is a meaningful pursuit: exercising genuine capability on a real problem with observable impact, aligned with lifelong dreams of mastery and mattering. Guilt-free leisure (Dota, football, consuming stories) continues in parallel for flow and rest. The creative path (Masterpiece dream) is the identified meaningful pursuit — see [creative_strategy.md](file:///d:/Tu/Life_strategies/creative/creative_strategy.md).
+The core objective is to rebuild self-trust in handling life's essentials so that free time feels genuinely free — not stolen. Beyond self-trust, the deeper need is a meaningful pursuit: exercising genuine capability on a real problem with observable impact, aligned with lifelong dreams of mastery and mattering. Guilt-free leisure (Dota, football, stories) continues in parallel for flow and rest. The creative path (Masterpiece dream) is the identified meaningful pursuit — see [creative_strategy.md](creative/creative_strategy.md).
 
 ---
 
@@ -69,46 +66,25 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 
 ### Pillar 1: 🔑 Self-Trust & Career Competence
 *Execute on career strategies to build genuine competence. Making the responsible parts of life feel manageable and secure is the foundation that unlocks guilt-free enjoyment.*
-- **Career:** Sprint in practice phase. See [career_strategy.md](file:///d:/Tu/Life_strategies/career/career_strategy.md).
+- **Career:** Deep-dive in [career_strategy.md](career/career_strategy.md).
 - **Security threshold:** Able to find a comparable role within 2 months. Achieved through marketability maintenance, not title advancement.
-- **Financial:** ✅ Closed 2026-05-15. Annual review only. See [financial_checklist.md](file:///d:/Tu/Life_strategies/financial/financial_checklist.md).
+- **Financial:** Deep-dive in [financial_checklist.md](financial/financial_checklist.md).
 
 ### Pillar 2: 🎨 Meaningful Pursuit
 *Exercise genuine capability on a real problem with observable impact — the actual need underneath the original "Enjoyment" framing. Guilt-free leisure (Dota, football, stories) remains valid in parallel for flow and rest, without requiring productive justification.*
-- **Active pursuit:** The Masterpiece dream (creative/storytelling). Operating principles, failure modes, and the current first brick are in [creative_strategy.md](file:///d:/Tu/Life_strategies/creative/creative_strategy.md).
+- **Pursuit:** The Masterpiece dream (creative/storytelling). Operating principles and failure modes are in [creative_strategy.md](creative/creative_strategy.md).
 - **Flow Engine (leisure side):** Dota, football, stories continue as flow/rest activities, evaluated bottom-up — no formal tracking framework.
 
 ### Pillar 3: 👦 Parenting (The Responsibility)
 *Raise a young son to become a good person.*
-- **Status:** Always-on. 5 core principles defined. Stage 1 (infant) rituals active. See [parenting_strategy.md](file:///d:/Tu/Life_strategies/parenting/parenting_strategy.md).
+- **Approach:** Always-on. 5 core principles, stage-gated rituals. See [parenting_strategy.md](parenting/parenting_strategy.md).
 
 ---
 
-## Goals & Milestones
+## Long-term Goals (2–10 years)
 
-### Sequencing Strategy
 > Rebuilding self-trust requires parallel engagement. Career execution handles adult responsibilities, while guilt-free play reinforces the permission to live fully.
 
-| Pillar | Mode | Focus | Target Outcome |
-|---|---|---|---|
-| **Pillar 1 — Self-Trust & Career** | Practice Sprint | Execute 3 DM habits | Re-establish confidence in daily professional effectiveness. |
-| **Pillar 2 — Meaningful Pursuit** | Parallel Integration | First brick: design one confrontation | Build self-generated capability via the Masterpiece dream; leisure continues for flow. |
-| **Pillar 3 — Parenting** | Always-On | Consistent presence | Daily rituals and value narration. |
-
-### Short-term (Now → 3 months)
-- [x] **[Pillar 1 — Financial]** Financial resilience checklist closed 2026-05-15.
-- [/] **[Pillar 1 — Career]** Practice sprint — apply RAID log, change record, and acceptance criteria at OL for 2–4 weeks, then close.
-- [x] **[Pillar 3]** Define 3-5 core parenting principles. ✅ 5 principles defined 2026-05-15.
-- [/] **[Pillar 3]** Establish bedtime/bath-time micro-ritual. Practice consistent narration. Phone-away habit.
-- [ ] **[Pillar 2]** Allow guilt-free entertainment weekly (e.g., Dota, football, stories) — no productive justification required.
-- [ ] **[Pillar 2 — Meaningful Pursuit]** Complete the first brick: one confrontation where a power system resolves an apparent mismatch fairly. See `creative_strategy.md`.
-
-### Medium-term (3 months → 2 years)
-- [ ] **[Pillar 1]** Rebuild high self-trust in career competence by achieving lateral professional growth and stable execution.
-- [ ] **[Pillar 2]** Integrate regular, guilt-free hobbies into weekly routine; permit exploration of new fields of interest if curiosity arises naturally.
-- [ ] **[Pillar 2 — Meaningful Pursuit]** Build a working sequence of self-critiqued confrontations toward the Masterpiece dream, one brick at a time.
-
-### Long-term (2–10 years)
 - **[Pillar 1]** Maintain a stable, highly competent career platform that handles life's financial demands with low friction and high confidence.
 - **[Pillar 2]** Live with sustainable, lifelong enjoyment and active hobbies, free from chronic anxiety or guilt; sustained progress on the Masterpiece dream through self-generated capability.
 - **[Pillar 3]** Son growing with clear values, strong relationship with father, feeling seen and supported.
@@ -120,9 +96,9 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 - **Vagueness as the primary enemy:** Without concrete next steps, progress stalls — especially for someone whose engine runs on visible small wins.
 - **The paralysis pattern:** The tendency to require perfect conditions or comprehensive plans before starting. In career: avoiding execution due to fear of not being perfect. In enjoyment: deferring fun until all responsibilities feel completely resolved.
 - **The permission trap:** The persistent internal rule that leisure is only justified when future life threats are fully mitigated. Because adult threats are infinite, play is perpetually deferred unless explicitly allowed in parallel.
-- **Career confidence wound:** Anxiety is disproportionate to actual risk. Rebuilding self-trust requires executing on the "good enough" standard defined in [career_strategy.md](file:///d:/Tu/Life_strategies/career/career_strategy.md) to close the action gap.
+- **Career confidence wound:** Anxiety is disproportionate to actual risk. Rebuilding self-trust requires executing on the "good enough" standard defined in [career_strategy.md](career/career_strategy.md) to close the action gap.
 - **Limited free energy:** Mental capacity must be budgeted carefully. Career sprints and play are balanced in parallel to prevent burnout.
 - **Fatherhood is non-negotiable daily:** Son's early years cannot be deferred. Parenting time and presence are fixed costs the strategy must work around.
 
 ---
-*Last Updated: 2026-07-23*
+*Last Updated: 2026-10-24*

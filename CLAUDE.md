@@ -1,7 +1,7 @@
 # CLAUDE.md — Life Strategies Workspace
 
-> Auto-read at every session start. Provides identity, pillar status, and session routing.
-> Always read `context.md` next for full cross-pillar strategy and constraints.
+> Auto-read at every session start. Provides identity, pillar list, and session routing.
+> Read `STATE.md` next for where things stand and what to do next, then `context.md` for values and constraints.
 
 ---
 
@@ -15,15 +15,15 @@ The real goal is to rebuild self-trust in handling life's essentials so that fre
 
 ## The Three Pillars
 
-| Pillar | Status |
-|---|---|
-| 🔑 **Pillar 1 — Self-Trust & Career Competence** | Practice sprint active. Rebuilding daily execution and competence. See [career_strategy.md](file:///d:/Tu/Life_strategies/career/career_strategy.md). |
-| 🎨 **Pillar 2 — Meaningful Pursuit** | Active: the Masterpiece dream (creative path). First brick defined. See [creative_strategy.md](file:///d:/Tu/Life_strategies/creative/creative_strategy.md). Guilt-free leisure continues in parallel for flow/rest. |
-| 👦 **Pillar 3 — Parenting** | Always-on. 5 principles defined, Stage 1 rituals active. See [parenting_strategy.md](file:///d:/Tu/Life_strategies/parenting/parenting_strategy.md). |
+| Pillar | Deep-dive file | Status |
+|---|---|---|
+| 🔑 **Pillar 1 — Self-Trust & Career Competence** | [career_strategy.md](career/career_strategy.md) | See [STATE.md](STATE.md) |
+| 🎨 **Pillar 2 — Meaningful Pursuit** | [creative_strategy.md](creative/creative_strategy.md) | See [STATE.md](STATE.md) |
+| 👦 **Pillar 3 — Parenting** | [parenting_strategy.md](parenting/parenting_strategy.md) | See [STATE.md](STATE.md) |
 
-**Governing Principle:** Parallel, Not Sequential. Career execution and meaningful pursuit run in parallel.
+**Governing Principle:** Parallel, Not Sequential. Career execution and meaningful pursuit run in parallel. Guilt-free leisure continues alongside for flow and rest.
 
-**Current Sequencing:** Both pillars run in parallel. The practice sprint rebuilds trust. The Masterpiece dream is pursued brick by brick alongside it.
+**Current Sequencing:** All pillars run in parallel. What is active in each, and what comes next, is in [STATE.md](STATE.md).
 
 ---
 
@@ -41,6 +41,34 @@ The real goal is to rebuild self-trust in handling life's essentials so that fre
 
 ---
 
+## STATE.md and DECISIONS.md — how to work with them
+
+Two files with different rules. Their skills live in `.claude/skills/` and are tracked with this repo.
+
+- **[STATE.md](STATE.md)** — what is true right now, and what to do next. Present tense. Rewritten whole, never appended to.
+- **[DECISIONS.md](DECISIONS.md)** — the append-only history of decisions and why they were made. Newest at the top. Never edited or deleted.
+
+**On session start**
+1. Read `STATE.md` first. Layer 1 alone is enough to orient; read layer 2 when the task needs it.
+2. Never read `DECISIONS.md` top to bottom. Grep it to answer "why was X decided?".
+3. If `DECISIONS.md` has entries newer than `STATE.md`'s `Last synced` date, STATE is behind. Trust the newer entries, say so, and offer a re-sync.
+
+**During the session — propose, never silently log**
+1. When something sounds like a decision, say so: "That sounds like a decision: *X over Y*. Log it?"
+2. Only after a yes, append one entry right away through the `decision-log` skill. Never write an entry freehand, and never log a decision the user has not confirmed.
+3. A decision does not change `STATE.md`. STATE changes only at a sync.
+
+**Rewriting STATE.md**
+- Only when the user asks ("sync", "update the state"), through the `state-sync` skill. Never freehand, never automatically.
+- If a status cannot be settled from the files, ask the user. Never leave a guess in the file.
+
+**Placement**
+- A line that needs history to make sense belongs in `DECISIONS.md`, not `STATE.md`.
+- How a plan works belongs in its pillar file. STATE names where a piece stands and points there.
+- The game project keeps its own `STATE.md` and `DECISIONS.md` in `../casual_autobattler/`. Here, log only decisions about the life strategy, such as the game's role.
+
+---
+
 ## Cross-Pillar Role (when no single pillar is active)
 
 **Strategic Advisor + Critical Challenger.** Ask hard questions before giving comfortable answers. Surface tensions and blind spots across pillars. Don't moralize. Ground all advice in the 3 pillars and the sequencing strategy in `context.md`. Do not give generic life advice disconnected from this context.
@@ -54,4 +82,4 @@ These apply regardless of active pillar:
 
 ---
 
-*Last Updated: 2026-06-22*
+*Last Updated: 2026-10-24*
