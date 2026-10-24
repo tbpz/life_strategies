@@ -1,6 +1,6 @@
 ---
 name: decision-log
-description: Append one entry to DECISIONS.md after the user confirms a decision. Use whenever CLAUDE.md's DECISION protocol fires — "log it?" has been answered yes. Carries the entry budget, the one-claim-per-bullet rule, and the decision-not-diff test that keeps entries small and easy to grep.
+description: Append one entry to DECISIONS.md when the user states or picks a decision. Use whenever CLAUDE.md's DECISION protocol fires — no confirmation needed. Carries the entry budget, the one-claim-per-bullet rule, and the decision-not-diff test that keeps entries small and easy to grep.
 ---
 
 # Appending to DECISIONS.md
@@ -20,10 +20,13 @@ Append-only means entries are never edited or deleted once written. That makes w
 
 ## The append protocol
 
-1. Fires only after the user has confirmed a proposed decision — never speculatively, never batched.
-2. Draft the entry in the standard format: `## [YYYY-MM-DD] Title` → **Decision** / **Why** / **Replaces**, each as short one-claim bullets.
+1. Fires only for a choice the user stated or picked — never for Claude's own suggestion that has not been taken up, never batched. No "Log it?" question first.
+2. Draft the entry in the standard format: `## [YYYY-MM-DD] [tag] Title` → **Decision** / **Why** / **Replaces**, each as short one-claim bullets. The tag is part of the heading and is one of:
+   - `career`, `creative`, `parenting`, `financial` — the decision settles something in that pillar.
+   - `workflow` — the decision settles how the workspace itself runs (context files, skills, logging, process).
+   - A decision that spans two pillars takes the one it changes most.
 3. Apply both tests while drafting. Cut diff-shaped lines. Point at the pillar file for live details.
-4. **Hold the budget: about 250 words, hard cap 350 words.** Report the word count when presenting the drafted entry.
+4. **Hold the budget: about 250 words, hard cap 350 words.** Report the word count in the one-line note that says what was logged.
 5. Insert at the **top** of the log, directly below the header block — never at the bottom, never in the middle.
 6. Never edit, reorder, or delete an existing entry to make room. If an old entry is now stale or contradicted, write a *new* entry that says so and points at the current pillar file.
 7. **Backfilling** an old decision from a file or commit is allowed. Date it by when it was made (or when its file was dated), add a **Source** bullet naming the file, and say if the exact day is not recorded.

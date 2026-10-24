@@ -1,6 +1,6 @@
 ---
 name: state-sync
-description: Regenerate STATE.md wholesale from the current STATE plus newer DECISIONS entries. Use when the user asks to "sync", "re-sync", "update the state", or "regenerate STATE.md", or after telling them STATE is stale. Carries the reader framework, the removal-list step, the four sizing rules that replace a word budget, and the required section skeleton.
+description: Regenerate STATE.md wholesale from the current STATE plus newer DECISIONS entries. Use at the end of a task that logged a decision, when STATE is found stale, or when the user asks to "sync", "re-sync", "update the state", or "regenerate STATE.md". No need to ask first. Carries the reader framework, the removal-list step, the four sizing rules that replace a word budget, and the required section skeleton.
 ---
 
 # Regenerating STATE.md
@@ -62,7 +62,7 @@ These replace a word budget. **Each is checkable while writing a single line**, 
 7. **`Where it stands` is a snapshot, not a chronicle.** At most 4 present-tense sentences. No dates, no "first X, then Y".
 8. `Last synced` is a bare date: `> **Last synced:** YYYY-MM-DD`.
 9. **Check every cross-reference.** Every "see X" must name a `##` header that exists verbatim in the rewritten file, and every file path named must exist on disk.
-10. Present the rewrite, with the removal list, for the user to check. The user maintains nothing by hand — draft, they verify.
+10. Write the file, then show the removal list in the reply for the user to check afterwards — do not wait for sign-off. The user maintains nothing by hand — draft, they verify.
 
 ## The section skeleton
 

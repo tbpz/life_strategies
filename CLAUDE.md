@@ -51,16 +51,20 @@ Two files with different rules. Their skills live in `.claude/skills/` and are t
 **On session start**
 1. Read `STATE.md` first. Layer 1 alone is enough to orient; read layer 2 when the task needs it.
 2. Never read `DECISIONS.md` top to bottom. Grep it to answer "why was X decided?".
-3. If `DECISIONS.md` has entries newer than `STATE.md`'s `Last synced` date, STATE is behind. Trust the newer entries, say so, and offer a re-sync.
+3. If `DECISIONS.md` has entries newer than `STATE.md`'s `Last synced` date, STATE is behind. Trust the newer entries, say so in one line, and re-sync (see *Rewriting STATE.md*).
+4. Every entry from 2026-10-24 on has a tag in its heading. Search `\[parenting\]`, `\[career\]`, `\[creative\]`, `\[financial\]` or `\[workflow\]` to list one kind.
 
-**During the session — propose, never silently log**
-1. When something sounds like a decision, say so: "That sounds like a decision: *X over Y*. Log it?"
-2. Only after a yes, append one entry right away through the `decision-log` skill. Never write an entry freehand, and never log a decision the user has not confirmed.
-3. A decision does not change `STATE.md`. STATE changes only at a sync.
+**During the session — log what Tu says or picks**
+1. When Tu states or picks something that settles a choice (*X over Y*), invoke the `decision-log` skill and append one entry right away. No "Log it?" question, and do not batch.
+2. Tell Tu in one line what was logged (the entry's heading and word count).
+3. Only log what Tu said or chose. A suggestion Tu has not taken up is not a decision. If a logged decision is later reversed, write a new entry that replaces it. Never edit the old one.
+4. Never write an entry freehand. The skill carries the format, the tags and the word budget.
+5. A decision does not change `STATE.md` by itself. STATE catches up at the end of the task.
 
 **Rewriting STATE.md**
-- Only when the user asks ("sync", "update the state"), through the `state-sync` skill. Never freehand, never automatically.
-- If a status cannot be settled from the files, ask the user. Never leave a guess in the file.
+- Through the `state-sync` skill, without asking, at the end of any task that logged one or more decisions (once per task, not once per entry), when STATE is found stale at session start, and when Tu says "sync" or "update the state". Never freehand.
+- The reply shows the removal list in one short block. Tu checks afterwards; the sync does not wait for sign-off.
+- If a status cannot be settled from the files, ask Tu. Never leave a guess in the file.
 
 **Placement**
 - A line that needs history to make sense belongs in `DECISIONS.md`, not `STATE.md`.

@@ -6,9 +6,26 @@
 > **Appending:** use the `decision-log` skill. It carries the format, the word budget, and the rules that keep entries easy to grep.
 > **Backfilled entries:** entries dated before 2026-10-24 were written on 2026-10-24 from the files they name under **Source**. Their date is when the decision was made, or when its file was dated, not when it was logged.
 >
-> Entry format: `## [YYYY-MM-DD] Title` → **Decision** / **Why** / **Replaces** (backfilled entries add **Source**).
+> **Tags:** entries from 2026-10-24 on carry a tag in the heading: `[career]`, `[creative]`, `[parenting]`, `[financial]`, or `[workflow]` (how the workspace itself runs). List one kind with `^## .*\[parenting\]`. Earlier entries have no tag.
+>
+> Entry format: `## [YYYY-MM-DD] [tag] Title` → **Decision** / **Why** / **Replaces** (backfilled entries add **Source**).
 
 ---
+
+## [2026-10-24] [workflow] Decisions are logged, and STATE.md is rewritten, without asking first
+
+- **Decision:**
+  - A decision Tu states or picks is logged at once through the `decision-log` skill, with no "Log it?" question.
+  - `STATE.md` is rewritten through the `state-sync` skill, without asking, at the end of a task that logged a decision, when found stale, or on "sync".
+  - Tu checks the log line and the removal list afterwards.
+  - Every new entry carries a pillar tag: `[career]`, `[creative]`, `[parenting]`, `[financial]` or `[workflow]`.
+- **Why:**
+  - The game project's newer skills (`../casual_autobattler/.claude/skills/`, dev branch) already work this way, and asking each time added friction.
+  - Tags let one pillar's decisions be found with a single search.
+- **Replaces:**
+  - The "propose, never silently log" rule and the "STATE changes only when asked" rule in `CLAUDE.md`.
+  - The game's `BETS.html` check was not brought over; the bets here live in `STATE.md`.
+- **Source:** the game's skill files read from GitHub on 2026-10-24.
 
 ## [2026-10-24] The grandmother keeps the usual feeding style; the one ask is no screens at meals
 

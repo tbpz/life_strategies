@@ -65,7 +65,7 @@ Career skill keeps growing through the job itself, with the 3-habit practice spr
 ## How to work here
 
 - Read order: `CLAUDE.md` → this file → `context.md` (values and constraints, rarely changes) → the active pillar's rules file. Read [DECISIONS.md](DECISIONS.md) **by grep only**, never top to bottom.
-- Decisions are proposed, never silently logged. On a confirmed yes, append through the `decision-log` skill.
-- This file is rewritten only when asked, through the `state-sync` skill. If `DECISIONS.md` has entries newer than the date above, this file is behind: say so and offer a re-sync.
+- When Tu states or picks a decision, it is logged at once through the `decision-log` skill, with a pillar tag. No asking first.
+- This file is rewritten through the `state-sync` skill, without asking, at the end of a task that logged a decision, when found stale, or on "sync".
 - The game project is a separate repo with its own `STATE.md` and `DECISIONS.md`; this file only points at it.
 - Writing rule for every file here: third person, no pronouns (`CLAUDE.md`).
