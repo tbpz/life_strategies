@@ -72,7 +72,7 @@ This is not "build toward a known masterpiece." The masterpiece is the thing bei
 |---|---|---|---|
 | System designed in isolation (writing) | None — endless possibilities, equal-weight problems | High (elite analytical eye) | Paralysis — never knew if it was "balanced" |
 | Raw emotional scene (writing) | Yes — scene exists or doesn't | Low/median — no elevated standard for raw emotional craft yet | "Lame," no diagnosable cause, abandoned |
-| Written confrontation brick (defined 2026-06-22) | Yes, on paper | High | Never started — loop too slow, medium too far from existing resources; superseded before output |
+| Written confrontation brick (defined 2026-06-22) | Yes, on paper | High | Never started — loop too slow, medium too far from existing resources; paused 2026-10-24, kept as a possible later form (DECISIONS 2026-10-24) |
 | Game build (current) | Yes — a build ships, gets played, and either creates the intended feel or doesn't | High — strategic/systems judgment, now testable directly | Active — played-verified progress, real decision history |
 
 ---

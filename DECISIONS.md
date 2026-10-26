@@ -4,13 +4,27 @@
 > **Rules:** never edit or delete an existing entry; only add new ones. Newest at the top.
 > **When to read it:** only to answer a "why was X decided?" question. Grep it, never read it top to bottom. The current state lives in [STATE.md](STATE.md), not here.
 > **Appending:** use the `decision-log` skill. It carries the format, the word budget, and the rules that keep entries easy to grep.
-> **Backfilled entries:** entries dated before 2026-10-24 were written on 2026-10-24 from the files they name under **Source**. Their date is when the decision was made, or when its file was dated, not when it was logged.
+> **Backfilled entries:** entries dated before 2026-10-24 were written on 2026-10-24 from the files they name under **Source**. Their date is when the decision was made, or when its file was dated, not when it was logged. Entries backfilled later (2026-10-26) say so under **Source**.
 >
 > **Tags:** entries from 2026-10-24 on carry a tag in the heading: `[career]`, `[creative]`, `[parenting]`, `[financial]`, or `[workflow]` (how the workspace itself runs). List one kind with `^## .*\[parenting\]`. Earlier entries have no tag.
 >
 > Entry format: `## [YYYY-MM-DD] [tag] Title` → **Decision** / **Why** / **Replaces** (backfilled entries add **Source**).
 
 ---
+
+## [2026-10-26] [career] Phase 4 Systemic DM is dropped
+
+- **Decision:**
+  - Phase 4 (the Systemic DM execution plan) in `career/career_strategy.md` is dropped.
+  - No step of it was executed.
+  - The next career step is open again. It stays an open question in `STATE.md`.
+  - The VP of Engineering's stated expectation is a fact and is not undone. Only the plan to act on it is dropped.
+- **Why:**
+  - Tu chose this on 2026-10-26, while reviewing the merge of the two machines' work.
+  - No further reason was given.
+- **Replaces:**
+  - Phase 4 and the VP-marker source for Layer 2 condition 3 (the 2026-10-05 entry).
+  - The 2026-10-05 reasoning is kept in the entry as history.
 
 ## [2026-10-24] [workflow] Decisions are logged, and STATE.md is rewritten, without asking first
 
@@ -113,6 +127,51 @@
 - **Replaces:**
   - Nothing.
 - **Source:** backfilled from `parenting/stages/stage_2_toddler/kindergarten_plan.md` (dated 2026-10-06).
+
+## [2026-10-05] [career] Systemic DM replaces the diagnosis as the career direction
+
+- **Decision:**
+  - Phase 3 (the current-role diagnosis) is closed unfinished. `career/work_diagnostic.md` is kept for reference only.
+  - The career direction becomes Systemic DM: solve recurring problems at the system level, scored only on what the DM controls.
+  - External marketability (the 2-month replacement test) is retired as an active strategy and kept as background safety.
+  - Layer 2 condition 3 becomes a success marker set by the VP of Engineering.
+- **Why:**
+  - The VP of Engineering stated this expectation for the role in a sync, which answers the diagnostic's mandate question.
+  - Marketability can only be measured by leaving and being re-hired, so it cannot guide work.
+  - The lack of confidence traced to stagnation in the current role, not to the market.
+- **Replaces:**
+  - Phase 3 as the active career step.
+  - Layer 1 as the active security standard.
+  - The Phase 3-based condition 3 in `career/career_strategy.md`.
+- **Source:** `career/career_strategy.md` (dated 2026-10-05), backfilled on 2026-10-26.
+
+## [2026-09-07] [workflow] Every pillar keeps one live next action; health is read as loop health
+
+- **Decision:**
+  - Every pillar keeps at least one named live next action, even at minimal effort.
+  - Pillar health is read as loop health (was an experiment run, was something learned), never as competence level.
+  - On a stall, the `mastery_infrastructure.md` scorecard runs before introspecting.
+- **Why:**
+  - Mood is fed by whichever pillar is moving, so a stall in that one pillar drops everything.
+  - Scoring by competence level is unanswerable on a weekly timescale and produces despair on plateaus.
+  - Competence level was already disproved as the mood lever (TFT Master, then emptiness).
+- **Replaces:**
+  - Nothing recorded.
+- **Source:** `CLAUDE.md` (Cross-Pillar Guardrails), `context.md` (Key Constraints), `self_discovery_log.md` (2026-09-07 session). Backfilled on 2026-10-26.
+
+## [2026-09-03] [career] Security has two layers; the practice phase becomes a current-role diagnosis
+
+- **Decision:**
+  - The security threshold has two layers: external marketability (closed floor, background only) and current-role confidence (the active standard, three observable conditions).
+  - Proving DM-OS portability at one employer is retired as the active driver. It is parked, not disproved.
+  - Phase 3, a retrospective diagnostic with a capped Weakness Register, replaces the 3-habit practice phase.
+- **Why:**
+  - One employer cannot prove a claim about any company.
+  - The prospective asks (practice, log forward) got no execution in about 10 weeks.
+  - "Feels easy and safe" is unbounded, so it cannot serve as a threshold.
+- **Replaces:**
+  - The 2-month replacement test as the active security standard (decision 4 of 2026-05-03).
+- **Source:** `career/career_strategy.md`, `self_discovery_log.md` (2026-09-03 session, career reframe). Backfilled on 2026-10-26.
 
 ## [2026-07-23] No deadline pressure on the game project
 

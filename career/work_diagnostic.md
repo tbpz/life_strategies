@@ -1,6 +1,6 @@
 # Current-Role Diagnostic — Weakness Register
 
-> **Status:** Active. Supersedes `work_audit_experiment.md` (2026-06-26), which sat at "Data collection" with an empty log for ~10 weeks and is folded into this file rather than discarded.
+> **Status:** Closed 2026-10-05; reference only (see `career_strategy.md`, Phase 3). Supersedes `work_audit_experiment.md` (2026-06-26), which sat at "Data collection" with an empty log for ~10 weeks and is folded into this file rather than discarded.
 > **Purpose:** Convert the feeling "I'm not doing well at Orange Logic" into a short, evidence-backed, hard-capped Weakness Register — or into an honest verdict that performance is already adequate. Retrospective throughout: every instrument here is completable in one sitting from existing traces, not a forward-logging exercise.
 > This file is self-contained and can resume in a fresh session.
 

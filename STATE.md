@@ -2,7 +2,7 @@
 
 > **What this file is:** where things stand right now, and what to do next. Present tense only.
 > **Read this first** in every session, after `CLAUDE.md`. Layer 1 ends at the rule — that is the 60-second read. Layer 2 is the working index.
-> **Last synced:** 2026-10-24
+> **Last synced:** 2026-10-26
 
 ## What this is
 
@@ -22,7 +22,7 @@ A personal strategy workspace for a mid-30s Delivery Manager at Orange Logic, wi
 
 ## Where it stands
 
-Career skill keeps growing through the job itself, with the 3-habit practice sprint dropped and the next career step still open. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
+Career skill keeps growing through the job itself, with the practice sprint, the diagnosis and the Systemic DM plan all dropped and the next career step still open. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
 
 ## Next up
 
@@ -38,6 +38,8 @@ Career skill keeps growing through the job itself, with the 3-habit practice spr
 |---|---|---|
 | Career skill — grows through the job | active | `career/career_strategy.md` |
 | 3-habit practice sprint (RAID log, change record, acceptance criteria) | dropped | `career/career_strategy.md`, `DECISIONS.md` (2026-10-24, sprint dropped) |
+| Current-role diagnosis (Phase 3) — Weakness Register | dropped; closed unfinished | `career/career_strategy.md`, `career/work_diagnostic.md`, `DECISIONS.md` (2026-10-05, Systemic DM) |
+| Systemic DM plan (Phase 4) — fix one recurring friction | dropped | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 dropped) |
 | DM operating system — personal delivery playbook, 11 files | done | `career/DM_Operating_System/00_overview.md` |
 | Financial resilience checklist — all three layers | done; yearly look only | `financial/financial_checklist.md`, `DECISIONS.md` (2026-05-15, savings) |
 | Game project — the Masterpiece dream in game form | active | `../casual_autobattler/STATE.md`, `DECISIONS.md` (2026-10-24, Masterpiece) |
@@ -60,7 +62,7 @@ Career skill keeps growing through the job itself, with the 3-habit practice spr
 ## Open questions
 
 - What is the next career step? Still being thought through; Next up #3 waits on it.
-- Does the exist-vs-become rule (AI critiques, never makes the core) still hold now the pursuit is a game, and which parts must be self-made? Shapes how Next up #1 is done.
+- Does the exist-vs-become rule (AI critiques, never makes the core) still hold now the pursuit is a game, and which parts must be self-made? Shapes how Next up #1 is done. A draft answer is in `creative/creative_strategy.md`, under "Locked Operating Principles", item 3.
 
 ## How to work here
 

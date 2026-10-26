@@ -13,10 +13,10 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 | `DECISIONS.md` | Append-only history of decisions and why they were made. Grep it, never read it top to bottom. |
 | `context.md` | This file. Values, pillar descriptions, long-term goals, constraints. Changes rarely. |
 | `self_discovery_log.md` | Chronological record of key diagnostic sessions, self-trust insights, and behavioral patterns. |
-| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, the closed current-role diagnosis (Phase 3), Phase 4, the dropped practice sprint. |
+| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, the closed current-role diagnosis (Phase 3), the dropped Systemic DM plan (Phase 4), the dropped practice sprint. |
 | `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
-| `career/work_diagnostic.md` | Closed Phase 3 instrument (2026-10-05), kept for reference only: converts the "not doing well" feeling into an evidence-backed Weakness Register. Its F1–F3 lenses remain usable for Phase 4. |
+| `career/work_diagnostic.md` | Closed Phase 3 instrument (2026-10-05), kept for reference only: converts the "not doing well" feeling into an evidence-backed Weakness Register. Its F1–F3 lenses remain usable if a career step needs them. |
 | `financial/financial_checklist.md` | Financial resilience checklist. All layers closed 2026-05-15. Annual review only. |
 | `creative/creative_strategy.md` | Pillar 2 deep-dive: Meaningful Pursuit, the Masterpiece dream, operating principles, and the vision-discovery loop. |
 | `creative/README.md` | Pointer to creative_strategy.md; archive note for prior Story Architect framing. |

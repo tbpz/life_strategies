@@ -2,6 +2,8 @@
 
 > **Pillar 1 deep-dive.** Career exists to build enough competence and security that free time feels genuinely free — not stolen. Read `context.md` first for the full picture. Financial resilience is at `financial/financial_checklist.md`.
 >
+> **Dropped 2026-10-26:** the Phase 4 execution plan below was dropped, and the next career step is open again. See `DECISIONS.md` (2026-10-26, "Phase 4 Systemic DM is dropped"). The direction note is kept as history.
+>
 > **Direction (shifted 2026-10-05):** Career is the financial engine for the Masterpiece (Pillar 2). The engine already works — that objective is met. The active question is how long it can be sustained, and the answer chosen is *being worth the role through systemic capability* (see Locked Decision #5), not maintaining a re-hire safety net.
 
 ---
@@ -74,11 +76,13 @@ Testing DM-OS at one employer (Orange Logic) cannot prove "works at any company"
 
 1. Trailing-90-day delivery record is retrievable and shows no unexplained slip whose proximate cause was a DM-controllable gap.
 2. A stakeholder can obtain project status **without contacting the DM** (DM-OS Function 7's own self-check, adopted verbatim as the threshold).
-3. The **VP-defined success marker** for the systemic-DM expectation is recorded and currently met. *(Replaces the former condition 3, which pointed at Phase 3's top-3 gaps — void now that Phase 3 is closed. Until the marker is obtained, condition 2 is the interim systems test. Obtaining it is Phase 4, step 1.)*
+3. The **VP-defined success marker** for the systemic-DM expectation is recorded and currently met. *(Replaces the former condition 3, which pointed at Phase 3's top-3 gaps — void now that Phase 3 is closed. Until the marker is obtained, condition 2 is the interim systems test. Obtaining it was Phase 4, step 1. **Void as of 2026-10-26:** Phase 4 is dropped, so condition 3 has no source until a new career step sets one; conditions 1 and 2 stand.)*
 
 Ease is a downstream sensation that may or may not arrive — it is not a gate. Excluded by explicit choice: company restructuring or role elimination is a different problem, deferred, not addressed by this standard.
 
-### 5. Systemic DM — Get Better at the Role by Solving System Issues (Locked 2026-10-05)
+### 5. Systemic DM — Get Better at the Role by Solving System Issues (Locked 2026-10-05; execution plan dropped 2026-10-26)
+
+> **Dropped 2026-10-26.** The Phase 4 plan that executed this decision is dropped; see `DECISIONS.md` (2026-10-26). The text below is kept as history.
 
 - **Objective:** Improve the DM role by solving recurring problems at the system level, rather than only delivering projects one by one. Success looks like projects running smoothly without the DM needing to touch them.
 - **Rationale 1 — Mandate.** The VP of Engineering stated this expectation for the role in a sync. Meeting it secures the position at OL. This resolves the former diagnostic's failure mode F0 (mandate ambiguity): the mandate is requested, not self-assigned.
@@ -135,15 +139,15 @@ Started 2026-09-03 as a bounded retrospective diagnostic (Weakness Register, max
 | **Two-line change record** | Same — carried into Phase 4, only with a named friction attached. |
 | **Acceptance criteria** | Same — carried into Phase 4, only with a named friction attached. |
 
-### Phase 4: Systemic DM — Active (started 2026-10-05)
+### Phase 4: Systemic DM — Dropped 2026-10-26 (started 2026-10-05)
+
+> **Dropped 2026-10-26.** No step was executed. See `DECISIONS.md` (2026-10-26). The text below is kept as history.
 
 Executes Decision #5. Three bounded steps; the sequence is the design, and no step waits on perfect conditions.
 
 1. **Anchor the mandate.** Write down the VP's wording and approximate date of the sync. At the next sync, ask: *"What would you point to as proof this is working?"* The answer becomes Layer 2, condition 3 — the externally set scoreboard that replaces felt self-rating.
 2. **Build one system.** Pick one recurring friction on projects the DM owns — fully inside DM authority, so nothing depends on others' adoption — and build one artifact or rule that removes the manual touch (a forcing function, a status artifact, a handoff template). One, not a programme. Use `work_diagnostic.md` F2 (tasks that merely route through the DM by default and keep recurring) to choose it.
 3. **Check it.** Test against the VP marker once known; until then, against Layer 2 condition 2 (a stakeholder gets status without contacting the DM). Record the result in one line either way.
-
-**Live next action (warm floor):** ask the VP the proof-marker question at the next sync.
 
 **Scoring:** controllable surface only (Decision #5). A system that works but is not adopted elsewhere is not a failure.
 
@@ -165,4 +169,4 @@ Executes Decision #5. Three bounded steps; the sequence is the design, and no st
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-10-05 (Systemic-DM shift; Layer 1 retired as active strategy; Phase 3 closed, Phase 4 opened)*
+*Last Updated: 2026-10-26 (Phase 4 Systemic DM dropped; earlier: 2026-10-05 Systemic-DM shift, Layer 1 retired as active strategy, Phase 3 closed)*
