@@ -2,7 +2,7 @@
 
 > **Pillar 1 deep-dive.** Career exists to build enough competence and security that free time feels genuinely free — not stolen. Read `context.md` first for the full picture. Financial resilience is at `financial/financial_checklist.md`.
 >
-> **Correction 2026-10-26:** Phase 4 below is done, not dropped, and the next phase (Phase 5) is under review. The practice habits, the work audit and the diagnosis were also run in part, and the sections below that call them unstarted are corrected here. See `DECISIONS.md` (2026-10-26, both "Correction" entries).
+> **Correction 2026-10-26:** Phase 4 below is done, not dropped, and the next bet is Phase 5 (see `DECISIONS.md`, 2026-10-26, next career bet). The practice habits, the work audit and the diagnosis were also run in part, and the sections below that call them unstarted are corrected here. See `DECISIONS.md` (2026-10-26, both "Correction" entries).
 >
 > **Direction (shifted 2026-10-05):** Career is the financial engine for the Masterpiece (Pillar 2). The engine already works — that objective is met. The active question is how long it can be sustained, and the answer chosen is *being worth the role through systemic capability* (see Locked Decision #5), not maintaining a re-hire safety net.
 
@@ -154,11 +154,17 @@ Executes Decision #5. Three bounded steps; the sequence is the design, and no st
 
 > Anxiety that remains is not a signal to do more work or to rewrite the strategy (see Strategy churn). It is a feeling to carry. Close the loop anyway (per the hard rule below).
 
-### Phase 5: Help build the delivery system at OL — Active, under review (started 2026-10-26)
+### Phase 5: Learn to build a self-running delivery system — Active (started 2026-10-26)
 
-Goal: contribute to the delivery system the VP described (one ranked list, work in progress within team capacity, bottleneck first) and learn from it. Vision source: `gemini_workspace/SDLC/docs/conversation_ruben.md`.
+**The bet:** learn to build a delivery system that runs by itself, improves itself and has the shortest feedback loop possible. Strategies mostly fail by exhausting resources (money, time, patience, morale) before their results are judged, so the system's job is fast results in small chunks, then adjusting. The loop covers ideating, executing and reviewing, for people and AI agents alike. Vision source: `gemini_workspace/SDLC/docs/conversation_ruben.md`.
 
-Under review because it competes for energy with the game project (Pillar 2). Scope and energy split are not yet settled.
+**Value proposition, whatever the role:** knowing which system to build for a specific org and helping it reach its goals faster with less effort.
+
+**Unverified, to be found out along the way:** whether AI can build such systems instead of the DM, and how many orgs need them. See `DECISIONS.md` (2026-10-26, next career bet).
+
+**What it should build toward (chosen 2026-10-26):** growth in craft, and a capability of Tu's own. Impact through others' adoption is not the measure. See `DECISIONS.md` (2026-10-26, meaning sources).
+
+First loop not chosen; energy split with Pillar 2 not settled. Candidate loops are listed in `self_discovery_log.md`, session of 2026-10-26.
 
 ---
 
@@ -176,4 +182,4 @@ Under review because it competes for energy with the game project (Pillar 2). Sc
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-10-26 (record corrected: Phase 4 done, Phase 5 opened under review; earlier: 2026-10-05 Systemic-DM shift, Layer 1 retired as active strategy, Phase 3 closed)*
+*Last Updated: 2026-10-26 (next career bet settled as Phase 5; record corrected: Phase 4 done; earlier: 2026-10-05 Systemic-DM shift, Layer 1 retired as active strategy, Phase 3 closed)*

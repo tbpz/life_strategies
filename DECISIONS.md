@@ -12,6 +12,35 @@
 
 ---
 
+## [2026-10-26] [career] Career work carries meaning through craft growth and a capability of Tu's own, not money alone
+
+- **Decision:**
+  - Two sources of meaning are chosen for the career work: growth in craft, and building toward a capability that is Tu's own.
+  - Impact through other people's adoption is not chosen as a source of meaning.
+  - Money stays a purpose of the work, but not the only one.
+- **Why:**
+  - Money as the purpose is already delivered, so more effort adds little meaning.
+  - Tu loses motivation on actions with no visible purpose and said work feels like a toll paid to reach the game.
+  - Craft and an own capability are within Tu's control, while adoption by others is not (the Zalo double-bind in `career/_AI_RULES.md`).
+- **Replaces:**
+  - Nothing. It sets what the Phase 5 bet should build toward, in `career/career_strategy.md`.
+
+## [2026-10-26] [career] The next career bet: learn to build delivery systems that run, improve themselves and get feedback fast
+
+- **Decision:**
+  - The next career bet is learning to build a delivery system that runs by itself, improves itself and has the shortest feedback loop possible.
+  - The value proposition is knowing which system to build for a specific org and helping it reach its goals faster with less effort, whatever the role.
+  - There is no separate exit plan. The road is the answer to an uncertain future.
+  - How much energy this gets next to the game project is not settled.
+- **Why:**
+  - Orgs and people fail at strategy mostly by running out of resources (money, time, patience, morale), not because the strategy was wrong.
+  - Every strategy is a bet, so the way to find the goal line is to get results fast in small chunks and adjust.
+  - The need is collaboration and the loop of ideating, executing and reviewing, which holds for people and AI agents alike.
+  - The bet is unverified on two points: whether AI can build such systems instead of the DM, and how many orgs need them. Tu will find out along the way.
+- **Replaces:**
+  - The open question "what is the next career step" in `STATE.md`.
+  - The "help build the system at OL" framing of Phase 5 in `career/career_strategy.md`, which is updated to match.
+
 ## [2026-10-26] [career] Correction: Phase 4 was done, not dropped; the systemic delivery vision is adopted
 
 - **Decision:**

@@ -375,3 +375,38 @@ A Chinese history series on FB, judged near-masterpiece level, was shared with f
 
 ### Open Question
 Did the brother and the closest friends read the Chinese series? If yes, the core circle already works. If some were "someday" readers, the dream needs to survive even the closest people not always showing up.
+
+---
+
+## Session: Dropped Plans, the Game as Exit, and Where the Weight of Work Comes From (2026-10-26)
+
+### Context
+Started from a post-merge review that exposed a gap between the files and what actually happened, then ran into a long discussion of why career strategies keep being discarded, why the game project carries anxiety after each session, and why work feels heavy next to it.
+
+### Key Findings
+
+1. **The "dropped" plans were mostly runs that taught something and were never written back.** The practice habits were tried: acceptance criteria stayed (already standard practice), the RAID log and change record were dropped as costing more than they return, and instinct covers the few major risks well. A one-week work audit found hero work: redoing others' work as a safety net. The VP conversation was held and its vision adopted after the user reasoned it through. The files read "never started", which fed a false story of not following through.
+
+2. **Heavy self-tracking protocols fail a cost-benefit filter, and the filter is sound.** What survived always solved a named, real problem. What died was overhead for measuring the self: vague fields, logs never read back.
+
+3. **Anxiety spikes follow comparison against a far endpoint.** Three recent triggers (an article on how easily client-side mobile games are cloned, a friend's drone product and more mature AI setup, the distance between a build session and the masterpiece) each scored position or level, not loop motion. Same shape as the 2026-07-23 pace-anxiety spike and the 2026-09-07 level-scoring trap.
+
+4. **The game was quietly carrying a second job: being the exit from the career.** Anxiety after a build session arrives when the joy job succeeds and the exit job fails. The open slot for making the game the money job is, by the user's own answer, relief-seeking (one thing to solve both), not excitement about a real shot.
+
+5. **Work's instrumental meaning is saturated.** Career as the financial engine for the creative life already works (2026-10-05), so more effort adds little meaning there. With nothing to replace it, work feels like a toll paid to reach the game. The user demands visible meaning in each action and loses motivation without it.
+
+6. **"One thing solves both" is efficient but fragile.** It is the opposite of the warm-floor rule (2026-09-07): a stall in the game would hit joy and income together.
+
+7. **A wish for "a lot of money" has no number.** It conflicts with the financial checklist's own rule against optimizing beyond the system. The need underneath is time that is the user's own, which can be a bounded target.
+
+8. **Meaning sources chosen for the career work: craft growth, and building toward a capability of the user's own.** Both are within the user's control. Impact through others' adoption was not chosen, which fits the Zalo double-bind guardrail in `career/_AI_RULES.md`.
+
+### Operating Rules Produced
+- Skills and generic patterns learned at work belong to the user. Artifacts, templates and data made at OL belong to OL and stay separate.
+- A trigger to reopen the game-as-income question should be positive pull from outside (strangers play and want more), never negative push from the career (a bad week, a scary article).
+
+### Outcome
+- `DECISIONS.md` gained the 2026-10-26 entries: the next career bet, two corrections, and the chosen meaning sources.
+- `STATE.md` and `career/career_strategy.md` (Phase 5) were updated to match.
+- **Resolved:** the earlier plans were run and learned from, not abandoned unrun; the career bet is delivery systems that run, improve themselves and get feedback fast.
+- **Left open:** which small loop comes first (candidates: an AI-assisted first pass on checking others' output, stakeholder status without chasing, an unprompted AI harness for the user's own recurring PM work); whether the game ever earns or stays pure (the 2026-07-23 decision stands until changed); the energy split between Phase 5 and the game.

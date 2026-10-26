@@ -22,13 +22,13 @@ A personal strategy workspace for a mid-30s Delivery Manager at Orange Logic, wi
 
 ## Where it stands
 
-Career skill keeps growing through the job itself, with the systemic delivery vision adopted and the next phase, helping build that system at OL, under review against the game's energy. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
+Career skill grows through the job, and the next bet is learning to build delivery systems that run, improve themselves and get feedback fast, aimed at craft growth and a capability of Tu's own; how much energy this gets next to the game is not settled. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
 
 ## Next up
 
 1. **Take the next step on the game project:** the list is under "Next up" in `../casual_autobattler/STATE.md`.
 2. **Start the kindergarten search:** compare the four schools in `parenting/stages/stage_2_toddler/kindergarten_pick.html`, then settle school type, monthly budget and furthest distance, then the shortlist (the plan's window is by Dec 2026, in `parenting/stages/stage_2_toddler/kindergarten_plan.md`).
-3. **Career: settle Phase 5's scope** and how it shares energy with the game. It waits on the first open question below.
+3. **Career: choose the first small delivery loop to build** and how its result will be measured. Candidates are in `self_discovery_log.md`, session of 2026-10-26. How much of it fits depends on the first open question below.
 
 ---
 
@@ -40,7 +40,7 @@ Career skill keeps growing through the job itself, with the systemic delivery vi
 | 3-habit practice sprint (RAID log, change record, acceptance criteria) | dropped; acceptance criteria kept | `career/career_strategy.md`, `DECISIONS.md` (2026-10-24, sprint dropped) |
 | Current-role diagnosis (Phase 3) — Weakness Register | dropped; closed unfinished | `career/career_strategy.md`, `career/work_diagnostic.md`, `DECISIONS.md` (2026-10-05, Systemic DM) |
 | Systemic DM (Phase 4) — VP discussion and the delivery vision | done; vision adopted | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
-| Help build the delivery system at OL (Phase 5) | active; under review over energy | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
+| Learn to build a self-running delivery system (Phase 5) | active; first loop not chosen | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, next career bet) |
 | DM operating system — personal delivery playbook, 11 files | done | `career/DM_Operating_System/00_overview.md` |
 | Financial resilience checklist — all three layers | done; yearly look only | `financial/financial_checklist.md`, `DECISIONS.md` (2026-05-15, savings) |
 | Game project — the Masterpiece dream in game form | active | `../casual_autobattler/STATE.md`, `DECISIONS.md` (2026-10-24, Masterpiece) |
@@ -54,7 +54,7 @@ Career skill keeps growing through the job itself, with the systemic delivery vi
 
 ## Unverified bets
 
-- Better work competence keeps lowering the nighttime guilt without extra effort. It held in the last check-in; it needs to keep holding.
+- Building delivery systems that run, improve themselves and get feedback fast stays a valuable skill as AI improves.
 - The game project stays a guilt-free interest while it carries no deadlines.
 - A game built with AI still counts as self-made work for the Masterpiece dream.
 - Sharing great stories with the brother and close friends feeds the need to share, without waiting for a masterpiece.
@@ -62,7 +62,8 @@ Career skill keeps growing through the job itself, with the systemic delivery vi
 
 ## Open questions
 
-- Can Phase 5 and the game project both run on the available energy, and at what scope for each? Next up #3 waits on it.
+- Can Phase 5 and the game project both run on the available energy, and at what scope for each? It shapes how much of Next up #3 fits.
+- Does the game ever need to earn, or does it stay a pure interest? The 2026-07-23 decision (no deadline pressure) stands until Tu changes it. It shapes how Next up #1 is done.
 - Does the exist-vs-become rule (AI critiques, never makes the core) still hold now the pursuit is a game, and which parts must be self-made? Shapes how Next up #1 is done. A draft answer is in `creative/creative_strategy.md`, under "Locked Operating Principles", item 3.
 
 ## How to work here
