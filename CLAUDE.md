@@ -83,6 +83,7 @@ These apply regardless of active pillar:
 
 - **Writing convention:** All workspace files use 3rd person impersonal voice — no he/him/his, no I/my. Write as a neutral strategic briefing document.
 - **Workspace health:** Do NOT load `workspace_health.md` in normal sessions. It exists for manual periodic review only.
+- **Warm floor:** Mood is single-threaded — a stall in the one moving pillar drops everything. Every pillar keeps at least one named live next action, even at minimal effort. Read pillar health as loop health (was an experiment run?), never as competence level. See `context.md` Key Constraints.
 
 ---
 

@@ -13,10 +13,10 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 | `DECISIONS.md` | Append-only history of decisions and why they were made. Grep it, never read it top to bottom. |
 | `context.md` | This file. Values, pillar descriptions, long-term goals, constraints. Changes rarely. |
 | `self_discovery_log.md` | Chronological record of key diagnostic sessions, self-trust insights, and behavioral patterns. |
-| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, current-role diagnosis (Phase 3), the dropped practice sprint. |
+| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, the closed current-role diagnosis (Phase 3), Phase 4, the dropped practice sprint. |
 | `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
-| `career/work_diagnostic.md` | Active Phase 3 instrument: converts the "not doing well" feeling into an evidence-backed Weakness Register (max 3 items) via retrospective evidence, or an honest close-the-loop verdict. |
+| `career/work_diagnostic.md` | Closed Phase 3 instrument (2026-10-05), kept for reference only: converts the "not doing well" feeling into an evidence-backed Weakness Register. Its F1–F3 lenses remain usable for Phase 4. |
 | `financial/financial_checklist.md` | Financial resilience checklist. All layers closed 2026-05-15. Annual review only. |
 | `creative/creative_strategy.md` | Pillar 2 deep-dive: Meaningful Pursuit, the Masterpiece dream, operating principles, and the vision-discovery loop. |
 | `creative/README.md` | Pointer to creative_strategy.md; archive note for prior Story Architect framing. |
@@ -101,6 +101,8 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 - **Career confidence wound:** Anxiety is disproportionate to actual risk. Rebuilding self-trust requires executing on the "good enough" standard defined in [career_strategy.md](career/career_strategy.md) to close the action gap.
 - **Limited free energy:** Mental capacity must be budgeted carefully. Career sprints and play are balanced in parallel to prevent burnout.
 - **Fatherhood is non-negotiable daily:** Son's early years cannot be deferred. Parenting time and presence are fixed costs the strategy must work around.
+- **Single-threaded mood:** Living mood is fed by whichever pillar is currently moving, so a stall in that one pillar drops everything at once. The corrective is a **warm floor, not balance**: every pillar holds at least one named live next action at all times, even at minimal effort — not progress, merely a non-dead loop. Concentrating energy on the hot pillar remains correct; letting the others go fully cold is what turns a stall into a collapse. See `self_discovery_log.md` (2026-09-07).
+- **Level-scoring trap:** Scoring a period by competence level ("am I better?") is unanswerable on a weekly timescale and reliably manufactures despair during plateaus — and it is already disproved as the mood lever (TFT Master → emptiness). Score loop health instead: was an experiment run, and was something learned? On any stall, run the `mastery_infrastructure.md` scorecard before introspecting — long plateaus are environment-design failures (slow feedback, undecomposed skill, absent calibration), not capability ceilings.
 
 ---
 *Last Updated: 2026-10-24*

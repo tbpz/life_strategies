@@ -61,6 +61,7 @@ A mild desire appears (e.g., SC2 looks fun) → an obstacle or friction point ap
 * **Anxiety as Sole Cause:** Anxiety is a symptom of the underlying lack of self-trust, not an independent, unmanageable force.
 * **"Fun/Enjoyment" as the Real Need:** "Fun" was a reactive label generated as the opposite of career hopelessness and burnout. The actual need is meaningful pursuit — using capability to make a visible difference on problems that matter. When career stabilized and the pain subsided, "fun" lost its diagnostic purpose, revealing the deeper need underneath.
 * **Self-Trust as Sole Root:** Self-trust is necessary but not sufficient. Even with career confidence improving, emptiness persists in free time without a meaningful pursuit that exercises capability on real problems.
+* **Competence Level as the Mood Lever ("just be better"):** Disproved by the TFT Master data point (Finding 6) — verified top-percentile improvement produced emptiness, not brightness. The lever is a *live loop* (a credible next thing to try), not standing. Low skill with live hypotheses feels good; high skill without them feels empty. See the 2026-09-07 session.
 
 ### Confirmed
 * **Flow:** Deep, active engagement is necessary for mental rejuvenation.
@@ -292,6 +293,54 @@ A question about how to assess DM-OS effectiveness led to self-reflection: the o
 - `context.md` and `CLAUDE.md` updated for consistency, including two stale `file:///d:/Tu/Life_strategies/...` links in the Pillar-1 lines that were touched anyway (other pillars' stale links left alone — out of scope for this reframe).
 - **Resolved (for this file's purposes):** the active security standard for Pillar 1 is current-role evidence, not external portability.
 - **Left open:** whether informal habit practice happened between June and September (Sitting 0 of `work_diagnostic.md` settles this); the Weakness Register itself and which verdict (A/B/C) it produces.
+
+---
+
+## Session: The Mood Variable — Loop Health, Not Competence Level (2026-09-07)
+
+### Context
+A cross-pillar observation was raised: living mood tracks tightly with how capable one feels in the domains being worked (the three pillars). When all three feel stagnant, the self reads as incapable and life reads as meaningless. When exactly one is moving, attention collapses onto it and the others are ignored. The stated conclusion drawn from this was "the answer is simply be better," followed by the fear that since getting better is never smooth and every domain contains long plateaus, the implied life is mostly struggle punctuated by brief relief — and a question about whether a better model exists.
+
+### Key Findings
+
+1. **"Feel good = be better" is contradicted by this file's own Finding 6.** TFT Master rank was reached — verifiable, top-percentile improvement — and was followed by immediate emptiness and loss of motivation. If competence level were the mood variable, that period would have been a peak. It was a trough. Competence level is therefore not the variable, and this was already established in June.
+
+2. **The good state, as self-described, contains no reference to current level.** The description given was: *"believe I can be more better, wanna experiment many things to get better, feel good doing it, and feel desire pursuing achievement."* Every clause describes a live loop — hypotheses, experiments, a next move. None describes standing. The SC2 evidence in the Desire-Killing Machine section is the decisive counterexample: three campaigns lost in a row, clever solutions researched, new approaches tried eagerly — repeated failure that felt good. **Struggle is not what hurts.**
+
+3. **The actual mood variable is whether a credible next thing to try exists.** Four states, not two:
+
+   | State | Reported feeling | Examples |
+   |---|---|---|
+   | Low skill + live hypotheses | Great | SC2, early TFT, DM-OS build |
+   | High skill + no hypotheses | Empty | TFT Master |
+   | Stuck + live hypotheses | Absorbing, tense, alive | SC2 campaign losses |
+   | Stuck + no hypotheses | "Incapable, life is meaningless" | The stagnation state |
+
+   The painful state is row 4. It has been misattributed to row 3 — i.e. blamed on the plateau rather than on the dead loop. `context.md` already names this enemy correctly: **vagueness, not difficulty**. The two rows have different treatments: "not good enough yet" has no treatment except years, while "out of ideas about what to try next" is treatable within a week.
+
+4. **Long plateaus are an environment-design symptom, not a capability ceiling — and the diagnostic for this already exists.** The claim that "every domain has a milestone where progress stalls for a very long time" is better read as a claim about the environments than about the person. Multi-year plateaus trace almost exclusively to `mastery_infrastructure.md` failures: a feedback loop too slow to tell whether a change helped (so changes stop being made), a skill never decomposed (so every rep is noise and the real gap never isolates), or absent calibration (so the wrong thing is ground). This is the same root already diagnosed for the DM role in the 2026-09-03 career session — Clear Metrics ❌ and Expert Models ❌. Treating a plateau as a debugging target rather than a verdict is what makes the "mostly misery" projection false.
+
+5. **Two amplifiers convert an ordinary plateau into despair, both already documented.** The Exceptional-Achievement Bar (Finding 7) means standing still is not measured as "static at position 40 of 100" but as "still infinitely far from the masterpiece" — the bar, not the plateau, produces the unbearability. And Finding 8's wound reappears as a misreading: stalling is evidence about a problem's difficulty and a method's fitness, but is converted into a claim about personal capacity. That conversion is the direct source of the depressive read, and is far cheaper to attack than world-class competence is to acquire.
+
+6. **The single-pillar obsession is not the flaw it was framed as; the cold-floor fragility is.** Pouring energy into whichever pillar is moving is efficient, and forcing equal attention across three would likely produce three stalls (see `Limited free energy`). The real fragility is that **mood is single-threaded**: when the one hot pillar stalls, no other loop is warm, so the drop is total. The corrective is a floor, not balance — every pillar holds at least one named live next action, even at minimal effort. Not progress; merely a non-dead loop. A stall in the hot pillar then costs a disappointment instead of a collapse.
+
+7. **A verified non-capability source of good feeling is being under-used.** This file's Confirmed section records that satisfaction came from a real person's real problem becoming observably better (the wife's accounting tool), with external praise unnecessary and method irrelevant. **Usefulness is available at any skill level; mastery level is not.** It is the one source that does not require currently climbing, which makes it the natural supply during a plateau. Pillar 3 belongs to the same category — parenting value is not capability-graded.
+
+8. **Honest limit on the reframe.** Some of the struggle is genuinely unpleasant and no reframe removes it; real plateaus and real limits exist, and stretches will occur where nothing tried works. But the ratio feared — mostly misery, brief relief — is the ratio of a *dead loop*, not the ratio of getting better. Enough time spent in dead loops has made that ratio look like the nature of improvement itself. It is instead the signature of a specific, detectable failure mode.
+
+### Operating Rules Produced
+- **Score the period on loop health, not level.** "Was an experiment run, and was something learned?" is answerable weekly at any skill level. "Am I better?" is unanswerable on a weekly timescale, which is precisely why it manufactures despair.
+- **Keep the achievement unit small enough to finish.** Already done in `creative_strategy.md` via the confrontation brick, and in `work_diagnostic.md` via the max-3 Weakness Register. "Be a good Delivery Manager" cannot be completed; a brick can.
+- **On any stall, run the 6-pillar scorecard before introspecting.** Converts "I'm incapable" into "the feedback loop is three months long — shorten it." Same facts, actionable output.
+- **Maintain the warm floor** (see `context.md`, Key Constraints): one live named action per pillar at all times.
+- **Reach for usefulness during plateaus.** A specific person's specific problem, at current skill level, as the deliberate substitute for progress-derived good feeling.
+
+### Outcome
+- No pillar strategy changed. This session revises the *measurement*, not the direction: pillar health is read as loop health, and stagnation is treated as a diagnosable environment failure rather than as evidence about capacity.
+- `context.md` Key Constraints gained two entries: **Single-threaded mood** (with the warm-floor rule) and **Level-scoring trap**.
+- **Resolved:** "be better" is retired as the mood lever. The lever is an active loop with a credible next move.
+- **Left open:** whether the warm floor is actually sustainable under `Limited free energy` — it is a new claim, unexecuted, and structurally a prospective ask, which Finding 6 of the 2026-09-03 career session flags as the demonstrated failure mode. Worth watching rather than trusting.
+
 ---
 
 ## Session: The Sharing Test — Own Standard vs. Finding One's People (2026-10-18)
