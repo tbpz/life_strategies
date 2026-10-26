@@ -2,7 +2,7 @@
 
 > **Pillar 1 deep-dive.** Career exists to build enough competence and security that free time feels genuinely free — not stolen. Read `context.md` first for the full picture. Financial resilience is at `financial/financial_checklist.md`.
 >
-> **Dropped 2026-10-26:** the Phase 4 execution plan below was dropped, and the next career step is open again. See `DECISIONS.md` (2026-10-26, "Phase 4 Systemic DM is dropped"). The direction note is kept as history.
+> **Correction 2026-10-26:** Phase 4 below is done, not dropped, and the next phase (Phase 5) is under review. The practice habits, the work audit and the diagnosis were also run in part, and the sections below that call them unstarted are corrected here. See `DECISIONS.md` (2026-10-26, both "Correction" entries).
 >
 > **Direction (shifted 2026-10-05):** Career is the financial engine for the Masterpiece (Pillar 2). The engine already works — that objective is met. The active question is how long it can be sustained, and the answer chosen is *being worth the role through systemic capability* (see Locked Decision #5), not maintaining a re-hire safety net.
 
@@ -76,13 +76,11 @@ Testing DM-OS at one employer (Orange Logic) cannot prove "works at any company"
 
 1. Trailing-90-day delivery record is retrievable and shows no unexplained slip whose proximate cause was a DM-controllable gap.
 2. A stakeholder can obtain project status **without contacting the DM** (DM-OS Function 7's own self-check, adopted verbatim as the threshold).
-3. The **VP-defined success marker** for the systemic-DM expectation is recorded and currently met. *(Replaces the former condition 3, which pointed at Phase 3's top-3 gaps — void now that Phase 3 is closed. Until the marker is obtained, condition 2 is the interim systems test. Obtaining it was Phase 4, step 1. **Void as of 2026-10-26:** Phase 4 is dropped, so condition 3 has no source until a new career step sets one; conditions 1 and 2 stand.)*
+3. The **VP-defined success marker** for the systemic-DM expectation is recorded and currently met. *(Replaces the former condition 3, which pointed at Phase 3's top-3 gaps — void now that Phase 3 is closed. Until the marker is obtained, condition 2 is the interim systems test. Obtaining it was Phase 4, step 1. **Update 2026-10-26:** the VP discussion was held, but no explicit marker was given, so condition 3 stays unset; conditions 1 and 2 stand.)*
 
 Ease is a downstream sensation that may or may not arrive — it is not a gate. Excluded by explicit choice: company restructuring or role elimination is a different problem, deferred, not addressed by this standard.
 
-### 5. Systemic DM — Get Better at the Role by Solving System Issues (Locked 2026-10-05; execution plan dropped 2026-10-26)
-
-> **Dropped 2026-10-26.** The Phase 4 plan that executed this decision is dropped; see `DECISIONS.md` (2026-10-26). The text below is kept as history.
+### 5. Systemic DM — Get Better at the Role by Solving System Issues (Locked 2026-10-05)
 
 - **Objective:** Improve the DM role by solving recurring problems at the system level, rather than only delivering projects one by one. Success looks like projects running smoothly without the DM needing to touch them.
 - **Rationale 1 — Mandate.** The VP of Engineering stated this expectation for the role in a sync. Meeting it secures the position at OL. This resolves the former diagnostic's failure mode F0 (mandate ambiguity): the mandate is requested, not self-assigned.
@@ -97,7 +95,7 @@ Ease is a downstream sensation that may or may not arrive — it is not a gate. 
 - **The anxiety loop:** Will find new things to attach to. The sprint defines the threshold and closes the loop — it does not eliminate the anxiety permanently.
 - **Ownership hunger:** Needs ownership to feel alive, but organizational ownership at scale is crushing. The self-discovery log confirmed that *flow* (deep active engagement) — not ownership or accumulation — is the real driver of enjoyment. Career should not try to satisfy this need; Pillar 2 handles it through flow-producing activities.
 - **The Zalo double-bind:** Any future role that offers exciting strategic ownership risks recreating the trap. Be cautious. The guardrail is: if it looks like growth but requires managing a team's KPIs and careers → pause and assess carefully.
-- **Strategy churn (added 2026-10-05):** Three reframes since May — portability, then current-role diagnosis, then Systemic DM — and each earlier instrument was left unrun (the Phase 3 Incident Sheet was never started). This mirrors the Zalo pattern at small scale: strategy replaced before it was executed long enough to be judged. **Rule:** no further career-strategy rewrite until at least one artifact has been executed under the current strategy.
+- **Strategy churn (added 2026-10-05):** Three reframes since May — portability, then current-role diagnosis, then Systemic DM — and each earlier instrument was left unrun (the Phase 3 Incident Sheet was never started). This mirrors the Zalo pattern at small scale: strategy replaced before it was executed long enough to be judged. **Rule:** no further career-strategy rewrite until at least one artifact has been executed under the current strategy. *Correction 2026-10-26: the earlier instruments were mostly run and their findings kept (see the Phase 3 and Phase 4 sections), so this entry overstated the churn; the rule itself stands.*
 - **Self-rating volatility (added 2026-10-05):** Felt self-assessment swings with mood ("not getting good / overpaid" and "confident the work is right" within one discussion). It is not the scoreboard. The externally set VP marker (Layer 2, condition 3) is.
 
 ---
@@ -129,6 +127,8 @@ DM-OS written, self-assessed, and organized into 11 files in `DM_Operating_Syste
 
 Started 2026-09-03 as a bounded retrospective diagnostic (Weakness Register, max 3 items) to convert "not doing well" into evidence. Closed unfinished: Sitting 0 (the Incident Sheet) was never run, and its failure mode F0 (mandate ambiguity) was answered directly by the VP's stated expectation (Decision #5). The question it asked — "is there a real gap?" — is replaced by a forward-looking one: which recurring friction can be systematized, and what does the VP count as proof? `work_diagnostic.md` is **kept for reference only**; its F1–F3 lenses (class blindness, self-absorption of the gap, proposal quality) remain usable for Phase 4 step 2, and the Incident Sheet remains available if a specific gap ever needs evidence. It is not an open obligation.
 
+*Reported 2026-10-26:* the diagnostic was dropped because its tracking protocol was too heavy. A one-week work audit did run and found hero work (redoing others' work as a safety net), which is what led to Phase 4.
+
 > The legacy 3-habit practice sprint was formally dropped 2026-10-24 — see `DECISIONS.md` (2026-10-24, "The career practice sprint is dropped").
 
 **Disposition of the 3 legacy practice habits** (dated 2026-10-05, none left open):
@@ -138,10 +138,11 @@ Started 2026-09-03 as a bounded retrospective diagnostic (Weakness Register, max
 | **RAID log** | Carried into Phase 4: adopted only as a component of a specific system fix that needs it. A habit adopted because a named friction shows its cost is a different object from one adopted because a standard says so — the former has a reason to survive real work pressure. |
 | **Two-line change record** | Same — carried into Phase 4, only with a named friction attached. |
 | **Acceptance criteria** | Same — carried into Phase 4, only with a named friction attached. |
+| **Outcome (reported 2026-10-26)** | All three were tried. Acceptance criteria stayed, as the habit already in use on every project. The RAID log and change record were dropped as costing more than they return, and risks are spotted by instinct. |
 
-### Phase 4: Systemic DM — Dropped 2026-10-26 (started 2026-10-05)
+### Phase 4: Systemic DM — ✅ Done 2026-10-26 (started 2026-10-05)
 
-> **Dropped 2026-10-26.** No step was executed. See `DECISIONS.md` (2026-10-26). The text below is kept as history.
+> **Done.** The VP discussion was held and the systemic delivery vision was adopted. The conversation is logged in the SDLC project at `gemini_workspace/SDLC/docs/conversation_ruben.md`. See `DECISIONS.md` (2026-10-26, Phase 4 correction). The steps below are the original design, kept as history.
 
 Executes Decision #5. Three bounded steps; the sequence is the design, and no step waits on perfect conditions.
 
@@ -152,6 +153,12 @@ Executes Decision #5. Three bounded steps; the sequence is the design, and no st
 **Scoring:** controllable surface only (Decision #5). A system that works but is not adopted elsewhere is not a failure.
 
 > Anxiety that remains is not a signal to do more work or to rewrite the strategy (see Strategy churn). It is a feeling to carry. Close the loop anyway (per the hard rule below).
+
+### Phase 5: Help build the delivery system at OL — Active, under review (started 2026-10-26)
+
+Goal: contribute to the delivery system the VP described (one ranked list, work in progress within team capacity, bottleneck first) and learn from it. Vision source: `gemini_workspace/SDLC/docs/conversation_ruben.md`.
+
+Under review because it competes for energy with the game project (Pillar 2). Scope and energy split are not yet settled.
 
 ---
 
@@ -169,4 +176,4 @@ Executes Decision #5. Three bounded steps; the sequence is the design, and no st
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-10-26 (Phase 4 Systemic DM dropped; earlier: 2026-10-05 Systemic-DM shift, Layer 1 retired as active strategy, Phase 3 closed)*
+*Last Updated: 2026-10-26 (record corrected: Phase 4 done, Phase 5 opened under review; earlier: 2026-10-05 Systemic-DM shift, Layer 1 retired as active strategy, Phase 3 closed)*

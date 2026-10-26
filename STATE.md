@@ -22,13 +22,13 @@ A personal strategy workspace for a mid-30s Delivery Manager at Orange Logic, wi
 
 ## Where it stands
 
-Career skill keeps growing through the job itself, with the practice sprint, the diagnosis and the Systemic DM plan all dropped and the next career step still open. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
+Career skill keeps growing through the job itself, with the systemic delivery vision adopted and the next phase, helping build that system at OL, under review against the game's energy. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
 
 ## Next up
 
 1. **Take the next step on the game project:** the list is under "Next up" in `../casual_autobattler/STATE.md`.
 2. **Start the kindergarten search:** compare the four schools in `parenting/stages/stage_2_toddler/kindergarten_pick.html`, then settle school type, monthly budget and furthest distance, then the shortlist (the plan's window is by Dec 2026, in `parenting/stages/stage_2_toddler/kindergarten_plan.md`).
-3. **Career: no step yet.** It waits on the first open question below.
+3. **Career: settle Phase 5's scope** and how it shares energy with the game. It waits on the first open question below.
 
 ---
 
@@ -37,9 +37,10 @@ Career skill keeps growing through the job itself, with the practice sprint, the
 | Piece | State | Where it lives |
 |---|---|---|
 | Career skill — grows through the job | active | `career/career_strategy.md` |
-| 3-habit practice sprint (RAID log, change record, acceptance criteria) | dropped | `career/career_strategy.md`, `DECISIONS.md` (2026-10-24, sprint dropped) |
+| 3-habit practice sprint (RAID log, change record, acceptance criteria) | dropped; acceptance criteria kept | `career/career_strategy.md`, `DECISIONS.md` (2026-10-24, sprint dropped) |
 | Current-role diagnosis (Phase 3) — Weakness Register | dropped; closed unfinished | `career/career_strategy.md`, `career/work_diagnostic.md`, `DECISIONS.md` (2026-10-05, Systemic DM) |
-| Systemic DM plan (Phase 4) — fix one recurring friction | dropped | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 dropped) |
+| Systemic DM (Phase 4) — VP discussion and the delivery vision | done; vision adopted | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
+| Help build the delivery system at OL (Phase 5) | active; under review over energy | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
 | DM operating system — personal delivery playbook, 11 files | done | `career/DM_Operating_System/00_overview.md` |
 | Financial resilience checklist — all three layers | done; yearly look only | `financial/financial_checklist.md`, `DECISIONS.md` (2026-05-15, savings) |
 | Game project — the Masterpiece dream in game form | active | `../casual_autobattler/STATE.md`, `DECISIONS.md` (2026-10-24, Masterpiece) |
@@ -61,7 +62,7 @@ Career skill keeps growing through the job itself, with the practice sprint, the
 
 ## Open questions
 
-- What is the next career step? Still being thought through; Next up #3 waits on it.
+- Can Phase 5 and the game project both run on the available energy, and at what scope for each? Next up #3 waits on it.
 - Does the exist-vs-become rule (AI critiques, never makes the core) still hold now the pursuit is a game, and which parts must be self-made? Shapes how Next up #1 is done. A draft answer is in `creative/creative_strategy.md`, under "Locked Operating Principles", item 3.
 
 ## How to work here

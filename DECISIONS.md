@@ -12,6 +12,40 @@
 
 ---
 
+## [2026-10-26] [career] Correction: Phase 4 was done, not dropped; the systemic delivery vision is adopted
+
+- **Decision:**
+  - Phase 4 (Systemic DM) is done, not dropped.
+  - Tu asked the VP of Engineering the proof question. The conversation is logged in the SDLC project at `gemini_workspace/SDLC/docs/conversation_ruben.md`.
+  - No explicit proof marker was given, so Layer 2 condition 3 stays unset.
+  - Tu adopted the vision after researching and reasoning it through: one ranked list through Invisible Hand, work in progress kept within team capacity, improvement aimed at the bottleneck first, and the DM owning the quality and readiness of the input.
+  - Tu's own problem is shipping through heroic effort that covers others' gaps. That does not scale, and improving the system does.
+  - The next phase, helping build that system at OL, has started. It is under review because it competes for energy with the game project.
+- **Why:**
+  - Tu reported on 2026-10-26 that the VP discussion happened and that the "dropped" entry misread it.
+  - The belief came from Tu's own research and discussion, not from the VP's say-so.
+- **Replaces:**
+  - The 2026-10-26 entry "Phase 4 Systemic DM is dropped", including its line that no step was executed.
+
+## [2026-10-26] [career] Correction: the habits, work audit and diagnosis were run; heavy self-tracking is dropped
+
+- **Decision:**
+  - The practice habits were tried, not skipped.
+  - Acceptance criteria stayed, because Tu already writes them on every project.
+  - The RAID log and the two-line change record were tried and dropped as costing more than they return.
+  - Risks and changes are spotted by instinct, which covers the few major ones well.
+  - The work audit ran for one week, and its result was never written into this repo.
+  - Its finding: much time goes to redoing others' work as a safety net, which led to Phase 4.
+  - Phase 3 was dropped because its tracking protocol was too heavy.
+  - No heavy logging protocol is adopted unless a named friction needs it.
+- **Why:**
+  - Filling vague RAID fields took longer than resolving the items.
+  - An AI-run RAID log was never read back, and little followed from that.
+  - Tu reported all of this on 2026-10-26.
+- **Replaces:**
+  - The readings "not carried out as planned" and "never started" in the 2026-10-24 sprint entry and the 2026-09-03 and 2026-10-05 backfills.
+  - Those entries' conclusion (drop) stands. Only the reason changes.
+
 ## [2026-10-26] [career] Phase 4 Systemic DM is dropped
 
 - **Decision:**
