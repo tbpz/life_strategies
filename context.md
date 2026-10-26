@@ -4,14 +4,16 @@
 This workspace builds, refines, and tracks long-term life directions and strategies. It is the "Source of Truth" for any AI agent working in this repository.
 
 ## Workspace Structure
-*`CLAUDE.md` is auto-read by Claude at session start. Then read this file. Then open the relevant pillar file.*
+*`CLAUDE.md` is auto-read by Claude at session start. Then read `STATE.md`. Then this file. Then open the relevant pillar file.*
 
 | File / Directory | Purpose |
 |---|---|
-| `CLAUDE.md` | Auto-read by Claude. Identity, pillar status, session routing. |
-| `context.md` | This file. Orientation, pillars, goals, constraints. |
+| `CLAUDE.md` | Auto-read by Claude. Identity, pillar list, session routing, how to work with STATE and DECISIONS. |
+| `STATE.md` | Where things stand right now and what to do next. Rewritten whole, only when asked. Read second. |
+| `DECISIONS.md` | Append-only history of decisions and why they were made. Grep it, never read it top to bottom. |
+| `context.md` | This file. Values, pillar descriptions, long-term goals, constraints. Changes rarely. |
 | `self_discovery_log.md` | Chronological record of key diagnostic sessions, self-trust insights, and behavioral patterns. |
-| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, current-role diagnosis status. |
+| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, current-role diagnosis (Phase 3), the dropped practice sprint. |
 | `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
 | `career/work_diagnostic.md` | Active Phase 3 instrument: converts the "not doing well" feeling into an evidence-backed Weakness Register (max 3 items) via retrospective evidence, or an honest close-the-loop verdict. |
@@ -42,17 +44,17 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 
 ---
 
-## Current Context
-*Snapshot as of June 2026.*
+## Standing Facts
+*Facts that change rarely. What is happening now is in [STATE.md](STATE.md).*
 
 ### Career & Work
-- **Current Role:** Delivery Manager at Orange Logic (enterprise DAM, US/EU clients). Deliberately chosen as a scoped-down role after 9 years at Zalo.
-- **Capacity:** Operating at ~70%. Frees mental bandwidth for personal exploration.
+- **Role:** Delivery Manager at Orange Logic (enterprise DAM, US/EU clients). Deliberately chosen as a scoped-down role after 9 years at Zalo.
+- **Capacity:** Operating at ~70% (as of July 2026). Frees mental bandwidth for personal exploration.
 - **Strategic Intent:** The job is a *platform*, not a destination — funds life while providing 30% mental space for the real goal.
 
 ### Life Stage & Financial
 - **Age:** Mid-30s. Has a young son. Financial decisions carry responsibility beyond self.
-- **Financial Status:** Comfortable middle class. Owns a house. **Financial resilience checklist closed 2026-05-15 — all three layers verified complete.**
+- **Financial Status:** Comfortable middle class. Owns a house.
 
 ### The Real Goal
 The core objective is to rebuild self-trust in handling life's essentials so that free time feels genuinely free — not stolen. Beyond self-trust, the deeper need is a meaningful pursuit: exercising genuine capability on a real problem with observable impact, aligned with lifelong dreams of mastery and mattering. Guilt-free leisure (Dota, football, consuming stories) continues in parallel for flow and rest. The Masterpiece dream is the identified meaningful pursuit, currently pursued through game creation — see [creative_strategy.md](creative/creative_strategy.md).
@@ -66,9 +68,9 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 
 ### Pillar 1: 🔑 Self-Trust & Career Competence
 *Execute on career strategies to build genuine competence. Making the responsible parts of life feel manageable and secure is the foundation that unlocks guilt-free enjoyment.*
-- **Career:** Phase 3 — Current-Role Diagnosis active. Testing DM-OS at Orange Logic alone can't prove external portability, so that goal is parked; the active goal is measurable confidence in the current role, via an evidence-backed Weakness Register. See [career_strategy.md](career/career_strategy.md) and [work_diagnostic.md](career/work_diagnostic.md).
+- **Career:** Deep-dive in [career_strategy.md](career/career_strategy.md).
 - **Security threshold:** Two layers — external marketability (2-month replacement, closed floor, background only) and current-role confidence (three observable conditions, the active standard). See `career_strategy.md`.
-- **Financial:** ✅ Closed 2026-05-15. Annual review only. See [financial_checklist.md](file:///d:/Tu/Life_strategies/financial/financial_checklist.md).
+- **Financial:** Deep-dive in [financial_checklist.md](financial/financial_checklist.md).
 
 ### Pillar 2: 🎨 Meaningful Pursuit
 *Exercise genuine capability on a real problem with observable impact — the actual need underneath the original "Enjoyment" framing. Guilt-free leisure (Dota, football, stories) remains valid in parallel for flow and rest, without requiring productive justification.*
@@ -77,35 +79,14 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 
 ### Pillar 3: 👦 Parenting (The Responsibility)
 *Raise a young son to become a good person.*
-- **Status:** Always-on. 5 core principles defined. Stage 1 (infant) rituals active. See [parenting_strategy.md](file:///d:/Tu/Life_strategies/parenting/parenting_strategy.md).
+- **Approach:** Always-on. 5 core principles, stage-gated rituals. See [parenting_strategy.md](parenting/parenting_strategy.md).
 
 ---
 
-## Goals & Milestones
+## Long-term Goals (2–10 years)
 
-### Sequencing Strategy
 > Rebuilding self-trust requires parallel engagement. Career execution handles adult responsibilities, while guilt-free play reinforces the permission to live fully.
 
-| Pillar | Mode | Focus | Target Outcome |
-|---|---|---|---|
-| **Pillar 1 — Self-Trust & Career** | Current-Role Diagnosis | Convert "not doing well" feeling into a named, capped Weakness Register (or an honest close) | Re-establish confidence in daily professional effectiveness at the current role. |
-| **Pillar 2 — Meaningful Pursuit** | Parallel Integration | Run the build-play-judge loop on the autobattler | Sharpen the Masterpiece vision through shipped, played builds; leisure continues for flow. |
-| **Pillar 3 — Parenting** | Always-On | Consistent presence | Daily rituals and value narration. |
-
-### Short-term (Now → 3 months)
-- [x] **[Pillar 1 — Financial]** Financial resilience checklist closed 2026-05-15.
-- [/] **[Pillar 1 — Career]** Phase 3 diagnostic — run the Incident Sheet, trace pull, P1/P2 evidence passes in `work_diagnostic.md`; produce the capped Weakness Register and close per the verdict.
-- [x] **[Pillar 3]** Define 3-5 core parenting principles. ✅ 5 principles defined 2026-05-15.
-- [/] **[Pillar 3]** Establish bedtime/bath-time micro-ritual. Practice consistent narration. Phone-away habit.
-- [ ] **[Pillar 2]** Allow guilt-free entertainment weekly (e.g., Dota, football, stories) — no productive justification required.
-- [ ] **[Pillar 2 — Meaningful Pursuit]** Keep running the build-play-judge loop on the autobattler; let each cycle sharpen the vision of what the masterpiece is. See `creative_strategy.md`.
-
-### Medium-term (3 months → 2 years)
-- [ ] **[Pillar 1]** Rebuild high self-trust in career competence by achieving lateral professional growth and stable execution.
-- [ ] **[Pillar 2]** Integrate regular, guilt-free hobbies into weekly routine; permit exploration of new fields of interest if curiosity arises naturally.
-- [ ] **[Pillar 2 — Meaningful Pursuit]** Run repeated build-test-judge cycles on shipped products (starting with the autobattler) so the Masterpiece dream's shape keeps sharpening.
-
-### Long-term (2–10 years)
 - **[Pillar 1]** Maintain a stable, highly competent career platform that handles life's financial demands with low friction and high confidence.
 - **[Pillar 2]** Live with sustainable, lifelong enjoyment and active hobbies, free from chronic anxiety or guilt; sustained progress on the Masterpiece dream through self-generated capability.
 - **[Pillar 3]** Son growing with clear values, strong relationship with father, feeling seen and supported.
@@ -122,4 +103,4 @@ Career work (building self-trust) and enjoyment (guilt-free play) run in paralle
 - **Fatherhood is non-negotiable daily:** Son's early years cannot be deferred. Parenting time and presence are fixed costs the strategy must work around.
 
 ---
-*Last Updated: 2026-09-03 (Career: Phase 3 reframe)*
+*Last Updated: 2026-10-24*

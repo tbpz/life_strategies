@@ -16,7 +16,7 @@
 ### ❤️ Social-Emotional
 *Build emotional self-regulation — by labeling emotions in real-time before redirecting frustration.*
 
-- [ ] Daycare / playgroup — arrange structured peer interaction (window: before 2 years)
+- [ ] Kindergarten — start ~Aug 2027 (~23mo) → [plan](stages/stage_2_toddler/kindergarten_plan.md) (window: before 2 years)
 
 ### 🏃 Physical
 *Build coordination and fine motor skills — through walking, climbing, playground, not structured exercise.*
@@ -40,4 +40,4 @@
 *Develop Stage 3 when approaching 3 years.*
 
 ---
-*Last Updated: 2026-05-17*
+*Last Updated: 2026-10-05*

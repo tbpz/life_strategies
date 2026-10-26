@@ -1,0 +1,979 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kindergarten Pick 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<style>
+/* Layout: one column up to 1040px. Answer first, then four school cards (2x2), one interactive cost chart, a fit grid, visit questions, a short timeline. */
+:root {
+  --bg: #F2F5F4;
+  --surface: #FFFFFF;
+  --ink: #15232B;
+  --ink-2: #44555E;
+  --muted: #5B6B73;
+  --line: #D6DFE1;
+  --accent: #0E6B5E;
+  --on-accent: #FFFFFF;
+  --accent-soft: #DDEFEA;
+  --caution-bg: #FBF1DC;
+  --caution-line: #E3B861;
+  --good: #1B7F4B;
+  --mid: #A86A0C;
+  --bad: #B3402F;
+  --unk: #6F7F87;
+  --c-tuition: #274C77;
+  --c-meals: #6F94BE;
+  --c-oneoff: #BCCFE3;
+  --c-late: #E0A12C;
+  --font-display: 'Bricolage Grotesque', 'Be Vietnam Pro', system-ui, sans-serif;
+  --font-body: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E181D; --surface: #15242B; --ink: #E6EEF0; --ink-2: #B3C3C9; --muted: #93A5AD;
+    --line: #28393F; --accent: #4FC3AE; --on-accent: #0A1A18; --accent-soft: #13352F;
+    --caution-bg: #2B2410; --caution-line: #8C6A1F;
+    --good: #4CC38A; --mid: #E3AE45; --bad: #F08A76; --unk: #93A5AD;
+    --c-tuition: #7BA3D6; --c-meals: #4F76A8; --c-oneoff: #34506F; --c-late: #E3AE45;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E181D; --surface: #15242B; --ink: #E6EEF0; --ink-2: #B3C3C9; --muted: #93A5AD;
+  --line: #28393F; --accent: #4FC3AE; --on-accent: #0A1A18; --accent-soft: #13352F;
+  --caution-bg: #2B2410; --caution-line: #8C6A1F;
+  --good: #4CC38A; --mid: #E3AE45; --bad: #F08A76; --unk: #93A5AD;
+  --c-tuition: #7BA3D6; --c-meals: #4F76A8; --c-oneoff: #34506F; --c-late: #E3AE45;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1040px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 56px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.15; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font-size: clamp(28px, 5vw, 44px); }
+h2 { font-size: clamp(22px, 3.2vw, 28px); }
+h3 { font-size: 18px; }
+p { margin: 0; }
+.eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.sub { color: var(--ink-2); max-width: 68ch; }
+.sec-head { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Answer */
+.answer { display: flex; flex-direction: column; gap: 20px; }
+.topbar { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.topbar .eyebrow { min-width: 0; padding-top: 8px; }
+.lang { flex: none; }
+.lang .seg-ctl span { padding: 6px 12px; font-size: 13px; }
+.lede { font-size: clamp(17px, 2.2vw, 20px); max-width: 62ch; color: var(--ink-2); }
+.lede b { color: var(--ink); }
+.reasons { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.reason { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.reason h3 { font-size: 16px; }
+.reason p { color: var(--ink-2); font-size: 14px; }
+.caution { background: var(--caution-bg); border: 1px solid var(--caution-line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.caution h3 { font-size: 16px; }
+.caution p { font-size: 14px; }
+.scope { font-size: 13px; color: var(--muted); max-width: 72ch; }
+
+/* Cards */
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.card.first { border-color: var(--accent); border-width: 2px; padding: 19px; }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.pill { font-size: 12px; font-weight: 600; letter-spacing: 0.02em; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); white-space: nowrap; }
+.pill.p1 { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.pill.p2 { background: var(--accent-soft); color: var(--ink); border-color: var(--accent); }
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; margin: 0; }
+.facts div { min-width: 0; }
+.facts dt { font-size: 12px; color: var(--muted); }
+.facts dd { margin: 0; font-weight: 600; font-size: 15px; }
+.facts dd small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+.lists { display: grid; gap: 12px; }
+.lists h4 { margin: 0 0 4px; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+.lists h4.g { color: var(--good); }
+.lists h4.c { color: var(--bad); }
+.lists ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; color: var(--ink-2); }
+.know { display: flex; flex-direction: column; gap: 6px; padding-top: 12px; border-top: 1px solid var(--line); }
+.know-label { font-size: 12px; color: var(--muted); }
+.pips { display: flex; gap: 4px; }
+.pip { width: 100%; max-width: 28px; height: 8px; border-radius: 2px; border: 1px solid var(--muted); background: transparent; }
+.pip.full { background: var(--accent); border-color: var(--accent); }
+.pip.half { background: linear-gradient(90deg, var(--accent) 50%, transparent 50%); border-color: var(--accent); }
+.checks { margin-top: 16px; }
+.checks summary, .q summary { cursor: pointer; font-weight: 600; }
+.tablewrap { overflow-x: auto; margin-top: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+tr:last-child th, tr:last-child td { border-bottom: 0; }
+thead th { font-size: 12px; color: var(--muted); font-weight: 600; }
+td.yes { color: var(--good); font-weight: 600; }
+td.part { color: var(--mid); font-weight: 600; }
+td.no { color: var(--bad); font-weight: 600; }
+
+/* Cost chart */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 18px; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px 28px; }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend { font-size: 12px; color: var(--muted); font-weight: 600; padding: 0; margin-bottom: 6px; }
+.seg-ctl { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg-ctl label { position: relative; }
+.seg-ctl input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.seg-ctl span { display: block; padding: 8px 14px; font-size: 14px; font-weight: 500; color: var(--ink-2); border-left: 1px solid var(--line); }
+.seg-ctl label:first-child span { border-left: 0; }
+.seg-ctl input:checked + span { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.seg-ctl input:focus-visible + span { outline: 3px solid var(--accent); outline-offset: -3px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.chart { display: flex; flex-direction: column; gap: 6px; }
+.row { display: grid; grid-template-columns: 150px minmax(0, 1fr) 64px; align-items: center; gap: 12px; width: 100%; text-align: left; font: inherit; color: inherit; background: transparent; border: 1px solid transparent; border-radius: 8px; padding: 8px; cursor: pointer; }
+.row:hover { border-color: var(--line); }
+.row[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
+.rlabel { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.rlabel b { font-size: 14px; }
+.rlabel small { font-size: 12px; color: var(--muted); }
+.rtotal { font-weight: 700; text-align: right; font-size: 15px; }
+.track { height: 30px; display: flex; background-image: linear-gradient(to right, var(--line) 1px, transparent 1px); background-size: 19.2308% 100%; min-width: 0; }
+.seg { display: block; height: 100%; flex: none; margin-right: 2px; }
+.seg:last-child { margin-right: 0; border-radius: 0 4px 4px 0; }
+.stale .track { opacity: 0.5; }
+.axis { display: grid; grid-template-columns: 150px minmax(0, 1fr) 64px; gap: 12px; padding: 0 8px; font-size: 11px; color: var(--muted); }
+.axis div { position: relative; height: 16px; }
+.axis span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.axis span:first-child { transform: none; }
+.readout { font-size: 14px; color: var(--ink-2); border-left: 3px solid var(--accent); padding-left: 12px; max-width: 76ch; }
+.readout b { color: var(--ink); }
+.detail { border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+.detail table { min-width: 0; }
+.detail td:last-child, .detail th:last-child { text-align: right; white-space: nowrap; }
+.detail td small { color: var(--muted); display: block; }
+.detail tfoot td { font-weight: 700; }
+.notes { margin: 0; padding-left: 18px; font-size: 13px; color: var(--ink-2); display: flex; flex-direction: column; gap: 3px; }
+
+/* Fit grid */
+.fit { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.fit-head, .fit-row { display: grid; grid-template-columns: minmax(150px, 0.9fr) repeat(4, minmax(0, 1fr)); gap: 0 12px; padding: 12px 16px; }
+.fit-head { font-size: 12px; font-weight: 600; color: var(--muted); border-bottom: 1px solid var(--line); }
+.fit-row { border-bottom: 1px solid var(--line); align-items: start; }
+.fit-row:last-child { border-bottom: 0; }
+.crit { font-weight: 600; font-size: 14px; }
+.crit small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+.cell { display: flex; gap: 8px; font-size: 13px; color: var(--ink-2); min-width: 0; }
+.cell .t { min-width: 0; }
+.cell::before { content: attr(data-s); display: none; }
+.dot { flex: none; width: 12px; height: 12px; margin-top: 4px; border-radius: 50%; border: 2px solid var(--unk); }
+.good .dot { background: var(--good); border-color: var(--good); }
+.mid .dot { border-color: var(--mid); background: linear-gradient(90deg, var(--mid) 50%, transparent 50%); }
+.bad .dot { border-color: var(--bad); background: transparent; }
+.unk .dot { border-style: dashed; border-color: var(--unk); background: transparent; }
+.dots-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); margin-bottom: 12px; }
+.dots-legend > span { display: inline-flex; gap: 6px; align-items: center; }
+.dots-legend .dot { margin-top: 0; }
+
+/* Questions */
+.q-list { display: flex; flex-direction: column; gap: 10px; }
+.q { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; }
+.q ol { margin: 12px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; color: var(--ink-2); font-size: 14px; }
+.everywhere { margin-top: 14px; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 10px; padding: 14px 18px; }
+.everywhere h3 { font-size: 16px; margin-bottom: 6px; }
+.everywhere ul { margin: 0; padding-left: 18px; font-size: 14px; display: flex; flex-direction: column; gap: 3px; }
+
+/* Timeline */
+.timeline { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.timeline li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line); }
+.timeline li:last-child { border-bottom: 1px solid var(--line); }
+.when { font-weight: 600; font-family: var(--font-display); }
+.timeline p { color: var(--ink-2); font-size: 14px; max-width: 70ch; }
+.foot details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; font-size: 14px; color: var(--ink-2); }
+.foot ul { padding-left: 18px; display: flex; flex-direction: column; gap: 4px; margin: 10px 0 0; }
+
+@media (max-width: 860px) {
+  .reasons { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) {
+  .fit-head { display: none; }
+  .fit-row { grid-template-columns: 1fr; gap: 10px; }
+  .cell::before { display: block; flex: none; width: 82px; font-weight: 600; color: var(--ink); }
+  .cell .dot { order: 0; }
+  .cell { align-items: flex-start; }
+  .timeline li { grid-template-columns: 1fr; gap: 4px; }
+}
+@media (max-width: 560px) {
+  .wrap { gap: 44px; }
+  .row { grid-template-columns: minmax(0, 1fr) 60px; grid-template-areas: "label total" "track track"; row-gap: 6px; }
+  .rlabel { grid-area: label; }
+  .rtotal { grid-area: total; }
+  .track { grid-area: track; }
+  .axis { grid-template-columns: minmax(0, 1fr); }
+  .axis > :first-child, .axis > :last-child { display: none; }
+  .panel { padding: 16px; }
+  .card { padding: 16px; }
+  .card.first { padding: 15px; }
+  .facts { grid-template-columns: 1fr 1fr; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .seg { transition: width .25s ease; }
+}
+</style>
+<style>
+body { margin: 0; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="answer">
+    <div class="topbar">
+      <p class="eyebrow" data-i18n>Four brochures, one decision · start around August 2027</p>
+      <fieldset class="lang">
+        <legend class="sr" data-i18n>Language</legend>
+        <div class="seg-ctl" id="ctl-lang">
+          <label><input type="radio" name="lang" id="lang-en" value="en" aria-label="English" checked><span>EN</span></label>
+          <label><input type="radio" name="lang" id="lang-vi" value="vi" aria-label="Tiếng Việt"><span>VI</span></label>
+        </div>
+      </fieldset>
+    </div>
+    <h1 data-i18n>Which kindergarten for August 2027?</h1>
+    <p class="lede"><b data-i18n>Sakura Kids is the first pick on paper, with Hooray Kids as the backup.</b> <span data-i18n>The brochures cannot show how teachers treat a crying child, so this page ranks which schools to visit first. It does not close the choice.</span></p>
+
+    <div class="reasons">
+      <div class="reason">
+        <h3 data-i18n>Most is known</h3>
+        <p data-i18n>The only brochure with class sizes (15 to 20 kids with 3 teachers), a timetable for 2 to 3 year olds, this year's fees and the enrolment steps.</p>
+      </div>
+      <div class="reason">
+        <h3 data-i18n>A play-first day</h3>
+        <p data-i18n>Sensory play, clay and stirring, outdoor time every morning. Children set the table, tidy their sleeping place and take a daily duty role.</p>
+      </div>
+      <div class="reason">
+        <h3 data-i18n>Kindest sick-day terms</h3>
+        <p data-i18n>After 10 or more sick days in a row, 20% of next month is covered. Up to 2 months of leave a year. Open until 18:00.</p>
+      </div>
+    </div>
+
+    <div class="caution">
+      <h3 data-i18n>Ask about one rule before paying anything at Sakura Kids</h3>
+      <p data-i18n>The fee sheet says parents are asked not to share "unverified information in any form", and the school may end its service at once if they do. The biggest worry in the kindergarten plan is a child too young to say what happened. Parents therefore need to be free to raise a concern. If the school cannot explain this rule in plain words, Hooray Kids becomes the first pick.</p>
+    </div>
+
+    <p class="scope" data-i18n>Only these four private schools are compared. Public kindergartens are not in the brochures, and "decide school type" is still an open item in the plan (due Dec 2026).</p>
+  </header>
+
+  <section aria-labelledby="h-schools">
+    <div class="sec-head">
+      <h2 id="h-schools" data-i18n>The four schools</h2>
+      <p class="sub" data-i18n>Monthly cost is tuition plus meals, paying month by month. Money is in VND; M means million.</p>
+    </div>
+    <div class="cards" id="cards">
+
+      <article class="card first" data-i="0">
+        <div class="card-top"><div><h3>Sakura Kids</h3><span class="eyebrow">Valora Mizuki, B-05</span></div><span class="pill p1" data-i18n>First pick</span></div>
+        <dl class="facts">
+          <div><dt data-i18n>Per month</dt><dd class="num"><span data-i18n>7.54M</span><small data-i18n>6.0M tuition + 1.54M meals</small></dd></div>
+          <div><dt data-i18n>Day ends</dt><dd>18:00<small data-i18n>late fee 15,000 per 15 min</small></dd></div>
+          <div><dt data-i18n>English at age 2</dt><dd><span data-i18n>10 periods a week</span><small data-i18n>5 with foreign teachers</small></dd></div>
+          <div><dt data-i18n>Kids per teacher</dt><dd class="num"><span data-i18n>5 to 6.7</span><small data-i18n>if the printed number is the class limit</small></dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g" data-i18n>Good</h4><ul>
+            <li data-i18n>Class sizes, timetable, fees and enrolment steps are all printed</li>
+            <li data-i18n>Tuition can rise at most 15% every 2 years</li>
+          </ul></div>
+          <div><h4 class="c" data-i18n>Catches</h4><ul>
+            <li data-i18n>The rule against sharing "unverified information" (see top of page)</li>
+            <li data-i18n>The 1,000,000 registration fee is lost if the child does not start, for any reason</li>
+            <li data-i18n>A full day: 4 specialist lessons and 10 English periods a week</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+      <article class="card" data-i="1">
+        <div class="card-top"><div><h3>Hooray Kids</h3><span class="eyebrow">Valora Mizuki, B12–B13</span></div><span class="pill p2" data-i18n>Backup</span></div>
+        <dl class="facts">
+          <div><dt data-i18n>Per month</dt><dd class="num"><span data-i18n>7.84M</span><small data-i18n>6.3M tuition (10% off) + 1.54M meals</small></dd></div>
+          <div><dt data-i18n>Day ends</dt><dd><span data-i18n>About 17:30</span><small data-i18n>18:00 to 19:00 costs 50,000</small></dd></div>
+          <div><dt data-i18n>English at age 2</dt><dd><span data-i18n>10 sessions a week</span><small data-i18n>2 with a foreign teacher</small></dd></div>
+          <div><dt data-i18n>Kids per teacher</dt><dd data-i18n>Not printed</dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g" data-i18n>Good</h4><ul>
+            <li data-i18n>Montessori (child-led, hands-on learning) every day. Children water plants and keep their own bedding</li>
+            <li data-i18n>The 1,000,000 reservation fee is refunded in full if the child does not start, so it holds a second place cheaply</li>
+          </ul></div>
+          <div><h4 class="c" data-i18n>Catches</h4><ul>
+            <li data-i18n>No class sizes. The timetable shown is for a class with no stated age</li>
+            <li data-i18n>When the child is absent only meals are refunded. Tuition is covered (60%) only after 15 or more sick days with a hospital note</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+      <article class="card" data-i="2">
+        <div class="card-top"><div><h3>Little Stars</h3><span class="eyebrow">Valora Mizuki, B01</span></div><span class="pill" data-i18n>Worth a visit</span></div>
+        <dl class="facts">
+          <div><dt data-i18n>Per month</dt><dd class="num"><span data-i18n>7.22M</span><small data-i18n>5.9M tuition + 1.32M meals</small></dd></div>
+          <div><dt data-i18n>Day ends</dt><dd>17:00<small data-i18n>pick-up window 16:00 to 17:00</small></dd></div>
+          <div><dt data-i18n>English at age 2</dt><dd><span data-i18n>None</span><small data-i18n>Vietnamese only until 36 months</small></dd></div>
+          <div><dt data-i18n>Kids per teacher</dt><dd data-i18n>Not printed</dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g" data-i18n>Good</h4><ul>
+            <li data-i18n>Vietnamese only until 36 months, in line with English coming from home</li>
+            <li data-i18n>Lowest monthly cost of the four, and 10% off for a year paid ahead</li>
+          </ul></div>
+          <div><h4 class="c" data-i18n>Catches</h4><ul>
+            <li data-i18n>Late pick-up climbs fast: 100,000 at 18:30 and 150,000 by 19:00</li>
+            <li data-i18n>No timetable, class sizes or enrolment steps. One price cell still reads "2024 – 2025"</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+      <article class="card" data-i="3">
+        <div class="card-top"><div><h3>Twinkle Star</h3><span class="eyebrow" data-i18n>Address not in the photos</span></div><span class="pill" data-i18n>Can't judge yet</span></div>
+        <dl class="facts">
+          <div><dt data-i18n>Per month</dt><dd class="num"><span data-i18n>7.82M*</span><small data-i18n>6.5M tuition + 1.32M meals, 2023–24 prices</small></dd></div>
+          <div><dt data-i18n>Day ends</dt><dd>17:00<small data-i18n>50,000 per hour after</small></dd></div>
+          <div><dt data-i18n>English at age 2</dt><dd><span data-i18n>3 lessons a week</span><small data-i18n>30 minutes each</small></dd></div>
+          <div><dt data-i18n>Kids per teacher</dt><dd data-i18n>Not printed</dd></div>
+        </dl>
+        <div class="lists">
+          <div><h4 class="g" data-i18n>Good</h4><ul>
+            <li data-i18n>The gentlest day on paper: 30-minute lessons, outdoor and cooking days, free play before pick-up</li>
+            <li data-i18n>Montessori every day and the smallest one-off fees (1,000,000 a year)</li>
+          </ul></div>
+          <div><h4 class="c" data-i18n>Catches</h4><ul>
+            <li data-i18n>The fee sheet is for school year 2023–24. Today's prices are probably higher</li>
+            <li data-i18n>No address, phone, class sizes or enrolment steps in the photos</li>
+          </ul></div>
+        </div>
+        <div class="know"><span class="know-label"></span><div class="pips"></div></div>
+      </article>
+
+    </div>
+    <details class="checks">
+      <summary data-i18n>What the brochure checks count</summary>
+      <div class="tablewrap"><table id="checks-table"></table></div>
+    </details>
+  </section>
+
+  <section aria-labelledby="h-cost">
+    <div class="sec-head">
+      <h2 id="h-cost" data-i18n>What year one costs</h2>
+      <p class="sub" data-i18n>Twelve months of tuition and meals, the one-off fees, and late pick-up on every school day. Choose a pick-up time and how tuition is paid. Tap a bar for the breakdown.</p>
+    </div>
+    <div class="panel">
+      <div class="controls">
+        <fieldset>
+          <legend data-i18n>Pick-up time</legend>
+          <div class="seg-ctl" id="ctl-pick">
+            <label><input type="radio" name="pick" id="pick-1700" value="17:00"><span>17:00</span></label>
+            <label><input type="radio" name="pick" id="pick-1730" value="17:30" checked><span>17:30</span></label>
+            <label><input type="radio" name="pick" id="pick-1800" value="18:00"><span>18:00</span></label>
+            <label><input type="radio" name="pick" id="pick-1830" value="18:30"><span>18:30</span></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend data-i18n>Tuition paid</legend>
+          <div class="seg-ctl" id="ctl-pay">
+            <label><input type="radio" name="pay" id="pay-month" value="month" checked><span data-i18n>Month by month</span></label>
+            <label><input type="radio" name="pay" id="pay-year" value="year"><span data-i18n>A year ahead</span></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="legend" aria-hidden="true">
+        <span><i style="background:var(--c-tuition)"></i><span data-i18n>Tuition</span></span>
+        <span><i style="background:var(--c-meals)"></i><span data-i18n>Meals</span></span>
+        <span><i style="background:var(--c-oneoff)"></i><span data-i18n>One-off fees</span></span>
+        <span><i style="background:var(--c-late)"></i><span data-i18n>Late pick-up</span></span>
+      </div>
+
+      <div class="chart" id="chart" role="group" aria-label="Year-one cost per school"></div>
+      <div class="axis" aria-hidden="true"><span></span><div id="axis"></div><span></span></div>
+
+      <p class="readout" id="readout" aria-live="polite"></p>
+
+      <div class="detail" id="detail"></div>
+    </div>
+    <p class="scope" style="margin-top:12px" data-i18n>For scale, the nanny costs 10M to 15M a month. Paying a year ahead only saves money if the child stays the full year. Ask whether unused months are refunded before paying a yearly pack.</p>
+  </section>
+
+  <section aria-labelledby="h-fit">
+    <div class="sec-head">
+      <h2 id="h-fit" data-i18n>How each school fits the family's rules</h2>
+      <p class="sub" data-i18n>The rules come from the kindergarten plan and the parenting principles: safety first, play instead of drilling, independence, English from home, calm sick-day terms.</p>
+    </div>
+    <div class="dots-legend" aria-hidden="true">
+      <span class="good"><i class="dot"></i><span data-i18n="dot-good">Good</span></span>
+      <span class="mid"><i class="dot"></i><span data-i18n="dot-mid">Mixed</span></span>
+      <span class="bad"><i class="dot"></i><span data-i18n="dot-bad">Weak</span></span>
+      <span class="unk"><i class="dot"></i><span data-i18n>Brochure does not say</span></span>
+    </div>
+    <div class="fit" id="fit">
+      <div class="fit-head"><span data-i18n>Rule</span><span>Sakura Kids</span><span>Hooray Kids</span><span>Little Stars</span><span>Twinkle Star</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-ask">
+    <div class="sec-head">
+      <h2 id="h-ask" data-i18n>Ask at each visit</h2>
+      <p class="sub" data-i18n>Questions that come from gaps and oddities in each brochure. A school will say "yes, of course" to a general question, so the ones below ask for numbers and wording.</p>
+    </div>
+    <div class="q-list">
+      <details class="q" open>
+        <summary>Sakura Kids</summary>
+        <ol>
+          <li data-i18n>What exactly does the rule on "unverified information" cover? Can a parent raise a worry about a teacher, or ask to see the cameras? Ask for the wording in writing.</li>
+          <li data-i18n>Is "20 kids, 3 teachers" the class limit or today's headcount? Who stays with the 2 to 3 year olds all day?</li>
+          <li data-i18n>The words "(under 3 years old)" next to the bilingual track look crossed out. Is the bilingual track really for under-3s, and how long is each English period for a 2-year-old?</li>
+          <li data-i18n>Are the 6,000,000 and 6,600,000 tuition amounts per month? The sheet does not say.</li>
+          <li data-i18n>Can parents watch the cameras live on a phone?</li>
+        </ol>
+      </details>
+      <details class="q">
+        <summary>Hooray Kids</summary>
+        <ol>
+          <li data-i18n>Which class takes a 23-month-old, and what does its day look like? The timetable shown is for a class named "MON 1" with no age.</li>
+          <li data-i18n>How many kids and teachers are in that class?</li>
+          <li data-i18n>The fee sheet skips section III and has year typos. Ask for a complete 2026–27 sheet. Is the facilities fee paid at registration or in September? The two pages disagree.</li>
+          <li data-i18n>How is English taught to a 2-year-old? The week shown has daily word lists such as "I see..." and "I'm thirsty".</li>
+          <li data-i18n>What is refunded after 3 to 10 sick days?</li>
+        </ol>
+      </details>
+      <details class="q">
+        <summary>Little Stars</summary>
+        <ol>
+          <li data-i18n>What does the day look like for 18 to 36 months, and how many kids and teachers are in the class?</li>
+          <li data-i18n>Is 5,900,000 the real 2026–27 tuition? One cell on the sheet still says "2024 – 2025".</li>
+          <li data-i18n>The facilities fee is printed as 4,000,000, and a handwritten note says 3,000,000 a year. Which one applies?</li>
+          <li data-i18n>What is charged from 17:01 to 17:30? The sheet is silent.</li>
+          <li data-i18n>What changes at 36 months, when the bilingual track starts? Does the child move to a more English day?</li>
+        </ol>
+      </details>
+      <details class="q">
+        <summary>Twinkle Star</summary>
+        <ol>
+          <li data-i18n>Where is the school, and what is the phone number? Neither is in the photos.</li>
+          <li data-i18n>Ask for the 2026–27 fee sheet. The one seen is for 2023–24.</li>
+          <li data-i18n>Are meals (60,000 a day) inside the 6,500,000 tuition or on top? Monthly cost is 6.5M or 7.8M depending on the answer.</li>
+          <li data-i18n>Class size, teachers per class, camera access, sick-day rules, sibling discount.</li>
+        </ol>
+      </details>
+    </div>
+    <div class="everywhere">
+      <h3 data-i18n>At every visit, from the kindergarten plan</h3>
+      <ul>
+        <li data-i18n>Crying kids are picked up and comforted, not ignored or put in front of a TV</li>
+        <li data-i18n>Slow eaters are helped and get enough food</li>
+        <li data-i18n>Rooms, toilets and kitchen are clean (ask to see the toilets and the kitchen)</li>
+        <li data-i18n>Count the kids and teachers in the room and compare with the answer given</li>
+        <li data-i18n>See the camera view working, not just hear that cameras exist</li>
+      </ul>
+      <p style="margin-top:8px;font-size:13px;color:var(--ink-2)" data-i18n>Best time: around drop-off (7 to 8 am) or mealtime, when crying and eating can be seen. A visit with no warning shows more than a planned tour.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-next">
+    <div class="sec-head">
+      <h2 id="h-next" data-i18n>Next steps</h2>
+      <p class="sub" data-i18n>These follow the dates already in the kindergarten plan.</p>
+    </div>
+    <ol class="timeline">
+      <li><span class="when" data-i18n>By Dec 2026</span><p data-i18n>Set the monthly budget, school type and maximum distance. Ask Twinkle Star for an address and a 2026–27 fee sheet. Ask Hooray Kids and Little Stars for class sizes and a timetable for 2 to 3 year olds. Drop any school that does not answer.</p></li>
+      <li><span class="when" data-i18n>Feb to Mar 2027</span><p data-i18n>Visit Sakura Kids, Hooray Kids and Little Stars, 2 to 3 weeks after Tet. Go around 7 to 8 am, unannounced if the school allows it.</p></li>
+      <li><span class="when" data-i18n>Mar to Apr 2027</span><p data-i18n>Pay a deposit at the top choice only after the visit. Hooray's 1,000,000 reservation fee is fully refundable, so it is the cheapest way to hold a second place. Sakura's registration fee is lost if the child does not start.</p></li>
+      <li><span class="when" data-i18n>May to Aug 2027</span><p data-i18n>Get ready and ease in over about 2 weeks, as set out in the plan. Pay month by month for the first 3 months. Consider a yearly pack once the child has settled and the refund rules for unused months are clear.</p></li>
+    </ol>
+  </section>
+
+  <section class="foot" aria-label="How the numbers were worked out">
+    <details>
+      <summary><b data-i18n>How the numbers were worked out</b></summary>
+      <ul>
+        <li data-i18n>12 months of tuition, 22 meal days a month. Late pick-up is counted on all 22 school days of all 12 months.</li>
+        <li data-i18n>One-off fees counted: Sakura Kids enrolment, facilities, uniform, learning materials and events (7.02M; the 1,000,000 registration fee is refunded when the child starts). Hooray Kids facilities, enrolment, learning materials, uniform and bedding (5.1M; the reservation fee becomes tuition). Little Stars registration, facilities and uniform (6.18M). Twinkle Star facilities only (1.0M); its sheet lists no uniform.</li>
+        <li data-i18n>Late pick-up: Sakura Kids 15,000 per 15 minutes after 18:00. Hooray Kids 50,000 for the 18:00 to 19:00 slot, nothing before 18:00 (the timetable ends at 17:30, so this is a guess). Little Stars free to 17:30, then 50,000 / 100,000 / 150,000 in half-hour steps. Twinkle Star 50,000 per started hour after 17:00.</li>
+        <li data-i18n>Twinkle Star's sheet lists meals inside the tuition box but does not say whether they are extra. Counted as extra; if they are included, subtract 15.8M.</li>
+        <li data-i18n>Not counted: field trips, Saturday school, extra English licence at Hooray Kids older classes (25 USD a month), price rises.</li>
+        <li data-i18n>Transcription items marked unclear (the ⚠️ notes in the brochure files) are listed in each school's question list above.</li>
+        <li data-i18n>Source: photos of the printed brochures taken in October 2026, transcribed in the kindergarten_brochures folder.</li>
+      </ul>
+    </details>
+  </section>
+
+</div>
+
+<script>
+/*DATA*/
+const DAYS = 22, MONTHS = 12;
+const SCHOOLS = [
+  { id: 'sakura', name: 'Sakura Kids', note: 'No discount for paying ahead',
+    tuition: 6.0, tuitionYear: 6.0, mealDay: 70,
+    oneoff: [['Enrolment', 2.0], ['Facilities', 2.0], ['Uniform and personal items', 0.82], ['Learning materials', 1.0], ['Events', 1.2]],
+    late: { '17:00': 0, '17:30': 0, '18:00': 0, '18:30': 30 },
+    notes: ['The 1,000,000 registration fee is refunded when the child starts, so it is not counted.', 'No discount is printed for paying a year ahead.'] },
+  { id: 'hooray', name: 'Hooray Kids', note: 'Year pack: 20% off tuition',
+    tuition: 6.3, tuitionYear: 5.6, mealDay: 70,
+    oneoff: [['Facilities', 2.0], ['Enrolment', 1.0], ['Learning materials', 1.0], ['Uniform combo', 0.6], ['Bedding combo', 0.5]],
+    late: { '17:00': 0, '17:30': 0, '18:00': 0, '18:30': 50 },
+    notes: ['Month by month already includes a 10% discount on 7.0M. A 12-month pack takes 20% off.', 'The 1,000,000 reservation fee becomes tuition, so it is not counted.', 'Free pick-up to 18:00 is a guess. The timetable ends at 17:30.'] },
+  { id: 'little', name: 'Little Stars', note: 'Year pack: 10% off tuition',
+    tuition: 5.9, tuitionYear: 5.31, mealDay: 60,
+    oneoff: [['Registration', 1.0], ['Facilities', 4.0], ['Uniform combo', 1.18]],
+    late: { '17:00': 0, '17:30': 0, '18:00': 50, '18:30': 100 },
+    notes: ['A handwritten note on the brochure says the facilities fee is 3,000,000. The printed fee (4,000,000) is counted.', 'Pick-up is free to 17:30, then 50,000 until 18:00 and 100,000 until 18:30.'] },
+  { id: 'twinkle', name: 'Twinkle Star', note: '2023–24 prices', stale: true,
+    tuition: 6.5, tuitionYear: 5.2, mealDay: 60,
+    oneoff: [['Facilities', 1.0]],
+    late: { '17:00': 0, '17:30': 50, '18:00': 50, '18:30': 100 },
+    notes: ['These are 2023–24 prices. Expect higher numbers today.', 'Meals are counted on top of tuition. If they are included, subtract 15.8M.', 'Overtime is 50,000 per started hour after 17:00.'] }
+];
+const CHECKS = [
+  ['Current-year fees (2026–27)', [1, 1, .5, 0]],
+  ['Address and phone', [1, 1, 1, 0]],
+  ['Class sizes', [1, 0, 0, 0]],
+  ['Timetable for ages 2 to 3', [1, .5, 0, 1]],
+  ['Menu', [1, 1, .5, 1]],
+  ['Enrolment steps', [1, 0, 0, 0]],
+  ['Rules for absence, sick days and leaving', [1, 1, .5, 0]],
+  ['Opening and closing hours', [.5, 1, 1, 1]]
+];
+function cost(s, pick, pay) {
+  const t = (pay === 'year' ? s.tuitionYear : s.tuition) * MONTHS;
+  const meals = s.mealDay * DAYS / 1000 * MONTHS;
+  const oneoff = s.oneoff.reduce((a, b) => a + b[1], 0);
+  const late = s.late[pick] * DAYS * MONTHS / 1000;
+  return { tuition: t, meals, oneoff, late, total: t + meals + oneoff + late };
+}
+/*END*/
+
+const FIT = [
+  ['Kids per teacher', 'Own rule: 5 or fewer is good, over 8 is a warning', [
+    ['mid', '5 to 6.7 each. Unclear if the printed number is the class limit'],
+    ['unk', 'Not printed'], ['unk', 'Not printed'], ['unk', 'Not printed']]],
+  ['A day for a 2-year-old', 'Play first, no drilling', [
+    ['mid', 'Sensory play, clay, outdoor time. Also 2 English slots a day and 4 specialist lessons a week'],
+    ['mid', 'Montessori choices, but daily word lists. Class age not stated'],
+    ['unk', 'No timetable in the photos'],
+    ['good', 'Short 30-minute lessons, outdoor and cooking days, long free play']]],
+  ['Independence', 'Principle 4', [
+    ['good', 'Children set the table, tidy their sleeping place, take a duty role'],
+    ['good', 'Watering plants, an eating shirt, own bedding'],
+    ['unk', 'Not printed'],
+    ['good', 'Montessori daily, life skills 3 times a week']]],
+  ['English at school', 'English comes from home, not drills', [
+    ['mid', '10 periods a week, half with foreign teachers'],
+    ['mid', '10 sessions a week. Older classes pay 25 USD a month extra'],
+    ['good', 'Vietnamese only until 36 months'],
+    ['good', '3 half-hour lessons a week']]],
+  ['Sick days and breaks', 'The first year brings many colds', [
+    ['good', '10+ sick days in a row: 20% off next month. Up to 2 months leave a year'],
+    ['mid', 'Only meals refunded, unless 15+ sick days with a hospital note (60% off)'],
+    ['bad', 'Full fees in breaks. Meals refunded only if told by noon the day before'],
+    ['unk', 'Not printed']]],
+  ['Hours and late pick-up', 'Both parents work', [
+    ['good', 'Open to 18:00. Late fee 15,000 per 15 minutes'],
+    ['good', 'Timetable ends 17:30. 50,000 for 18:00 to 19:00'],
+    ['mid', 'Pick-up 16:00 to 17:00. Late fees climb to 150,000'],
+    ['mid', 'Day ends 17:00. 50,000 per hour after']]],
+  ['Distance from home', 'Plan sets a maximum', [
+    ['good', 'Valora Mizuki shophouses, same estate'],
+    ['good', 'Valora Mizuki shophouses, same estate'],
+    ['good', 'Valora Mizuki shophouses, same estate'],
+    ['unk', 'No address in the photos']]],
+  ['Information is current and complete', 'Needed to compare fairly', [
+    ['good', '2026–27 fees, enrolment steps, timetable, menu'],
+    ['mid', 'Fee sheet misses a section and has year typos'],
+    ['mid', 'Says 2026–27 but one cell says 2024–25. No timetable'],
+    ['bad', 'Fees are for 2023–24. No address']]]
+];
+const LABEL = { good: 'Good: ', mid: 'Mixed: ', bad: 'Weak: ', unk: 'Brochure does not say: ' };
+
+/* Vietnamese text for the script-built parts. Same order and shape as the English above. */
+const LABEL_VI = { good: 'Tốt: ', mid: 'Tạm ổn: ', bad: 'Yếu: ', unk: 'Tờ rơi không nêu: ' };
+const CHECKS_VI = [
+  'Biểu phí năm học hiện tại (2026–27)',
+  'Địa chỉ và số điện thoại',
+  'Sĩ số lớp',
+  'Thời khóa biểu cho bé 2 đến 3 tuổi',
+  'Thực đơn',
+  'Các bước nhập học',
+  'Quy định khi bé nghỉ học, nghỉ ốm và thôi học',
+  'Giờ mở và đóng cửa'
+];
+const SCHOOL_VI = {
+  sakura: { note: 'Không giảm giá khi đóng trước cả năm',
+    oneoff: ['Phí nhập học', 'Phí cơ sở vật chất', 'Đồng phục và đồ dùng cá nhân', 'Học liệu', 'Sự kiện'],
+    notes: ['Phí ghi danh 1.000.000 được hoàn lại khi bé nhập học nên không tính vào.', 'Biểu phí không in mức giảm khi đóng trước cả năm.'] },
+  hooray: { note: 'Gói năm: giảm 20% học phí',
+    oneoff: ['Phí cơ sở vật chất', 'Phí nhập học', 'Học phẩm', 'Combo đồng phục', 'Combo chăn nệm'],
+    notes: ['Đóng theo tháng đã được giảm 10% trên mức 7,0 tr. Gói 12 tháng giảm 20%.', 'Phí giữ chỗ 1.000.000 sẽ chuyển thành học phí nên không tính vào.', 'Đón trễ miễn phí đến 18:00 chỉ là phỏng đoán. Thời khóa biểu kết thúc lúc 17:30.'] },
+  little: { note: 'Gói năm: giảm 10% học phí',
+    oneoff: ['Phí đăng ký', 'Phí cơ sở vật chất', 'Combo đồng phục'],
+    notes: ['Ghi chú viết tay trên tờ rơi nói phí cơ sở vật chất là 3.000.000. Mức in sẵn (4.000.000) được tính.', 'Đón trễ miễn phí đến 17:30, sau đó 50.000 đến 18:00 và 100.000 đến 18:30.'] },
+  twinkle: { note: 'Giá năm 2023–24',
+    oneoff: ['Phí cơ sở vật chất'],
+    notes: ['Đây là giá năm 2023–24. Giá hiện nay có thể cao hơn.', 'Tiền ăn được tính thêm ngoài học phí. Nếu đã bao gồm, trừ đi 15,8 tr.', 'Phí ngoài giờ là 50.000 cho mỗi giờ bắt đầu sau 17:00.'] }
+};
+/* [criterion, hint, [4 cells]] — the dot colours stay in FIT */
+const FIT_VI = [
+  ['Số bé trên mỗi cô', 'Quy tắc riêng: từ 5 bé trở xuống là tốt, trên 8 là đáng lo', [
+    '5 đến 6,7 bé mỗi cô. Chưa rõ con số in có phải là sĩ số tối đa không', 'Không in', 'Không in', 'Không in']],
+  ['Một ngày của bé 2 tuổi', 'Chơi là chính, không học nhồi', [
+    'Chơi giác quan, nặn đất, ra ngoài chơi. Còn có 2 tiết tiếng Anh mỗi ngày và 4 tiết năng khiếu mỗi tuần',
+    'Lựa chọn kiểu Montessori, nhưng có danh sách từ vựng mỗi ngày. Không nêu độ tuổi của lớp',
+    'Ảnh chụp không có thời khóa biểu',
+    'Tiết học ngắn 30 phút, có ngày ngoài trời và ngày nấu ăn, thời gian chơi tự do dài']],
+  ['Tính tự lập', 'Nguyên tắc 4', [
+    'Bé tự bày bàn ăn, dọn chỗ ngủ, nhận vai trực nhật',
+    'Tưới cây, mặc áo ăn, tự giữ chăn gối của mình',
+    'Không in',
+    'Montessori mỗi ngày, kỹ năng sống 3 lần mỗi tuần']],
+  ['Tiếng Anh ở trường', 'Tiếng Anh đến từ gia đình, không học nhồi', [
+    '10 tiết mỗi tuần, một nửa với giáo viên nước ngoài',
+    '10 buổi mỗi tuần. Các lớp lớn hơn đóng thêm 25 USD mỗi tháng',
+    'Chỉ dùng tiếng Việt đến 36 tháng',
+    '3 tiết nửa giờ mỗi tuần']],
+  ['Ngày nghỉ ốm và nghỉ dài', 'Năm đầu bé hay bị ốm vặt', [
+    'Nghỉ ốm từ 10 ngày liên tục: giảm 20% tháng sau. Được nghỉ tối đa 2 tháng mỗi năm',
+    'Chỉ hoàn tiền ăn, trừ khi nghỉ ốm từ 15 ngày có giấy bệnh viện (giảm 60%)',
+    'Đóng đủ học phí khi nghỉ. Chỉ hoàn tiền ăn nếu báo trước 12 giờ trưa hôm trước',
+    'Không in']],
+  ['Giờ đón và phí đón trễ', 'Cả hai vợ chồng đều đi làm', [
+    'Mở cửa đến 18:00. Phí đón trễ 15.000 mỗi 15 phút',
+    'Thời khóa biểu kết thúc lúc 17:30. 50.000 cho khung 18:00 đến 19:00',
+    'Giờ đón từ 16:00 đến 17:00. Phí đón trễ tăng đến 150.000',
+    'Hết ngày học lúc 17:00. 50.000 mỗi giờ sau đó']],
+  ['Khoảng cách từ nhà', 'Kế hoạch có đặt mức tối đa', [
+    'Nhà phố Valora Mizuki, cùng khu',
+    'Nhà phố Valora Mizuki, cùng khu',
+    'Nhà phố Valora Mizuki, cùng khu',
+    'Ảnh chụp không có địa chỉ']],
+  ['Thông tin còn mới và đầy đủ', 'Cần để so sánh công bằng', [
+    'Biểu phí 2026–27, các bước nhập học, thời khóa biểu, thực đơn',
+    'Biểu phí thiếu một mục và có lỗi ghi năm',
+    'Ghi 2026–27 nhưng một ô lại ghi 2024–25. Không có thời khóa biểu',
+    'Biểu phí là của năm 2023–24. Không có địa chỉ']]
+];
+
+/* Vietnamese for every [data-i18n] element in the HTML. The key is the English text (or the data-i18n value when given). */
+const VI = {
+  [`Four brochures, one decision · start around August 2027`]: `Bốn tờ rơi, một quyết định · bắt đầu khoảng tháng 8/2027`,
+  [`Language`]: `Ngôn ngữ`,
+  [`Which kindergarten for August 2027?`]: `Chọn trường mầm non nào cho tháng 8/2027?`,
+  [`Sakura Kids is the first pick on paper, with Hooray Kids as the backup.`]: `Trên giấy, Sakura Kids là lựa chọn đầu tiên, Hooray Kids là phương án dự phòng.`,
+  [`The brochures cannot show how teachers treat a crying child, so this page ranks which schools to visit first. It does not close the choice.`]: `Tờ rơi không cho thấy cô giáo đối xử thế nào với một đứa trẻ đang khóc, nên trang này chỉ xếp thứ tự các trường nên đến thăm trước. Trang này chưa chốt lựa chọn.`,
+  [`Most is known`]: `Biết nhiều thông tin nhất`,
+  [`The only brochure with class sizes (15 to 20 kids with 3 teachers), a timetable for 2 to 3 year olds, this year's fees and the enrolment steps.`]: `Tờ rơi duy nhất có sĩ số lớp (15 đến 20 bé với 3 cô), thời khóa biểu cho bé 2 đến 3 tuổi, biểu phí năm nay và các bước nhập học.`,
+  [`A play-first day`]: `Một ngày chơi là chính`,
+  [`Sensory play, clay and stirring, outdoor time every morning. Children set the table, tidy their sleeping place and take a daily duty role.`]: `Chơi giác quan, nặn đất, khuấy trộn, ra ngoài chơi mỗi sáng. Bé tự bày bàn ăn, dọn chỗ ngủ và nhận vai trực nhật mỗi ngày.`,
+  [`Kindest sick-day terms`]: `Điều khoản nghỉ ốm dễ chịu nhất`,
+  [`After 10 or more sick days in a row, 20% of next month is covered. Up to 2 months of leave a year. Open until 18:00.`]: `Sau 10 ngày ốm liên tục trở lên, được giảm 20% tháng sau. Được nghỉ tối đa 2 tháng mỗi năm. Mở cửa đến 18:00.`,
+  [`Ask about one rule before paying anything at Sakura Kids`]: `Hỏi về một quy định trước khi đóng bất kỳ khoản nào ở Sakura Kids`,
+  [`The fee sheet says parents are asked not to share "unverified information in any form", and the school may end its service at once if they do. The biggest worry in the kindergarten plan is a child too young to say what happened. Parents therefore need to be free to raise a concern. If the school cannot explain this rule in plain words, Hooray Kids becomes the first pick.`]: `Biểu phí ghi rằng phụ huynh được yêu cầu không chia sẻ "thông tin chưa được xác minh rõ ràng dưới bất kỳ hình thức nào", và nhà trường có quyền chấm dứt dịch vụ ngay lập tức nếu vi phạm. Nỗi lo lớn nhất trong kế hoạch mầm non là một đứa trẻ còn quá nhỏ để nói lại chuyện gì đã xảy ra. Vì vậy phụ huynh cần được tự do nêu băn khoăn của mình. Nếu nhà trường không giải thích được quy định này bằng lời dễ hiểu, Hooray Kids sẽ trở thành lựa chọn đầu tiên.`,
+  [`Only these four private schools are compared. Public kindergartens are not in the brochures, and "decide school type" is still an open item in the plan (due Dec 2026).`]: `Chỉ so sánh bốn trường tư này. Trường mầm non công lập không có trong các tờ rơi, và mục "chọn loại trường" vẫn còn bỏ ngỏ trong kế hoạch (hạn tháng 12/2026).`,
+
+  [`The four schools`]: `Bốn trường`,
+  [`Monthly cost is tuition plus meals, paying month by month. Money is in VND; M means million.`]: `Chi phí hàng tháng là học phí cộng tiền ăn, đóng theo tháng. Tiền tính bằng đồng (VND); tr là triệu.`,
+  [`First pick`]: `Lựa chọn đầu tiên`,
+  [`Backup`]: `Dự phòng`,
+  [`Worth a visit`]: `Đáng đến thăm`,
+  [`Can't judge yet`]: `Chưa thể đánh giá`,
+  [`Address not in the photos`]: `Không có địa chỉ trong ảnh chụp`,
+  [`Per month`]: `Mỗi tháng`,
+  [`Day ends`]: `Kết thúc ngày học`,
+  [`English at age 2`]: `Tiếng Anh cho bé 2 tuổi`,
+  [`Kids per teacher`]: `Số bé mỗi cô`,
+  [`Not printed`]: `Không in`,
+  [`Good`]: `Điểm tốt`,
+  [`Catches`]: `Điểm cần lưu ý`,
+
+  [`7.54M`]: `7,54 tr`,
+  [`6.0M tuition + 1.54M meals`]: `6,0 tr học phí + 1,54 tr tiền ăn`,
+  [`late fee 15,000 per 15 min`]: `đón trễ 15.000 mỗi 15 phút`,
+  [`10 periods a week`]: `10 tiết mỗi tuần`,
+  [`5 with foreign teachers`]: `5 tiết với giáo viên nước ngoài`,
+  [`5 to 6.7`]: `5 đến 6,7`,
+  [`if the printed number is the class limit`]: `nếu số in là sĩ số tối đa của lớp`,
+  [`Class sizes, timetable, fees and enrolment steps are all printed`]: `Có in đủ sĩ số lớp, thời khóa biểu, biểu phí và các bước nhập học`,
+  [`Tuition can rise at most 15% every 2 years`]: `Học phí chỉ được tăng tối đa 15% mỗi 2 năm`,
+  [`The rule against sharing "unverified information" (see top of page)`]: `Quy định không được chia sẻ "thông tin chưa được xác minh rõ ràng" (xem đầu trang)`,
+  [`The 1,000,000 registration fee is lost if the child does not start, for any reason`]: `Phí ghi danh 1.000.000 sẽ mất nếu bé không nhập học, dù vì lý do gì`,
+  [`A full day: 4 specialist lessons and 10 English periods a week`]: `Một ngày kín lịch: 4 tiết năng khiếu và 10 tiết tiếng Anh mỗi tuần`,
+
+  [`7.84M`]: `7,84 tr`,
+  [`6.3M tuition (10% off) + 1.54M meals`]: `6,3 tr học phí (giảm 10%) + 1,54 tr tiền ăn`,
+  [`About 17:30`]: `Khoảng 17:30`,
+  [`18:00 to 19:00 costs 50,000`]: `18:00 đến 19:00 tốn 50.000`,
+  [`10 sessions a week`]: `10 buổi mỗi tuần`,
+  [`2 with a foreign teacher`]: `2 buổi với giáo viên nước ngoài`,
+  [`Montessori (child-led, hands-on learning) every day. Children water plants and keep their own bedding`]: `Montessori (bé tự chọn, học bằng tay) mỗi ngày. Bé tưới cây và tự giữ chăn gối của mình`,
+  [`The 1,000,000 reservation fee is refunded in full if the child does not start, so it holds a second place cheaply`]: `Phí giữ chỗ 1.000.000 được hoàn lại đầy đủ nếu bé không nhập học, nên giữ một chỗ dự phòng rất rẻ`,
+  [`No class sizes. The timetable shown is for a class with no stated age`]: `Không có sĩ số lớp. Thời khóa biểu trong tờ rơi là của một lớp không ghi độ tuổi`,
+  [`When the child is absent only meals are refunded. Tuition is covered (60%) only after 15 or more sick days with a hospital note`]: `Khi bé nghỉ chỉ được hoàn tiền ăn. Học phí chỉ được hỗ trợ (60%) sau 15 ngày ốm trở lên có giấy bệnh viện`,
+
+  [`7.22M`]: `7,22 tr`,
+  [`5.9M tuition + 1.32M meals`]: `5,9 tr học phí + 1,32 tr tiền ăn`,
+  [`pick-up window 16:00 to 17:00`]: `giờ đón từ 16:00 đến 17:00`,
+  [`None`]: `Không có`,
+  [`Vietnamese only until 36 months`]: `Chỉ dùng tiếng Việt đến 36 tháng`,
+  [`Vietnamese only until 36 months, in line with English coming from home`]: `Chỉ dùng tiếng Việt đến 36 tháng, phù hợp với việc tiếng Anh đến từ gia đình`,
+  [`Lowest monthly cost of the four, and 10% off for a year paid ahead`]: `Chi phí hàng tháng thấp nhất trong bốn trường, và giảm 10% khi đóng trước cả năm`,
+  [`Late pick-up climbs fast: 100,000 at 18:30 and 150,000 by 19:00`]: `Phí đón trễ tăng rất nhanh: 100.000 lúc 18:30 và 150.000 lúc 19:00`,
+  [`No timetable, class sizes or enrolment steps. One price cell still reads "2024 – 2025"`]: `Không có thời khóa biểu, sĩ số lớp hay các bước nhập học. Một ô giá vẫn ghi "2024 – 2025"`,
+
+  [`7.82M*`]: `7,82 tr*`,
+  [`6.5M tuition + 1.32M meals, 2023–24 prices`]: `6,5 tr học phí + 1,32 tr tiền ăn, giá 2023–24`,
+  [`50,000 per hour after`]: `50.000 mỗi giờ sau đó`,
+  [`3 lessons a week`]: `3 tiết mỗi tuần`,
+  [`30 minutes each`]: `mỗi tiết 30 phút`,
+  [`The gentlest day on paper: 30-minute lessons, outdoor and cooking days, free play before pick-up`]: `Ngày học nhẹ nhàng nhất trên giấy: tiết học 30 phút, có ngày ngoài trời và ngày nấu ăn, chơi tự do trước giờ đón`,
+  [`Montessori every day and the smallest one-off fees (1,000,000 a year)`]: `Montessori mỗi ngày và phí một lần thấp nhất (1.000.000 mỗi năm)`,
+  [`The fee sheet is for school year 2023–24. Today's prices are probably higher`]: `Biểu phí là của năm học 2023–24. Giá hiện nay có thể cao hơn`,
+  [`No address, phone, class sizes or enrolment steps in the photos`]: `Ảnh chụp không có địa chỉ, số điện thoại, sĩ số lớp hay các bước nhập học`,
+
+  [`What the brochure checks count`]: `Các mục kiểm tra tờ rơi gồm những gì`,
+
+  [`What year one costs`]: `Chi phí năm đầu tiên`,
+  [`Twelve months of tuition and meals, the one-off fees, and late pick-up on every school day. Choose a pick-up time and how tuition is paid. Tap a bar for the breakdown.`]: `Mười hai tháng học phí và tiền ăn, các khoản phí một lần, và phí đón trễ mỗi ngày đi học. Chọn giờ đón và cách đóng học phí. Chạm vào một thanh để xem chi tiết.`,
+  [`Pick-up time`]: `Giờ đón`,
+  [`Tuition paid`]: `Cách đóng học phí`,
+  [`Month by month`]: `Theo tháng`,
+  [`A year ahead`]: `Trả trước cả năm`,
+  [`Tuition`]: `Học phí`,
+  [`Meals`]: `Tiền ăn`,
+  [`One-off fees`]: `Phí một lần`,
+  [`Late pick-up`]: `Đón trễ`,
+  [`For scale, the nanny costs 10M to 15M a month. Paying a year ahead only saves money if the child stays the full year. Ask whether unused months are refunded before paying a yearly pack.`]: `Để so sánh, thuê cô giữ trẻ tốn 10 đến 15 triệu mỗi tháng. Đóng trước cả năm chỉ tiết kiệm nếu bé học đủ cả năm. Hãy hỏi xem các tháng chưa dùng có được hoàn tiền không trước khi đóng gói cả năm.`,
+
+  [`How each school fits the family's rules`]: `Mỗi trường phù hợp với nguyên tắc của gia đình đến đâu`,
+  [`The rules come from the kindergarten plan and the parenting principles: safety first, play instead of drilling, independence, English from home, calm sick-day terms.`]: `Các nguyên tắc lấy từ kế hoạch mầm non và các nguyên tắc nuôi dạy con: an toàn trước hết, chơi thay vì học nhồi, tự lập, tiếng Anh đến từ gia đình, điều khoản nghỉ ốm nhẹ nhàng.`,
+  [`dot-good`]: `Tốt`,
+  [`dot-mid`]: `Tạm ổn`,
+  [`dot-bad`]: `Yếu`,
+  [`Brochure does not say`]: `Tờ rơi không nêu`,
+  [`Rule`]: `Nguyên tắc`,
+
+  [`Ask at each visit`]: `Hỏi khi đến thăm từng trường`,
+  [`Questions that come from gaps and oddities in each brochure. A school will say "yes, of course" to a general question, so the ones below ask for numbers and wording.`]: `Các câu hỏi xuất phát từ chỗ còn thiếu và chỗ lạ trong từng tờ rơi. Trường nào cũng sẽ trả lời "vâng, tất nhiên" với câu hỏi chung chung, nên các câu dưới đây hỏi về con số và câu chữ cụ thể.`,
+  [`What exactly does the rule on "unverified information" cover? Can a parent raise a worry about a teacher, or ask to see the cameras? Ask for the wording in writing.`]: `Quy định về "thông tin chưa được xác minh rõ ràng" cụ thể bao gồm những gì? Phụ huynh có được nêu băn khoăn về một cô giáo, hoặc xin xem camera không? Hãy xin bản câu chữ của quy định bằng văn bản.`,
+  [`Is "20 kids, 3 teachers" the class limit or today's headcount? Who stays with the 2 to 3 year olds all day?`]: `"20 bé, 3 cô" là sĩ số tối đa hay số bé hiện có? Ai ở cùng các bé 2 đến 3 tuổi suốt cả ngày?`,
+  [`The words "(under 3 years old)" next to the bilingual track look crossed out. Is the bilingual track really for under-3s, and how long is each English period for a 2-year-old?`]: `Dòng chữ "(dưới 3 tuổi)" cạnh hệ song ngữ trông như bị gạch bỏ. Hệ song ngữ có thật sự dành cho bé dưới 3 tuổi không, và mỗi tiết tiếng Anh dài bao lâu với bé 2 tuổi?`,
+  [`Are the 6,000,000 and 6,600,000 tuition amounts per month? The sheet does not say.`]: `Mức học phí 6.000.000 và 6.600.000 có phải tính theo tháng không? Biểu phí không ghi rõ.`,
+  [`Can parents watch the cameras live on a phone?`]: `Phụ huynh có xem camera trực tiếp trên điện thoại được không?`,
+  [`Which class takes a 23-month-old, and what does its day look like? The timetable shown is for a class named "MON 1" with no age.`]: `Lớp nào nhận bé 23 tháng tuổi, và một ngày của lớp đó ra sao? Thời khóa biểu trong tờ rơi là của lớp tên "MON 1", không ghi độ tuổi.`,
+  [`How many kids and teachers are in that class?`]: `Lớp đó có bao nhiêu bé và bao nhiêu cô?`,
+  [`The fee sheet skips section III and has year typos. Ask for a complete 2026–27 sheet. Is the facilities fee paid at registration or in September? The two pages disagree.`]: `Biểu phí bị thiếu mục III và có lỗi ghi năm. Hãy xin biểu phí 2026–27 đầy đủ. Phí cơ sở vật chất đóng lúc đăng ký hay vào tháng 9? Hai trang ghi khác nhau.`,
+  [`How is English taught to a 2-year-old? The week shown has daily word lists such as "I see..." and "I'm thirsty".`]: `Tiếng Anh được dạy cho bé 2 tuổi như thế nào? Tuần mẫu có danh sách từ vựng mỗi ngày như "I see..." và "I'm thirsty".`,
+  [`What is refunded after 3 to 10 sick days?`]: `Nghỉ ốm từ 3 đến 10 ngày thì được hoàn lại những gì?`,
+  [`What does the day look like for 18 to 36 months, and how many kids and teachers are in the class?`]: `Một ngày của bé 18 đến 36 tháng ra sao, và lớp có bao nhiêu bé, bao nhiêu cô?`,
+  [`Is 5,900,000 the real 2026–27 tuition? One cell on the sheet still says "2024 – 2025".`]: `5.900.000 có đúng là học phí 2026–27 không? Một ô trên biểu phí vẫn ghi "2024 – 2025".`,
+  [`The facilities fee is printed as 4,000,000, and a handwritten note says 3,000,000 a year. Which one applies?`]: `Phí cơ sở vật chất in là 4.000.000, còn ghi chú viết tay ghi 3.000.000 mỗi năm. Mức nào được áp dụng?`,
+  [`What is charged from 17:01 to 17:30? The sheet is silent.`]: `Từ 17:01 đến 17:30 tính phí bao nhiêu? Biểu phí không nói gì.`,
+  [`What changes at 36 months, when the bilingual track starts? Does the child move to a more English day?`]: `Có gì thay đổi khi bé tròn 36 tháng, lúc hệ song ngữ bắt đầu? Bé có chuyển sang một ngày học nhiều tiếng Anh hơn không?`,
+  [`Where is the school, and what is the phone number? Neither is in the photos.`]: `Trường ở đâu, và số điện thoại là gì? Cả hai đều không có trong ảnh chụp.`,
+  [`Ask for the 2026–27 fee sheet. The one seen is for 2023–24.`]: `Xin biểu phí 2026–27. Biểu phí đã xem là của năm 2023–24.`,
+  [`Are meals (60,000 a day) inside the 6,500,000 tuition or on top? Monthly cost is 6.5M or 7.8M depending on the answer.`]: `Tiền ăn (60.000 mỗi ngày) đã nằm trong học phí 6.500.000 hay tính thêm? Chi phí hàng tháng là 6,5 tr hoặc 7,8 tr tùy câu trả lời.`,
+  [`Class size, teachers per class, camera access, sick-day rules, sibling discount.`]: `Sĩ số lớp, số cô mỗi lớp, việc xem camera, quy định nghỉ ốm, giảm giá cho anh chị em.`,
+  [`At every visit, from the kindergarten plan`]: `Ở mọi lần đến thăm, theo kế hoạch mầm non`,
+  [`Crying kids are picked up and comforted, not ignored or put in front of a TV`]: `Bé khóc được bế lên và dỗ dành, không bị bỏ mặc hay cho ngồi trước TV`,
+  [`Slow eaters are helped and get enough food`]: `Bé ăn chậm được giúp đỡ và được ăn đủ`,
+  [`Rooms, toilets and kitchen are clean (ask to see the toilets and the kitchen)`]: `Phòng học, nhà vệ sinh và bếp sạch sẽ (xin xem nhà vệ sinh và bếp)`,
+  [`Count the kids and teachers in the room and compare with the answer given`]: `Đếm số bé và số cô trong phòng rồi so với câu trả lời của trường`,
+  [`See the camera view working, not just hear that cameras exist`]: `Tận mắt xem camera hoạt động, không chỉ nghe nói là có camera`,
+  [`Best time: around drop-off (7 to 8 am) or mealtime, when crying and eating can be seen. A visit with no warning shows more than a planned tour.`]: `Thời điểm tốt nhất: quanh giờ đưa bé đến (7 đến 8 giờ sáng) hoặc giờ ăn, khi thấy được cảnh bé khóc và bé ăn. Một lần đến không báo trước cho thấy nhiều hơn một buổi tham quan đã hẹn.`,
+
+  [`Next steps`]: `Các bước tiếp theo`,
+  [`These follow the dates already in the kindergarten plan.`]: `Các bước này theo những mốc thời gian đã có trong kế hoạch mầm non.`,
+  [`By Dec 2026`]: `Trước tháng 12/2026`,
+  [`Feb to Mar 2027`]: `Tháng 2 đến tháng 3/2027`,
+  [`Mar to Apr 2027`]: `Tháng 3 đến tháng 4/2027`,
+  [`May to Aug 2027`]: `Tháng 5 đến tháng 8/2027`,
+  [`Set the monthly budget, school type and maximum distance. Ask Twinkle Star for an address and a 2026–27 fee sheet. Ask Hooray Kids and Little Stars for class sizes and a timetable for 2 to 3 year olds. Drop any school that does not answer.`]: `Chốt ngân sách hàng tháng, loại trường và khoảng cách tối đa. Xin Twinkle Star địa chỉ và biểu phí 2026–27. Xin Hooray Kids và Little Stars sĩ số lớp và thời khóa biểu cho bé 2 đến 3 tuổi. Loại trường nào không trả lời.`,
+  [`Visit Sakura Kids, Hooray Kids and Little Stars, 2 to 3 weeks after Tet. Go around 7 to 8 am, unannounced if the school allows it.`]: `Đến thăm Sakura Kids, Hooray Kids và Little Stars, sau Tết 2 đến 3 tuần. Đi vào khoảng 7 đến 8 giờ sáng, không báo trước nếu trường cho phép.`,
+  [`Pay a deposit at the top choice only after the visit. Hooray's 1,000,000 reservation fee is fully refundable, so it is the cheapest way to hold a second place. Sakura's registration fee is lost if the child does not start.`]: `Chỉ đặt cọc ở trường được chọn đầu tiên sau khi đã đến thăm. Phí giữ chỗ 1.000.000 của Hooray được hoàn lại toàn bộ, nên đó là cách rẻ nhất để giữ một chỗ dự phòng. Phí ghi danh của Sakura sẽ mất nếu bé không nhập học.`,
+  [`Get ready and ease in over about 2 weeks, as set out in the plan. Pay month by month for the first 3 months. Consider a yearly pack once the child has settled and the refund rules for unused months are clear.`]: `Chuẩn bị và cho bé làm quen dần trong khoảng 2 tuần, như kế hoạch đã đề ra. Đóng theo tháng trong 3 tháng đầu. Cân nhắc gói cả năm khi bé đã quen và quy định hoàn tiền cho các tháng chưa dùng đã rõ.`,
+
+  [`How the numbers were worked out`]: `Các con số được tính như thế nào`,
+  [`12 months of tuition, 22 meal days a month. Late pick-up is counted on all 22 school days of all 12 months.`]: `12 tháng học phí, 22 ngày ăn mỗi tháng. Phí đón trễ được tính cho cả 22 ngày đi học của cả 12 tháng.`,
+  [`One-off fees counted: Sakura Kids enrolment, facilities, uniform, learning materials and events (7.02M; the 1,000,000 registration fee is refunded when the child starts). Hooray Kids facilities, enrolment, learning materials, uniform and bedding (5.1M; the reservation fee becomes tuition). Little Stars registration, facilities and uniform (6.18M). Twinkle Star facilities only (1.0M); its sheet lists no uniform.`]: `Các khoản phí một lần được tính: Sakura Kids gồm nhập học, cơ sở vật chất, đồng phục, học liệu và sự kiện (7,02 tr; phí ghi danh 1.000.000 được hoàn lại khi bé nhập học). Hooray Kids gồm cơ sở vật chất, nhập học, học phẩm, đồng phục và chăn nệm (5,1 tr; phí giữ chỗ được chuyển thành học phí). Little Stars gồm đăng ký, cơ sở vật chất và đồng phục (6,18 tr). Twinkle Star chỉ có cơ sở vật chất (1,0 tr); biểu phí của trường không liệt kê đồng phục.`,
+  [`Late pick-up: Sakura Kids 15,000 per 15 minutes after 18:00. Hooray Kids 50,000 for the 18:00 to 19:00 slot, nothing before 18:00 (the timetable ends at 17:30, so this is a guess). Little Stars free to 17:30, then 50,000 / 100,000 / 150,000 in half-hour steps. Twinkle Star 50,000 per started hour after 17:00.`]: `Đón trễ: Sakura Kids 15.000 mỗi 15 phút sau 18:00. Hooray Kids 50.000 cho khung 18:00 đến 19:00, không tính phí trước 18:00 (thời khóa biểu kết thúc lúc 17:30 nên đây là phỏng đoán). Little Stars miễn phí đến 17:30, sau đó 50.000 / 100.000 / 150.000 theo từng nửa giờ. Twinkle Star 50.000 mỗi giờ bắt đầu sau 17:00.`,
+  [`Twinkle Star's sheet lists meals inside the tuition box but does not say whether they are extra. Counted as extra; if they are included, subtract 15.8M.`]: `Biểu phí của Twinkle Star ghi tiền ăn trong ô học phí nhưng không nói rõ có tính thêm hay không. Ở đây được tính thêm; nếu đã bao gồm, hãy trừ đi 15,8 tr.`,
+  [`Not counted: field trips, Saturday school, extra English licence at Hooray Kids older classes (25 USD a month), price rises.`]: `Không tính: dã ngoại, học thứ 7, phí bản quyền tiếng Anh thêm ở các lớp lớn của Hooray Kids (25 USD mỗi tháng), việc tăng giá.`,
+  [`Transcription items marked unclear (the ⚠️ notes in the brochure files) are listed in each school's question list above.`]: `Các mục chép lại mà chưa rõ (các ghi chú ⚠️ trong tệp tờ rơi) nằm trong danh sách câu hỏi của từng trường ở trên.`,
+  [`Source: photos of the printed brochures taken in October 2026, transcribed in the kindergarten_brochures folder.`]: `Nguồn: ảnh chụp các tờ rơi in, chụp vào tháng 10/2026, được chép lại trong thư mục kindergarten_brochures.`
+};
+
+const $ = (id) => document.getElementById(id);
+const state = { pick: '17:30', pay: 'month', sel: 'sakura' };
+const MAX = 130, STEP = 25;
+const LS_KEY = 'kp-lang';
+let lang = 'en';
+try { if (localStorage.getItem(LS_KEY) === 'vi') lang = 'vi'; } catch (e) { /* storage blocked: stay on EN */ }
+
+/* number and text helpers that follow the language */
+const vi = () => lang === 'vi';
+const unit = () => vi() ? ' tr' : 'M';
+const fm = (n) => (vi() ? n.toFixed(1).replace('.', ',') : n.toFixed(1)) + unit();
+const trim = (n) => { const s = String(+n.toFixed(3)); return vi() ? s.replace('.', ',') : s; };
+const money = (v) => v.toLocaleString(vi() ? 'vi-VN' : 'en-US');
+const sv = (s) => SCHOOL_VI[s.id];
+
+/* static text: remember the English from the page, swap in VI on demand */
+const STATIC = [];
+document.querySelectorAll('[data-i18n]').forEach((el) => {
+  STATIC.push({ el, en: el.innerHTML, key: el.dataset.i18n || el.textContent.replace(/\s+/g, ' ').trim() });
+});
+function applyStatic() {
+  STATIC.forEach((x) => {
+    if (!vi()) { x.el.innerHTML = x.en; return; }
+    if (VI[x.key] === undefined) { console.warn('Missing Vietnamese text:', x.key); x.el.innerHTML = x.en; return; }
+    x.el.innerHTML = VI[x.key];
+  });
+  document.title = vi() ? 'Chọn trường mầm non 2027' : 'Kindergarten Pick 2027';
+  document.documentElement.lang = lang;
+}
+
+/* brochure checks: pips on cards and the table */
+function buildChecks() {
+  document.querySelectorAll('#cards .card').forEach((card) => {
+    const i = +card.dataset.i;
+    const score = CHECKS.reduce((a, c) => a + c[1][i], 0);
+    card.querySelector('.know-label').textContent = vi()
+      ? 'Tờ rơi nêu đủ ' + String(score).replace('.', ',') + ' trên ' + CHECKS.length + ' mục kiểm tra'
+      : 'Brochure covers ' + score + ' of ' + CHECKS.length + ' checks';
+    card.querySelector('.pips').innerHTML = CHECKS.map((c) => {
+      const v = c[1][i];
+      return '<span class="pip ' + (v === 1 ? 'full' : v === .5 ? 'half' : '') + '"></span>';
+    }).join('');
+  });
+  const names = SCHOOLS.map((s) => s.name);
+  const word = (v) => v === 1 ? ['yes', vi() ? 'Có' : 'Yes'] : v === .5 ? ['part', vi() ? 'Một phần' : 'Partly'] : ['no', vi() ? 'Không' : 'No'];
+  $('checks-table').innerHTML =
+    '<thead><tr><th>' + (vi() ? 'Mục kiểm tra' : 'Check') + '</th>' + names.map((n) => '<th>' + n + '</th>').join('') + '</tr></thead><tbody>' +
+    CHECKS.map((c, ci) => '<tr><th scope="row" style="font-weight:500">' + (vi() ? CHECKS_VI[ci] : c[0]) + '</th>' +
+      c[1].map((v) => '<td class="' + word(v)[0] + '">' + word(v)[1] + '</td>').join('') + '</tr>').join('') + '</tbody>';
+}
+
+/* fit grid */
+function buildFit() {
+  const fit = $('fit');
+  fit.querySelectorAll('.fit-row').forEach((r) => r.remove());
+  const names = SCHOOLS.map((s) => s.name);
+  const label = vi() ? LABEL_VI : LABEL;
+  FIT.forEach((r, ri) => {
+    const row = document.createElement('div');
+    row.className = 'fit-row';
+    const v = FIT_VI[ri];
+    row.innerHTML = '<div class="crit">' + (vi() ? v[0] : r[0]) + '<small>' + (vi() ? v[1] : r[1]) + '</small></div>' +
+      r[2].map((c, i) => '<div class="cell ' + c[0] + '" data-s="' + names[i] + '"><i class="dot" aria-hidden="true"></i><span class="t"><span class="sr">' + label[c[0]] + '</span>' + (vi() ? v[2][i] : c[1]) + '</span></div>').join('');
+    fit.appendChild(row);
+  });
+}
+
+/* cost chart axis */
+function buildAxis() {
+  const axis = $('axis');
+  axis.innerHTML = '';
+  for (let v = 0; v <= 125; v += STEP) {
+    const s = document.createElement('span');
+    s.style.left = (v / MAX * 100) + '%';
+    s.textContent = v === 0 ? '0' : v + unit();
+    axis.appendChild(s);
+  }
+}
+
+function render() {
+  const chart = $('chart');
+  chart.setAttribute('aria-label', vi() ? 'Chi phí năm đầu của từng trường' : 'Year-one cost per school');
+  const data = SCHOOLS.map((s) => ({ s, c: cost(s, state.pick, state.pay) }));
+  chart.innerHTML = '';
+  data.forEach(({ s, c }) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'row' + (s.stale ? ' stale' : '');
+    b.setAttribute('aria-pressed', String(s.id === state.sel));
+    b.dataset.id = s.id;
+    const seg = (v, cls) => v > 0 ? '<span class="seg" style="width:calc(' + (v / MAX * 100) + '% - 2px);background:var(--' + cls + ')"></span>' : '';
+    b.innerHTML =
+      '<span class="rlabel"><b>' + s.name + '</b><small>' + (vi() ? sv(s).note : s.note) + '</small></span>' +
+      '<span class="track">' + seg(c.tuition, 'c-tuition') + seg(c.meals, 'c-meals') + seg(c.oneoff, 'c-oneoff') + seg(c.late, 'c-late') + '</span>' +
+      '<span class="rtotal num">' + fm(c.total) + '</span>';
+    b.addEventListener('click', () => { state.sel = s.id; render(); });
+    chart.appendChild(b);
+  });
+
+  /* one line that says what the chart shows */
+  const live = data.filter((d) => !d.s.stale).sort((a, b) => a.c.total - b.c.total);
+  const lo = live[0], hi = live[live.length - 1], gap = hi.c.total - lo.c.total;
+  const tw = data.find((d) => d.s.stale);
+  if (vi()) {
+    const payTxt = state.pay === 'year' ? 'đóng học phí trả trước cả năm' : 'đóng học phí theo tháng';
+    $('readout').innerHTML =
+      'Với giờ đón ' + state.pick + ' và ' + payTxt + ', <b>' + lo.s.name + ' rẻ nhất: ' + fm(lo.c.total) + '</b> và <b>' + hi.s.name + ' đắt nhất: ' + fm(hi.c.total) + '</b> trong ba trường có giá hiện hành. ' +
+      'Chênh lệch là ' + fm(gap) + ' một năm, khoảng ' + fm(gap / 12) + ' một tháng. ' +
+      'Twinkle Star (' + fm(tw.c.total) + ') không nằm trong phép so sánh này vì giá của trường là giá năm 2023–24.';
+  } else {
+    const payTxt = state.pay === 'year' ? 'paying tuition a year ahead' : 'paying month by month';
+    $('readout').innerHTML =
+      'At ' + state.pick + ' pick-up and ' + payTxt + ', <b>' + lo.s.name + ' is cheapest at ' + fm(lo.c.total) + '</b> and <b>' + hi.s.name + ' dearest at ' + fm(hi.c.total) + '</b> among the three schools with current prices. ' +
+      'The gap is ' + fm(gap) + ' a year, about ' + fm(gap / 12) + ' a month. ' +
+      'Twinkle Star (' + fm(tw.c.total) + ') is left out of that comparison because its prices are from 2023–24.';
+  }
+
+  /* breakdown of the selected school */
+  const d = data.find((x) => x.s.id === state.sel), s = d.s, c = d.c;
+  const t = state.pay === 'year' ? s.tuitionYear : s.tuition;
+  const lateDay = s.late[state.pick];
+  const oneoffNames = vi() ? sv(s).oneoff : s.oneoff.map((o) => o[0]);
+  const notes = vi() ? sv(s).notes : s.notes;
+  const yearRate = state.pay === 'year' && s.tuitionYear !== s.tuition;
+  $('detail').innerHTML = vi()
+    ? '<h3>' + s.name + ': ' + fm(c.total) + ' cho năm đầu</h3>' +
+      '<div class="tablewrap" style="margin-top:0"><table><tbody>' +
+      '<tr><td>Học phí<small>' + MONTHS + ' × ' + trim(t) + unit() + (yearRate ? ' (giá đóng cả năm)' : '') + '</small></td><td class="num">' + fm(c.tuition) + '</td></tr>' +
+      '<tr><td>Tiền ăn<small>' + MONTHS + ' tháng × ' + DAYS + ' ngày × ' + money(s.mealDay * 1000) + '</small></td><td class="num">' + fm(c.meals) + '</td></tr>' +
+      '<tr><td>Phí một lần<small>' + s.oneoff.map((o, i) => oneoffNames[i] + ' ' + trim(o[1]) + unit()).join(' · ') + '</small></td><td class="num">' + fm(c.oneoff) + '</td></tr>' +
+      '<tr><td>Đón trễ lúc ' + state.pick + '<small>' + (lateDay ? MONTHS + ' tháng × ' + DAYS + ' ngày × ' + money(lateDay * 1000) : 'Không có phí đón trễ vào giờ này') + '</small></td><td class="num">' + fm(c.late) + '</td></tr>' +
+      '</tbody><tfoot><tr><td>Tổng</td><td class="num">' + fm(c.total) + '</td></tr></tfoot></table></div>' +
+      '<ul class="notes">' + notes.map((n) => '<li>' + n + '</li>').join('') + '</ul>'
+    : '<h3>' + s.name + ': ' + fm(c.total) + ' in year one</h3>' +
+      '<div class="tablewrap" style="margin-top:0"><table><tbody>' +
+      '<tr><td>Tuition<small>' + MONTHS + ' × ' + trim(t) + unit() + (yearRate ? ' (year-ahead rate)' : '') + '</small></td><td class="num">' + fm(c.tuition) + '</td></tr>' +
+      '<tr><td>Meals<small>' + MONTHS + ' months × ' + DAYS + ' days × ' + money(s.mealDay * 1000) + '</small></td><td class="num">' + fm(c.meals) + '</td></tr>' +
+      '<tr><td>One-off fees<small>' + s.oneoff.map((o, i) => oneoffNames[i] + ' ' + trim(o[1]) + unit()).join(' · ') + '</small></td><td class="num">' + fm(c.oneoff) + '</td></tr>' +
+      '<tr><td>Late pick-up at ' + state.pick + '<small>' + (lateDay ? MONTHS + ' months × ' + DAYS + ' days × ' + money(lateDay * 1000) : 'No late fee at this time') + '</small></td><td class="num">' + fm(c.late) + '</td></tr>' +
+      '</tbody><tfoot><tr><td>Total</td><td class="num">' + fm(c.total) + '</td></tr></tfoot></table></div>' +
+      '<ul class="notes">' + notes.map((n) => '<li>' + n + '</li>').join('') + '</ul>';
+}
+
+function setLang(l) {
+  lang = l;
+  try { localStorage.setItem(LS_KEY, l); } catch (e) { /* storage blocked: choice lasts until reload */ }
+  $('lang-' + l).checked = true;
+  applyStatic();
+  buildChecks();
+  buildFit();
+  buildAxis();
+  render();
+}
+
+document.querySelectorAll('input[name="lang"]').forEach((el) => el.addEventListener('change', () => setLang(el.value)));
+document.querySelectorAll('input[name="pick"]').forEach((el) => el.addEventListener('change', () => { state.pick = el.value; render(); }));
+document.querySelectorAll('input[name="pay"]').forEach((el) => el.addEventListener('change', () => { state.pay = el.value; render(); }));
+setLang(lang);
+</script>
+</body>
+</html>

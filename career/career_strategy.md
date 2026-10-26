@@ -109,6 +109,9 @@ DM-OS written, self-assessed, and organized into 11 files in `DM_Operating_Syste
 
 **Why this phase exists:** the practice-phase habits below sat at "To start" for ~10 weeks with zero execution, and a companion audit (`work_diagnostic.md`, formerly `work_audit_experiment.md`) sat unstarted for a similar span — both were *prospective* asks (log forward for a week; practice a habit for a month), and prospective asks have a demonstrated ~0% completion rate here. Phase 3 replaces open-ended practice with a bounded, retrospective diagnostic: convert the feeling "I'm not doing well" into a short, evidence-backed, hard-capped Weakness Register (max 3 items), or into an honest verdict that performance is already adequate. Full instrument, evidence tests, and the three pre-committed verdicts (A: real gap / B: legibility gap, not capability / C: anxiety pattern, close the loop) live in **`work_diagnostic.md`** — do not duplicate that content here.
 
+> The legacy 3-habit practice sprint was formally dropped 2026-10-24 — see `DECISIONS.md` (2026-10-24, "The career practice sprint is dropped").
+
+
 **Disposition of the 3 legacy practice habits** (superseded as a standalone sprint; each resolved individually rather than left open):
 
 | Habit | Disposition (2026-09-03) |

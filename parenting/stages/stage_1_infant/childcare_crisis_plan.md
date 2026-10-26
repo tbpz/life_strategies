@@ -11,7 +11,7 @@
 | MIL | 🔴 Out 1-2 months. Post-recovery: light/optional only — not primary again |
 | Mother (Hanoi) | 🟡 Here now. Could leave with 24-48h notice (grandfather) |
 | Nanny | ⬜ Not found yet — **this is the main job** |
-| Daycare | ⬜ Research pending — Month 2-3 priority |
+| Daycare | ⬜ Start target Aug 2027 (~23mo) → [kindergarten plan](stages/stage_2_toddler/kindergarten_plan.md) |
 | Dad (remote days) | 🟡 Limited buffer — save for sick days & emergencies only |
 
 ---
@@ -70,11 +70,9 @@ Daycare becomes the stronger option at **18-24 months**. Until then: nanny is th
 
 ---
 
-## Phase 4 — Months 4-6: Daycare Transition Prep
+## Phase 4 — Daycare Transition Prep
 
-- [ ] Apply / join waitlist at 1-2 preferred facilities
-- [ ] Decide: full daycare or daycare + part-time nanny hybrid at 12-18 months
-- [ ] Keep nanny through transition as a backup layer
+*Replaced by the [kindergarten plan](stages/stage_2_toddler/kindergarten_plan.md) (Oct 2026). Nanny is working well, so the start target moved to Aug 2027 (~23 months). Nanny stays through the move as sick-day backup.*
 
 ---
 
