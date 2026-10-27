@@ -164,7 +164,11 @@ Executes Decision #5. Three bounded steps; the sequence is the design, and no st
 
 **What it should build toward (chosen 2026-10-26):** growth in craft, and a capability of Tu's own. Impact through others' adoption is not the measure. See `DECISIONS.md` (2026-10-26, meaning sources).
 
-First loop not chosen; energy split with Pillar 2 not settled. Candidate loops are listed in `self_discovery_log.md`, session of 2026-10-26.
+**What the career must earn for the dream (chosen 2026-10-26):** time with energy left, kept up over many years. A job is judged first by how much it leaves over, then by what it teaches. See `DECISIONS.md` (2026-10-26, time with energy left).
+
+**Where it runs (chosen 2026-10-26):** mostly in work hours, with an evening only when it is genuinely fun. See `DECISIONS.md` (2026-10-26, work hours).
+
+First loop not chosen; how much of Phase 5 fits next to Pillar 2 is not settled. Candidate loops are listed in `self_discovery_log.md`, session of 2026-10-26.
 
 ---
 

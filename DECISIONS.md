@@ -12,6 +12,49 @@
 
 ---
 
+## [2026-10-26] [career] The most important thing the career must earn for the dream is time with energy left
+
+- **Decision:**
+  - The most important thing the career must earn for the dream is time with energy left, kept up over many years.
+  - A job is judged first by how much of Tu it leaves over, then by what it teaches.
+  - Money is already enough, and skills and relationships come second.
+- **Why:**
+  - The dream runs as a loop of build, play and judge, and the masterpiece is found by running it many times (`creative/creative_strategy.md`).
+  - How many times it runs over the years depends on free hours with a fresh head.
+  - More money does not add laps. The 2026-10-26 session found the wish for money was really a wish for time of Tu's own.
+  - Skills make a lap faster but do not make a lap happen.
+- **Replaces:**
+  - Nothing. It sets the first test for ranking career options, including the career-options entry of the same date.
+
+## [2026-10-26] [career] The delivery-system learning runs mostly in work hours; an evening is fine when it is genuinely fun
+
+- **Decision:**
+  - The Phase 5 learning happens mostly in work hours.
+  - An evening on it is fine when it is genuinely fun, meaning skipping it would bring no guilt.
+- **Why:**
+  - Tu picked this over "work hours only" and over leaving it open.
+  - Evenings are the game's building time, and a career evening spent out of worry costs the game.
+  - Fun is the test, so the same guilt check used elsewhere in the workspace applies.
+- **Replaces:**
+  - Narrows the open question on the energy split between Phase 5 and the game in `STATE.md`. STATE catches up at its next sync.
+
+## [2026-10-26] [career] The career aims to feed the dream beyond money; staying a DM at OL and building delivery systems is kept over five other options
+
+- **Decision:**
+  - The career's aim is widened: money for the creative dream, plus skills, systems and relationships that feed back into it.
+  - Staying a Delivery Manager at OL and learning to build delivery systems is kept.
+  - Compared and not chosen: doing the job only, a game studio role, an AI-focused role at another company, freelance delivery adviser, product manager.
+  - Relationships in the games world are expected to come from the game itself, not from the career.
+- **Why:**
+  - The learning happens in paid hours, the VP asked for it, and income stays steady.
+  - Skill in running AI agents in fast loops carries straight into the game.
+  - A studio role breaks the locked split between income and enjoyment (Decision #2 in `career/career_strategy.md`) and risks steady income.
+  - Freelance adviser and product manager both tie results to what other people adopt or deliver, which is the Zalo double-bind in `career/_AI_RULES.md`.
+  - An AI role elsewhere costs most in a kindergarten year, and the same skill can be built at OL first.
+  - Reopen if OL stops making room for the work, if ready-made AI tools beat what was built after a few loops, or if strangers pull for the game (positive pull only, never a bad week).
+- **Replaces:**
+  - Nothing. It adds the reasoning behind Phase 5, which was never compared with other options.
+
 ## [2026-10-26] [career] Career work carries meaning through craft growth and a capability of Tu's own, not money alone
 
 - **Decision:**

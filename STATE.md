@@ -22,7 +22,7 @@ A personal strategy workspace for a mid-30s Delivery Manager at Orange Logic, wi
 
 ## Where it stands
 
-Career skill grows through the job, and the next bet is learning to build delivery systems that run, improve themselves and get feedback fast, aimed at craft growth and a capability of Tu's own; how much energy this gets next to the game is not settled. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
+The career stays as Delivery Manager at Orange Logic, judged first by the time and energy it leaves for the dream, then by the skills and systems it builds. The next bet is learning to build delivery systems that run, improve themselves and get feedback fast, mostly in work hours, with an evening only when it is genuinely fun. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
 
 ## Next up
 
@@ -40,7 +40,7 @@ Career skill grows through the job, and the next bet is learning to build delive
 | 3-habit practice sprint (RAID log, change record, acceptance criteria) | dropped; acceptance criteria kept | `career/career_strategy.md`, `DECISIONS.md` (2026-10-24, sprint dropped) |
 | Current-role diagnosis (Phase 3) — Weakness Register | dropped; closed unfinished | `career/career_strategy.md`, `career/work_diagnostic.md`, `DECISIONS.md` (2026-10-05, Systemic DM) |
 | Systemic DM (Phase 4) — VP discussion and the delivery vision | done; vision adopted | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
-| Learn to build a self-running delivery system (Phase 5) | active; first loop not chosen | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, next career bet) |
+| Learn to build a self-running delivery system (Phase 5) | active; first loop not chosen; mostly work hours | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, next career bet; career aim and options; energy left; work hours) |
 | DM operating system — personal delivery playbook, 11 files | done | `career/DM_Operating_System/00_overview.md` |
 | Financial resilience checklist — all three layers | done; yearly look only | `financial/financial_checklist.md`, `DECISIONS.md` (2026-05-15, savings) |
 | Game project — the Masterpiece dream in game form | active | `../casual_autobattler/STATE.md`, `DECISIONS.md` (2026-10-24, Masterpiece) |
@@ -62,7 +62,7 @@ Career skill grows through the job, and the next bet is learning to build delive
 
 ## Open questions
 
-- Can Phase 5 and the game project both run on the available energy, and at what scope for each? It shapes how much of Next up #3 fits.
+- How much of Phase 5 fits next to the game while it runs mostly in work hours? It shapes how much of Next up #3 fits.
 - Does the game ever need to earn, or does it stay a pure interest? The 2026-07-23 decision (no deadline pressure) stands until Tu changes it. It shapes how Next up #1 is done.
 - Does the exist-vs-become rule (AI critiques, never makes the core) still hold now the pursuit is a game, and which parts must be self-made? Shapes how Next up #1 is done. A draft answer is in `creative/creative_strategy.md`, under "Locked Operating Principles", item 3.
 
