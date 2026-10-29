@@ -12,6 +12,36 @@
 
 ---
 
+## [2026-10-29] [career] The "low risk" bar is set as checkable conditions, before the VP is asked
+
+- **Decision:**
+  - The "low risk" bar is written before asking the VP, as conditions a third person could check.
+  - Inside OL, the VP must name what DMs own, how a DM's value would show, and no plan to remove the role.
+  - Outside OL, a set number of insiders must describe a delivery problem their org wants fixed, at or above a pay floor, within a time window.
+  - Feeling breaks a tie only after the inside conditions are met.
+  - The live numbers and the running count are in `career/risk_validation.md`.
+- **Why:**
+  - Tu first proposed judging the VP's answer by feeling in the moment, because no DM vision is visible today.
+  - The VP speaks half-joking by habit, so a feeling-based read would let anxiety score the answer.
+  - A test without an end date never finishes, so Tu set a count and a window.
+- **Replaces:**
+  - The empty bar and its example shape in `career/risk_validation.md`.
+
+## [2026-10-29] [career] Outside-market evidence comes from insiders describing their org's delivery problem, not from job postings
+
+- **Decision:**
+  - Evidence about the outside market comes from people inside other companies, not from job postings.
+  - An insider can hold the role or not; what counts is the org problem the insider describes.
+  - A signal counts when the problem is clearly a delivery problem and the org wants to improve it.
+- **Why:**
+  - Tu said on 2026-10-29 that job descriptions are not trusted, because they differ from what employers actually want.
+  - A past job search by Tu did not help.
+  - The ex-DM friend's move came through an ex-colleague, not a posting.
+  - A second friend's org has a clear delivery problem, but the top leader prefers it that way, so "has the problem" and "wants it fixed" can differ.
+- **Replaces:**
+  - The job-posting sample as the test for C5 and C6 in `career/risk_validation.md`.
+  - The posting count in the example shape of the "low risk" bar in the same file.
+
 ## [2026-10-29] [career] The career focus is validating whether the feared risks are real, before any new strategy
 
 - **Decision:**

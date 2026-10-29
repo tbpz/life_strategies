@@ -22,13 +22,13 @@ A personal strategy workspace for a mid-30s Delivery Manager at Orange Logic, wi
 
 ## Where it stands
 
-The career stays as Delivery Manager at Orange Logic, judged first by the time and energy it leaves for the dream. The career work now is testing, claim by claim, whether the feared risks to the role and income are real; Phase 5 and any new career strategy wait for the result. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits. Parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
+The career stays as Delivery Manager at Orange Logic, judged first by the time and energy it leaves for the dream. The career work now is testing, claim by claim, whether the feared risks to the role and income are real, against a written "low risk" bar; Phase 5 and any new career strategy wait for the result. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits; parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
 
 ## Next up
 
 1. **Take the next step on the game project:** the list is under "Next up" in `../casual_autobattler/STATE.md`.
 2. **Start the kindergarten search:** compare the four schools in `parenting/stages/stage_2_toddler/kindergarten_pick.html`, then settle school type, monthly budget and furthest distance, then the shortlist (the plan's window is by Dec 2026, in `parenting/stages/stage_2_toddler/kindergarten_plan.md`).
-3. **Career: run the first risk test** — coffee with the ex-DM friend, then write the "low risk" bar, then ask the VP. Order and questions are under "Next tests, in order" in `career/risk_validation.md`.
+3. **Career: ask the VP what DMs own once the system works**, and score the answer against the "low risk" bar; meanwhile, count insider conversations toward the bar. Both are under "Next tests, in order" in `career/risk_validation.md`.
 
 ---
 
@@ -36,7 +36,7 @@ The career stays as Delivery Manager at Orange Logic, judged first by the time a
 
 | Piece | State | Where it lives |
 |---|---|---|
-| Career risk validation — are the feared risks real? | active; first result in, coffee still to run | `career/risk_validation.md`, `DECISIONS.md` (2026-10-29) |
+| Career risk validation — are the feared risks real? | active; bar written, VP question next, insider count running to 2027-01-29 | `career/risk_validation.md`, `DECISIONS.md` (2026-10-29) |
 | Career skill — grows through the job | active | `career/career_strategy.md` |
 | Systemic DM (Phase 4) — VP discussion and the delivery vision | done; vision adopted | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
 | Learn to build a self-running delivery system (Phase 5) | paused; until risk validation reports | `career/career_strategy.md`, `DECISIONS.md` (2026-10-29; 2026-10-26 career aim and options, energy left, work hours) |
