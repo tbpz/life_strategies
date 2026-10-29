@@ -36,7 +36,7 @@ The career stays as Delivery Manager at Orange Logic, judged first by the time a
 
 | Piece | State | Where it lives |
 |---|---|---|
-| Career risk validation — are the feared risks real? | active; no test run yet | `career/risk_validation.md`, `DECISIONS.md` (2026-10-29) |
+| Career risk validation — are the feared risks real? | active; first result in, coffee still to run | `career/risk_validation.md`, `DECISIONS.md` (2026-10-29) |
 | Career skill — grows through the job | active | `career/career_strategy.md` |
 | Systemic DM (Phase 4) — VP discussion and the delivery vision | done; vision adopted | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
 | Learn to build a self-running delivery system (Phase 5) | paused; until risk validation reports | `career/career_strategy.md`, `DECISIONS.md` (2026-10-29; 2026-10-26 career aim and options, energy left, work hours) |

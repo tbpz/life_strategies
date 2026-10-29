@@ -31,11 +31,11 @@ Tu does not ask for certainty. A strategy that can be believed is enough to act 
 
 | # | Claim | Kind | Evidence so far (2026-10-29) | Test | Status |
 |---|---|---|---|---|---|
-| C1 | The VP's vision ends the DM role at OL | Stated intent | Secondhand only: a friend (ex-DM at OL) reports the VP saying a gatekeeper is not wanted and the system should run by itself. In writing, the VP told Tu that DM "owns the quality of the input" (`gemini_workspace/SDLC/docs/conversation_ruben.md`). That suggests a split: the gatekeeper half may be designed out, while the input-owner half is kept. | Ask the VP directly what DMs own once the system works | open |
+| C1 | The VP's vision ends the DM role at OL | Stated intent | Secondhand only: a friend (ex-DM at OL) reports the VP saying a gatekeeper is not wanted and the system should run by itself. In writing, the VP told Tu that DM "owns the quality of the input" (`gemini_workspace/SDLC/docs/conversation_ruben.md`). That suggests a split: the gatekeeper half may be designed out, while the input-owner half is kept. The friend left by choice, not because the role was cut. | Ask the VP directly what DMs own once the system works; ask the friend for the exact words and when they were said | open |
 | C2 | It happens soon enough to matter | Forecast, **unstated and load-bearing** | No metrics. Counter-evidence: the org just hired 2 new DMs. A hire costs real money; a vision costs nothing. | Ask what the 2 new DMs were hired for. Check the pace of change: has WIP limiting started, is the QA bounce rate moving, how long did past org-wide changes take? | open |
-| C3 | The role teaches little and has little impact | Self-assessment | Not listed yet. The record has understated competent work before (2026-10-26 corrections). | List what was learned and changed in the last 6 months; 20 minutes, Claude can interview | open |
+| C3 | The role teaches little and has little impact | Self-assessment | Not listed yet. The record has understated competent work before (2026-10-26 corrections). One outside data point: the ex-DM friend left because the DM role felt boring and low on impact, so the feeling is not unique to Tu. It fits the role's design (advisory beyond own projects, `career_strategy.md` Two-Part Job Model). | List what was learned and changed in the last 6 months; 20 minutes, Claude can interview | open |
 | C4 | AI can do the PM/DM work | Forecast | Untested | Light one-week audit of own tasks: an agent can do it now / with good setup / not yet | open |
-| C5 | No outside job pays about the same | Market fact | Untested. Phase 1 (`archive/career_phase1_findings.md`) used 2025 data and answered "is the market healthy today". | Current postings and pay bands (Vietnam and remote); two recruiter conversations | open |
+| C5 | No outside job pays about the same | Market fact | Phase 1 (`archive/career_phase1_findings.md`) used 2025 data and answered "is the market healthy today". One data point (n=1): the ex-DM friend moved from DM at OL to a PM role at another company. Pay, search length and offers are unknown. | Current postings and pay bands (Vietnam and remote); two recruiter conversations | open |
 | C6 | Demand is not steady or growing | Trend | Untested | The same posting sample, taken twice, 6 months apart | open |
 | C7 | The system-builder path has no proof | Existence | No known example, no search method yet | Ask the network (the ex-DM friend, ex-Zalo contacts, the VP): who went from PM/DM into building delivery or AI-workflow systems? LinkedIn: earlier title Delivery/Project Manager, current title Engineering Operations, Engineering Effectiveness, Developer Productivity, AI Enablement, Technical Program Manager, Solutions or Forward-Deployed. | open |
 
@@ -47,7 +47,6 @@ These come from a pre-mortem, still to be run by Tu: it is 2030 and the family i
 - **A pay cut rather than no job:** if OL pays above the local market, the real loss may be a lower-paid next job.
 - **Skill drift:** years at 70% capacity while others grow fluent with AI. Phase 1's own conclusion was being outcompeted, not displaced.
 - **The cost of the anxiety itself:** it already taxes the game, mood and presence at home, whatever happens to income later.
-- **The ex-DM friend's own path:** why the friend left and where the friend went is a base-rate data point.
 
 ## The "low risk" bar
 
@@ -63,7 +62,10 @@ For each risk still standing: months of warning + months of savings buffer (`fin
 
 ## Next tests, in order
 
-1. **Coffee with the ex-DM friend** (C1, C7, base rate). Ask what the VP actually said and when, why the friend left, and where the friend went.
+1. **Coffee with the ex-DM friend** (C1, C4, C5). Why the friend left and where the friend went are already known (see Results). Still to ask:
+   - The VP's exact words, and when they were said: before or after the 2 new DM hires?
+   - The job search: how long it took, how many offers came, how the pay compares with OL, what employers asked for.
+   - AI in the new PM job: which tasks AI already does, and whether the friend sees the PM role shrinking.
 2. **Write the "low risk" bar** above.
 3. **Ask the VP, framed as career growth** (C1, C2). Draft: *"I want to grow in the direction the DM role is heading. When the system works the way you described, what do DMs own, and what did you have in mind for the two new hires?"*
 
@@ -72,3 +74,5 @@ Any time: list for C3 (20 minutes).
 ## Results
 
 *One line per test as it runs: date, test, what was found, which claim it moves.*
+
+- **2026-10-29 — the ex-DM friend's path (known to Tu, not from the coffee):** the friend left OL by choice, bored with the DM role, and returned to PM elsewhere for more impact and authority. Moves C1/C2: no sign of the role being cut. Moves C3: the low-impact feeling is shared. Moves C5: one outside PM role was found, n=1, pay unknown. Does not move C7: the friend went back to PM, not to building systems.
