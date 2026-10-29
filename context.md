@@ -13,7 +13,8 @@ This workspace builds, refines, and tracks long-term life directions and strateg
 | `DECISIONS.md` | Append-only history of decisions and why they were made. Grep it, never read it top to bottom. |
 | `context.md` | This file. Values, pillar descriptions, long-term goals, constraints. Changes rarely. |
 | `self_discovery_log.md` | Chronological record of key diagnostic sessions, self-trust insights, and behavioral patterns. |
-| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, the closed current-role diagnosis (Phase 3), Phase 4 (done), Phase 5 (active), the dropped practice sprint. |
+| `career/career_strategy.md` | Pillar 1 deep-dive: Zalo background, locked decisions, the closed current-role diagnosis (Phase 3), Phase 4 (done), Phase 5 (paused), the dropped practice sprint. |
+| `career/risk_validation.md` | The current career work: tests whether the feared career risks are real, claim by claim, with the next tests and results. |
 | `career/_AI_RULES.md` | AI role, guardrails, and conventions for Career sessions. Loaded by router. |
 | `career/DM_Operating_System/` | DM-OS: Personal delivery management playbook (11 files). Start with `00_overview.md`. |
 | `career/work_diagnostic.md` | Closed Phase 3 instrument (2026-10-05), kept for reference only: converts the "not doing well" feeling into an evidence-backed Weakness Register. Its F1–F3 lenses remain usable if a career step needs them. |

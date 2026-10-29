@@ -410,3 +410,30 @@ Started from a post-merge review that exposed a gap between the files and what a
 - `STATE.md` and `career/career_strategy.md` (Phase 5) were updated to match.
 - **Resolved:** the earlier plans were run and learned from, not abandoned unrun; the career bet is delivery systems that run, improve themselves and get feedback fast.
 - **Left open:** which small loop comes first (candidates: an AI-assisted first pass on checking others' output, stakeholder status without chasing, an unprompted AI harness for the user's own recurring PM work); whether the game ever earns or stays pure (the 2026-07-23 decision stands until changed); the energy split between Phase 5 and the game.
+
+---
+
+## Session: Career Anxiety as Claims to Test, Not a Strategy to Pick (2026-10-29)
+
+### Context
+The user brought a recent rise in anxiety, traced to career and, under that, to how stable the income will be. The user asked that it not be read as the anxiety engine, since there is some proof, and asked for a strategy. Midway, the user set strategy aside and asked how to tell whether the risks are real, whether bigger ones exist, or whether there is no risk.
+
+### Key Findings
+
+1. **The reasoning is a chain of separate claims, and almost none had been tested.** Seven claims came out of it (C1–C7 in `career/risk_validation.md`). Each is a different kind (stated intent, forecast, self-assessment, market fact, trend, existence) and needs a different test.
+2. **The files had closed the wrong question.** Phase 1 answered whether the DM market is healthy today, with 2025 data. The worry is whether the job exists in 5–10 years. Layer 1 was closed on an answer to a different question.
+3. **The VP's own words put the DM at the input.** In writing, the VP said DM "owns the quality of the input". The secondhand report says a gatekeeper is not wanted. The risk may hit the gatekeeper half of the role and not the input-owner half.
+4. **Timing is the hidden claim the whole risk depends on.** It was never stated. A cut in 3 years and a cut in 12 years are different problems.
+5. **The only hard data point points the other way.** The org just hired 2 new DMs. A hire costs real money; a vision costs nothing.
+6. **Phase 5 is not believed as a plan.** Its line "no separate exit plan; the road is the answer" does not hold for the user, which is why the game keeps carrying the exit weight (2026-10-26 finding #4).
+7. **A strategy draft was offered and set aside:** size the worst-case floor, own the input on own projects (first-pass QA bounce rate as the metric), quarterly market probes, tripwires at OL. It is kept as a candidate for after validation, not decided.
+
+### Operating Rules Produced
+- Test before naming: a career risk that comes with reasoning or proof is split into claims and tested before the anxiety pattern is named (`career/_AI_RULES.md`).
+- Write the "low risk" bar before collecting evidence, so that no answer can be reread by feeling afterwards.
+- Judge a risk by lead time: warning plus buffer compared with the time needed to respond.
+
+### Outcome
+- `career/risk_validation.md` holds the claims, the evidence so far, risks the reasoning did not cover, and the next tests in order.
+- `DECISIONS.md` gained the 2026-10-29 entry; Phase 5 is paused; `STATE.md` was re-synced.
+- **Next:** coffee with the ex-DM friend, then write the low-risk bar, then ask the VP framed as career growth.

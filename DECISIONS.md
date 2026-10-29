@@ -12,6 +12,23 @@
 
 ---
 
+## [2026-10-29] [career] The career focus is validating whether the feared risks are real, before any new strategy
+
+- **Decision:**
+  - The main career work now is testing whether the feared career risks are real, whether bigger ones are unseen, or whether there is no real risk.
+  - The test splits Tu's reasoning into separate claims and checks each against evidence, in `career/risk_validation.md`.
+  - Phase 5 (self-running delivery systems) is paused until the validation reports.
+  - A career risk that comes with reasoning or proof is tested against evidence before the anxiety pattern is named.
+- **Why:**
+  - Tu said on 2026-10-29 that the anxiety rests on feelings plus some proof, not on nothing.
+  - The reasoning was found to rest on claims that have not been tested, and the timing claim is unstated.
+  - Tu does not believe the Phase 5 line "no separate exit plan", so Phase 5 cannot serve as the plan yet.
+  - Phase 1 answered whether the market is healthy today, with 2025 data, not the 5–10 year trend.
+  - Tu set strategy aside until the risks are known.
+- **Replaces:**
+  - STATE's Next up item "choose the first small delivery loop" as the main career action.
+  - The `career/_AI_RULES.md` line "Naming this is more useful than trying to solve it."
+
 ## [2026-10-26] [career] The most important thing the career must earn for the dream is time with energy left
 
 - **Decision:**

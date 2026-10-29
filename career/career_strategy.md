@@ -2,6 +2,8 @@
 
 > **Pillar 1 deep-dive.** Career exists to build enough competence and security that free time feels genuinely free — not stolen. Read `context.md` first for the full picture. Financial resilience is at `financial/financial_checklist.md`.
 >
+> **Current focus (2026-10-29):** the career work is validating whether the feared career risks are real, in `career/risk_validation.md`. Phase 5 is paused until that reports. See `DECISIONS.md` (2026-10-29, career focus is risk validation).
+>
 > **Correction 2026-10-26:** Phase 4 below is done, not dropped, and the next bet is Phase 5 (see `DECISIONS.md`, 2026-10-26, next career bet). The practice habits, the work audit and the diagnosis were also run in part, and the sections below that call them unstarted are corrected here. See `DECISIONS.md` (2026-10-26, both "Correction" entries).
 >
 > **Direction (shifted 2026-10-05):** Career is the financial engine for the Masterpiece (Pillar 2). The engine already works — that objective is met. The active question is how long it can be sustained, and the answer chosen is *being worth the role through systemic capability* (see Locked Decision #5), not maintaining a re-hire safety net.
@@ -68,6 +70,7 @@ Corporate work will always feel like "someone else's race." This is structural a
 - **Condition:** Ability to find a comparable role within 2 months if needed
 - **Method:** Marketability maintenance (professional presence, network, current skills) — not title advancement
 - **Verdict (from Phase 1, 2026-05):** Achievable. Vietnam PM/DM market is healthy. Profile (10yr, US/EU exposure, English) fits the top employer pool. **Closed. Kept only as background safety — not the active standard. Maintenance cadence unchanged, see Ongoing Maintenance below.**
+- **Limit (noted 2026-10-29):** Phase 1 answered "is the market healthy today" with 2025 data, not the 5–10 year trend under AI. The trend is now under test as claims C5 and C6 in `risk_validation.md`.
 
 **Layer 2 — Current-role confidence (the active standard, added 2026-09-03).**
 Testing DM-OS at one employer (Orange Logic) cannot prove "works at any company" — one data point can't validate portability. What was actually wanted all along is measurable confidence *in the current role*, not proof of external portability. Portability is demoted to a parked ambition (see `DM_Operating_System/00_overview.md`), not disproved.
@@ -154,7 +157,9 @@ Executes Decision #5. Three bounded steps; the sequence is the design, and no st
 
 > Anxiety that remains is not a signal to do more work or to rewrite the strategy (see Strategy churn). It is a feeling to carry. Close the loop anyway (per the hard rule below).
 
-### Phase 5: Learn to build a self-running delivery system — Active (started 2026-10-26)
+### Phase 5: Learn to build a self-running delivery system — Paused 2026-10-29 until risk validation reports (started 2026-10-26)
+
+> **Paused:** the bet rests on claims about the role's future and the market that have not been tested yet, and its "no separate exit plan" line is not believed. It resumes, changes or is replaced once `risk_validation.md` reports. See `DECISIONS.md` (2026-10-29).
 
 **The bet:** learn to build a delivery system that runs by itself, improves itself and has the shortest feedback loop possible. Strategies mostly fail by exhausting resources (money, time, patience, morale) before their results are judged, so the system's job is fast results in small chunks, then adjusting. The loop covers ideating, executing and reviewing, for people and AI agents alike. Vision source: `gemini_workspace/SDLC/docs/conversation_ruben.md`.
 
@@ -186,4 +191,4 @@ First loop not chosen; how much of Phase 5 fits next to Pillar 2 is not settled.
 
 ---
 *Created: 2026-05-03*
-*Last Updated: 2026-10-26 (next career bet settled as Phase 5; record corrected: Phase 4 done; earlier: 2026-10-05 Systemic-DM shift, Layer 1 retired as active strategy, Phase 3 closed)*
+*Last Updated: 2026-10-29 (career focus set to risk validation; Phase 5 paused; earlier: 2026-10-26 next career bet settled as Phase 5; record corrected: Phase 4 done; earlier: 2026-10-05 Systemic-DM shift, Layer 1 retired as active strategy, Phase 3 closed)*
