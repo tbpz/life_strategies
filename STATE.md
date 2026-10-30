@@ -2,7 +2,7 @@
 
 > **What this file is:** where things stand right now, and what to do next. Present tense only.
 > **Read this first** in every session, after `CLAUDE.md`. Layer 1 ends at the rule — that is the 60-second read. Layer 2 is the working index.
-> **Last synced:** 2026-10-29
+> **Last synced:** 2026-10-30
 
 ## What this is
 
@@ -22,13 +22,13 @@ A personal strategy workspace for a mid-30s Delivery Manager at Orange Logic, wi
 
 ## Where it stands
 
-The career stays as Delivery Manager at Orange Logic, judged first by the time and energy it leaves for the dream. The career work now is testing, claim by claim, whether the feared risks to the role and income are real, against a written "low risk" bar; Phase 5 and any new career strategy wait for the result. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits; parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
+The career stays as Delivery Manager at Orange Logic, judged first by the time and energy it leaves for the dream. The career work now is testing, claim by claim, whether the feared risks to the role and income are real; the pre-mortem rates the role ending as real but manageable, and what matters is whether the outside market can take Tu in, not how the role might end. Phase 5 and any new career strategy wait for the result. The money checklist is closed and gets a yearly look. The Masterpiece dream is pursued through the game project, which keeps its own state file, while the story-confrontation brick waits; parenting is in Stage 1 with its habits in place, and the kindergarten search for August 2027 is being prepared ahead of Stage 2.
 
 ## Next up
 
 1. **Take the next step on the game project:** the list is under "Next up" in `../casual_autobattler/STATE.md`.
 2. **Start the kindergarten search:** compare the four schools in `parenting/stages/stage_2_toddler/kindergarten_pick.html`, then settle school type, monthly budget and furthest distance, then the shortlist (the plan's window is by Dec 2026, in `parenting/stages/stage_2_toddler/kindergarten_plan.md`).
-3. **Career: ask the VP what DMs own once the system works**, and score the answer against the "low risk" bar; meanwhile, count insider conversations toward the bar. Both are under "Next tests, in order" in `career/risk_validation.md`.
+3. **Career: pick up the open threads** in the "Open from 2026-10-30" block under "Next tests, in order" in `career/risk_validation.md`, keep counting insider conversations, and score the VP's reply when it comes.
 
 ---
 
@@ -36,12 +36,12 @@ The career stays as Delivery Manager at Orange Logic, judged first by the time a
 
 | Piece | State | Where it lives |
 |---|---|---|
-| Career risk validation — are the feared risks real? | active; bar written, VP question next, insider count running to 2027-01-29 | `career/risk_validation.md`, `DECISIONS.md` (2026-10-29) |
+| Career risk validation — are the feared risks real? | active; pre-mortem done; belief bar set; VP reply awaited | `career/risk_validation.md`, `DECISIONS.md` (2026-10-29; 2026-10-30, lasting demand over impact; income floor; belief bar) |
 | Career skill — grows through the job | active | `career/career_strategy.md` |
 | Systemic DM (Phase 4) — VP discussion and the delivery vision | done; vision adopted | `career/career_strategy.md`, `DECISIONS.md` (2026-10-26, Phase 4 correction) |
 | Learn to build a self-running delivery system (Phase 5) | paused; until risk validation reports | `career/career_strategy.md`, `DECISIONS.md` (2026-10-29; 2026-10-26 career aim and options, energy left, work hours) |
 | DM operating system — personal delivery playbook, 11 files | done | `career/DM_Operating_System/00_overview.md` |
-| Financial resilience checklist — all three layers | done; yearly look only | `financial/financial_checklist.md`, `DECISIONS.md` (2026-05-15, savings) |
+| Financial resilience checklist — all three layers | done; yearly look only; pre-mortem raised a disability gap | `financial/financial_checklist.md`, `DECISIONS.md` (2026-05-15, savings) |
 | Game project — the Masterpiece dream in game form | active | `../casual_autobattler/STATE.md`, `DECISIONS.md` (2026-10-24, Masterpiece) |
 | Story first brick — design one confrontation | paused | `creative/creative_strategy.md` |
 | Guilt-free leisure — Dota, football, stories | active | `self_discovery_log.md` (2026-07-23 session) |
@@ -63,6 +63,7 @@ The career stays as Delivery Manager at Orange Logic, judged first by the time a
 
 - Does the game ever need to earn, or does it stay a pure interest? The 2026-07-23 decision (no deadline pressure) stands until Tu changes it. It shapes how Next up #1 is done.
 - Does the exist-vs-become rule (AI critiques, never makes the core) still hold now the pursuit is a game, and which parts must be self-made? Shapes how Next up #1 is done. A draft answer is in `creative/creative_strategy.md`, under "Locked Operating Principles", item 3.
+- Would savings plus the surplus keep the family going for years if Tu could not work, or is total-permanent-disability cover needed? Raised under Results in `career/risk_validation.md`.
 
 ## How to work here
 

@@ -12,6 +12,55 @@
 
 ---
 
+## [2026-10-30] [career] Believing the career is covered and growing needs three kinds of outside proof, not the insider count alone
+
+- **Decision:**
+  - Belief that the career is covered and growing needs three kinds of evidence together.
+  - Proof by building: a system built personally, for a real org, that measurably helps it.
+  - Proof by sample: a larger share of insiders asked, not a small count.
+  - Proof by trend: reasoning or data showing that demand for the skill is a real projection.
+  - The live thresholds are in `career/risk_validation.md`, under the "low risk" bar.
+- **Why:**
+  - Tu said on 2026-10-30 that the career does not feel covered or growing, even after the pre-mortem and the lead-time test.
+  - The lead-time result rested on Tu's own guesses about warning and job-search time, which the market had not checked.
+  - Skill growth in AI workflows is real, but whether the market pays for it is unproven (C7).
+  - Tu judged a count of three insiders too small a sample to believe.
+  - Writing the proof down ahead of time keeps belief from being set by mood or by reassurance.
+- **Replaces:**
+  - Three insiders by the window as enough for belief, in the "low risk" bar of `career/risk_validation.md`.
+
+## [2026-10-30] [career] Career risk is judged against a stated income floor, with a "still fine" level and a "collapse" level
+
+- **Decision:**
+  - Career risk is measured against two income levels, not against keeping today's pay.
+  - The "still fine" level is the lowest personal income that keeps the family comfortable.
+  - The "collapse" level is the income that falls below monthly costs.
+  - A risk counts as collapse only when income would drop below the collapse level.
+  - The live numbers are in `career/risk_validation.md`, under the pre-mortem.
+- **Why:**
+  - Tu said on 2026-10-30, during the pre-mortem, that 30M VND/month is still fine and 20M is below monthly cost.
+  - The pre-mortem set the collapse scene as income "gone, or well below what we need", so a threshold was needed to score it.
+  - Without a stated floor, any pay cut reads as collapse, which is the feeling-based target the career rules warn against.
+- **Replaces:**
+  - The implicit target that the next income must match today's pay.
+
+
+
+- **Decision:**
+  - The career does not need to deliver big impact.
+  - A role is worth investing in when demand for it lasts and grows steadily over time.
+  - Its pay must not fall over time.
+  - Size of impact is not a criterion for choosing the career role.
+  - Craft growth as a source of meaning in work (2026-10-26) still stands.
+- **Why:**
+  - Tu said on 2026-10-30 that the role does not need to be big, and that a role which lasts a very long time, grows steadily and keeps its pay would be worth investing in.
+  - The worry chain had merged two needs, income safety and big impact.
+  - Merged, the only path left looked like managing people, which meets the Zalo checkpoint in `career/career_strategy.md`.
+  - The Zalo-based belief was: a result owned without managing people is small, so the role is not safe.
+  - Evidence against it: the ex-DM friend's role has less impact than the friend wants, yet pays more than OL.
+- **Replaces:**
+  - The implicit requirement that a safe career role must carry big impact.
+
 ## [2026-10-29] [career] The "low risk" bar is set as checkable conditions, before the VP is asked
 
 - **Decision:**

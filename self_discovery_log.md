@@ -437,3 +437,36 @@ The user brought a recent rise in anxiety, traced to career and, under that, to 
 - `career/risk_validation.md` holds the claims, the evidence so far, risks the reasoning did not cover, and the next tests in order.
 - `DECISIONS.md` gained the 2026-10-29 entry; Phase 5 is paused; `STATE.md` was re-synced.
 - **Next:** coffee with the ex-DM friend, then write the low-risk bar, then ask the VP framed as career growth.
+
+---
+
+## Session: The Pre-Mortem, the Inner Judge, and the Career Nobody Believes Is Covered (2026-10-30)
+
+### Context
+While waiting for the VP's written reply, the user ran the pre-mortem from `career/risk_validation.md`. Its result lowered the risk on paper but not the worry, so the session turned to what sits underneath the career anxiety. It ended mid-discussion, with open threads saved for the next session.
+
+### Key Findings
+
+1. **The pre-mortem's five stories were one chain from the DM role.** The role ends, then the outside market rejects at each fallback. The damage sits in the landing (the outside market), not in how the role ends.
+2. **Lead-time test, on the user's own guesses:** 6 months of warning + 12 months of buffer = 18 months, against 3 months to land a job. Real but manageable on paper.
+3. **Disability with a long life ahead is the one gap the reasoning missed.** The checklist self-insured it with a buffer sized for job loss, and the employer cover (PVI) ends with the job. The user's first answer was to "cost little and not be a burden to the family".
+4. **Proof lowered the odds but not the feeling.** The worry is about something the proof does not test.
+5. **What sits underneath, in the user's own answers:** guaranteed income would mean full focus on the masterpiece; the Monday dread is not knowing where the work is heading, or knowing and doing things that do not serve it; and there is a fear of being found less capable than others think.
+6. **Inner-judge pattern.** The user's own rating is harsh, and others' verdicts act as appeals against it: a rejection confirms it, and a small compliment lifts a whole day.
+7. **The workspace made the VP's marker the career scoreboard** (`career/career_strategy.md`, self-rating volatility). Creative work has an own standard (2026-10-18 session); career has none.
+8. **The career has no forward objective, only "don't break".** So a capability gap reads as a crack, not as room to grow.
+9. **The user holds "not growing means decaying", sharpened by AI,** and rejected a pure-maintenance career run on tripwires and periodic checks.
+10. **Evidence of growth exists:** 23 self-written AI skills for PM/DM work (`gemini_workspace/.Personal/claude-skill/`), edited as recently as 2026-10-28. The user agreed the skill is real, but asked whether it matters without a direction.
+11. **The user picked "A": the career has no destination.** The pain is hours spent on things that do not serve the masterpiece, not a missing career direction.
+12. **The game still silently carries the exit job** (2026-10-26 finding #4). Bad game news (AI makes games easy to clone) turns into career anxiety through "income work was traded for a risky bet".
+13. **The user does not believe the career is covered and growing.** "Covered" rests on untested own guesses; "growing" is unproven in the market (C7). The user named what would make it believable, now the belief bar in `career/risk_validation.md`.
+
+### Operating Rules Produced
+- None adopted.
+- Proposed, not taken up: after bad game news, ask "which job did this news hit, the joy or the exit?"
+- Proposed, not taken up: replace the feeling-based warning sign ("the role feels empty") with observable ones (listed in `career/risk_validation.md`).
+
+### Outcome
+- `DECISIONS.md` gained two 2026-10-30 entries: the income floor, and the three-part belief bar.
+- `career/risk_validation.md` holds the pre-mortem result under Results, the belief bar, and the open threads under "Next tests, in order".
+- **Left open (pick up here):** whether OL counts as a real org for the build proof, and whether Phase 5 restarts as part of validation; whether 8 of 10 is a fair threshold and 10 conversations by 2027-01-29 is realistic; the trend research (Claude can run it); the C7 question for insiders; the warning signs; whether savings cover long-term disability.
