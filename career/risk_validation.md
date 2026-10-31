@@ -12,7 +12,7 @@ Settle one of three outcomes with evidence rather than feeling:
 2. Bigger risks exist that the reasoning does not see.
 3. There is no real risk worth acting on.
 
-Strategy work waits for the result. Phase 5 (`career_strategy.md`) is paused until then.
+Strategy work waits for the result. Phase 5 (`career_strategy.md`) restarted in small form on 2026-10-31.
 
 ## The reasoning under test
 
@@ -68,6 +68,7 @@ How to read the answers:
 - **Sample:** **8 of 10** insiders asked meet condition 2's test (replaces "at least 3"). Whether the window stays at 2027-01-29 is not settled.
 - **Trend:** reasoning or data showing that demand for building delivery and AI-workflow systems is a real projection, not opinion.
 
+- **Dropped 2026-10-31:** the insider quota (10 conversations) and the 8 of 10 sample bar no longer apply (`DECISIONS.md`, 2026-10-31). The lines above and the count below stay as history. Later the same day: the build proof is kept, the trend proof is dropped, and Phase 5 restarts in small form (`DECISIONS.md`, 2026-10-31, build proof kept).
 - Count so far: **0 of 10 asked**. Neither the friend at the top-down org (leader keeps the problem) nor the ex-DM friend's new role (delivery-focused execution, not fixing delivery) counts.
 
 ## Lead-time test
@@ -95,9 +96,9 @@ The coffee questions were answered from memory and the "low risk" bar is written
 2. **Insider conversations, until 2027-01-29** (C5, C6, C7). When talking with friends or ex-colleagues at other companies, ask about their org's delivery problems and whether leaders want them fixed. Log each one under Results and update the count in the bar.
 
 **Open from 2026-10-30 (pick up here).** The session (`self_discovery_log.md`, 2026-10-30) ended before these were answered:
-- **Build proof:** does OL count as "a real org"? If yes, which existing skill could show a measured gain (time saved, QA bounce rate, PRD speed)? This proof overlaps Phase 5, which is paused; whether Phase 5 restarts as part of validation is open.
+- **Build proof (kept 2026-10-31):** does OL count as "a real org"? If yes, which existing skill could show a measured gain (time saved, QA bounce rate, PRD speed)? This proof overlaps Phase 5, which is paused; whether Phase 5 restarts as part of validation is open.
 - **Sample threshold:** 8 of 10 may be above what a healthy market shows, since each insider must pass three filters (delivery problem, leaders want it fixed, pay). Tu to say what 5 of 10 would mean, and whether 10 conversations by 2027-01-29 is realistic.
-- **Trend proof:** proposed rule, not yet agreed: data, not opinion; at least 2 independent sources; from the last 12 months; about the specific skill (engineering effectiveness, AI enablement, platform or delivery operations), not "AI is big". Claude can run the research; not started.
+- **Trend proof (dropped 2026-10-31):** proposed rule, not yet agreed: data, not opinion; at least 2 independent sources; from the last 12 months; about the specific skill (engineering effectiveness, AI enablement, platform or delivery operations), not "AI is big". Claude can run the research; not started.
 - **Insider question to add (C7):** *"Does your org want someone who turns PM/delivery work into AI workflows?"*
 - **Warning signs (proposed, not agreed):** a DM who leaves is not replaced; no DM hires for a year; DM tasks move to tools or other roles; the VP names a timeline. These would replace "the role feels empty" as the pre-mortem's warning sign.
 - **Disability gap:** do savings plus the surplus cover years without income? If not, get a quote for total-permanent-disability and critical-illness cover (`financial/financial_checklist.md`, Layer 3).

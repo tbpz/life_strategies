@@ -12,6 +12,54 @@
 
 ---
 
+## [2026-10-31] [career] Build proof is kept, trend proof is dropped, and Phase 5 restarts in small form
+
+- **Decision:**
+  - The build proof is kept: a measured result from a real objective at OL.
+  - The trend proof is dropped, so no market-demand evidence is needed for belief about the career.
+  - Phase 5 restarts in small form, through the OL objective.
+  - The pause set on 2026-10-29 ends.
+  - The live details are in `career/risk_validation.md` and `career/career_strategy.md`.
+- **Why:**
+  - Tu said on 2026-10-31 that believing a real, meaningful objective can be achieved brings confidence without worrying about market trend.
+  - Tu reasoned that someone who knows how to help a business meet its objective does not need certainty in a role.
+  - The root-cause finding of the same day put the gap in turning plans into results, which the build proof tests directly.
+- **Replaces:**
+  - The trend proof in the belief bar of the 2026-10-30 entry on three kinds of outside proof.
+  - The Phase 5 pause until risk validation reports, from the 2026-10-29 entry.
+
+## [2026-10-31] [career] The insider quota and the 8-of-10 sample bar are dropped
+
+- **Decision:**
+  - The quota of conversations with outside insiders is dropped.
+  - The 8-of-10 sample bar is dropped.
+  - No count of outside insiders is needed for belief about the career.
+  - Not decided: the build proof, the trend proof, the Phase 5 pause and the demand research.
+  - The metric for the OL objective stays open until a later session.
+- **Why:**
+  - Tu said on 2026-10-31 that 8 of 10 was chosen to express a need for certainty, and doubted it was a realistic requirement.
+  - Tu answered "drop it" when asked whether to keep, shrink or drop the quota and the bar.
+- **Replaces:**
+  - The proof by sample in the entry of 2026-10-30 on three kinds of outside proof, and the insider count in `career/risk_validation.md`.
+
+## [2026-10-31] [career] The career question is whether plans turn into measured results, tested three ways and not tied to OL
+
+- **Decision:**
+  - The open career question is no longer limited to OL.
+  - Working wording: does turning a plan into a finished, measured business result work for Tu, and when it does not, which part breaks: choosing, following through, or getting other people to say yes?
+  - Three methods answer it.
+  - Method 1: try to reach one objective through real tasks at OL.
+  - Method 2: reflect on the 9 years at Zalo.
+  - Method 3: talk to former Zalo PM colleagues for their view.
+  - Method 3 waits until a draft of method 2 exists.
+- **Why:**
+  - Tu named the gap on 2026-10-31 as turning a strategy on paper into execution that reaches the original objective.
+  - By Tu's own measure, no business objective was achieved in 9 years at Zalo, where the strategy was sometimes wrong and sometimes never fully executed.
+  - The same pattern shows up at OL: too many tasks, no clear vision, important items dropped.
+  - Tu wants the answer from three different methods, not one.
+- **Replaces:**
+  - Nothing outright. Whether the insider count and the belief bar in `career/risk_validation.md` are cut is not decided yet.
+
 ## [2026-10-30] [career] Believing the career is covered and growing needs three kinds of outside proof, not the insider count alone
 
 - **Decision:**

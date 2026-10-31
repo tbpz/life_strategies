@@ -2,7 +2,7 @@
 
 > **Pillar 1 deep-dive.** Career exists to build enough competence and security that free time feels genuinely free — not stolen. Read `context.md` first for the full picture. Financial resilience is at `financial/financial_checklist.md`.
 >
-> **Current focus (2026-10-29):** the career work is validating whether the feared career risks are real, in `career/risk_validation.md`. Phase 5 is paused until that reports. See `DECISIONS.md` (2026-10-29, career focus is risk validation).
+> **Current focus (2026-10-31):** the career work is one question: whether plans turn into measured business results. It is answered by a real objective at OL, a reflection on the Zalo years and, later, talks with former Zalo PM colleagues. Phase 5 restarts in small form through the OL objective. See `DECISIONS.md` (2026-10-31, career question; build proof kept). The risk test is in `career/risk_validation.md`.
 >
 > **Correction 2026-10-26:** Phase 4 below is done, not dropped, and the next bet is Phase 5 (see `DECISIONS.md`, 2026-10-26, next career bet). The practice habits, the work audit and the diagnosis were also run in part, and the sections below that call them unstarted are corrected here. See `DECISIONS.md` (2026-10-26, both "Correction" entries).
 >
@@ -157,9 +157,9 @@ Executes Decision #5. Three bounded steps; the sequence is the design, and no st
 
 > Anxiety that remains is not a signal to do more work or to rewrite the strategy (see Strategy churn). It is a feeling to carry. Close the loop anyway (per the hard rule below).
 
-### Phase 5: Learn to build a self-running delivery system — Paused 2026-10-29 until risk validation reports (started 2026-10-26)
+### Phase 5: Learn to build a self-running delivery system — Restarting small 2026-10-31 (paused 2026-10-29; started 2026-10-26)
 
-> **Paused:** the bet rests on claims about the role's future and the market that have not been tested yet, and its "no separate exit plan" line is not believed. It resumes, changes or is replaced once `risk_validation.md` reports. See `DECISIONS.md` (2026-10-29).
+> **Restarted small (2026-10-31):** the pause ended. Phase 5 now runs as one real objective at OL with a measured result, which is also the build proof in `risk_validation.md`. The claims about the market stay untested, and the trend proof is dropped. See `DECISIONS.md` (2026-10-31, build proof kept).
 
 **The bet:** learn to build a delivery system that runs by itself, improves itself and has the shortest feedback loop possible. Strategies mostly fail by exhausting resources (money, time, patience, morale) before their results are judged, so the system's job is fast results in small chunks, then adjusting. The loop covers ideating, executing and reviewing, for people and AI agents alike. Vision source: `gemini_workspace/SDLC/docs/conversation_ruben.md`.
 
